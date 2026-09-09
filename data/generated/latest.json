@@ -1,0 +1,2812 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T23:29:00.301815Z",
+  "source_catalog_version": "2026.09.09",
+  "priority_model": "B13-KEV-v1",
+  "sources": [
+    "CISA KEV",
+    "FIRST EPSS"
+  ],
+  "summary": {
+    "total": 1703,
+    "critical": 224,
+    "high": 435,
+    "medium": 1044,
+    "low": 0,
+    "published_records": 100
+  },
+  "records": [
+    {
+      "id": "CVE-2017-5638",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "Struts",
+      "title": "Apache Struts Remote Code Execution Vulnerability",
+      "description": "Apache Struts Jakarta Multipart parser allows for malicious file upload using the Content-Type value, leading to remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-5638",
+      "cwes": [
+        "CWE-20"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99994,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2018-13379",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "title": "Fortinet FortiOS SSL VPN Path Traversal Vulnerability",
+      "description": "Fortinet FortiOS SSL VPN web portal contains a path traversal vulnerability that may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-13379",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99994,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-0708",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Remote Desktop Services",
+      "title": "Microsoft Remote Desktop Services Remote Code Execution Vulnerability",
+      "description": "Microsoft Remote Desktop Services, formerly known as Terminal Service, contains an unspecified vulnerability that allows an unauthenticated attacker to connect to the target system using RDP and send specially crafted requests. Successful exploitation allows for remote code execution. The vulnerability is also known under the moniker of BlueKeep.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0708",
+      "cwes": [
+        "CWE-416"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99999,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-11510",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Pulse Connect Secure",
+      "title": "Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability",
+      "description": "Ivanti Pulse Connect Secure contains an arbitrary file read vulnerability that allows an unauthenticated remote attacker with network access via HTTPS to send a specially crafted URI.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "Reference CISA's ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-03. https://nvd.nist.gov/vuln/detail/CVE-2019-11510",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99996,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-19781",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Citrix",
+      "product": "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",
+      "title": "Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability",
+      "description": "Citrix ADC, Citrix Gateway, and multiple Citrix SD-WAN WANOP appliance models contain an unspecified vulnerability that could allow an unauthenticated attacker to perform code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-19781",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99998,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2020-5902",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "title": "F5 BIG-IP Traffic Management User Interface (TMUI) Remote Code Execution Vulnerability",
+      "description": "F5 BIG-IP Traffic Management User Interface (TMUI) contains a remote code execution vulnerability in undisclosed pages.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-5902",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 1.0,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-21985",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "VMware",
+      "product": "vCenter Server",
+      "title": "VMware vCenter Server Improper Input Validation Vulnerability",
+      "description": "VMware vSphere Client contains an improper input validation vulnerability in the Virtual SAN Health Check plug-in, which is enabled by default in vCenter Server, which allows for remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-21985",
+      "cwes": [
+        "CWE-20",
+        "CWE-470",
+        "CWE-918"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99992,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-22005",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "VMware",
+      "product": "vCenter Server",
+      "title": "VMware vCenter Server File Upload Vulnerability",
+      "description": "VMware vCenter Server contains a file upload vulnerability in the Analytics service that allows a user with network access to port 443 to execute code.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-22005",
+      "cwes": [
+        "CWE-23"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99998,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-26084",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Server and Data Center",
+      "title": "Atlassian Confluence Server and Data Center Object-Graph Navigation Language (OGNL) Injection Vulnerability",
+      "description": "Atlassian Confluence Server and Data Server contain an Object-Graph Navigation Language (OGNL) injection vulnerability that may allow an unauthenticated attacker to execute code.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-26084",
+      "cwes": [
+        "CWE-917"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99993,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-34473",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "description": "Microsoft Exchange Server contains an unspecified vulnerability that allows for remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-34473",
+      "cwes": [
+        "CWE-918"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99997,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-35464",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "ForgeRock",
+      "product": "Access Management (AM)",
+      "title": "ForgeRock Access Management (AM) Core Server Remote Code Execution Vulnerability",
+      "description": "ForgeRock Access Management (AM) Core Server allows an attacker who sends a specially crafted HTTP request to one of three endpoints (/ccversion/Version, /ccversion/Masthead, or /ccversion/ButtonFrame) to execute code in the context of the current user (unless ForgeRock AM is running as root user, which the vendor does not recommend).",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-35464",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99993,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-40438",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "Apache",
+      "title": "Apache HTTP Server-Side Request Forgery (SSRF)",
+      "description": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.",
+      "date_added": "2021-12-01",
+      "due_date": "2021-12-15",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-40438",
+      "cwes": [
+        "CWE-918"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99997,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-44228",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "Log4j2",
+      "title": "Apache Log4j2 Remote Code Execution Vulnerability",
+      "description": "Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution.",
+      "date_added": "2021-12-10",
+      "due_date": "2021-12-24",
+      "required_action": "For all affected software assets for which updates exist, the only acceptable remediation actions are: 1) Apply updates; OR 2) remove affected assets from agency networks. Temporary mitigations using one of the measures provided at https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures are only acceptable until updates are available.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+      "cwes": [
+        "CWE-20",
+        "CWE-400",
+        "CWE-502"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 1.0,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-26134",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Server/Data Center",
+      "title": "Atlassian Confluence Server and Data Center Remote Code Execution Vulnerability",
+      "description": "Atlassian Confluence Server and Data Center contain a remote code execution vulnerability that allows for an unauthenticated attacker to perform remote code execution.",
+      "date_added": "2022-06-02",
+      "due_date": "2022-06-06",
+      "required_action": "Immediately block all internet traffic to and from affected products AND apply the update per vendor instructions [https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html] OR remove the affected products by the due date on the right. Note: Once the update is successfully deployed, agencies can reassess the internet blocking rules.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-26134",
+      "cwes": [
+        "CWE-917"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99993,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-29464",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "WSO2",
+      "product": "Multiple Products",
+      "title": "WSO2 Multiple Products Unrestrictive Upload of File Vulnerability",
+      "description": "Multiple WSO2 products allow for unrestricted file upload, resulting in remote code execution.",
+      "date_added": "2022-04-25",
+      "due_date": "2022-05-16",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-29464",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99995,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-0669",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Fortra",
+      "product": "GoAnywhere MFT",
+      "title": "Fortra GoAnywhere MFT Remote Code Execution Vulnerability",
+      "description": "Fortra (formerly, HelpSystems) GoAnywhere MFT contains a pre-authentication remote code execution vulnerability in the License Response Servlet due to deserializing an attacker-controlled object.",
+      "date_added": "2023-02-10",
+      "due_date": "2023-03-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "This CVE has a CISA AA located here: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a. Please see the AA for associated IOCs. Additional information is available at: https://my.goanywhere.com/webclient/DownloadProductFiles.xhtml. Fortra users must have an account in order to login and access the patch.;  https://nvd.nist.gov/vuln/detail/CVE-2023-0669",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99996,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-22518",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Data Center and Server",
+      "title": "Atlassian Confluence Data Center and Server Improper Authorization Vulnerability",
+      "description": "Atlassian Confluence Data Center and Server contain an improper authorization vulnerability that can result in significant data loss when exploited by an unauthenticated attacker. There is no impact on confidentiality since the attacker cannot exfiltrate any data.",
+      "date_added": "2023-11-07",
+      "due_date": "2023-11-28",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://confluence.atlassian.com/security/cve-2023-22518-improper-authorization-vulnerability-in-confluence-data-center-and-server-1311473907.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22518",
+      "cwes": [
+        "CWE-863"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99996,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-27350",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "PaperCut",
+      "product": "MF/NG",
+      "title": "PaperCut MF/NG Improper Access Control Vulnerability",
+      "description": "PaperCut MF/NG contains an improper access control vulnerability within the SetupCompleted class that allows authentication bypass and code execution in the context of system.",
+      "date_added": "2023-04-21",
+      "due_date": "2023-05-12",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://www.papercut.com/kb/Main/PO-1216-and-PO-1219;  https://nvd.nist.gov/vuln/detail/CVE-2023-27350",
+      "cwes": [
+        "CWE-284"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99995,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-35078",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "title": "Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability",
+      "description": "Ivanti Endpoint Manager Mobile (EPMM, previously branded MobileIron Core) contains an authentication bypass vulnerability that allows unauthenticated access to specific API paths. An attacker with access to these API paths can access personally identifiable information (PII) such as names, phone numbers, and other mobile device details for users on a vulnerable system. An attacker can also make other configuration changes including installing software and modifying security profiles on registered devices.",
+      "date_added": "2023-07-25",
+      "due_date": "2023-08-15",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://forums.ivanti.com/s/article/CVE-2023-35078-Remote-unauthenticated-API-access-vulnerability?language=en_US;  https://nvd.nist.gov/vuln/detail/CVE-2023-35078",
+      "cwes": [
+        "CWE-287"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99995,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-35082",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM) and MobileIron Core",
+      "title": "Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability",
+      "description": "Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core contain an authentication bypass vulnerability that allows unauthorized users to access restricted functionality or resources of the application.",
+      "date_added": "2024-01-18",
+      "due_date": "2024-02-08",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://forums.ivanti.com/s/article/CVE-2023-35082-Remote-Unauthenticated-API-Access-Vulnerability-in-MobileIron-Core-11-2-and-older;  https://nvd.nist.gov/vuln/detail/CVE-2023-35082",
+      "cwes": [
+        "CWE-287"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99996,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-4966",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and NetScaler Gateway",
+      "title": "Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability",
+      "description": "Citrix NetScaler ADC and NetScaler Gateway contain a buffer overflow vulnerability that allows for sensitive information disclosure when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.",
+      "date_added": "2023-10-18",
+      "due_date": "2023-11-08",
+      "required_action": "Apply mitigations and kill all active and persistent sessions per vendor instructions [https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/] OR discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/, https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967 ;  https://nvd.nist.gov/vuln/detail/CVE-2023-4966",
+      "cwes": [
+        "CWE-119"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99998,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-21887",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Connect Secure and Policy Secure",
+      "title": "Ivanti Connect Secure and Policy Secure Command Injection Vulnerability",
+      "description": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure contain a command injection vulnerability in the web components of these products, which can allow an authenticated administrator to send crafted requests to execute code on affected appliances. This vulnerability can be leveraged in conjunction with CVE-2023-46805, an authenticated bypass issue.",
+      "date_added": "2024-01-10",
+      "due_date": "2024-01-22",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "Please apply mitigations per vendor instructions. For more information, please see: https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2024-21887",
+      "cwes": [
+        "CWE-77"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99999,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-21893",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and Neurons",
+      "title": "Ivanti Connect Secure, Policy Secure, and Neurons Server-Side Request Forgery (SSRF) Vulnerability",
+      "description": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure), Ivanti Policy Secure, and Ivanti Neurons contain a server-side request forgery (SSRF) vulnerability in the SAML component that allows an attacker to access certain restricted resources without authentication.",
+      "date_added": "2024-01-31",
+      "due_date": "2024-02-02",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2024-21893",
+      "cwes": [
+        "CWE-918"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99999,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-23897",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Jenkins",
+      "product": "Jenkins Command Line Interface (CLI)",
+      "title": "Jenkins Command Line Interface (CLI) Path Traversal Vulnerability",
+      "description": "Jenkins Command Line Interface (CLI) contains a path traversal vulnerability that allows attackers limited read access to certain files, which can lead to code execution.",
+      "date_added": "2024-08-19",
+      "due_date": "2024-09-09",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.jenkins.io/security/advisory/2024-01-24/#SECURITY-3314; https://nvd.nist.gov/vuln/detail/CVE-2024-23897",
+      "cwes": [
+        "CWE-27"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 0.99995,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-3400",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "title": "Palo Alto Networks PAN-OS Command Injection Vulnerability",
+      "description": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall.",
+      "date_added": "2024-04-12",
+      "due_date": "2024-04-19",
+      "required_action": "Apply mitigations per vendor instructions as they become available. Otherwise, users with vulnerable versions of affected devices should enable Threat Prevention IDs available from the vendor. See the vendor bulletin for more details and a patch release schedule.",
+      "ransomware_use": "known",
+      "notes": "https://security.paloaltonetworks.com/CVE-2024-3400 ;   https://nvd.nist.gov/vuln/detail/CVE-2024-3400",
+      "cwes": [
+        "CWE-20",
+        "CWE-77"
+      ],
+      "epss": 0.99999,
+      "epss_percentile": 1.0,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-53770",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+      "description": "Microsoft SharePoint Server on-premises contains a deserialization of untrusted data vulnerability that could allow an unauthorized attacker to execute code over a network. This vulnerability could be chained with CVE-2025-53771. CVE-2025-53770 is a patch bypass for CVE-2025-49704, and the updates for CVE-2025-53770 include more robust protection than those for CVE-2025-49704.",
+      "date_added": "2025-07-20",
+      "due_date": "2025-07-21",
+      "required_action": "Disconnect public-facing versions of SharePoint Server that have reached their end-of-life (EOL) or end-of-service (EOS) to include SharePoint Server 2013 and earlier versions. For supported versions, please follow the mitigations according to CISA (URL listed below in Notes) and vendor instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "ransomware_use": "known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770; https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/ ; https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53770 ; https://nvd.nist.gov/vuln/detail/CVE-2025-53770",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99998,
+      "epss_percentile": 0.99991,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-22954",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "VMware",
+      "product": "Workspace ONE Access and Identity Manager",
+      "title": "VMware Workspace ONE Access and Identity Manager Server-Side Template Injection Vulnerability",
+      "description": "VMware Workspace ONE Access and Identity Manager allow for remote code execution due to server-side template injection.",
+      "date_added": "2022-04-14",
+      "due_date": "2022-05-05",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-22954",
+      "cwes": [
+        "CWE-94"
+      ],
+      "epss": 0.99997,
+      "epss_percentile": 0.99989,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-26855",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "description": "Microsoft Exchange Server contains an unspecified vulnerability that allows for remote code execution. This vulnerability is part of the ProxyLogon exploit chain.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "Reference CISA's ED 21-02 (https://www.cisa.gov/news-events/directives/ed-21-02-mitigate-microsoft-exchange-premises-product-vulnerabilities) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-02. https://nvd.nist.gov/vuln/detail/CVE-2021-26855",
+      "cwes": [
+        "CWE-918"
+      ],
+      "epss": 0.99996,
+      "epss_percentile": 0.99988,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-49704",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "title": "Microsoft SharePoint Code Injection Vulnerability",
+      "description": "Microsoft SharePoint contains a code injection vulnerability that could allow an authorized attacker to execute code over a network. This vulnerability could be chained with CVE-2025-49706. CVE-2025-53770 is a patch bypass for CVE-2025-49704, and the updates for CVE-2025-53770 include more robust protection than those for CVE-2025-49704.",
+      "date_added": "2025-07-22",
+      "due_date": "2025-07-23",
+      "required_action": "Disconnect public-facing versions of SharePoint Server that have reached their end-of-life (EOL) or end-of-service (EOS) to include SharePoint Server 2013 and earlier versions. For supported versions, please follow the mitigations according to CISA (URL listed below in Notes) and vendor instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "ransomware_use": "known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770; https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/ ; https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49704 ; https://nvd.nist.gov/vuln/detail/CVE-2025-49704",
+      "cwes": [
+        "CWE-94"
+      ],
+      "epss": 0.99995,
+      "epss_percentile": 0.99988,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-10271",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "title": "Oracle Corporation WebLogic Server Remote Code Execution Vulnerability",
+      "description": "Oracle Corporation WebLogic Server contains a vulnerability that allows for remote code execution.",
+      "date_added": "2022-02-10",
+      "due_date": "2022-08-10",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-10271",
+      "cwes": [],
+      "epss": 0.99993,
+      "epss_percentile": 0.99987,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-41773",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "HTTP Server",
+      "title": "Apache HTTP Server Path Traversal Vulnerability",
+      "description": "Apache HTTP Server contains a path traversal vulnerability that allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default �require all denied� or if CGI scripts are enabled. The original patch issued under this CVE ID is insufficient, please review remediation information under CVE-2021-42013.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-41773",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99992,
+      "epss_percentile": 0.99986,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2018-7600",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Drupal",
+      "product": "Drupal Core",
+      "title": "Drupal Core Remote Code Execution Vulnerability",
+      "description": "Drupal Core contains a remote code execution vulnerability that could allow an attacker to exploit multiple attack vectors on a Drupal site, resulting in complete site compromise.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-7600",
+      "cwes": [
+        "CWE-20"
+      ],
+      "epss": 0.99991,
+      "epss_percentile": 0.99985,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-29300",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Adobe",
+      "product": "ColdFusion",
+      "title": "Adobe ColdFusion Deserialization of Untrusted Data Vulnerability",
+      "description": "Adobe ColdFusion contains a deserialization of untrusted data vulnerability that allows for code execution.",
+      "date_added": "2024-01-08",
+      "due_date": "2024-01-29",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://helpx.adobe.com/security/products/coldfusion/apsb23-40.html; https://nvd.nist.gov/vuln/detail/CVE-2023-29300",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99991,
+      "epss_percentile": 0.99985,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-27199",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "title": "JetBrains TeamCity Relative Path Traversal Vulnerability",
+      "description": "JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
+      "date_added": "2026-04-20",
+      "due_date": "2026-05-04",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199",
+      "cwes": [
+        "CWE-23"
+      ],
+      "epss": 0.99991,
+      "epss_percentile": 0.99985,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-34523",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Privilege Escalation Vulnerability",
+      "description": "Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-34523",
+      "cwes": [
+        "CWE-287"
+      ],
+      "epss": 0.9999,
+      "epss_percentile": 0.99985,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-3248",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "title": "Langflow Missing Authentication Vulnerability",
+      "description": "Langflow contains a missing authentication vulnerability in the /api/v1/validate/code endpoint that allows a remote, unauthenticated attacker to execute arbitrary code via crafted HTTP requests.",
+      "date_added": "2025-05-05",
+      "due_date": "2025-05-26",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "This vulnerability affects a common open-source project, third-party library, or a protocol used by different products. For more information, please see: https://github.com/advisories/GHSA-c995-4fw3-j39m ; https://nvd.nist.gov/vuln/detail/CVE-2025-3248",
+      "cwes": [
+        "CWE-306"
+      ],
+      "epss": 0.99989,
+      "epss_percentile": 0.99984,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-4577",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "PHP Group",
+      "product": "PHP",
+      "title": "PHP-CGI OS Command Injection Vulnerability",
+      "description": "PHP, specifically Windows-based PHP used in CGI mode, contains an OS command injection vulnerability that allows for arbitrary code execution. This vulnerability is a patch bypass for CVE-2012-1823.",
+      "date_added": "2024-06-12",
+      "due_date": "2024-07-03",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see:  https://www.php.net/ChangeLog-8.php#;   https://nvd.nist.gov/vuln/detail/CVE-2024-4577",
+      "cwes": [
+        "CWE-78"
+      ],
+      "epss": 0.99987,
+      "epss_percentile": 0.99983,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-46805",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Connect Secure and Policy Secure",
+      "title": "Ivanti Connect Secure and Policy Secure Authentication Bypass Vulnerability",
+      "description": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure gateways contain an authentication bypass vulnerability in the web component that allows an attacker to access restricted resources by bypassing control checks. This vulnerability can be leveraged in conjunction with CVE-2024-21887, a command injection vulnerability.",
+      "date_added": "2024-01-10",
+      "due_date": "2024-01-22",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "Please apply mitigations per vendor instructions. For more information, please see: https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US ;  https://nvd.nist.gov/vuln/detail/CVE-2023-46805",
+      "cwes": [
+        "CWE-287"
+      ],
+      "epss": 0.99986,
+      "epss_percentile": 0.99983,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-40684",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Fortinet",
+      "product": "Multiple Products",
+      "title": "Fortinet Multiple Products Authentication Bypass Vulnerability",
+      "description": "Fortinet FortiOS, FortiProxy, and FortiSwitchManager contain an authentication bypass vulnerability that could allow an unauthenticated attacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.",
+      "date_added": "2022-10-11",
+      "due_date": "2022-11-01",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-22-377;  https://nvd.nist.gov/vuln/detail/CVE-2022-40684",
+      "cwes": [
+        "CWE-288"
+      ],
+      "epss": 0.99984,
+      "epss_percentile": 0.99982,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-22527",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Data Center and Server",
+      "title": "Atlassian Confluence Data Center and Server Template Injection Vulnerability",
+      "description": "Atlassian Confluence Data Center and Server contain an unauthenticated OGNL template injection vulnerability that can lead to remote code execution.",
+      "date_added": "2024-01-24",
+      "due_date": "2024-02-14",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://confluence.atlassian.com/security/cve-2023-22527-rce-remote-code-execution-vulnerability-in-confluence-data-center-and-confluence-server-1333990257.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22527",
+      "cwes": [
+        "CWE-74"
+      ],
+      "epss": 0.99984,
+      "epss_percentile": 0.99982,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-29357",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "title": "Microsoft SharePoint Server Privilege Escalation Vulnerability",
+      "description": "Microsoft SharePoint Server contains an unspecified vulnerability that allows an unauthenticated attacker, who has gained access to spoofed JWT authentication tokens, to use them for executing a network attack. This attack bypasses authentication, enabling the attacker to gain administrator privileges.",
+      "date_added": "2024-01-10",
+      "due_date": "2024-01-31",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29357; https://nvd.nist.gov/vuln/detail/CVE-2023-29357",
+      "cwes": [
+        "CWE-303"
+      ],
+      "epss": 0.99984,
+      "epss_percentile": 0.99982,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "title": "ConnectWise ScreenConnect Authentication Bypass Vulnerability",
+      "description": "ConnectWise ScreenConnect contains an authentication bypass vulnerability that allows an attacker with network access to the management interface to create a new, administrator-level account on affected devices.",
+      "date_added": "2024-02-22",
+      "due_date": "2024-02-29",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8; https://nvd.nist.gov/vuln/detail/CVE-2024-1709",
+      "cwes": [
+        "CWE-288"
+      ],
+      "epss": 0.9998,
+      "epss_percentile": 0.99981,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-22457",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and ZTA Gateways",
+      "title": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+      "description": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contains a stack-based buffer overflow vulnerability that allows a remote unauthenticated attacker to achieve remote code execution. ",
+      "date_added": "2025-04-04",
+      "due_date": "2025-04-11",
+      "required_action": "Apply mitigations as set forth in the CISA instructions linked below.",
+      "ransomware_use": "known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-22457 ; Additional References: https://forums.ivanti.com/s/article/April-Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-22457 ; https://nvd.nist.gov/vuln/detail/CVE-2025-22457",
+      "cwes": [
+        "CWE-121"
+      ],
+      "epss": 0.9998,
+      "epss_percentile": 0.99981,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-42793",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "title": "JetBrains TeamCity Authentication Bypass Vulnerability",
+      "description": "JetBrains TeamCity contains an authentication bypass vulnerability that allows for remote code execution on TeamCity Server.",
+      "date_added": "2023-10-04",
+      "due_date": "2023-10-25",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/ ;  https://nvd.nist.gov/vuln/detail/CVE-2023-42793",
+      "cwes": [
+        "CWE-288"
+      ],
+      "epss": 0.99979,
+      "epss_percentile": 0.9998,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-0282",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and ZTA Gateways",
+      "title": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+      "description": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contain a stack-based buffer overflow which can lead to unauthenticated remote code execution.",
+      "date_added": "2025-01-08",
+      "due_date": "2025-01-15",
+      "required_action": "Apply mitigations as set forth in the CISA instructions linked below to include conducting hunt activities, taking remediation actions if applicable, and applying updates prior to returning a device to service.",
+      "ransomware_use": "known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-CVE-2025-0282 Additional References: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283 ; https://nvd.nist.gov/vuln/detail/CVE-2025-0282",
+      "cwes": [
+        "CWE-121"
+      ],
+      "epss": 0.99979,
+      "epss_percentile": 0.9998,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-24919",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Check Point",
+      "product": "Quantum Security Gateways",
+      "title": "Check Point Quantum Security Gateways Information Disclosure Vulnerability",
+      "description": "Check Point Quantum Security Gateways contain an unspecified information disclosure vulnerability. The vulnerability potentially allows an attacker to access information on Gateways connected to the internet, with IPSec VPN, Remote Access VPN or Mobile Access enabled. This issue affects several product lines from Check Point, including CloudGuard Network, Quantum Scalable Chassis, Quantum Security Gateways, and Quantum Spark Appliances.",
+      "date_added": "2024-05-30",
+      "due_date": "2024-06-20",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://support.checkpoint.com/results/sk/sk182336 ; https://nvd.nist.gov/vuln/detail/CVE-2024-24919",
+      "cwes": [
+        "CWE-200"
+      ],
+      "epss": 0.99978,
+      "epss_percentile": 0.99979,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-45046",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "Log4j2",
+      "title": "Apache Log4j2 Deserialization of Untrusted Data Vulnerability",
+      "description": "Apache Log4j2 contains a deserialization of untrusted data vulnerability due to the incomplete fix of CVE-2021-44228, where the Thread Context Lookup Pattern is vulnerable to remote code execution in certain non-default configurations.",
+      "date_added": "2023-05-01",
+      "due_date": "2023-05-22",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://logging.apache.org/log4j/2.x/security.html; https://nvd.nist.gov/vuln/detail/CVE-2021-45046",
+      "cwes": [
+        "CWE-917"
+      ],
+      "epss": 0.99977,
+      "epss_percentile": 0.99979,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2012-0158",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "MSCOMCTL.OCX",
+      "title": "Microsoft MSCOMCTL.OCX Remote Code Execution Vulnerability",
+      "description": "Microsoft MSCOMCTL.OCX contains an unspecified vulnerability that allows for remote code execution, allowing an attacker to take complete control of an affected system under the context of the current user.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2012-0158",
+      "cwes": [
+        "CWE-94"
+      ],
+      "epss": 0.99976,
+      "epss_percentile": 0.99978,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-31161",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "CrushFTP",
+      "product": "CrushFTP",
+      "title": "CrushFTP Authentication Bypass Vulnerability",
+      "description": "CrushFTP contains an authentication bypass vulnerability in the HTTP authorization header that allows a remote unauthenticated attacker to authenticate to any known or guessable user account (e.g., crushadmin), potentially leading to a full compromise. ",
+      "date_added": "2025-04-07",
+      "due_date": "2025-04-28",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.crushftp.com/crush11wiki/Wiki.jsp?page=Update ; https://nvd.nist.gov/vuln/detail/CVE-2025-31161",
+      "cwes": [
+        "CWE-305"
+      ],
+      "epss": 0.99976,
+      "epss_percentile": 0.99978,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-41082",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "description": "Microsoft Exchange Server contains an unspecified vulnerability that allows for authenticated remote code execution. Dubbed \"ProxyNotShell,\" this vulnerability is chainable with CVE-2022-41040 which allows for the remote code execution.",
+      "date_added": "2022-09-30",
+      "due_date": "2022-10-21",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/;  https://nvd.nist.gov/vuln/detail/CVE-2022-41082",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.9997,
+      "epss_percentile": 0.99977,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-47986",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "IBM",
+      "product": "Aspera Faspex",
+      "title": "IBM Aspera Faspex Code Execution Vulnerability",
+      "description": "IBM Aspera Faspex could allow a remote attacker to execute code on the system, caused by a YAML deserialization flaw.",
+      "date_added": "2023-02-21",
+      "due_date": "2023-03-14",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://exchange.xforce.ibmcloud.com/vulnerabilities/243512?_ga=2.189195179.1800390251.1676559338-700333034.1676325890;  https://nvd.nist.gov/vuln/detail/CVE-2022-47986",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99968,
+      "epss_percentile": 0.99976,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2020-0688",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Validation Key Remote Code Execution Vulnerability",
+      "description": "Microsoft Exchange Server Validation Key fails to properly create unique keys at install time, allowing for remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-0688",
+      "cwes": [
+        "CWE-287"
+      ],
+      "epss": 0.99965,
+      "epss_percentile": 0.99976,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-2725",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "title": "Oracle WebLogic Server, Injection",
+      "description": "Injection vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services).",
+      "date_added": "2022-01-10",
+      "due_date": "2022-07-10",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-2725",
+      "cwes": [
+        "CWE-74"
+      ],
+      "epss": 0.99964,
+      "epss_percentile": 0.99975,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-42013",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "HTTP Server",
+      "title": "Apache HTTP Server Path Traversal Vulnerability",
+      "description": "Apache HTTP Server contains a path traversal vulnerability that allows an attacker to perform remote code execution if files outside directories configured by Alias-like directives are not under default require all denied or if CGI scripts are enabled. This CVE ID resolves an incomplete patch for CVE-2021-41773.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-42013",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99964,
+      "epss_percentile": 0.99975,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-1388",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "title": "F5 BIG-IP Missing Authentication Vulnerability",
+      "description": "F5 BIG-IP contains a missing authentication in critical function vulnerability which can allow for remote code execution, creation or deletion of files, or disabling services.",
+      "date_added": "2022-05-10",
+      "due_date": "2022-05-31",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-1388",
+      "cwes": [
+        "CWE-306"
+      ],
+      "epss": 0.99958,
+      "epss_percentile": 0.99975,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-41040",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Server-Side Request Forgery Vulnerability",
+      "description": "Microsoft Exchange Server allows for server-side request forgery. Dubbed \"ProxyNotShell,\" this vulnerability is chainable with CVE-2022-41082 which allows for remote code execution.",
+      "date_added": "2022-09-30",
+      "due_date": "2022-10-21",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/;  https://nvd.nist.gov/vuln/detail/CVE-2022-41040",
+      "cwes": [
+        "CWE-918"
+      ],
+      "epss": 0.99956,
+      "epss_percentile": 0.99974,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-38035",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Ivanti",
+      "product": "Sentry",
+      "title": "Ivanti Sentry Authentication Bypass Vulnerability",
+      "description": "Ivanti Sentry, formerly known as MobileIron Sentry, contains an authentication bypass vulnerability that may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration.",
+      "date_added": "2023-08-22",
+      "due_date": "2023-09-12",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://forums.ivanti.com/s/article/CVE-2023-38035-API-Authentication-Bypass-on-Sentry-Administrator-Interface?language=en_US ;  https://nvd.nist.gov/vuln/detail/CVE-2023-38035",
+      "cwes": [
+        "CWE-863"
+      ],
+      "epss": 0.99954,
+      "epss_percentile": 0.99974,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-5777",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and Gateway",
+      "title": "Citrix NetScaler ADC and Gateway Out-of-Bounds Read Vulnerability",
+      "description": "Citrix NetScaler ADC and Gateway contain an out-of-bounds read vulnerability due to insufficient input validation. This vulnerability can lead to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server.",
+      "date_added": "2025-07-10",
+      "due_date": "2025-07-11",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420 ; https://nvd.nist.gov/vuln/detail/CVE-2025-5777",
+      "cwes": [
+        "CWE-125"
+      ],
+      "epss": 0.99953,
+      "epss_percentile": 0.99974,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2018-10562",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Dasan",
+      "product": "Gigabit Passive Optical Network (GPON) Routers",
+      "title": "Dasan GPON Routers Command Injection Vulnerability",
+      "description": "Dasan GPON Routers contain an authentication bypass vulnerability. When combined with CVE-2018-10561, exploitation can allow an attacker to perform remote code execution.",
+      "date_added": "2022-03-31",
+      "due_date": "2022-04-21",
+      "required_action": "The impacted product is end-of-life and should be disconnected if still in use.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-10562",
+      "cwes": [
+        "CWE-78"
+      ],
+      "epss": 0.99952,
+      "epss_percentile": 0.99973,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-11882",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "title": "Microsoft Office Memory Corruption Vulnerability",
+      "description": "Microsoft Office contains a memory corruption vulnerability that allows remote code execution in the context of the current user.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-11882",
+      "cwes": [
+        "CWE-119"
+      ],
+      "epss": 0.99945,
+      "epss_percentile": 0.99972,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-3129",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Laravel",
+      "product": "Ignition",
+      "title": "Laravel Ignition File Upload Vulnerability",
+      "description": "Laravel Ignition contains a file upload vulnerability that allows unauthenticated remote attackers to execute malicious code due to insecure usage of file_get_contents() and file_put_contents().",
+      "date_added": "2023-09-18",
+      "due_date": "2023-10-09",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://github.com/facade/ignition/releases/tag/2.5.2; https://nvd.nist.gov/vuln/detail/CVE-2021-3129",
+      "cwes": [],
+      "epss": 0.99943,
+      "epss_percentile": 0.99972,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-27198",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "title": "JetBrains TeamCity Authentication Bypass Vulnerability",
+      "description": "JetBrains TeamCity contains an authentication bypass vulnerability that allows an attacker to perform admin actions.",
+      "date_added": "2024-03-07",
+      "due_date": "2024-03-28",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.jetbrains.com/help/teamcity/teamcity-2023-11-4-release-notes.html; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27198",
+      "cwes": [
+        "CWE-288"
+      ],
+      "epss": 0.99938,
+      "epss_percentile": 0.99971,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-26085",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Server",
+      "title": "Atlassian Confluence Server Pre-Authorization Arbitrary File Read Vulnerability",
+      "description": "Affected versions of Atlassian Confluence Server allow remote attackers to view restricted resources via a pre-authorization arbitrary file read vulnerability in the /s/ endpoint.",
+      "date_added": "2022-03-28",
+      "due_date": "2022-04-18",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-26085",
+      "cwes": [
+        "CWE-425"
+      ],
+      "epss": 0.99937,
+      "epss_percentile": 0.9997,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-34362",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Progress",
+      "product": "MOVEit Transfer",
+      "title": "Progress MOVEit Transfer SQL Injection Vulnerability",
+      "description": "Progress MOVEit Transfer contains a SQL injection vulnerability that could allow an unauthenticated attacker to gain unauthorized access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database in addition to executing SQL statements that alter or delete database elements.",
+      "date_added": "2023-06-02",
+      "due_date": "2023-06-23",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "This CVE has a CISA AA located here: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a. Please see the AA for associated IOCs. Additional information is available at: https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023.;  https://nvd.nist.gov/vuln/detail/CVE-2023-34362",
+      "cwes": [
+        "CWE-89"
+      ],
+      "epss": 0.99934,
+      "epss_percentile": 0.9997,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-0199",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Office and WordPad",
+      "title": "Microsoft Office and WordPad Remote Code Execution Vulnerability",
+      "description": "Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0199",
+      "cwes": [],
+      "epss": 0.99933,
+      "epss_percentile": 0.99969,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-38647",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Open Management Infrastructure (OMI)",
+      "title": "Microsoft Open Management Infrastructure (OMI) Remote Code Execution Vulnerability",
+      "description": "Microsoft Open Management Infrastructure (OMI) within Azure VM Management Extensions contains an unspecified vulnerability allowing remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-38647",
+      "cwes": [
+        "CWE-1390"
+      ],
+      "epss": 0.99933,
+      "epss_percentile": 0.99969,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-0604",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
+      "description": "Microsoft SharePoint fails to check the source markup of an application package. An attacker who successfully exploits the vulnerability could run remote code in the context of the SharePoint application pool and the SharePoint server farm account.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0604",
+      "cwes": [
+        "CWE-20"
+      ],
+      "epss": 0.99913,
+      "epss_percentile": 0.99967,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-3396",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Server and Data Server",
+      "title": "Atlassian Confluence Server and Data Center Server-Side Template Injection Vulnerability",
+      "description": "Atlassian Confluence Server and Data Center contain a server-side template injection vulnerability that may allow an attacker to achieve path traversal and remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-3396",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99913,
+      "epss_percentile": 0.99967,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-20038",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "SonicWall",
+      "product": "SMA 100 Appliances",
+      "title": "SonicWall SMA 100 Appliances Stack-Based Buffer Overflow Vulnerability",
+      "description": "SonicWall SMA 100 devies are vulnerable to an unauthenticated stack-based buffer overflow vulnerability where exploitation can result in code execution.",
+      "date_added": "2022-01-28",
+      "due_date": "2022-02-11",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-20038",
+      "cwes": [
+        "CWE-121"
+      ],
+      "epss": 0.99912,
+      "epss_percentile": 0.99966,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-7481",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "SonicWall",
+      "product": "SMA100",
+      "title": "SonicWall SMA100 SQL Injection Vulnerability",
+      "description": "SonicWall SMA100 contains a SQL injection vulnerability allowing an unauthenticated user to gain read-only access to unauthorized resources.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-7481",
+      "cwes": [
+        "CWE-89"
+      ],
+      "epss": 0.99906,
+      "epss_percentile": 0.99965,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-22986",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "F5",
+      "product": "BIG-IP and BIG-IQ Centralized Management",
+      "title": "F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability",
+      "description": "F5 BIG-IP and BIG-IQ Centralized Management contain a remote code execution vulnerability in the iControl REST interface that allows unauthenticated attackers with network access to execute system commands, create or delete files, and disable services.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-22986",
+      "cwes": [
+        "CWE-863"
+      ],
+      "epss": 0.99898,
+      "epss_percentile": 0.99964,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-27065",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "description": "Microsoft Exchange Server contains an unspecified vulnerability that allows for remote code execution. This vulnerability is part of the ProxyLogon exploit chain.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "Reference CISA's ED 21-02 (https://www.cisa.gov/news-events/directives/ed-21-02-mitigate-microsoft-exchange-premises-product-vulnerabilities) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-02. https://nvd.nist.gov/vuln/detail/CVE-2021-27065",
+      "cwes": [
+        "CWE-39"
+      ],
+      "epss": 0.99876,
+      "epss_percentile": 0.99963,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-21972",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "VMware",
+      "product": "vCenter Server",
+      "title": "VMware vCenter Server Remote Code Execution Vulnerability",
+      "description": "VMware vCenter Server vSphere Client contains a remote code execution vulnerability in a vCenter Server plugin which allows an attacker with network access to port 443 to execute commands with unrestricted privileges on the underlying operating system.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-21972",
+      "cwes": [
+        "CWE-23"
+      ],
+      "epss": 0.99865,
+      "epss_percentile": 0.99962,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2020-0796",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SMBv3",
+      "title": "Microsoft SMBv3 Remote Code Execution Vulnerability",
+      "description": "A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests. An attacker who successfully exploited the vulnerability could gain the ability to execute code on the target server or client.",
+      "date_added": "2022-02-10",
+      "due_date": "2022-08-10",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-0796",
+      "cwes": [
+        "CWE-119"
+      ],
+      "epss": 0.9981,
+      "epss_percentile": 0.99958,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-55182",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Meta",
+      "product": "React Server Components",
+      "title": "Meta React Server Components Remote Code Execution Vulnerability",
+      "description": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with CVE-2025- 55182.",
+      "date_added": "2025-12-05",
+      "due_date": "2025-12-12",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
+      "cwes": [],
+      "epss": 0.99802,
+      "epss_percentile": 0.99957,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-10035",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Fortra",
+      "product": "GoAnywhere MFT",
+      "title": "Fortra GoAnywhere MFT Deserialization of Untrusted Data Vulnerability",
+      "description": "Fortra GoAnywhere MFT contains a deserialization of untrusted data vulnerability allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.",
+      "date_added": "2025-09-29",
+      "due_date": "2025-10-20",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.fortra.com/security/advisories/product-security/fi-2025-012 ; https://nvd.nist.gov/vuln/detail/CVE-2025-10035",
+      "cwes": [
+        "CWE-502",
+        "CWE-77"
+      ],
+      "epss": 0.99799,
+      "epss_percentile": 0.99957,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-34527",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "title": "Microsoft Windows Print Spooler Remote Code Execution Vulnerability",
+      "description": "Microsoft Windows Print Spooler contains an unspecified vulnerability due to the Windows Print Spooler service improperly performing privileged file operations. Successful exploitation allows an attacker to perform remote code execution with SYSTEM privileges. The vulnerability is also known under the moniker of PrintNightmare.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "Reference CISA's ED 21-04 (https://www.cisa.gov/news-events/directives/ed-21-04-mitigate-windows-print-spooler-service-vulnerability) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-04. https://nvd.nist.gov/vuln/detail/CVE-2021-34527",
+      "cwes": [
+        "CWE-269"
+      ],
+      "epss": 0.99792,
+      "epss_percentile": 0.99956,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-31207",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "title": "Microsoft Exchange Server Security Feature Bypass Vulnerability",
+      "description": "Microsoft Exchange Server contains an unspecified vulnerability that allows for security feature bypass.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-31207",
+      "cwes": [
+        "CWE-20",
+        "CWE-434"
+      ],
+      "epss": 0.99782,
+      "epss_percentile": 0.99956,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-11043",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "PHP",
+      "product": "FastCGI Process Manager (FPM)",
+      "title": "PHP FastCGI Process Manager (FPM) Buffer Overflow Vulnerability",
+      "description": "In some versions of PHP in certain configurations of FPM setup, it is possible to cause FPM module to write past allocated buffers allowing the possibility of remote code execution.",
+      "date_added": "2022-03-25",
+      "due_date": "2022-04-15",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-11043",
+      "cwes": [
+        "CWE-120"
+      ],
+      "epss": 0.9978,
+      "epss_percentile": 0.99955,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-15107",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Webmin",
+      "product": "Webmin",
+      "title": "Webmin Command Injection Vulnerability",
+      "description": "An issue was discovered in Webmin. The parameter old in password_change.cgi contains a command injection vulnerability.",
+      "date_added": "2022-03-25",
+      "due_date": "2022-04-15",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-15107",
+      "cwes": [
+        "CWE-78"
+      ],
+      "epss": 0.99766,
+      "epss_percentile": 0.99954,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-47966",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Zoho",
+      "product": "ManageEngine",
+      "title": "Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability",
+      "description": "Multiple Zoho ManageEngine products contain an unauthenticated remote code execution vulnerability due to the usage of an outdated third-party dependency, Apache Santuario.",
+      "date_added": "2023-01-23",
+      "due_date": "2023-02-13",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
+      "cwes": [],
+      "epss": 0.99753,
+      "epss_percentile": 0.99954,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-3519",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and NetScaler Gateway",
+      "title": "Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability",
+      "description": "Citrix NetScaler ADC and NetScaler Gateway contains a code injection vulnerability that allows for unauthenticated remote code execution.",
+      "date_added": "2023-07-19",
+      "due_date": "2023-08-09",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://support.citrix.com/article/CTX561482/citrix-adc-and-citrix-gateway-security-bulletin-for-cve20233519-cve20233466-cve20233467;  https://nvd.nist.gov/vuln/detail/CVE-2023-3519",
+      "cwes": [
+        "CWE-94"
+      ],
+      "epss": 0.99749,
+      "epss_percentile": 0.99954,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2019-18935",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Progress",
+      "product": "Telerik UI for ASP.NET AJAX",
+      "title": "Progress Telerik UI for ASP.NET AJAX Deserialization of Untrusted Data Vulnerability",
+      "description": "Progress Telerik UI for ASP.NET AJAX contains a deserialization of untrusted data vulnerability through RadAsyncUpload which leads to code execution on the server in the context of the w3wp.exe process.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-18935",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99737,
+      "epss_percentile": 0.99953,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-61882",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Oracle",
+      "product": "E-Business Suite",
+      "title": "Oracle E-Business Suite Unspecified Vulnerability",
+      "description": "Oracle E-Business Suite contains an unspecified vulnerability in the BI Publisher Integration component. The vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Concurrent Processing. Successful attacks can result in takeover of Oracle Concurrent Processing.",
+      "date_added": "2025-10-06",
+      "due_date": "2025-10-27",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://www.oracle.com/security-alerts/alert-cve-2025-61882.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61882",
+      "cwes": [],
+      "epss": 0.99732,
+      "epss_percentile": 0.99953,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2021-22205",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "GitLab",
+      "product": "Community and Enterprise Editions",
+      "title": "GitLab Community and Enterprise Editions Remote Code Execution Vulnerability",
+      "description": "GitHub Community and Enterprise Editions that utilize the ability to upload images through GitLab Workhorse are vulnerable to remote code execution. Workhorse passes image file extensions through ExifTool, which improperly validates the image files.",
+      "date_added": "2021-11-03",
+      "due_date": "2021-11-17",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-22205",
+      "cwes": [
+        "CWE-20",
+        "CWE-95"
+      ],
+      "epss": 0.99731,
+      "epss_percentile": 0.99952,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-46604",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "ActiveMQ",
+      "title": "Apache ActiveMQ Deserialization of Untrusted Data Vulnerability",
+      "description": "Apache ActiveMQ contains a deserialization of untrusted data vulnerability that may allow a remote attacker with network access to a broker to run shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath.",
+      "date_added": "2023-11-02",
+      "due_date": "2023-11-23",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt; https://nvd.nist.gov/vuln/detail/CVE-2023-46604",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99723,
+      "epss_percentile": 0.99952,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2010-2861",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Adobe",
+      "product": "ColdFusion",
+      "title": "Adobe ColdFusion Directory Traversal Vulnerability",
+      "description": "A directory traversal vulnerability exists in the administrator console in Adobe ColdFusion which allows remote attackers to read arbitrary files.",
+      "date_added": "2022-03-25",
+      "due_date": "2022-04-15",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2010-2861",
+      "cwes": [
+        "CWE-22"
+      ],
+      "epss": 0.99721,
+      "epss_percentile": 0.99951,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-0012",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "title": "Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability",
+      "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability in the web-based management interface for several PAN-OS products, including firewalls and VPN concentrators.",
+      "date_added": "2024-11-18",
+      "due_date": "2024-12-09",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable. Additionally, management interface for affected devices should not be exposed to untrusted networks, including the internet.",
+      "ransomware_use": "known",
+      "notes": "https://security.paloaltonetworks.com/CVE-2024-0012 ; https://nvd.nist.gov/vuln/detail/CVE-2024-0012",
+      "cwes": [
+        "CWE-306"
+      ],
+      "epss": 0.99718,
+      "epss_percentile": 0.99951,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-0147",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SMBv1 server",
+      "title": "Microsoft Windows SMBv1 Information Disclosure Vulnerability",
+      "description": "The SMBv1 server in Microsoft Windows allows remote attackers to obtain sensitive information from process memory via a crafted packet.",
+      "date_added": "2022-05-24",
+      "due_date": "2022-06-14",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0147",
+      "cwes": [
+        "CWE-200"
+      ],
+      "epss": 0.99693,
+      "epss_percentile": 0.9995,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-12615",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "Tomcat",
+      "title": "Apache Tomcat on Windows Remote Code Execution Vulnerability",
+      "description": "When running Apache Tomcat on Windows with HTTP PUTs enabled, it is possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.",
+      "date_added": "2022-03-25",
+      "due_date": "2022-04-15",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-12615",
+      "cwes": [
+        "CWE-434"
+      ],
+      "epss": 0.99607,
+      "epss_percentile": 0.99947,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-31324",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "SAP",
+      "product": "NetWeaver",
+      "title": "SAP NetWeaver Unrestricted File Upload Vulnerability",
+      "description": "SAP NetWeaver Visual Composer Metadata Uploader contains an unrestricted file upload vulnerability that allows an unauthenticated agent to upload potentially malicious executable binaries.",
+      "date_added": "2025-04-29",
+      "due_date": "2025-05-20",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://me.sap.com/notes/3594142 ; https://nvd.nist.gov/vuln/detail/CVE-2025-31324",
+      "cwes": [
+        "CWE-434"
+      ],
+      "epss": 0.99512,
+      "epss_percentile": 0.99943,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-42475",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "title": "Fortinet FortiOS Heap-Based Buffer Overflow Vulnerability",
+      "description": "Multiple versions of Fortinet FortiOS SSL-VPN contain a heap-based buffer overflow vulnerability which can allow an unauthenticated, remote attacker to execute arbitrary code or commands via specifically crafted requests.",
+      "date_added": "2022-12-13",
+      "due_date": "2023-01-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-22-398;  https://nvd.nist.gov/vuln/detail/CVE-2022-42475",
+      "cwes": [
+        "CWE-197"
+      ],
+      "epss": 0.99474,
+      "epss_percentile": 0.99942,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-23692",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Rejetto",
+      "product": "HTTP File Server",
+      "title": "Rejetto HTTP File Server Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+      "description": "Rejetto HTTP File Server contains an improper neutralization of special elements used in a template engine vulnerability. This allows a remote, unauthenticated attacker to execute commands on the affected system by sending a specially crafted HTTP request.",
+      "date_added": "2024-07-09",
+      "due_date": "2024-07-30",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "The patched Rejetto HTTP File Server (HFS) is version 3: https://github.com/rejetto/hfs?tab=readme-ov-file#installation, https://www.rejetto.com/hfs/ ;   https://nvd.nist.gov/vuln/detail/CVE-2024-23692",
+      "cwes": [
+        "CWE-1336"
+      ],
+      "epss": 0.99471,
+      "epss_percentile": 0.99942,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-7494",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Samba",
+      "product": "Samba",
+      "title": "Samba Remote Code Execution Vulnerability",
+      "description": "Samba contains a remote code execution vulnerability, allowing a malicious client to upload a shared library to a writable share and then cause the server to load and execute it.",
+      "date_added": "2023-03-30",
+      "due_date": "2023-04-20",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://www.samba.org/samba/security/CVE-2017-7494.html; https://nvd.nist.gov/vuln/detail/CVE-2017-7494",
+      "cwes": [
+        "CWE-94"
+      ],
+      "epss": 0.99448,
+      "epss_percentile": 0.99941,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Netlogon",
+      "title": "Microsoft Netlogon Privilege Escalation Vulnerability",
+      "description": "Microsoft's Netlogon Remote Protocol (MS-NRPC) contains a privilege escalation vulnerability when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller. An attacker who successfully exploits the vulnerability could run a specially crafted application on a device on the network. The vulnerability is also known under the moniker of Zerologon.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "Reference CISA's ED 20-04 (https://www.cisa.gov/news-events/directives/ed-20-04-mitigate-netlogon-elevation-privilege-vulnerability-august-2020-patch-tuesday) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 20-04. https://nvd.nist.gov/vuln/detail/CVE-2020-1472",
+      "cwes": [
+        "CWE-330"
+      ],
+      "epss": 0.99389,
+      "epss_percentile": 0.99938,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-0148",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SMBv1 server",
+      "title": "Microsoft SMBv1 Server Remote Code Execution Vulnerability",
+      "description": "The SMBv1 server in Microsoft allows remote attackers to execute arbitrary code via crafted packets.",
+      "date_added": "2022-04-06",
+      "due_date": "2022-04-27",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0148",
+      "cwes": [
+        "CWE-20"
+      ],
+      "epss": 0.99373,
+      "epss_percentile": 0.99938,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2018-7602",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Drupal",
+      "product": "Core",
+      "title": "Drupal Core Remote Code Execution Vulnerability",
+      "description": "A remote code execution vulnerability exists within multiple subsystems of Drupal that can allow attackers to exploit multiple attack vectors on a Drupal site.",
+      "date_added": "2022-04-13",
+      "due_date": "2022-05-04",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-7602",
+      "cwes": [],
+      "epss": 0.99236,
+      "epss_percentile": 0.99935,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-30190",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "title": "Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability",
+      "description": "A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run code with the privileges of the calling application.",
+      "date_added": "2022-06-14",
+      "due_date": "2022-07-05",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-30190",
+      "cwes": [
+        "CWE-610"
+      ],
+      "epss": 0.99234,
+      "epss_percentile": 0.99934,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-0144",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "SMBv1",
+      "title": "Microsoft SMBv1 Remote Code Execution Vulnerability",
+      "description": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
+      "date_added": "2022-02-10",
+      "due_date": "2022-08-10",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0144",
+      "cwes": [
+        "CWE-20"
+      ],
+      "epss": 0.9923,
+      "epss_percentile": 0.99934,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-22515",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Atlassian",
+      "product": "Confluence Data Center and Server",
+      "title": "Atlassian Confluence Data Center and Server Broken Access Control Vulnerability",
+      "description": "Atlassian Confluence Data Center and Server contains a broken access control vulnerability that allows an attacker to create unauthorized Confluence administrator accounts and access Confluence.",
+      "date_added": "2023-10-05",
+      "due_date": "2023-10-13",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable. Check all affected Confluence instances for evidence of compromise per vendor instructions and report any positive findings to CISA.",
+      "ransomware_use": "known",
+      "notes": "https://confluence.atlassian.com/security/cve-2023-22515-privilege-escalation-vulnerability-in-confluence-data-center-and-server-1295682276.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22515",
+      "cwes": [],
+      "epss": 0.99156,
+      "epss_percentile": 0.99932,
+      "epss_date": "2026-09-09",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    }
+  ]
+}
