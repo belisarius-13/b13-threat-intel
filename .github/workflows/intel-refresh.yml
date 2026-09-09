@@ -1,0 +1,201 @@
+name: Threat Intel Refresh
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threat-intel-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: refresh
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: "pip"
+          cache-dependency-path: pyproject.toml
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Run tests
+        run: |
+          python -m pytest -v
+
+      - name: Restore previous published state
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git ls-remote --exit-code --heads origin intel-feed >/dev/null 2>&1; then
+            git fetch origin intel-feed
+
+            if git cat-file -e FETCH_HEAD:data/state/cisa_kev.json 2>/dev/null; then
+              git show FETCH_HEAD:data/state/cisa_kev.json > data/state/cisa_kev.json
+              echo "Restored previous state from intel-feed."
+            else
+              echo "intel-feed exists but has no previous state."
+            fi
+          else
+            echo "intel-feed does not exist yet."
+            echo "Using the baseline state from main."
+          fi
+
+      - name: Run B13 threat intelligence pipeline
+        run: |
+          python -m b13intel
+
+      - name: Validate generated intelligence
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          json_path = Path("data/generated/latest.json")
+          state_path = Path("data/state/cisa_kev.json")
+          markdown_path = Path("reports/latest.md")
+
+          assert json_path.exists(), "latest.json was not generated"
+          assert state_path.exists(), "state file was not generated"
+          assert markdown_path.exists(), "latest.md was not generated"
+
+          document = json.loads(
+              json_path.read_text(encoding="utf-8")
+          )
+
+          state = json.loads(
+              state_path.read_text(encoding="utf-8")
+          )
+
+          summary = document["summary"]
+
+          assert document["schema_version"] == 1
+          assert document["priority_model"] == "B13-KEV-v1"
+
+          assert (
+              summary["critical"]
+              + summary["high"]
+              + summary["medium"]
+              + summary["low"]
+              == summary["total"]
+          )
+
+          assert summary["total"] == state["record_count"]
+
+          assert (
+              document["source_catalog_version"]
+              == state["catalog_version"]
+          )
+
+          assert len(document["records"]) <= summary["total"]
+
+          print("Publication validation passed.")
+          print("Catalog:", document["source_catalog_version"])
+          print("Records:", summary["total"])
+          print("Published:", len(document["records"]))
+          PY
+
+      - name: Prepare publication files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rm -rf /tmp/b13-feed
+
+          mkdir -p \
+            /tmp/b13-feed/data/generated \
+            /tmp/b13-feed/data/state \
+            /tmp/b13-feed/reports
+
+          cp \
+            data/generated/latest.json \
+            /tmp/b13-feed/data/generated/latest.json
+
+          cp \
+            data/state/cisa_kev.json \
+            /tmp/b13-feed/data/state/cisa_kev.json
+
+          cp \
+            reports/latest.md \
+            /tmp/b13-feed/reports/latest.md
+
+      - name: Publish intel-feed branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin intel-feed >/dev/null 2>&1; then
+            git fetch origin intel-feed:intel-feed
+            git switch intel-feed
+          else
+            git switch --orphan intel-feed
+            git rm -rf . || true
+          fi
+
+          git clean -fdx
+
+          mkdir -p \
+            data/generated \
+            data/state \
+            reports
+
+          cp \
+            /tmp/b13-feed/data/generated/latest.json \
+            data/generated/latest.json
+
+          cp \
+            /tmp/b13-feed/data/state/cisa_kev.json \
+            data/state/cisa_kev.json
+
+          cp \
+            /tmp/b13-feed/reports/latest.md \
+            reports/latest.md
+
+          printf '%s\n' \
+            '# B13 Threat Intel Feed' \
+            '' \
+            'Machine-maintained publication branch for BELISARIUS13 Threat Intel.' \
+            '' \
+            'Generated artifacts:' \
+            '- `data/generated/latest.json`' \
+            '- `reports/latest.md`' \
+            '- `data/state/cisa_kev.json`' \
+            '' \
+            'Source code and development history live on the protected `main` branch.' \
+            > README.md
+
+          git add \
+            README.md \
+            data/generated/latest.json \
+            data/state/cisa_kev.json \
+            reports/latest.md
+
+          if git diff --cached --quiet; then
+            echo "No publication changes detected."
+            exit 0
+          fi
+
+          git commit -m "chore(intel): refresh automated feed"
+
+          git push origin intel-feed
