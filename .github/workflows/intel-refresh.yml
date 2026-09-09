@@ -145,6 +145,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Generated artifacts are already preserved in /tmp/b13-feed.
+          # Reset the main working tree so Git can safely switch branches.
+          git reset --hard HEAD
+          git clean -fdx
+
           if git ls-remote --exit-code --heads origin intel-feed >/dev/null 2>&1; then
             git fetch origin intel-feed:intel-feed
             git switch intel-feed
