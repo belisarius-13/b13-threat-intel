@@ -40,7 +40,7 @@ jobs:
         run: |
           python -m pytest -v
 
-      - name: Restore previous published state
+      - name: Restore previous published state and history
         shell: bash
         run: |
           set -euo pipefail
@@ -49,14 +49,24 @@ jobs:
             git fetch origin intel-feed
 
             if git cat-file -e FETCH_HEAD:data/state/cisa_kev.json 2>/dev/null; then
+              mkdir -p data/state
               git show FETCH_HEAD:data/state/cisa_kev.json > data/state/cisa_kev.json
               echo "Restored previous state from intel-feed."
             else
               echo "intel-feed exists but has no previous state."
             fi
+
+            if git cat-file -e FETCH_HEAD:data/history/trends.json 2>/dev/null; then
+              mkdir -p data/history
+              git show FETCH_HEAD:data/history/trends.json > data/history/trends.json
+              echo "Restored previous history from intel-feed."
+            else
+              echo "intel-feed exists but has no previous history."
+              echo "Using history baseline from main if present."
+            fi
           else
             echo "intel-feed does not exist yet."
-            echo "Using the baseline state from main."
+            echo "Using state and history baselines from main."
           fi
 
       - name: Run B13 threat intelligence pipeline
@@ -74,6 +84,7 @@ jobs:
           change_json_path = Path("data/generated/changes.json")
           atom_path = Path("feeds/changes.atom")
           state_path = Path("data/state/cisa_kev.json")
+          history_path = Path("data/history/trends.json")
           markdown_path = Path("reports/latest.md")
 
           assert json_path.exists(), "latest.json was not generated"
@@ -81,6 +92,7 @@ jobs:
           assert markdown_path.exists(), "latest.md was not generated"
           assert change_json_path.exists(), "changes.json was not generated"
           assert atom_path.exists(), "changes.atom was not generated"
+          assert history_path.exists(), "trends.json was not generated"
 
           document = json.loads(
               json_path.read_text(encoding="utf-8")
@@ -102,6 +114,12 @@ jobs:
               state_path.read_text(encoding="utf-8")
           )
 
+          history = json.loads(
+              history_path.read_text(
+                  encoding="utf-8"
+              )
+          )
+
           summary = document["summary"]
           changes = document["changes"]
           change_feed = change_document["changes"]
@@ -118,6 +136,52 @@ jobs:
           assert document["schema_version"] == 2
           assert document["priority_model"] == "B13-KEV-v1"
           assert change_document["schema_version"] == 1
+          assert history["schema_version"] == 1
+          assert history["priority_model"] == "B13-KEV-v1"
+          assert isinstance(history["points"], list)
+          assert history["points"], "history contains no observations"
+
+          history_point = history["points"][-1]
+
+          assert (
+              history_point["generated_at"]
+              == document["generated_at"]
+          )
+
+          assert (
+              history_point["catalog_version"]
+              == document["source_catalog_version"]
+          )
+
+          assert history_point["total"] == summary["total"]
+
+          assert (
+              sum(history_point["priorities"].values())
+              == history_point["total"]
+          )
+
+          assert (
+              history_point["coverage"]["epss_matched"]
+              + history_point["coverage"]["epss_missing"]
+              == history_point["total"]
+          )
+
+          assert (
+              history_point["changes"]
+              == changes["counts"]
+          )
+
+          history_dates = [
+              point["date"]
+              for point in history["points"]
+          ]
+
+          assert history_dates == sorted(history_dates)
+
+          assert (
+              len(history_dates)
+              == len(set(history_dates))
+          )
 
           assert (
               change_document["priority_model"]
@@ -203,6 +267,9 @@ jobs:
               "Distribution interfaces agree:",
               len(atom_entries) == expected_atom_entries,
           )
+          print("History points:", len(history["points"]))
+          print("History date:", history_point["date"])
+          print("History validation passed.")
           PY
 
       - name: Prepare publication files
@@ -214,6 +281,7 @@ jobs:
 
           mkdir -p \
             /tmp/b13-feed/data/generated \
+            /tmp/b13-feed/data/history \
             /tmp/b13-feed/data/state \
             /tmp/b13-feed/feeds \
             /tmp/b13-feed/reports
@@ -229,6 +297,10 @@ jobs:
           cp \
             feeds/changes.atom \
             /tmp/b13-feed/feeds/changes.atom
+
+          cp \
+            data/history/trends.json \
+            /tmp/b13-feed/data/history/trends.json
 
           cp \
             data/state/cisa_kev.json \
@@ -263,6 +335,7 @@ jobs:
 
           mkdir -p \
             data/generated \
+            data/history \
             data/state \
             feeds \
             reports
@@ -278,6 +351,10 @@ jobs:
           cp \
             /tmp/b13-feed/feeds/changes.atom \
             feeds/changes.atom
+
+          cp \
+            /tmp/b13-feed/data/history/trends.json \
+            data/history/trends.json
 
           cp \
             /tmp/b13-feed/data/state/cisa_kev.json \
@@ -296,6 +373,7 @@ jobs:
             '- `data/generated/latest.json` — ranked intelligence dataset' \
             '- `data/generated/changes.json` — compact change interface' \
             '- `feeds/changes.atom` — Atom syndication feed' \
+            '- `data/history/trends.json` — compact historical trend series' \
             '- `reports/latest.md` — analyst-readable intelligence brief' \
             '- `data/state/cisa_kev.json` — pipeline state' \
             '' \
@@ -306,6 +384,7 @@ jobs:
             README.md \
             data/generated/latest.json \
             data/generated/changes.json \
+            data/history/trends.json \
             data/state/cisa_kev.json \
             feeds/changes.atom \
             reports/latest.md

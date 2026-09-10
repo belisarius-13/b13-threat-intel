@@ -183,6 +183,54 @@ def test_pipeline_creates_outputs(
         / "data/state/cisa_kev.json"
     ).exists()
 
+    history_path = (
+        tmp_path
+        / "data/history/trends.json"
+    )
+
+    assert history_path.exists()
+
+    history = json.loads(
+        history_path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+    assert history["schema_version"] == 1
+    assert history["priority_model"] == "B13-KEV-v1"
+    assert len(history["points"]) == 1
+
+    point = history["points"][0]
+
+    assert point["date"] == "2026-09-10"
+    assert point["catalog_version"] == "2026.09.10"
+    assert point["total"] == 2
+
+    assert point["priorities"] == {
+        "critical": 1,
+        "high": 0,
+        "medium": 1,
+        "low": 0,
+    }
+
+    assert point["signals"] == {
+        "ransomware_known": 1,
+        "epss_ge_090": 0,
+        "epss_ge_095": 0,
+    }
+
+    assert point["coverage"] == {
+        "epss_matched": 2,
+        "epss_missing": 0,
+    }
+
+    assert point["changes"] == {
+        "new": 2,
+        "changed": 0,
+        "removed": 0,
+        "unchanged": 0,
+    }
+
 
 def test_pipeline_detects_unchanged_state(
     monkeypatch,
@@ -211,6 +259,33 @@ def test_pipeline_detects_unchanged_state(
     assert first["changes"]["new"] == 2
 
     assert second["changes"] == {
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "unchanged": 2,
+    }
+
+    history_path = (
+        tmp_path
+        / "data/history/trends.json"
+    )
+
+    history = json.loads(
+        history_path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+    assert len(history["points"]) == 1
+
+    point = history["points"][0]
+
+    assert (
+        point["generated_at"]
+        == "2026-09-10T01:00:00Z"
+    )
+
+    assert point["changes"] == {
         "new": 0,
         "changed": 0,
         "removed": 0,
@@ -263,6 +338,11 @@ def test_dry_run_does_not_write_files(
     assert not (
         tmp_path
         / "data/state/cisa_kev.json"
+    ).exists()
+
+    assert not (
+        tmp_path
+        / "data/history/trends.json"
     ).exists()
 
 
@@ -529,3 +609,150 @@ def test_pipeline_reports_change_delta_consistently(
     assert "CVE-2026-0004" in markdown
     assert "CVE-2026-0001" in markdown
     assert "CVE-2026-0002" in markdown
+
+
+def test_pipeline_retains_one_history_point_per_day(
+    monkeypatch,
+    tmp_path,
+):
+    monkeypatch.setattr(
+        "b13intel.pipeline.fetch_kev",
+        fake_catalog,
+    )
+
+    monkeypatch.setattr(
+        "b13intel.pipeline.fetch_epss_scores",
+        lambda cve_ids: fake_epss_scores(),
+    )
+
+    run_pipeline(
+        root=tmp_path,
+        generated_at="2026-09-10T12:00:00Z",
+    )
+
+    run_pipeline(
+        root=tmp_path,
+        generated_at="2026-09-11T12:00:00Z",
+    )
+
+    history_path = (
+        tmp_path
+        / "data/history/trends.json"
+    )
+
+    history = json.loads(
+        history_path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+    assert [
+        point["date"]
+        for point in history["points"]
+    ] == [
+        "2026-09-10",
+        "2026-09-11",
+    ]
+
+    assert history["points"][0]["changes"] == {
+        "new": 2,
+        "changed": 0,
+        "removed": 0,
+        "unchanged": 0,
+    }
+
+    assert history["points"][1]["changes"] == {
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "unchanged": 2,
+    }
+
+
+def test_pipeline_does_not_replace_history_on_failure(
+    monkeypatch,
+    tmp_path,
+):
+    history_path = (
+        tmp_path
+        / "data/history/trends.json"
+    )
+
+    history_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    original = {
+        "schema_version": 1,
+        "priority_model": "B13-KEV-v1",
+        "points": [
+            {
+                "date": "2026-09-09",
+                "generated_at": "2026-09-09T12:00:00Z",
+                "catalog_version": "2026.09.09",
+                "total": 1,
+                "priorities": {
+                    "critical": 0,
+                    "high": 0,
+                    "medium": 1,
+                    "low": 0,
+                },
+                "signals": {
+                    "ransomware_known": 0,
+                    "epss_ge_090": 0,
+                    "epss_ge_095": 0,
+                },
+                "coverage": {
+                    "epss_matched": 1,
+                    "epss_missing": 0,
+                },
+                "changes": {
+                    "new": 1,
+                    "changed": 0,
+                    "removed": 0,
+                    "unchanged": 0,
+                },
+            }
+        ],
+    }
+
+    history_path.write_text(
+        json.dumps(
+            original,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    monkeypatch.setattr(
+        "b13intel.pipeline.fetch_kev",
+        fake_catalog,
+    )
+
+    def fail_epss(cve_ids):
+        raise RuntimeError(
+            "simulated EPSS failure"
+        )
+
+    monkeypatch.setattr(
+        "b13intel.pipeline.fetch_epss_scores",
+        fail_epss,
+    )
+
+    with pytest.raises(
+        RuntimeError,
+        match="simulated EPSS failure",
+    ):
+        run_pipeline(
+            root=tmp_path,
+            generated_at="2026-09-10T12:00:00Z",
+        )
+
+    loaded = json.loads(
+        history_path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+    assert loaded == original
