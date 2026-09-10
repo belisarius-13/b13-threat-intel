@@ -99,6 +99,40 @@ def test_pipeline_creates_outputs(
         / "data/generated/latest.json"
     ).exists()
 
+    catalog_path = (
+        tmp_path
+        / "data/generated/catalog.json"
+    )
+
+    assert catalog_path.exists()
+
+    catalog_document = json.loads(
+        catalog_path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+    assert catalog_document["schema_version"] == 1
+    assert catalog_document["priority_model"] == "B13-KEV-v1"
+
+    assert catalog_document["summary"] == {
+        "total": 2,
+        "critical": 1,
+        "high": 0,
+        "medium": 1,
+        "low": 0,
+    }
+
+    assert len(catalog_document["records"]) == 2
+
+    assert [
+        record["id"]
+        for record in catalog_document["records"]
+    ] == [
+        "CVE-2026-0001",
+        "CVE-2026-0002",
+    ]
+
     assert (
         tmp_path
         / "data/generated/changes.json"
@@ -318,6 +352,11 @@ def test_dry_run_does_not_write_files(
     assert not (
         tmp_path
         / "data/generated/latest.json"
+    ).exists()
+
+    assert not (
+        tmp_path
+        / "data/generated/catalog.json"
     ).exists()
 
     assert not (

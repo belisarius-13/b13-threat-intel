@@ -24,6 +24,10 @@ from b13intel.publishing.atom import (
     build_atom_feed,
     write_atom_feed,
 )
+from b13intel.publishing.catalog_json import (
+    build_catalog_document,
+    write_catalog_document,
+)
 from b13intel.publishing.change_json import (
     build_change_document,
     write_change_document,
@@ -48,6 +52,7 @@ from b13intel.state import (
 DEFAULT_STATE_PATH = Path("data/state/cisa_kev.json")
 DEFAULT_HISTORY_PATH = Path("data/history/trends.json")
 DEFAULT_JSON_PATH = Path("data/generated/latest.json")
+DEFAULT_CATALOG_PATH = Path("data/generated/catalog.json")
 DEFAULT_CHANGE_JSON_PATH = Path("data/generated/changes.json")
 DEFAULT_ATOM_PATH = Path("feeds/changes.atom")
 DEFAULT_MARKDOWN_PATH = Path("reports/latest.md")
@@ -100,6 +105,7 @@ def run_pipeline(
     state_path = root / DEFAULT_STATE_PATH
     history_path = root / DEFAULT_HISTORY_PATH
     json_path = root / DEFAULT_JSON_PATH
+    catalog_path = root / DEFAULT_CATALOG_PATH
     change_json_path = root / DEFAULT_CHANGE_JSON_PATH
     atom_path = root / DEFAULT_ATOM_PATH
     markdown_path = root / DEFAULT_MARKDOWN_PATH
@@ -201,6 +207,12 @@ def run_pipeline(
         max_records=100,
     )
 
+    catalog_document = build_catalog_document(
+        prioritized,
+        generated_at=timestamp,
+        catalog_version=catalog_version,
+    )
+
     change_document = build_change_document(
         change_report,
         generated_at=timestamp,
@@ -226,6 +238,11 @@ def run_pipeline(
         write_json_document(
             json_path,
             json_document,
+        )
+
+        write_catalog_document(
+            catalog_path,
+            catalog_document,
         )
 
         write_change_document(
@@ -281,6 +298,7 @@ def run_pipeline(
             "state": str(state_path),
             "history": str(history_path),
             "json": str(json_path),
+            "catalog": str(catalog_path),
             "change_json": str(change_json_path),
             "atom": str(atom_path),
             "markdown": str(markdown_path),
