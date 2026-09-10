@@ -81,6 +81,7 @@ jobs:
           from xml.etree import ElementTree as ET
 
           json_path = Path("data/generated/latest.json")
+          catalog_path = Path("data/generated/catalog.json")
           change_json_path = Path("data/generated/changes.json")
           atom_path = Path("feeds/changes.atom")
           state_path = Path("data/state/cisa_kev.json")
@@ -88,6 +89,7 @@ jobs:
           markdown_path = Path("reports/latest.md")
 
           assert json_path.exists(), "latest.json was not generated"
+          assert catalog_path.exists(), "catalog.json was not generated"
           assert state_path.exists(), "state file was not generated"
           assert markdown_path.exists(), "latest.md was not generated"
           assert change_json_path.exists(), "changes.json was not generated"
@@ -96,6 +98,12 @@ jobs:
 
           document = json.loads(
               json_path.read_text(encoding="utf-8")
+          )
+
+          catalog = json.loads(
+              catalog_path.read_text(
+                  encoding="utf-8"
+              )
           )
 
           change_document = json.loads(
@@ -135,6 +143,41 @@ jobs:
 
           assert document["schema_version"] == 2
           assert document["priority_model"] == "B13-KEV-v1"
+          assert catalog["schema_version"] == 1
+
+          assert (
+              catalog["priority_model"]
+              == document["priority_model"]
+          )
+
+          assert (
+              catalog["generated_at"]
+              == document["generated_at"]
+          )
+
+          assert (
+              catalog["source_catalog_version"]
+              == document["source_catalog_version"]
+          )
+
+          assert (
+              catalog["summary"]["total"]
+              == summary["total"]
+          )
+
+          assert catalog["summary"] == {
+              "total": summary["total"],
+              "critical": summary["critical"],
+              "high": summary["high"],
+              "medium": summary["medium"],
+              "low": summary["low"],
+          }
+
+          assert (
+              len(catalog["records"])
+              == summary["total"]
+          )
+
           assert change_document["schema_version"] == 1
           assert history["schema_version"] == 1
           assert history["priority_model"] == "B13-KEV-v1"
@@ -270,6 +313,11 @@ jobs:
           print("History points:", len(history["points"]))
           print("History date:", history_point["date"])
           print("History validation passed.")
+          print(
+              "Analyst catalog records:",
+              len(catalog["records"]),
+          )
+          print("Analyst catalog validated.")
           PY
 
       - name: Prepare publication files
@@ -289,6 +337,10 @@ jobs:
           cp \
             data/generated/latest.json \
             /tmp/b13-feed/data/generated/latest.json
+
+          cp \
+            data/generated/catalog.json \
+            /tmp/b13-feed/data/generated/catalog.json
 
           cp \
             data/generated/changes.json \
@@ -345,6 +397,10 @@ jobs:
             data/generated/latest.json
 
           cp \
+            /tmp/b13-feed/data/generated/catalog.json \
+            data/generated/catalog.json
+
+          cp \
             /tmp/b13-feed/data/generated/changes.json \
             data/generated/changes.json
 
@@ -371,6 +427,7 @@ jobs:
             '' \
             'Generated artifacts:' \
             '- `data/generated/latest.json` — ranked intelligence dataset' \
+            '- `data/generated/catalog.json` — complete compact analyst catalog' \
             '- `data/generated/changes.json` — compact change interface' \
             '- `feeds/changes.atom` — Atom syndication feed' \
             '- `data/history/trends.json` — compact historical trend series' \
@@ -383,6 +440,7 @@ jobs:
           git add \
             README.md \
             data/generated/latest.json \
+            data/generated/catalog.json \
             data/generated/changes.json \
             data/history/trends.json \
             data/state/cisa_kev.json \
