@@ -68,17 +68,34 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from xml.etree import ElementTree as ET
 
           json_path = Path("data/generated/latest.json")
+          change_json_path = Path("data/generated/changes.json")
+          atom_path = Path("feeds/changes.atom")
           state_path = Path("data/state/cisa_kev.json")
           markdown_path = Path("reports/latest.md")
 
           assert json_path.exists(), "latest.json was not generated"
           assert state_path.exists(), "state file was not generated"
           assert markdown_path.exists(), "latest.md was not generated"
+          assert change_json_path.exists(), "changes.json was not generated"
+          assert atom_path.exists(), "changes.atom was not generated"
 
           document = json.loads(
               json_path.read_text(encoding="utf-8")
+          )
+
+          change_document = json.loads(
+              change_json_path.read_text(
+                  encoding="utf-8"
+              )
+          )
+
+          atom_root = ET.fromstring(
+              atom_path.read_text(
+                  encoding="utf-8"
+              )
           )
 
           state = json.loads(
@@ -87,9 +104,54 @@ jobs:
 
           summary = document["summary"]
           changes = document["changes"]
+          change_feed = change_document["changes"]
+
+          atom_namespace = {
+              "atom": "http://www.w3.org/2005/Atom",
+          }
+
+          atom_entries = atom_root.findall(
+              "atom:entry",
+              atom_namespace,
+          )
 
           assert document["schema_version"] == 2
           assert document["priority_model"] == "B13-KEV-v1"
+          assert change_document["schema_version"] == 1
+
+          assert (
+              change_document["priority_model"]
+              == document["priority_model"]
+          )
+
+          assert (
+              change_document["source_catalog_version"]
+              == document["source_catalog_version"]
+          )
+
+          assert (
+              change_document["generated_at"]
+              == document["generated_at"]
+          )
+
+          assert change_feed == changes
+
+          expected_atom_entries = (
+              len(change_feed["new_records"])
+              + len(change_feed["changed_records"])
+              + len(change_feed["removed_ids"])
+          )
+
+          assert len(atom_entries) == expected_atom_entries
+
+          assert (
+              atom_root.find(
+                  "atom:id",
+                  atom_namespace,
+              ).text
+              == "urn:belisarius13:threat-intel:changes"
+          )
+
           assert isinstance(changes, dict)
 
           assert set(changes["counts"]) == {
@@ -135,6 +197,12 @@ jobs:
           print("Changed:", changes["counts"]["changed"])
           print("Removed:", changes["counts"]["removed"])
           print("Unchanged:", changes["counts"]["unchanged"])
+          print("Change JSON validated.")
+          print("Atom entries:", len(atom_entries))
+          print(
+              "Distribution interfaces agree:",
+              len(atom_entries) == expected_atom_entries,
+          )
           PY
 
       - name: Prepare publication files
@@ -147,11 +215,20 @@ jobs:
           mkdir -p \
             /tmp/b13-feed/data/generated \
             /tmp/b13-feed/data/state \
+            /tmp/b13-feed/feeds \
             /tmp/b13-feed/reports
 
           cp \
             data/generated/latest.json \
             /tmp/b13-feed/data/generated/latest.json
+
+          cp \
+            data/generated/changes.json \
+            /tmp/b13-feed/data/generated/changes.json
+
+          cp \
+            feeds/changes.atom \
+            /tmp/b13-feed/feeds/changes.atom
 
           cp \
             data/state/cisa_kev.json \
@@ -187,11 +264,20 @@ jobs:
           mkdir -p \
             data/generated \
             data/state \
+            feeds \
             reports
 
           cp \
             /tmp/b13-feed/data/generated/latest.json \
             data/generated/latest.json
+
+          cp \
+            /tmp/b13-feed/data/generated/changes.json \
+            data/generated/changes.json
+
+          cp \
+            /tmp/b13-feed/feeds/changes.atom \
+            feeds/changes.atom
 
           cp \
             /tmp/b13-feed/data/state/cisa_kev.json \
@@ -207,9 +293,11 @@ jobs:
             'Machine-maintained publication branch for BELISARIUS13 Threat Intel.' \
             '' \
             'Generated artifacts:' \
-            '- `data/generated/latest.json`' \
-            '- `reports/latest.md`' \
-            '- `data/state/cisa_kev.json`' \
+            '- `data/generated/latest.json` — ranked intelligence dataset' \
+            '- `data/generated/changes.json` — compact change interface' \
+            '- `feeds/changes.atom` — Atom syndication feed' \
+            '- `reports/latest.md` — analyst-readable intelligence brief' \
+            '- `data/state/cisa_kev.json` — pipeline state' \
             '' \
             'Source code and development history live on the protected `main` branch.' \
             > README.md
@@ -217,7 +305,9 @@ jobs:
           git add \
             README.md \
             data/generated/latest.json \
+            data/generated/changes.json \
             data/state/cisa_kev.json \
+            feeds/changes.atom \
             reports/latest.md
 
           if git diff --cached --quiet; then

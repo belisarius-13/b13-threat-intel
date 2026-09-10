@@ -14,6 +14,14 @@ from b13intel.enrich.epss import (
 )
 from b13intel.normalize.cisa_kev import normalize_kev_catalog
 from b13intel.prioritize.engine import prioritize_records
+from b13intel.publishing.atom import (
+    build_atom_feed,
+    write_atom_feed,
+)
+from b13intel.publishing.change_json import (
+    build_change_document,
+    write_change_document,
+)
 from b13intel.publishing.json_output import (
     build_json_document,
     write_json_document,
@@ -33,6 +41,8 @@ from b13intel.state import (
 
 DEFAULT_STATE_PATH = Path("data/state/cisa_kev.json")
 DEFAULT_JSON_PATH = Path("data/generated/latest.json")
+DEFAULT_CHANGE_JSON_PATH = Path("data/generated/changes.json")
+DEFAULT_ATOM_PATH = Path("feeds/changes.atom")
 DEFAULT_MARKDOWN_PATH = Path("reports/latest.md")
 
 
@@ -82,6 +92,8 @@ def run_pipeline(
 
     state_path = root / DEFAULT_STATE_PATH
     json_path = root / DEFAULT_JSON_PATH
+    change_json_path = root / DEFAULT_CHANGE_JSON_PATH
+    atom_path = root / DEFAULT_ATOM_PATH
     markdown_path = root / DEFAULT_MARKDOWN_PATH
 
     # 1. Collect.
@@ -164,6 +176,18 @@ def run_pipeline(
         max_records=100,
     )
 
+    change_document = build_change_document(
+        change_report,
+        generated_at=timestamp,
+        catalog_version=catalog_version,
+    )
+
+    atom_content = build_atom_feed(
+        change_report,
+        generated_at=timestamp,
+        catalog_version=catalog_version,
+    )
+
     markdown_content = render_markdown_brief(
         prioritized,
         generated_at=timestamp,
@@ -177,6 +201,16 @@ def run_pipeline(
         write_json_document(
             json_path,
             json_document,
+        )
+
+        write_change_document(
+            change_json_path,
+            change_document,
+        )
+
+        write_atom_feed(
+            atom_path,
+            atom_content,
         )
 
         write_markdown_brief(
@@ -210,6 +244,8 @@ def run_pipeline(
         "paths": {
             "state": str(state_path),
             "json": str(json_path),
+            "change_json": str(change_json_path),
+            "atom": str(atom_path),
             "markdown": str(markdown_path),
         },
     }

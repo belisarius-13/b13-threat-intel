@@ -99,6 +99,16 @@ def test_pipeline_creates_outputs(
         / "data/generated/latest.json"
     ).exists()
 
+    assert (
+        tmp_path
+        / "data/generated/changes.json"
+    ).exists()
+
+    assert (
+        tmp_path
+        / "feeds/changes.atom"
+    ).exists()
+
     json_path = (
         tmp_path
         / "data/generated/latest.json"
@@ -118,6 +128,38 @@ def test_pipeline_creates_outputs(
         "removed": 0,
         "unchanged": 0,
     }
+
+    change_path = (
+        tmp_path
+        / "data/generated/changes.json"
+    )
+
+    change_document = json.loads(
+        change_path.read_text(
+            encoding="utf-8"
+        )
+    )
+
+    assert change_document["schema_version"] == 1
+
+    assert change_document["changes"]["counts"] == {
+        "new": 2,
+        "changed": 0,
+        "removed": 0,
+        "unchanged": 0,
+    }
+
+    atom_path = (
+        tmp_path
+        / "feeds/changes.atom"
+    )
+
+    atom_content = atom_path.read_text(
+        encoding="utf-8"
+    )
+
+    assert "<feed" in atom_content
+    assert "BELISARIUS13 Threat Intelligence Changes" in atom_content
 
     markdown_path = (
         tmp_path
@@ -205,7 +247,17 @@ def test_dry_run_does_not_write_files(
 
     assert not (
         tmp_path
+        / "data/generated/changes.json"
+    ).exists()
+
+    assert not (
+        tmp_path
         / "reports/latest.md"
+    ).exists()
+
+    assert not (
+        tmp_path
+        / "feeds/changes.atom"
     ).exists()
 
     assert not (
