@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:belisarius13:threat-intel:changes</id>
+  <title>BELISARIUS13 Threat Intelligence Changes</title>
+  <updated>2026-09-10T15:20:24.327983Z</updated>
+  <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
+</feed>

@@ -3,8 +3,10 @@
 Machine-maintained publication branch for BELISARIUS13 Threat Intel.
 
 Generated artifacts:
-- `data/generated/latest.json`
-- `reports/latest.md`
-- `data/state/cisa_kev.json`
+- `data/generated/latest.json` — ranked intelligence dataset
+- `data/generated/changes.json` — compact change interface
+- `feeds/changes.atom` — Atom syndication feed
+- `reports/latest.md` — analyst-readable intelligence brief
+- `data/state/cisa_kev.json` — pipeline state
 
 Source code and development history live on the protected `main` branch.
