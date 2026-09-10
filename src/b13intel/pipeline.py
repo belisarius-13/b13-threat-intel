@@ -22,6 +22,7 @@ from b13intel.publishing.markdown import (
     render_markdown_brief,
     write_markdown_brief,
 )
+from b13intel.reporting.changes import build_change_report
 from b13intel.state import (
     build_state,
     compare_states,
@@ -147,10 +148,18 @@ def run_pipeline(
         for record in enriched
     )
 
-    # 7. Build publication artifacts.
+    # 7. Build the change-aware intelligence report.
+    change_report = build_change_report(
+        prioritized,
+        changes,
+        max_records=20,
+    )
+
+    # 8. Build publication artifacts.
     json_document = build_json_document(
         prioritized,
         generated_at=timestamp,
+        change_report=change_report,
         catalog_version=catalog_version,
         max_records=100,
     )
@@ -158,11 +167,12 @@ def run_pipeline(
     markdown_content = render_markdown_brief(
         prioritized,
         generated_at=timestamp,
+        change_report=change_report,
         catalog_version=catalog_version,
         top_n=20,
     )
 
-    # 8. Persist outputs only after all processing succeeds.
+    # 9. Persist outputs only after all processing succeeds.
     if write_outputs:
         write_json_document(
             json_path,
@@ -195,6 +205,7 @@ def run_pipeline(
             "low": priority_counts["LOW"],
         },
         "changes": changes["counts"],
+        "change_report": change_report,
         "write_outputs": write_outputs,
         "paths": {
             "state": str(state_path),

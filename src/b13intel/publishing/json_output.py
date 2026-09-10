@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from collections import Counter
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -13,7 +14,7 @@ from b13intel.prioritize.engine import (
 )
 
 
-OUTPUT_SCHEMA_VERSION = 1
+OUTPUT_SCHEMA_VERSION = 2
 DEFAULT_MAX_RECORDS = 100
 
 
@@ -39,6 +40,7 @@ def build_json_document(
     records: list[dict[str, Any]],
     *,
     generated_at: str,
+    change_report: dict[str, Any],
     catalog_version: str | None = None,
     max_records: int = DEFAULT_MAX_RECORDS,
 ) -> dict[str, Any]:
@@ -50,6 +52,31 @@ def build_json_document(
         )
 
     _validate_priorities(records)
+
+    if not isinstance(change_report, dict):
+        raise PublishingError(
+            "change_report must be a dictionary"
+        )
+
+    required_change_fields = {
+        "counts",
+        "new_priority_counts",
+        "changed_priority_counts",
+        "displayed",
+        "new_records",
+        "changed_records",
+        "removed_ids",
+    }
+
+    missing_change_fields = (
+        required_change_fields
+        - set(change_report)
+    )
+
+    if missing_change_fields:
+        raise PublishingError(
+            "change_report is missing required fields"
+        )
 
     counts = Counter(
         record["priority"]
@@ -78,6 +105,7 @@ def build_json_document(
             "low": counts["LOW"],
             "published_records": len(selected),
         },
+        "changes": deepcopy(change_report),
         "records": selected,
     }
 
