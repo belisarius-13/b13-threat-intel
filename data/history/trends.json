@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "priority_model": "B13-KEV-v1",
+  "points": [
+    {
+      "date": "2026-09-10",
+      "generated_at": "2026-09-10T21:36:07.992773Z",
+      "catalog_version": "2026.09.10",
+      "total": 1705,
+      "priorities": {
+        "critical": 224,
+        "high": 436,
+        "medium": 1045,
+        "low": 0
+      },
+      "signals": {
+        "ransomware_known": 359,
+        "epss_ge_090": 464,
+        "epss_ge_095": 365
+      },
+      "coverage": {
+        "epss_matched": 1705,
+        "epss_missing": 0
+      },
+      "changes": {
+        "new": 2,
+        "changed": 1,
+        "removed": 0,
+        "unchanged": 1702
+      }
+    }
+  ]
+}

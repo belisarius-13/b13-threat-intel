@@ -2,6 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-09-10T15:20:24.327983Z</updated>
+  <updated>2026-09-10T21:36:07.992773Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.10:new:CVE-2026-67277</id>
+    <title>[NEW] [MEDIUM] CVE-2026-67277 — MikroTik RouterOS</title>
+    <updated>2026-09-10T21:36:07.992773Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: MikroTik | Product: RouterOS | EPSS: 0.00435 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://mikrotik.com/supportsec/september-2026-vulnerability/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67277" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.10:new:CVE-2026-86060</id>
+    <title>[NEW] [MEDIUM] CVE-2026-86060 — MikroTik RouterOS</title>
+    <updated>2026-09-10T21:36:07.992773Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: MikroTik | Product: RouterOS | EPSS: 0.00401 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.10:changed:CVE-2026-20316</id>
+    <title>[CHANGED] [HIGH] CVE-2026-20316 — Cisco Secure Firewall Management Center (FMC)</title>
+    <updated>2026-09-10T21:36:07.992773Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Cisco | Product: Secure Firewall Management Center (FMC) | EPSS: 0.11153 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use</summary>
+    <link href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20316" rel="alternate" />
+  </entry>
 </feed>

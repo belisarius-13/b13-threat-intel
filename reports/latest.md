@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-10T15:20:24.327983Z
+**Generated:** 2026-09-10T21:36:07.992773Z
 
-**CISA KEV Catalog:** 2026.09.09
+**CISA KEV Catalog:** 2026.09.10
 
 **Priority Model:** B13-KEV-v1
 
@@ -11,40 +11,45 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 224 |
-| HIGH | 435 |
-| MEDIUM | 1044 |
+| HIGH | 436 |
+| MEDIUM | 1045 |
 | LOW | 0 |
-| **TOTAL** | **1703** |
+| **TOTAL** | **1705** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
-| CHANGED | 0 |
+| NEW | 2 |
+| CHANGED | 1 |
 | REMOVED | 0 |
-| UNCHANGED | 1703 |
+| UNCHANGED | 1702 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| HIGH | 0 | 1 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-67277 | MikroTik | RouterOS | 0.0043 | unknown |
+| MEDIUM | CVE-2026-86060 | MikroTik | RouterOS | 0.0040 | unknown |
 
 ### Updated Intelligence
 
-Showing **0** of **0** records.
+Showing **1** of **1** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| HIGH | CVE-2026-20316 | Cisco | Secure Firewall Management Center (FMC) | 0.1115 | known |
 
 ### Removed From CISA KEV
 
