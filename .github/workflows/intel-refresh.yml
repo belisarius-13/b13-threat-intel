@@ -86,9 +86,29 @@ jobs:
           )
 
           summary = document["summary"]
+          changes = document["changes"]
 
-          assert document["schema_version"] == 1
+          assert document["schema_version"] == 2
           assert document["priority_model"] == "B13-KEV-v1"
+          assert isinstance(changes, dict)
+
+          assert set(changes["counts"]) == {
+              "new",
+              "changed",
+              "removed",
+              "unchanged",
+          }
+
+          assert (
+              changes["counts"]["new"]
+              + changes["counts"]["changed"]
+              + changes["counts"]["unchanged"]
+              == state["record_count"]
+          )
+
+          assert len(changes["new_records"]) <= 20
+          assert len(changes["changed_records"]) <= 20
+          assert len(changes["removed_ids"]) <= 20
 
           assert (
               summary["critical"]
@@ -111,6 +131,10 @@ jobs:
           print("Catalog:", document["source_catalog_version"])
           print("Records:", summary["total"])
           print("Published:", len(document["records"]))
+          print("New:", changes["counts"]["new"])
+          print("Changed:", changes["counts"]["changed"])
+          print("Removed:", changes["counts"]["removed"])
+          print("Unchanged:", changes["counts"]["unchanged"])
           PY
 
       - name: Prepare publication files
