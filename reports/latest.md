@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-10T21:36:07.992773Z
+**Generated:** 2026-09-10T21:38:38.051119Z
 
 **CISA KEV Catalog:** 2026.09.10
 
@@ -20,36 +20,31 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 2 |
-| CHANGED | 1 |
+| NEW | 0 |
+| CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1702 |
+| UNCHANGED | 1705 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 0 | 1 |
-| MEDIUM | 2 | 0 |
+| HIGH | 0 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **2** of **2** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-67277 | MikroTik | RouterOS | 0.0043 | unknown |
-| MEDIUM | CVE-2026-86060 | MikroTik | RouterOS | 0.0040 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
-Showing **1** of **1** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| HIGH | CVE-2026-20316 | Cisco | Secure Firewall Management Center (FMC) | 0.1115 | known |
+No records in this category.
 
 ### Removed From CISA KEV
 

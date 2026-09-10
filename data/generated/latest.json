@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-10T21:36:07.992773Z",
+  "generated_at": "2026-09-10T21:38:38.051119Z",
   "source_catalog_version": "2026.09.10",
   "priority_model": "B13-KEV-v1",
   "sources": [
@@ -17,111 +17,30 @@
   },
   "changes": {
     "counts": {
-      "new": 2,
-      "changed": 1,
+      "new": 0,
+      "changed": 0,
       "removed": 0,
-      "unchanged": 1702
+      "unchanged": 1705
     },
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 2,
+      "medium": 0,
       "low": 0
     },
     "changed_priority_counts": {
       "critical": 0,
-      "high": 1,
+      "high": 0,
       "medium": 0,
       "low": 0
     },
     "displayed": {
-      "new": 2,
-      "changed": 1,
+      "new": 0,
+      "changed": 0,
       "removed": 0
     },
-    "new_records": [
-      {
-        "id": "CVE-2026-67277",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "MikroTik",
-        "product": "RouterOS",
-        "title": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-        "description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
-        "date_added": "2026-09-10",
-        "due_date": "2026-09-13",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
-        "cwes": [
-          "CWE-306"
-        ],
-        "epss": 0.00435,
-        "epss_percentile": 0.36743,
-        "epss_date": "2026-09-10",
-        "epss_source": "FIRST EPSS",
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      },
-      {
-        "id": "CVE-2026-86060",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "MikroTik",
-        "product": "RouterOS",
-        "title": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
-        "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
-        "date_added": "2026-09-10",
-        "due_date": "2026-09-13",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": " ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
-        "cwes": [
-          "CWE-88"
-        ],
-        "epss": 0.00401,
-        "epss_percentile": 0.33627,
-        "epss_date": "2026-09-10",
-        "epss_source": "FIRST EPSS",
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      }
-    ],
-    "changed_records": [
-      {
-        "id": "CVE-2026-20316",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "Cisco",
-        "product": "Secure Firewall Management Center (FMC)",
-        "title": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-        "description": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.",
-        "date_added": "2026-07-29",
-        "due_date": "2026-08-01",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "known",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
-        "cwes": [
-          "CWE-259"
-        ],
-        "epss": 0.11153,
-        "epss_percentile": 0.95678,
-        "epss_date": "2026-09-10",
-        "epss_source": "FIRST EPSS",
-        "priority": "HIGH",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild",
-          "CISA KEV reports known ransomware campaign use"
-        ],
-        "priority_model": "B13-KEV-v1"
-      }
-    ],
+    "new_records": [],
+    "changed_records": [],
     "removed_ids": []
   },
   "records": [
