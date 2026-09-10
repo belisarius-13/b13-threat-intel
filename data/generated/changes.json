@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T14:04:29.643681Z",
+  "source_catalog_version": "2026.09.09",
+  "priority_model": "B13-KEV-v1",
+  "source": "CISA KEV",
+  "enrichment": "FIRST EPSS",
+  "changes": {
+    "counts": {
+      "new": 0,
+      "changed": 0,
+      "removed": 0,
+      "unchanged": 1703
+    },
+    "new_priority_counts": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "changed_priority_counts": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "displayed": {
+      "new": 0,
+      "changed": 0,
+      "removed": 0
+    },
+    "new_records": [],
+    "changed_records": [],
+    "removed_ids": []
+  }
+}
