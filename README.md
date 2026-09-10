@@ -4,6 +4,7 @@ Machine-maintained publication branch for BELISARIUS13 Threat Intel.
 
 Generated artifacts:
 - `data/generated/latest.json` — ranked intelligence dataset
+- `data/generated/catalog.json` — complete compact analyst catalog
 - `data/generated/changes.json` — compact change interface
 - `feeds/changes.atom` — Atom syndication feed
 - `data/history/trends.json` — compact historical trend series
