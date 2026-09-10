@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-09T23:29:00.301815Z
+**Generated:** 2026-09-10T09:48:06.675918Z
 
 **CISA KEV Catalog:** 2026.09.09
 
