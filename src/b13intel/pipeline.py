@@ -12,6 +12,12 @@ from b13intel.enrich.epss import (
     enrich_with_epss,
     fetch_epss_scores,
 )
+from b13intel.history import (
+    build_history_point,
+    load_history,
+    save_history,
+    upsert_history_point,
+)
 from b13intel.normalize.cisa_kev import normalize_kev_catalog
 from b13intel.prioritize.engine import prioritize_records
 from b13intel.publishing.atom import (
@@ -40,6 +46,7 @@ from b13intel.state import (
 
 
 DEFAULT_STATE_PATH = Path("data/state/cisa_kev.json")
+DEFAULT_HISTORY_PATH = Path("data/history/trends.json")
 DEFAULT_JSON_PATH = Path("data/generated/latest.json")
 DEFAULT_CHANGE_JSON_PATH = Path("data/generated/changes.json")
 DEFAULT_ATOM_PATH = Path("feeds/changes.atom")
@@ -91,6 +98,7 @@ def run_pipeline(
     timestamp = generated_at or _utc_timestamp()
 
     state_path = root / DEFAULT_STATE_PATH
+    history_path = root / DEFAULT_HISTORY_PATH
     json_path = root / DEFAULT_JSON_PATH
     change_json_path = root / DEFAULT_CHANGE_JSON_PATH
     atom_path = root / DEFAULT_ATOM_PATH
@@ -167,7 +175,24 @@ def run_pipeline(
         max_records=20,
     )
 
-    # 8. Build publication artifacts.
+    # 8. Build the compact historical trend observation.
+    history_point = build_history_point(
+        prioritized,
+        generated_at=timestamp,
+        catalog_version=catalog_version,
+        change_counts=changes["counts"],
+    )
+
+    history = load_history(
+        history_path
+    )
+
+    updated_history = upsert_history_point(
+        history,
+        history_point,
+    )
+
+    # 9. Build publication artifacts.
     json_document = build_json_document(
         prioritized,
         generated_at=timestamp,
@@ -196,7 +221,7 @@ def run_pipeline(
         top_n=20,
     )
 
-    # 9. Persist outputs only after all processing succeeds.
+    # 10. Persist outputs only after all processing succeeds.
     if write_outputs:
         write_json_document(
             json_path,
@@ -216,6 +241,11 @@ def run_pipeline(
         write_markdown_brief(
             markdown_path,
             markdown_content,
+        )
+
+        save_history(
+            history_path,
+            updated_history,
         )
 
         # State is deliberately written last.
@@ -240,9 +270,16 @@ def run_pipeline(
         },
         "changes": changes["counts"],
         "change_report": change_report,
+        "history": {
+            "point": history_point,
+            "points": len(
+                updated_history["points"]
+            ),
+        },
         "write_outputs": write_outputs,
         "paths": {
             "state": str(state_path),
+            "history": str(history_path),
             "json": str(json_path),
             "change_json": str(change_json_path),
             "atom": str(atom_path),
