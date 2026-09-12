@@ -2,6 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-09-11T09:46:45.901259Z</updated>
+  <updated>2026-09-12T09:25:04.523601Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.11:new:CVE-2026-84869</id>
+    <title>[NEW] [MEDIUM] CVE-2026-84869 — ConnectWise ScreenConnect</title>
+    <updated>2026-09-12T09:25:04.523601Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: ConnectWise | Product: ScreenConnect | EPSS: 0.00382 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-84869" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.11:new:CVE-2026-42018</id>
+    <title>[NEW] [MEDIUM] CVE-2026-42018 — JFrog Artifactory</title>
+    <updated>2026-09-12T09:25:04.523601Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: JFrog | Product: Artifactory | EPSS: 0.00349 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-42018" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.11:new:CVE-2026-42016</id>
+    <title>[NEW] [MEDIUM] CVE-2026-42016 — JFrog Artifactory</title>
+    <updated>2026-09-12T09:25:04.523601Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: JFrog | Product: Artifactory | EPSS: 0.00266 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-42016" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.11:new:CVE-2026-85706</id>
+    <title>[NEW] [MEDIUM] CVE-2026-85706 — GitLab Community Edition and Enterprise Edition</title>
+    <updated>2026-09-12T09:25:04.523601Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: GitLab | Product: Community Edition and Enterprise Edition | EPSS: N/A | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85706" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.11:changed:CVE-2026-59310</id>
+    <title>[CHANGED] [HIGH] CVE-2026-59310 — Broadcom VMware vCenter</title>
+    <updated>2026-09-12T09:25:04.523601Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Broadcom | Product: VMware vCenter | EPSS: 0.45878 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use</summary>
+    <link href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59310" rel="alternate" />
+  </entry>
 </feed>

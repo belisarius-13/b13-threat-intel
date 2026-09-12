@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-11T09:46:45.901259Z
+**Generated:** 2026-09-12T09:25:04.523601Z
 
-**CISA KEV Catalog:** 2026.09.10
+**CISA KEV Catalog:** 2026.09.11
 
 **Priority Model:** B13-KEV-v1
 
@@ -11,40 +11,47 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 224 |
-| HIGH | 436 |
-| MEDIUM | 1045 |
+| HIGH | 437 |
+| MEDIUM | 1048 |
 | LOW | 0 |
-| **TOTAL** | **1705** |
+| **TOTAL** | **1709** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
-| CHANGED | 0 |
+| NEW | 4 |
+| CHANGED | 1 |
 | REMOVED | 0 |
-| UNCHANGED | 1705 |
+| UNCHANGED | 1704 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| HIGH | 0 | 1 |
+| MEDIUM | 4 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **4** of **4** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-84869 | ConnectWise | ScreenConnect | 0.0038 | unknown |
+| MEDIUM | CVE-2026-42018 | JFrog | Artifactory | 0.0035 | unknown |
+| MEDIUM | CVE-2026-42016 | JFrog | Artifactory | 0.0027 | unknown |
+| MEDIUM | CVE-2026-85706 | GitLab | Community Edition and Enterprise Edition | N/A | unknown |
 
 ### Updated Intelligence
 
-Showing **0** of **0** records.
+Showing **1** of **1** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| HIGH | CVE-2026-59310 | Broadcom | VMware vCenter | 0.4588 | known |
 
 ### Removed From CISA KEV
 
