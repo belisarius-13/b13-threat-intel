@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-12T09:25:04.523601Z
+**Generated:** 2026-09-13T10:20:09.815087Z
 
 **CISA KEV Catalog:** 2026.09.11
 
@@ -20,38 +20,31 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 4 |
-| CHANGED | 1 |
+| NEW | 0 |
+| CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1704 |
+| UNCHANGED | 1709 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 0 | 1 |
-| MEDIUM | 4 | 0 |
+| HIGH | 0 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **4** of **4** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-84869 | ConnectWise | ScreenConnect | 0.0038 | unknown |
-| MEDIUM | CVE-2026-42018 | JFrog | Artifactory | 0.0035 | unknown |
-| MEDIUM | CVE-2026-42016 | JFrog | Artifactory | 0.0027 | unknown |
-| MEDIUM | CVE-2026-85706 | GitLab | Community Edition and Enterprise Edition | N/A | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
-Showing **1** of **1** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| HIGH | CVE-2026-59310 | Broadcom | VMware vCenter | 0.4588 | known |
+No records in this category.
 
 ### Removed From CISA KEV
 
