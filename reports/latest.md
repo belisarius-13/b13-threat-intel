@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-14T10:43:55.949711Z
+**Generated:** 2026-09-15T10:07:40.415877Z
 
-**CISA KEV Catalog:** 2026.09.11
+**CISA KEV Catalog:** 2026.09.14
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 437 |
-| MEDIUM | 1048 |
+| MEDIUM | 1049 |
 | LOW | 0 |
-| **TOTAL** | **1709** |
+| **TOTAL** | **1710** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1709 |
@@ -31,14 +31,16 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 1 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **1** of **1** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-76461 | Cisco | Secure Email Gateway | N/A | unknown |
 
 ### Updated Intelligence
 
