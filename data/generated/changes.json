@@ -1,36 +1,221 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T09:59:56.793125Z",
-  "source_catalog_version": "2026.09.14",
+  "generated_at": "2026-09-17T10:02:21.771343Z",
+  "source_catalog_version": "2026.09.16",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
   "changes": {
     "counts": {
-      "new": 0,
-      "changed": 0,
+      "new": 3,
+      "changed": 4,
       "removed": 0,
-      "unchanged": 1710
+      "unchanged": 1706
     },
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 3,
       "low": 0
     },
     "changed_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 4,
       "low": 0
     },
     "displayed": {
-      "new": 0,
-      "changed": 0,
+      "new": 3,
+      "changed": 4,
       "removed": 0
     },
-    "new_records": [],
-    "changed_records": [],
+    "new_records": [
+      {
+        "id": "CVE-2026-58704",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Google",
+        "product": "Pixel",
+        "title": "Google Pixel Improper Authorization Vulnerability",
+        "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+        "date_added": "2026-09-16",
+        "due_date": "2026-09-19",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
+        "cwes": [
+          "CWE-693"
+        ],
+        "epss": 0.00112,
+        "epss_percentile": 0.01564,
+        "epss_date": "2026-09-16",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-76460",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Cisco",
+        "product": "Identity Services Engine",
+        "title": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+        "description": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
+        "date_added": "2026-09-16",
+        "due_date": "2026-09-19",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+        "cwes": [
+          "CWE-648"
+        ],
+        "epss": null,
+        "epss_percentile": null,
+        "epss_date": null,
+        "epss_source": null,
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-87886",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Acronis",
+        "product": "Backup",
+        "title": "Acronis Backup Incorrect Default Permissions Vulnerability",
+        "description": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+        "date_added": "2026-09-16",
+        "due_date": "2026-09-19",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://security-advisory.acronis.com/advisories/SEC-10986 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
+        "cwes": [
+          "CWE-276"
+        ],
+        "epss": null,
+        "epss_percentile": null,
+        "epss_date": null,
+        "epss_source": null,
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      }
+    ],
+    "changed_records": [
+      {
+        "id": "CVE-2026-86060",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "MikroTik",
+        "product": "RouterOS",
+        "title": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+        "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
+        "date_added": "2026-09-10",
+        "due_date": "2026-09-13",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+        "cwes": [
+          "CWE-88"
+        ],
+        "epss": 0.01057,
+        "epss_percentile": 0.62773,
+        "epss_date": "2026-09-16",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-42016",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "JFrog",
+        "product": "Artifactory",
+        "title": "JFrog Artifactory Incorrect Authorization Vulnerability",
+        "description": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope.",
+        "date_added": "2026-09-11",
+        "due_date": "2026-09-25",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
+        "cwes": [
+          "CWE-863"
+        ],
+        "epss": 0.00886,
+        "epss_percentile": 0.57488,
+        "epss_date": "2026-09-16",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-67277",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "MikroTik",
+        "product": "RouterOS",
+        "title": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+        "description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+        "date_added": "2026-09-10",
+        "due_date": "2026-09-13",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+        "cwes": [
+          "CWE-306"
+        ],
+        "epss": 0.00869,
+        "epss_percentile": 0.56984,
+        "epss_date": "2026-09-16",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-84869",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "ConnectWise",
+        "product": "ScreenConnect",
+        "title": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+        "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
+        "date_added": "2026-09-11",
+        "due_date": "2026-09-14",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+        "cwes": [
+          "CWE-269",
+          "CWE-862"
+        ],
+        "epss": 0.00691,
+        "epss_percentile": 0.51113,
+        "epss_date": "2026-09-16",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      }
+    ],
     "removed_ids": []
   }
 }
