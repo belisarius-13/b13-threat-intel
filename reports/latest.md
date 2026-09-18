@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-17T10:02:21.771343Z
+**Generated:** 2026-09-18T09:49:41.821425Z
 
 **CISA KEV Catalog:** 2026.09.16
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 3 |
-| CHANGED | 4 |
+| NEW | 0 |
+| CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1706 |
+| UNCHANGED | 1713 |
 
 ### Change Priority Breakdown
 
@@ -31,29 +31,20 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 3 | 4 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **3** of **3** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-58704 | Google | Pixel | 0.0011 | unknown |
-| MEDIUM | CVE-2026-76460 | Cisco | Identity Services Engine | N/A | unknown |
-| MEDIUM | CVE-2026-87886 | Acronis | Backup | N/A | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
-Showing **4** of **4** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-86060 | MikroTik | RouterOS | 0.0106 | unknown |
-| MEDIUM | CVE-2026-42016 | JFrog | Artifactory | 0.0089 | unknown |
-| MEDIUM | CVE-2026-67277 | MikroTik | RouterOS | 0.0087 | unknown |
-| MEDIUM | CVE-2026-84869 | ConnectWise | ScreenConnect | 0.0069 | unknown |
+No records in this category.
 
 ### Removed From CISA KEV
 
