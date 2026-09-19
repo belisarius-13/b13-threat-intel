@@ -2,6 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-09-18T09:49:41.821425Z</updated>
+  <updated>2026-09-19T09:34:19.170106Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.18:new:CVE-2025-39682</id>
+    <title>[NEW] [MEDIUM] CVE-2025-39682 — Linux Kernel</title>
+    <updated>2026-09-19T09:34:19.170106Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Linux | Product: Kernel | EPSS: 0.00505 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.18:new:CVE-2025-39964</id>
+    <title>[NEW] [MEDIUM] CVE-2025-39964 — Linux Kernel</title>
+    <updated>2026-09-19T09:34:19.170106Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Linux | Product: Kernel | EPSS: 0.00323 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.18:new:CVE-2026-53266</id>
+    <title>[NEW] [MEDIUM] CVE-2026-53266 — Linux Kernel</title>
+    <updated>2026-09-19T09:34:19.170106Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Linux | Product: Kernel | EPSS: 0.00121 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+  </entry>
 </feed>

@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-18T09:49:41.821425Z
+**Generated:** 2026-09-19T09:34:19.170106Z
 
-**CISA KEV Catalog:** 2026.09.16
+**CISA KEV Catalog:** 2026.09.18
 
 **Priority Model:** B13-KEV-v1
 
@@ -11,16 +11,16 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 224 |
-| HIGH | 439 |
-| MEDIUM | 1050 |
+| HIGH | 438 |
+| MEDIUM | 1054 |
 | LOW | 0 |
-| **TOTAL** | **1713** |
+| **TOTAL** | **1716** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 3 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1713 |
@@ -31,14 +31,18 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 3 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **3** of **3** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2025-39682 | Linux | Kernel | 0.0050 | unknown |
+| MEDIUM | CVE-2025-39964 | Linux | Kernel | 0.0032 | unknown |
+| MEDIUM | CVE-2026-53266 | Linux | Kernel | 0.0012 | unknown |
 
 ### Updated Intelligence
 
