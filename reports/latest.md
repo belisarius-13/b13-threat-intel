@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-19T09:34:19.170106Z
+**Generated:** 2026-09-20T09:50:34.970081Z
 
 **CISA KEV Catalog:** 2026.09.18
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 3 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1713 |
+| UNCHANGED | 1716 |
 
 ### Change Priority Breakdown
 
@@ -31,18 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 3 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **3** of **3** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2025-39682 | Linux | Kernel | 0.0050 | unknown |
-| MEDIUM | CVE-2025-39964 | Linux | Kernel | 0.0032 | unknown |
-| MEDIUM | CVE-2026-53266 | Linux | Kernel | 0.0012 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
