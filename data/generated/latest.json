@@ -1,23 +1,23 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-21T10:47:26.532741Z",
-  "source_catalog_version": "2026.09.18",
+  "generated_at": "2026-09-22T10:01:39.682935Z",
+  "source_catalog_version": "2026.09.21",
   "priority_model": "B13-KEV-v1",
   "sources": [
     "CISA KEV",
     "FIRST EPSS"
   ],
   "summary": {
-    "total": 1716,
+    "total": 1717,
     "critical": 224,
     "high": 438,
-    "medium": 1054,
+    "medium": 1055,
     "low": 0,
     "published_records": 100
   },
   "changes": {
     "counts": {
-      "new": 0,
+      "new": 1,
       "changed": 0,
       "removed": 0,
       "unchanged": 1716
@@ -25,7 +25,7 @@
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low": 0
     },
     "changed_priority_counts": {
@@ -35,11 +35,38 @@
       "low": 0
     },
     "displayed": {
-      "new": 0,
+      "new": 1,
       "changed": 0,
       "removed": 0
     },
-    "new_records": [],
+    "new_records": [
+      {
+        "id": "CVE-2026-7273",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Zyxel",
+        "product": "GS1900 Series Switches",
+        "title": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+        "description": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+        "date_added": "2026-09-21",
+        "due_date": "2026-09-24",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-stack-based-buffer-overflow-vulnerability-in-gs1900-series-switches-06-16-2026 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
+        "cwes": [
+          "CWE-121"
+        ],
+        "epss": 0.00315,
+        "epss_percentile": 0.24603,
+        "epss_date": "2026-09-21",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      }
+    ],
     "changed_records": [],
     "removed_ids": []
   },
@@ -62,7 +89,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99994,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -90,7 +117,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99994,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -118,7 +145,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99999,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -146,7 +173,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99996,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -174,7 +201,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99998,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -202,7 +229,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -232,7 +259,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99993,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -260,7 +287,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99998,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -288,7 +315,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99993,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -316,7 +343,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99997,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -344,7 +371,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99994,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -372,7 +399,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99997,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -402,7 +429,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -430,7 +457,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99993,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -458,7 +485,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -486,7 +513,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99997,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -514,7 +541,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99996,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -542,7 +569,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -570,7 +597,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -598,7 +625,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99996,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -626,7 +653,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99998,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -654,7 +681,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -682,7 +709,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99999,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -710,7 +737,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -739,7 +766,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -767,7 +794,7 @@
       ],
       "epss": 0.99998,
       "epss_percentile": 0.99991,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -795,7 +822,7 @@
       ],
       "epss": 0.99997,
       "epss_percentile": 0.99989,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -823,7 +850,7 @@
       ],
       "epss": 0.99996,
       "epss_percentile": 0.99989,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -851,7 +878,7 @@
       ],
       "epss": 0.99995,
       "epss_percentile": 0.99988,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -879,7 +906,7 @@
       ],
       "epss": 0.99992,
       "epss_percentile": 0.99987,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -907,7 +934,7 @@
       ],
       "epss": 0.99991,
       "epss_percentile": 0.99986,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -935,7 +962,7 @@
       ],
       "epss": 0.99991,
       "epss_percentile": 0.99986,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -963,7 +990,7 @@
       ],
       "epss": 0.99991,
       "epss_percentile": 0.99986,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -989,7 +1016,7 @@
       "cwes": [],
       "epss": 0.9999,
       "epss_percentile": 0.99985,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1017,7 +1044,7 @@
       ],
       "epss": 0.9999,
       "epss_percentile": 0.99985,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1045,7 +1072,7 @@
       ],
       "epss": 0.9999,
       "epss_percentile": 0.99985,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1073,7 +1100,7 @@
       ],
       "epss": 0.99988,
       "epss_percentile": 0.99984,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1101,7 +1128,7 @@
       ],
       "epss": 0.99987,
       "epss_percentile": 0.99983,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1129,7 +1156,7 @@
       ],
       "epss": 0.99986,
       "epss_percentile": 0.99983,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1157,7 +1184,7 @@
       ],
       "epss": 0.99984,
       "epss_percentile": 0.99982,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1185,7 +1212,7 @@
       ],
       "epss": 0.99984,
       "epss_percentile": 0.99982,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1213,7 +1240,7 @@
       ],
       "epss": 0.99984,
       "epss_percentile": 0.99982,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1241,7 +1268,7 @@
       ],
       "epss": 0.99981,
       "epss_percentile": 0.99981,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1269,7 +1296,7 @@
       ],
       "epss": 0.9998,
       "epss_percentile": 0.9998,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1297,7 +1324,7 @@
       ],
       "epss": 0.99979,
       "epss_percentile": 0.9998,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1325,7 +1352,7 @@
       ],
       "epss": 0.99978,
       "epss_percentile": 0.9998,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1353,7 +1380,7 @@
       ],
       "epss": 0.99977,
       "epss_percentile": 0.99979,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1381,7 +1408,7 @@
       ],
       "epss": 0.99976,
       "epss_percentile": 0.99979,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1409,7 +1436,7 @@
       ],
       "epss": 0.99976,
       "epss_percentile": 0.99978,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1437,7 +1464,7 @@
       ],
       "epss": 0.99972,
       "epss_percentile": 0.99977,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1465,7 +1492,7 @@
       ],
       "epss": 0.9997,
       "epss_percentile": 0.99977,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1493,7 +1520,7 @@
       ],
       "epss": 0.99968,
       "epss_percentile": 0.99976,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1521,7 +1548,7 @@
       ],
       "epss": 0.99964,
       "epss_percentile": 0.99976,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1549,7 +1576,7 @@
       ],
       "epss": 0.99964,
       "epss_percentile": 0.99976,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1577,7 +1604,7 @@
       ],
       "epss": 0.99962,
       "epss_percentile": 0.99975,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1605,7 +1632,7 @@
       ],
       "epss": 0.99958,
       "epss_percentile": 0.99975,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1633,7 +1660,7 @@
       ],
       "epss": 0.99956,
       "epss_percentile": 0.99974,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1661,7 +1688,7 @@
       ],
       "epss": 0.9995,
       "epss_percentile": 0.99974,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1689,7 +1716,7 @@
       ],
       "epss": 0.99949,
       "epss_percentile": 0.99973,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1717,7 +1744,7 @@
       ],
       "epss": 0.99945,
       "epss_percentile": 0.99973,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1743,7 +1770,7 @@
       "cwes": [],
       "epss": 0.99943,
       "epss_percentile": 0.99972,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1771,7 +1798,7 @@
       ],
       "epss": 0.99938,
       "epss_percentile": 0.99971,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1799,7 +1826,7 @@
       ],
       "epss": 0.99937,
       "epss_percentile": 0.99971,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1827,7 +1854,7 @@
       ],
       "epss": 0.99934,
       "epss_percentile": 0.9997,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1853,7 +1880,7 @@
       "cwes": [],
       "epss": 0.99933,
       "epss_percentile": 0.9997,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1881,7 +1908,7 @@
       ],
       "epss": 0.99933,
       "epss_percentile": 0.9997,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1909,7 +1936,7 @@
       ],
       "epss": 0.99913,
       "epss_percentile": 0.99968,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1937,7 +1964,7 @@
       ],
       "epss": 0.99913,
       "epss_percentile": 0.99967,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1965,7 +1992,7 @@
       ],
       "epss": 0.99912,
       "epss_percentile": 0.99967,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1993,7 +2020,7 @@
       ],
       "epss": 0.99906,
       "epss_percentile": 0.99966,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2021,7 +2048,7 @@
       ],
       "epss": 0.99898,
       "epss_percentile": 0.99965,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2049,7 +2076,7 @@
       ],
       "epss": 0.99876,
       "epss_percentile": 0.99964,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2077,7 +2104,7 @@
       ],
       "epss": 0.99865,
       "epss_percentile": 0.99962,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2104,8 +2131,8 @@
         "CWE-119"
       ],
       "epss": 0.9981,
-      "epss_percentile": 0.99958,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99959,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2130,8 +2157,8 @@
       "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
       "cwes": [],
       "epss": 0.99802,
-      "epss_percentile": 0.99958,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99959,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2159,8 +2186,8 @@
         "CWE-77"
       ],
       "epss": 0.99799,
-      "epss_percentile": 0.99957,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99958,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2187,8 +2214,8 @@
         "CWE-269"
       ],
       "epss": 0.99792,
-      "epss_percentile": 0.99956,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99957,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2216,8 +2243,8 @@
         "CWE-434"
       ],
       "epss": 0.99782,
-      "epss_percentile": 0.99956,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99957,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2244,8 +2271,8 @@
         "CWE-120"
       ],
       "epss": 0.9978,
-      "epss_percentile": 0.99956,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99957,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2273,7 +2300,7 @@
       ],
       "epss": 0.99766,
       "epss_percentile": 0.99955,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2298,8 +2325,8 @@
       "notes": "https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
       "cwes": [],
       "epss": 0.99753,
-      "epss_percentile": 0.99954,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99955,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2326,8 +2353,8 @@
         "CWE-94"
       ],
       "epss": 0.99749,
-      "epss_percentile": 0.99954,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99955,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2354,8 +2381,8 @@
         "CWE-502"
       ],
       "epss": 0.99737,
-      "epss_percentile": 0.99953,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99954,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2381,7 +2408,7 @@
       "cwes": [],
       "epss": 0.99732,
       "epss_percentile": 0.99953,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2410,7 +2437,7 @@
       ],
       "epss": 0.99731,
       "epss_percentile": 0.99953,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2437,8 +2464,8 @@
         "CWE-502"
       ],
       "epss": 0.99723,
-      "epss_percentile": 0.99952,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99953,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2466,7 +2493,7 @@
       ],
       "epss": 0.99721,
       "epss_percentile": 0.99952,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2493,8 +2520,8 @@
         "CWE-306"
       ],
       "epss": 0.99718,
-      "epss_percentile": 0.99951,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99952,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2521,8 +2548,8 @@
         "CWE-200"
       ],
       "epss": 0.99693,
-      "epss_percentile": 0.9995,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99951,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2550,7 +2577,7 @@
       ],
       "epss": 0.99607,
       "epss_percentile": 0.99948,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2577,8 +2604,8 @@
         "CWE-197"
       ],
       "epss": 0.99474,
-      "epss_percentile": 0.99943,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99944,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2606,7 +2633,7 @@
       ],
       "epss": 0.99471,
       "epss_percentile": 0.99943,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2633,8 +2660,8 @@
         "CWE-434"
       ],
       "epss": 0.9947,
-      "epss_percentile": 0.99942,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99943,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2662,7 +2689,7 @@
       ],
       "epss": 0.99448,
       "epss_percentile": 0.99942,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2689,8 +2716,8 @@
         "CWE-330"
       ],
       "epss": 0.99389,
-      "epss_percentile": 0.99939,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.9994,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2717,8 +2744,8 @@
         "CWE-20"
       ],
       "epss": 0.99373,
-      "epss_percentile": 0.99939,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.9994,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2744,7 +2771,7 @@
       "cwes": [],
       "epss": 0.99236,
       "epss_percentile": 0.99936,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2771,8 +2798,8 @@
         "CWE-610"
       ],
       "epss": 0.99234,
-      "epss_percentile": 0.99935,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99936,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2799,8 +2826,8 @@
         "CWE-20"
       ],
       "epss": 0.9923,
-      "epss_percentile": 0.99935,
-      "epss_date": "2026-09-20",
+      "epss_percentile": 0.99936,
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2826,7 +2853,7 @@
       "cwes": [],
       "epss": 0.99156,
       "epss_percentile": 0.99933,
-      "epss_date": "2026-09-20",
+      "epss_date": "2026-09-21",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [

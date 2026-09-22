@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-21T10:47:26.532741Z
+**Generated:** 2026-09-22T10:01:39.682935Z
 
-**CISA KEV Catalog:** 2026.09.18
+**CISA KEV Catalog:** 2026.09.21
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 438 |
-| MEDIUM | 1054 |
+| MEDIUM | 1055 |
 | LOW | 0 |
-| **TOTAL** | **1716** |
+| **TOTAL** | **1717** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1716 |
@@ -31,14 +31,16 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 1 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **1** of **1** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-7273 | Zyxel | GS1900 Series Switches | 0.0032 | unknown |
 
 ### Updated Intelligence
 
