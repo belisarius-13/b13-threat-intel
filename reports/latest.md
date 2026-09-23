@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-22T10:01:39.682935Z
+**Generated:** 2026-09-23T10:02:22.976309Z
 
-**CISA KEV Catalog:** 2026.09.21
+**CISA KEV Catalog:** 2026.09.22
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,18 +12,18 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 438 |
-| MEDIUM | 1055 |
+| MEDIUM | 1059 |
 | LOW | 0 |
-| **TOTAL** | **1717** |
+| **TOTAL** | **1721** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 1 |
+| NEW | 4 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1716 |
+| UNCHANGED | 1717 |
 
 ### Change Priority Breakdown
 
@@ -31,16 +31,19 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 1 | 0 |
+| MEDIUM | 4 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **1** of **1** records.
+Showing **4** of **4** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-7273 | Zyxel | GS1900 Series Switches | 0.0032 | unknown |
+| MEDIUM | CVE-2026-93952 | Arista | VeloCloud Orchestrator | 0.0042 | unknown |
+| MEDIUM | CVE-2026-85102 | Check Point | Multiple Products | 0.0033 | unknown |
+| MEDIUM | CVE-2026-93616 | Check Point | Multiple Products | N/A | unknown |
+| MEDIUM | CVE-2026-94127 | F5 | BIG-IP APM | N/A | unknown |
 
 ### Updated Intelligence
 
