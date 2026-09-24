@@ -1,141 +1,65 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T10:02:22.976309Z",
-  "source_catalog_version": "2026.09.22",
+  "generated_at": "2026-09-24T10:05:30.063266Z",
+  "source_catalog_version": "2026.09.23",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
   "changes": {
     "counts": {
-      "new": 4,
-      "changed": 0,
+      "new": 0,
+      "changed": 1,
       "removed": 0,
-      "unchanged": 1717
+      "unchanged": 1720
     },
     "new_priority_counts": {
-      "critical": 0,
-      "high": 0,
-      "medium": 4,
-      "low": 0
-    },
-    "changed_priority_counts": {
       "critical": 0,
       "high": 0,
       "medium": 0,
       "low": 0
     },
+    "changed_priority_counts": {
+      "critical": 1,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
     "displayed": {
-      "new": 4,
-      "changed": 0,
+      "new": 0,
+      "changed": 1,
       "removed": 0
     },
-    "new_records": [
+    "new_records": [],
+    "changed_records": [
       {
-        "id": "CVE-2026-93952",
+        "id": "CVE-2026-63077",
         "type": "vulnerability",
         "source": "CISA KEV",
-        "vendor": "Arista",
-        "product": "VeloCloud Orchestrator",
-        "title": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-        "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-        "date_added": "2026-09-22",
-        "due_date": "2026-09-25",
+        "vendor": "JetBrains",
+        "product": "TeamCity",
+        "title": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+        "description": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
+        "date_added": "2026-08-05",
+        "due_date": "2026-08-08",
         "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+        "ransomware_use": "known",
+        "notes": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
         "cwes": [
-          "CWE-20"
+          "CWE-502"
         ],
-        "epss": 0.00424,
-        "epss_percentile": 0.36318,
-        "epss_date": "2026-09-22",
+        "epss": 0.86518,
+        "epss_percentile": 0.99729,
+        "epss_date": "2026-09-23",
         "epss_source": "FIRST EPSS",
-        "priority": "MEDIUM",
+        "priority": "CRITICAL",
         "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      },
-      {
-        "id": "CVE-2026-85102",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "Check Point",
-        "product": "Multiple Products",
-        "title": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
-        "description": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
-        "date_added": "2026-09-22",
-        "due_date": "2026-09-25",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "https://support.checkpoint.com/results/sk/sk1000117 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
-        "cwes": [
-          "CWE-295"
-        ],
-        "epss": 0.00329,
-        "epss_percentile": 0.26293,
-        "epss_date": "2026-09-22",
-        "epss_source": "FIRST EPSS",
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      },
-      {
-        "id": "CVE-2026-93616",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "Check Point",
-        "product": "Multiple Products",
-        "title": "Check Point Multiple Products Path Traversal Vulnerability",
-        "description": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts.",
-        "date_added": "2026-09-22",
-        "due_date": "2026-09-25",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "https://support.checkpoint.com/results/sk/sk1000171/ ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
-        "cwes": [
-          "CWE-22"
-        ],
-        "epss": null,
-        "epss_percentile": null,
-        "epss_date": null,
-        "epss_source": null,
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      },
-      {
-        "id": "CVE-2026-94127",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "F5",
-        "product": "BIG-IP APM",
-        "title": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-        "description": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
-        "date_added": "2026-09-22",
-        "due_date": "2026-09-25",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "For temporary mitigation to allow for proactive forensic triage, apply the vendor-provided iRule. Once completed, install the final vendor patch as soon as possible. For more information please see: https://my.f5.com/manage/s/article/K000162605 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
-        "cwes": [
-          "CWE-122"
-        ],
-        "epss": null,
-        "epss_percentile": null,
-        "epss_date": null,
-        "epss_source": null,
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
+          "CISA KEV confirms exploitation in the wild",
+          "CISA KEV reports known ransomware campaign use",
+          "EPSS probability is at or above 0.70"
         ],
         "priority_model": "B13-KEV-v1"
       }
     ],
-    "changed_records": [],
     "removed_ids": []
   }
 }

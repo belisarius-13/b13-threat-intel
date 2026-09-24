@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-23T10:02:22.976309Z
+**Generated:** 2026-09-24T10:05:30.063266Z
 
-**CISA KEV Catalog:** 2026.09.22
+**CISA KEV Catalog:** 2026.09.23
 
 **Priority Model:** B13-KEV-v1
 
@@ -10,9 +10,9 @@
 
 | Priority | Count |
 | --- | ---: |
-| CRITICAL | 224 |
+| CRITICAL | 225 |
 | HIGH | 438 |
-| MEDIUM | 1059 |
+| MEDIUM | 1058 |
 | LOW | 0 |
 | **TOTAL** | **1721** |
 
@@ -20,36 +20,33 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 4 |
-| CHANGED | 0 |
+| NEW | 0 |
+| CHANGED | 1 |
 | REMOVED | 0 |
-| UNCHANGED | 1717 |
+| UNCHANGED | 1720 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
-| CRITICAL | 0 | 0 |
+| CRITICAL | 0 | 1 |
 | HIGH | 0 | 0 |
-| MEDIUM | 4 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **4** of **4** records.
-
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-93952 | Arista | VeloCloud Orchestrator | 0.0042 | unknown |
-| MEDIUM | CVE-2026-85102 | Check Point | Multiple Products | 0.0033 | unknown |
-| MEDIUM | CVE-2026-93616 | Check Point | Multiple Products | N/A | unknown |
-| MEDIUM | CVE-2026-94127 | F5 | BIG-IP APM | N/A | unknown |
-
-### Updated Intelligence
-
 Showing **0** of **0** records.
 
 No records in this category.
+
+### Updated Intelligence
+
+Showing **1** of **1** records.
+
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| CRITICAL | CVE-2026-63077 | JetBrains | TeamCity | 0.8652 | known |
 
 ### Removed From CISA KEV
 
