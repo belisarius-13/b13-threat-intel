@@ -2,15 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-09-24T10:05:30.063266Z</updated>
+  <updated>2026-09-26T09:55:09.662661Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
   <entry>
-    <id>urn:belisarius13:threat-intel:2026.09.23:changed:CVE-2026-63077</id>
-    <title>[CHANGED] [CRITICAL] CVE-2026-63077 — JetBrains TeamCity</title>
-    <updated>2026-09-24T10:05:30.063266Z</updated>
-    <category term="changed" label="CHANGED" />
-    <category term="critical" label="CRITICAL" />
-    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: JetBrains | Product: TeamCity | EPSS: 0.86518 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.70</summary>
-    <link href="https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077" rel="alternate" />
+    <id>urn:belisarius13:threat-intel:2026.09.25:new:CVE-2026-71362</id>
+    <title>[NEW] [MEDIUM] CVE-2026-71362 — Adobe Commerce and Magento</title>
+    <updated>2026-09-26T09:55:09.662661Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Adobe | Product: Commerce and Magento | EPSS: 0.89616 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.70</summary>
+    <link href="https://helpx.adobe.com/security/products/magento/apsb26-92.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-71362" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.25:new:CVE-2026-87902</id>
+    <title>[NEW] [MEDIUM] CVE-2026-87902 — WordPress Core</title>
+    <updated>2026-09-26T09:55:09.662661Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: WordPress | Product: Core | EPSS: 0.02877 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.25:new:CVE-2026-65660</id>
+    <title>[NEW] [MEDIUM] CVE-2026-65660 — Microsoft SharePoint</title>
+    <updated>2026-09-26T09:55:09.662661Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Microsoft | Product: SharePoint | EPSS: 0.01221 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.25:new:CVE-2026-67279</id>
+    <title>[NEW] [MEDIUM] CVE-2026-67279 — MikroTik RouterOS</title>
+    <updated>2026-09-26T09:55:09.662661Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: MikroTik | Product: RouterOS | EPSS: 0.0071 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://mikrotik.com/supportsec/september-2026-vulnerability/?utm_source=chatgpt.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.09.25:new:CVE-2026-5430</id>
+    <title>[NEW] [MEDIUM] CVE-2026-5430 — WSO2 Multiple Products</title>
+    <updated>2026-09-26T09:55:09.662661Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: WSO2 | Product: Multiple Products | EPSS: 0.0058 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2026/WSO2-2026-5328/ ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-5430" rel="alternate" />
   </entry>
 </feed>

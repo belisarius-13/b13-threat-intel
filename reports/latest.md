@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-24T10:05:30.063266Z
+**Generated:** 2026-09-26T09:55:09.662661Z
 
-**CISA KEV Catalog:** 2026.09.23
+**CISA KEV Catalog:** 2026.09.25
 
 **Priority Model:** B13-KEV-v1
 
@@ -10,43 +10,47 @@
 
 | Priority | Count |
 | --- | ---: |
-| CRITICAL | 225 |
-| HIGH | 438 |
-| MEDIUM | 1058 |
+| CRITICAL | 220 |
+| HIGH | 437 |
+| MEDIUM | 1069 |
 | LOW | 0 |
-| **TOTAL** | **1721** |
+| **TOTAL** | **1726** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
-| CHANGED | 1 |
+| NEW | 5 |
+| CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1720 |
+| UNCHANGED | 1721 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
-| CRITICAL | 0 | 1 |
+| CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 5 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
-
-No records in this category.
-
-### Updated Intelligence
-
-Showing **1** of **1** records.
+Showing **5** of **5** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| CRITICAL | CVE-2026-63077 | JetBrains | TeamCity | 0.8652 | known |
+| MEDIUM | CVE-2026-71362 | Adobe | Commerce and Magento | 0.8962 | unknown |
+| MEDIUM | CVE-2026-87902 | WordPress | Core | 0.0288 | unknown |
+| MEDIUM | CVE-2026-65660 | Microsoft | SharePoint | 0.0122 | unknown |
+| MEDIUM | CVE-2026-67279 | MikroTik | RouterOS | 0.0071 | unknown |
+| MEDIUM | CVE-2026-5430 | WSO2 | Multiple Products | 0.0058 | unknown |
+
+### Updated Intelligence
+
+Showing **0** of **0** records.
+
+No records in this category.
 
 ### Removed From CISA KEV
 

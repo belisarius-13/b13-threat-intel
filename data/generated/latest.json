@@ -1,75 +1,178 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T10:05:30.063266Z",
-  "source_catalog_version": "2026.09.23",
+  "generated_at": "2026-09-26T09:55:09.662661Z",
+  "source_catalog_version": "2026.09.25",
   "priority_model": "B13-KEV-v1",
   "sources": [
     "CISA KEV",
     "FIRST EPSS"
   ],
   "summary": {
-    "total": 1721,
-    "critical": 225,
-    "high": 438,
-    "medium": 1058,
+    "total": 1726,
+    "critical": 220,
+    "high": 437,
+    "medium": 1069,
     "low": 0,
     "published_records": 100
   },
   "changes": {
     "counts": {
-      "new": 0,
-      "changed": 1,
+      "new": 5,
+      "changed": 0,
       "removed": 0,
-      "unchanged": 1720
+      "unchanged": 1721
     },
     "new_priority_counts": {
+      "critical": 0,
+      "high": 0,
+      "medium": 5,
+      "low": 0
+    },
+    "changed_priority_counts": {
       "critical": 0,
       "high": 0,
       "medium": 0,
       "low": 0
     },
-    "changed_priority_counts": {
-      "critical": 1,
-      "high": 0,
-      "medium": 0,
-      "low": 0
-    },
     "displayed": {
-      "new": 0,
-      "changed": 1,
+      "new": 5,
+      "changed": 0,
       "removed": 0
     },
-    "new_records": [],
-    "changed_records": [
+    "new_records": [
       {
-        "id": "CVE-2026-63077",
+        "id": "CVE-2026-71362",
         "type": "vulnerability",
         "source": "CISA KEV",
-        "vendor": "JetBrains",
-        "product": "TeamCity",
-        "title": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-        "description": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
-        "date_added": "2026-08-05",
-        "due_date": "2026-08-08",
+        "vendor": "Adobe",
+        "product": "Commerce and Magento ",
+        "title": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+        "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
+        "date_added": "2026-09-24",
+        "due_date": "2026-09-27",
         "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "known",
-        "notes": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
+        "ransomware_use": "unknown",
+        "notes": "https://helpx.adobe.com/security/products/magento/apsb26-92.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
         "cwes": [
-          "CWE-502"
+          "CWE-863"
         ],
-        "epss": 0.86518,
-        "epss_percentile": 0.99729,
-        "epss_date": "2026-09-23",
+        "epss": 0.89616,
+        "epss_percentile": 0.99783,
+        "epss_date": "2026-09-25",
         "epss_source": "FIRST EPSS",
-        "priority": "CRITICAL",
+        "priority": "MEDIUM",
         "priority_reasons": [
           "CISA KEV confirms exploitation in the wild",
-          "CISA KEV reports known ransomware campaign use",
           "EPSS probability is at or above 0.70"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-87902",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "WordPress",
+        "product": "Core",
+        "title": "WordPress Core Remote File Inclusion Vulnerability",
+        "description": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
+        "date_added": "2026-09-25",
+        "due_date": "2026-09-28",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
+        "cwes": [
+          "CWE-98"
+        ],
+        "epss": 0.02877,
+        "epss_percentile": 0.86275,
+        "epss_date": "2026-09-25",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-65660",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Microsoft",
+        "product": "SharePoint",
+        "title": "Microsoft SharePoint Code Injection Vulnerability",
+        "description": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
+        "date_added": "2026-09-25",
+        "due_date": "2026-09-28",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
+        "cwes": [
+          "CWE-94"
+        ],
+        "epss": 0.01221,
+        "epss_percentile": 0.6743,
+        "epss_date": "2026-09-25",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-67279",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "MikroTik",
+        "product": "RouterOS",
+        "title": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+        "description": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
+        "date_added": "2026-09-25",
+        "due_date": "2026-09-28",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability/?utm_source=chatgpt.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
+        "cwes": [
+          "CWE-841"
+        ],
+        "epss": 0.0071,
+        "epss_percentile": 0.51535,
+        "epss_date": "2026-09-25",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-5430",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "WSO2",
+        "product": "Multiple Products",
+        "title": "WSO2 Multiple Products Path Traversal Vulnerability ",
+        "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
+        "date_added": "2026-09-24",
+        "due_date": "2026-09-27",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2026/WSO2-2026-5328/ ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+        "cwes": [
+          "CWE-347"
+        ],
+        "epss": 0.0058,
+        "epss_percentile": 0.45384,
+        "epss_date": "2026-09-25",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
         ],
         "priority_model": "B13-KEV-v1"
       }
     ],
+    "changed_records": [],
     "removed_ids": []
   },
   "records": [
@@ -91,7 +194,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99994,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -119,7 +222,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99994,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -147,7 +250,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99999,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -174,8 +277,8 @@
         "CWE-22"
       ],
       "epss": 0.99999,
-      "epss_percentile": 0.99996,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99995,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -203,7 +306,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99998,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -231,7 +334,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -261,7 +364,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99993,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -289,7 +392,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99998,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -317,7 +420,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99993,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -345,7 +448,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99997,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -373,7 +476,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99994,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -401,7 +504,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99997,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -431,7 +534,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -459,7 +562,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99993,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -487,7 +590,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -514,8 +617,8 @@
         "CWE-502"
       ],
       "epss": 0.99999,
-      "epss_percentile": 0.99997,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99996,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -543,7 +646,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99996,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -571,7 +674,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -598,8 +701,8 @@
         "CWE-287"
       ],
       "epss": 0.99999,
-      "epss_percentile": 0.99995,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99998,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -627,7 +730,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99996,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -654,8 +757,8 @@
         "CWE-119"
       ],
       "epss": 0.99999,
-      "epss_percentile": 0.99998,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99997,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -683,7 +786,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -711,7 +814,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99999,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -739,7 +842,7 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 0.99995,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -768,7 +871,35 @@
       ],
       "epss": 0.99999,
       "epss_percentile": 1.0,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-22954",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "VMware",
+      "product": "Workspace ONE Access and Identity Manager",
+      "title": "VMware Workspace ONE Access and Identity Manager Server-Side Template Injection Vulnerability",
+      "description": "VMware Workspace ONE Access and Identity Manager allow for remote code execution due to server-side template injection.",
+      "date_added": "2022-04-14",
+      "due_date": "2022-05-05",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-22954",
+      "cwes": [
+        "CWE-94"
+      ],
+      "epss": 0.99998,
+      "epss_percentile": 0.99989,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -795,36 +926,8 @@
         "CWE-502"
       ],
       "epss": 0.99998,
-      "epss_percentile": 0.99991,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2022-22954",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "VMware",
-      "product": "Workspace ONE Access and Identity Manager",
-      "title": "VMware Workspace ONE Access and Identity Manager Server-Side Template Injection Vulnerability",
-      "description": "VMware Workspace ONE Access and Identity Manager allow for remote code execution due to server-side template injection.",
-      "date_added": "2022-04-14",
-      "due_date": "2022-05-05",
-      "required_action": "Apply updates per vendor instructions.",
-      "ransomware_use": "known",
-      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-22954",
-      "cwes": [
-        "CWE-94"
-      ],
-      "epss": 0.99997,
-      "epss_percentile": 0.99989,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.9999,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -851,8 +954,8 @@
         "CWE-918"
       ],
       "epss": 0.99996,
-      "epss_percentile": 0.99989,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99988,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -880,7 +983,35 @@
       ],
       "epss": 0.99995,
       "epss_percentile": 0.99988,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2025-3248",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "title": "Langflow Missing Authentication Vulnerability",
+      "description": "Langflow contains a missing authentication vulnerability in the /api/v1/validate/code endpoint that allows a remote, unauthenticated attacker to execute arbitrary code via crafted HTTP requests.",
+      "date_added": "2025-05-05",
+      "due_date": "2025-05-26",
+      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "This vulnerability affects a common open-source project, third-party library, or a protocol used by different products. For more information, please see: https://github.com/advisories/GHSA-c995-4fw3-j39m ; https://nvd.nist.gov/vuln/detail/CVE-2025-3248",
+      "cwes": [
+        "CWE-306"
+      ],
+      "epss": 0.99993,
+      "epss_percentile": 0.99987,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -907,8 +1038,8 @@
         "CWE-22"
       ],
       "epss": 0.99992,
-      "epss_percentile": 0.99987,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99986,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -935,8 +1066,8 @@
         "CWE-20"
       ],
       "epss": 0.99991,
-      "epss_percentile": 0.99986,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99985,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -963,8 +1094,8 @@
         "CWE-502"
       ],
       "epss": 0.99991,
-      "epss_percentile": 0.99986,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99985,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -992,7 +1123,7 @@
       ],
       "epss": 0.99991,
       "epss_percentile": 0.99986,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1018,7 +1149,7 @@
       "cwes": [],
       "epss": 0.9999,
       "epss_percentile": 0.99985,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1046,35 +1177,7 @@
       ],
       "epss": 0.9999,
       "epss_percentile": 0.99985,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2025-3248",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "title": "Langflow Missing Authentication Vulnerability",
-      "description": "Langflow contains a missing authentication vulnerability in the /api/v1/validate/code endpoint that allows a remote, unauthenticated attacker to execute arbitrary code via crafted HTTP requests.",
-      "date_added": "2025-05-05",
-      "due_date": "2025-05-26",
-      "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "ransomware_use": "known",
-      "notes": "This vulnerability affects a common open-source project, third-party library, or a protocol used by different products. For more information, please see: https://github.com/advisories/GHSA-c995-4fw3-j39m ; https://nvd.nist.gov/vuln/detail/CVE-2025-3248",
-      "cwes": [
-        "CWE-306"
-      ],
-      "epss": 0.9999,
-      "epss_percentile": 0.99985,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1102,7 +1205,7 @@
       ],
       "epss": 0.99988,
       "epss_percentile": 0.99984,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1130,7 +1233,7 @@
       ],
       "epss": 0.99987,
       "epss_percentile": 0.99983,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1158,7 +1261,7 @@
       ],
       "epss": 0.99986,
       "epss_percentile": 0.99983,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1186,7 +1289,7 @@
       ],
       "epss": 0.99984,
       "epss_percentile": 0.99983,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1214,7 +1317,7 @@
       ],
       "epss": 0.99984,
       "epss_percentile": 0.99982,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1242,7 +1345,7 @@
       ],
       "epss": 0.99984,
       "epss_percentile": 0.99982,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1270,7 +1373,7 @@
       ],
       "epss": 0.99981,
       "epss_percentile": 0.99981,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1298,7 +1401,7 @@
       ],
       "epss": 0.9998,
       "epss_percentile": 0.9998,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1326,7 +1429,7 @@
       ],
       "epss": 0.99979,
       "epss_percentile": 0.9998,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1354,7 +1457,7 @@
       ],
       "epss": 0.99978,
       "epss_percentile": 0.9998,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1382,7 +1485,7 @@
       ],
       "epss": 0.99977,
       "epss_percentile": 0.99979,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1410,7 +1513,7 @@
       ],
       "epss": 0.99976,
       "epss_percentile": 0.99979,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1438,7 +1541,7 @@
       ],
       "epss": 0.99976,
       "epss_percentile": 0.99978,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1465,8 +1568,8 @@
         "CWE-125"
       ],
       "epss": 0.99972,
-      "epss_percentile": 0.99977,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99978,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1494,7 +1597,7 @@
       ],
       "epss": 0.9997,
       "epss_percentile": 0.99977,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1521,8 +1624,8 @@
         "CWE-502"
       ],
       "epss": 0.99968,
-      "epss_percentile": 0.99976,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99977,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1550,7 +1653,7 @@
       ],
       "epss": 0.99964,
       "epss_percentile": 0.99976,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1578,7 +1681,7 @@
       ],
       "epss": 0.99964,
       "epss_percentile": 0.99976,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1606,35 +1709,7 @@
       ],
       "epss": 0.99962,
       "epss_percentile": 0.99975,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2022-1388",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "F5",
-      "product": "BIG-IP",
-      "title": "F5 BIG-IP Missing Authentication Vulnerability",
-      "description": "F5 BIG-IP contains a missing authentication in critical function vulnerability which can allow for remote code execution, creation or deletion of files, or disabling services.",
-      "date_added": "2022-05-10",
-      "due_date": "2022-05-31",
-      "required_action": "Apply updates per vendor instructions.",
-      "ransomware_use": "known",
-      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-1388",
-      "cwes": [
-        "CWE-306"
-      ],
-      "epss": 0.99958,
-      "epss_percentile": 0.99975,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1662,7 +1737,35 @@
       ],
       "epss": 0.99956,
       "epss_percentile": 0.99974,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2022-1388",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "title": "F5 BIG-IP Missing Authentication Vulnerability",
+      "description": "F5 BIG-IP contains a missing authentication in critical function vulnerability which can allow for remote code execution, creation or deletion of files, or disabling services.",
+      "date_added": "2022-05-10",
+      "due_date": "2022-05-31",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-1388",
+      "cwes": [
+        "CWE-306"
+      ],
+      "epss": 0.99954,
+      "epss_percentile": 0.99974,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1690,7 +1793,7 @@
       ],
       "epss": 0.9995,
       "epss_percentile": 0.99974,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1718,7 +1821,7 @@
       ],
       "epss": 0.99949,
       "epss_percentile": 0.99973,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1746,7 +1849,7 @@
       ],
       "epss": 0.99945,
       "epss_percentile": 0.99973,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1772,7 +1875,7 @@
       "cwes": [],
       "epss": 0.99943,
       "epss_percentile": 0.99972,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1800,7 +1903,7 @@
       ],
       "epss": 0.99938,
       "epss_percentile": 0.99971,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1827,8 +1930,8 @@
         "CWE-425"
       ],
       "epss": 0.99937,
-      "epss_percentile": 0.99971,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.9997,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1856,33 +1959,7 @@
       ],
       "epss": 0.99934,
       "epss_percentile": 0.9997,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2017-0199",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Microsoft",
-      "product": "Office and WordPad",
-      "title": "Microsoft Office and WordPad Remote Code Execution Vulnerability",
-      "description": "Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.",
-      "date_added": "2021-11-03",
-      "due_date": "2022-05-03",
-      "required_action": "Apply updates per vendor instructions.",
-      "ransomware_use": "known",
-      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0199",
-      "cwes": [],
-      "epss": 0.99933,
-      "epss_percentile": 0.9997,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1910,7 +1987,7 @@
       ],
       "epss": 0.99933,
       "epss_percentile": 0.9997,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1937,8 +2014,8 @@
         "CWE-20"
       ],
       "epss": 0.99913,
-      "epss_percentile": 0.99968,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99967,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1966,7 +2043,7 @@
       ],
       "epss": 0.99913,
       "epss_percentile": 0.99967,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -1993,8 +2070,8 @@
         "CWE-121"
       ],
       "epss": 0.99912,
-      "epss_percentile": 0.99967,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99966,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2021,8 +2098,8 @@
         "CWE-89"
       ],
       "epss": 0.99906,
-      "epss_percentile": 0.99966,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99965,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2049,8 +2126,36 @@
         "CWE-863"
       ],
       "epss": 0.99898,
-      "epss_percentile": 0.99965,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99964,
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-46604",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Apache",
+      "product": "ActiveMQ",
+      "title": "Apache ActiveMQ Deserialization of Untrusted Data Vulnerability",
+      "description": "Apache ActiveMQ contains a deserialization of untrusted data vulnerability that may allow a remote attacker with network access to a broker to run shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath.",
+      "date_added": "2023-11-02",
+      "due_date": "2023-11-23",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt; https://nvd.nist.gov/vuln/detail/CVE-2023-46604",
+      "cwes": [
+        "CWE-502"
+      ],
+      "epss": 0.99891,
+      "epss_percentile": 0.99964,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2077,8 +2182,8 @@
         "CWE-39"
       ],
       "epss": 0.99876,
-      "epss_percentile": 0.99964,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99963,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2106,7 +2211,63 @@
       ],
       "epss": 0.99865,
       "epss_percentile": 0.99962,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-0012",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "title": "Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability",
+      "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability in the web-based management interface for several PAN-OS products, including firewalls and VPN concentrators.",
+      "date_added": "2024-11-18",
+      "due_date": "2024-12-09",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable. Additionally, management interface for affected devices should not be exposed to untrusted networks, including the internet.",
+      "ransomware_use": "known",
+      "notes": "https://security.paloaltonetworks.com/CVE-2024-0012 ; https://nvd.nist.gov/vuln/detail/CVE-2024-0012",
+      "cwes": [
+        "CWE-306"
+      ],
+      "epss": 0.99848,
+      "epss_percentile": 0.9996,
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2023-38831",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "title": "RARLAB WinRAR Code Execution Vulnerability",
+      "description": "RARLAB WinRAR contains an unspecified vulnerability that allows an attacker to execute code when a user attempts to view a benign file within a ZIP archive.",
+      "date_added": "2023-08-24",
+      "due_date": "2023-09-14",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "http://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=232&cHash=c5bf79590657e32554c6683296a8e8aa;  https://nvd.nist.gov/vuln/detail/CVE-2023-38831",
+      "cwes": [
+        "CWE-351"
+      ],
+      "epss": 0.99815,
+      "epss_percentile": 0.99958,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2133,8 +2294,8 @@
         "CWE-119"
       ],
       "epss": 0.9981,
-      "epss_percentile": 0.99959,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99958,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2159,8 +2320,8 @@
       "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
       "cwes": [],
       "epss": 0.99802,
-      "epss_percentile": 0.99958,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99957,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2188,8 +2349,8 @@
         "CWE-77"
       ],
       "epss": 0.99799,
-      "epss_percentile": 0.99958,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99956,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2216,8 +2377,8 @@
         "CWE-269"
       ],
       "epss": 0.99792,
-      "epss_percentile": 0.99957,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99956,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2245,8 +2406,8 @@
         "CWE-434"
       ],
       "epss": 0.99782,
-      "epss_percentile": 0.99956,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99955,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2273,36 +2434,8 @@
         "CWE-120"
       ],
       "epss": 0.9978,
-      "epss_percentile": 0.99956,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2019-15107",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Webmin",
-      "product": "Webmin",
-      "title": "Webmin Command Injection Vulnerability",
-      "description": "An issue was discovered in Webmin. The parameter old in password_change.cgi contains a command injection vulnerability.",
-      "date_added": "2022-03-25",
-      "due_date": "2022-04-15",
-      "required_action": "Apply updates per vendor instructions.",
-      "ransomware_use": "known",
-      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-15107",
-      "cwes": [
-        "CWE-78"
-      ],
-      "epss": 0.99766,
       "epss_percentile": 0.99955,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2328,7 +2461,7 @@
       "cwes": [],
       "epss": 0.99753,
       "epss_percentile": 0.99954,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2355,8 +2488,8 @@
         "CWE-94"
       ],
       "epss": 0.99749,
-      "epss_percentile": 0.99954,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99953,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2383,8 +2516,8 @@
         "CWE-502"
       ],
       "epss": 0.99737,
-      "epss_percentile": 0.99953,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99952,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2409,8 +2542,8 @@
       "notes": "https://www.oracle.com/security-alerts/alert-cve-2025-61882.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61882",
       "cwes": [],
       "epss": 0.99732,
-      "epss_percentile": 0.99953,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99952,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2438,36 +2571,8 @@
         "CWE-95"
       ],
       "epss": 0.99731,
-      "epss_percentile": 0.99953,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2023-46604",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Apache",
-      "product": "ActiveMQ",
-      "title": "Apache ActiveMQ Deserialization of Untrusted Data Vulnerability",
-      "description": "Apache ActiveMQ contains a deserialization of untrusted data vulnerability that may allow a remote attacker with network access to a broker to run shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath.",
-      "date_added": "2023-11-02",
-      "due_date": "2023-11-23",
-      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-      "ransomware_use": "known",
-      "notes": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt; https://nvd.nist.gov/vuln/detail/CVE-2023-46604",
-      "cwes": [
-        "CWE-502"
-      ],
-      "epss": 0.99723,
       "epss_percentile": 0.99952,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2494,8 +2599,8 @@
         "CWE-22"
       ],
       "epss": 0.99721,
-      "epss_percentile": 0.99952,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99951,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2506,24 +2611,24 @@
       "priority_model": "B13-KEV-v1"
     },
     {
-      "id": "CVE-2024-0012",
+      "id": "CVE-2019-15107",
       "type": "vulnerability",
       "source": "CISA KEV",
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "title": "Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability",
-      "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability in the web-based management interface for several PAN-OS products, including firewalls and VPN concentrators.",
-      "date_added": "2024-11-18",
-      "due_date": "2024-12-09",
-      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable. Additionally, management interface for affected devices should not be exposed to untrusted networks, including the internet.",
+      "vendor": "Webmin",
+      "product": "Webmin",
+      "title": "Webmin Command Injection Vulnerability",
+      "description": "An issue was discovered in Webmin. The parameter old in password_change.cgi contains a command injection vulnerability.",
+      "date_added": "2022-03-25",
+      "due_date": "2022-04-15",
+      "required_action": "Apply updates per vendor instructions.",
       "ransomware_use": "known",
-      "notes": "https://security.paloaltonetworks.com/CVE-2024-0012 ; https://nvd.nist.gov/vuln/detail/CVE-2024-0012",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-15107",
       "cwes": [
-        "CWE-306"
+        "CWE-78"
       ],
-      "epss": 0.99718,
-      "epss_percentile": 0.99952,
-      "epss_date": "2026-09-23",
+      "epss": 0.9971,
+      "epss_percentile": 0.99951,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2550,8 +2655,8 @@
         "CWE-200"
       ],
       "epss": 0.99693,
-      "epss_percentile": 0.99951,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.9995,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2577,9 +2682,63 @@
       "cwes": [
         "CWE-434"
       ],
-      "epss": 0.99607,
-      "epss_percentile": 0.99948,
-      "epss_date": "2026-09-23",
+      "epss": 0.99641,
+      "epss_percentile": 0.99949,
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2017-0199",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Office and WordPad",
+      "title": "Microsoft Office and WordPad Remote Code Execution Vulnerability",
+      "description": "Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03",
+      "required_action": "Apply updates per vendor instructions.",
+      "ransomware_use": "known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0199",
+      "cwes": [],
+      "epss": 0.99497,
+      "epss_percentile": 0.99944,
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-23692",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Rejetto",
+      "product": "HTTP File Server",
+      "title": "Rejetto HTTP File Server Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+      "description": "Rejetto HTTP File Server contains an improper neutralization of special elements used in a template engine vulnerability. This allows a remote, unauthenticated attacker to execute commands on the affected system by sending a specially crafted HTTP request.",
+      "date_added": "2024-07-09",
+      "due_date": "2024-07-30",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "The patched Rejetto HTTP File Server (HFS) is version 3: https://github.com/rejetto/hfs?tab=readme-ov-file#installation, https://www.rejetto.com/hfs/ ;   https://nvd.nist.gov/vuln/detail/CVE-2024-23692",
+      "cwes": [
+        "CWE-1336"
+      ],
+      "epss": 0.99485,
+      "epss_percentile": 0.99944,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2607,35 +2766,7 @@
       ],
       "epss": 0.99474,
       "epss_percentile": 0.99943,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2024-23692",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Rejetto",
-      "product": "HTTP File Server",
-      "title": "Rejetto HTTP File Server Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
-      "description": "Rejetto HTTP File Server contains an improper neutralization of special elements used in a template engine vulnerability. This allows a remote, unauthenticated attacker to execute commands on the affected system by sending a specially crafted HTTP request.",
-      "date_added": "2024-07-09",
-      "due_date": "2024-07-30",
-      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
-      "ransomware_use": "known",
-      "notes": "The patched Rejetto HTTP File Server (HFS) is version 3: https://github.com/rejetto/hfs?tab=readme-ov-file#installation, https://www.rejetto.com/hfs/ ;   https://nvd.nist.gov/vuln/detail/CVE-2024-23692",
-      "cwes": [
-        "CWE-1336"
-      ],
-      "epss": 0.99471,
-      "epss_percentile": 0.99943,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2662,8 +2793,8 @@
         "CWE-434"
       ],
       "epss": 0.9947,
-      "epss_percentile": 0.99943,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.99942,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2691,7 +2822,35 @@
       ],
       "epss": 0.99448,
       "epss_percentile": 0.99942,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
+      "epss_source": "FIRST EPSS",
+      "priority": "CRITICAL",
+      "priority_reasons": [
+        "CISA KEV confirms exploitation in the wild",
+        "CISA KEV reports known ransomware campaign use",
+        "EPSS probability is at or above 0.90"
+      ],
+      "priority_model": "B13-KEV-v1"
+    },
+    {
+      "id": "CVE-2024-21412",
+      "type": "vulnerability",
+      "source": "CISA KEV",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "title": "Microsoft Windows Internet Shortcut Files Security Feature Bypass Vulnerability",
+      "description": "Microsoft Windows Internet Shortcut Files contains an unspecified vulnerability that allows for a security feature bypass.",
+      "date_added": "2024-02-13",
+      "due_date": "2024-03-05",
+      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "ransomware_use": "known",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-21412; https://nvd.nist.gov/vuln/detail/CVE-2024-21412",
+      "cwes": [
+        "CWE-693"
+      ],
+      "epss": 0.9941,
+      "epss_percentile": 0.99941,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2718,8 +2877,8 @@
         "CWE-330"
       ],
       "epss": 0.99389,
-      "epss_percentile": 0.99939,
-      "epss_date": "2026-09-23",
+      "epss_percentile": 0.9994,
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2745,9 +2904,9 @@
       "cwes": [
         "CWE-20"
       ],
-      "epss": 0.99373,
+      "epss": 0.99356,
       "epss_percentile": 0.99939,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2775,7 +2934,7 @@
       ],
       "epss": 0.99234,
       "epss_percentile": 0.99936,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
@@ -2803,59 +2962,7 @@
       ],
       "epss": 0.9923,
       "epss_percentile": 0.99935,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2018-7602",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Drupal",
-      "product": "Core",
-      "title": "Drupal Core Remote Code Execution Vulnerability",
-      "description": "A remote code execution vulnerability exists within multiple subsystems of Drupal that can allow attackers to exploit multiple attack vectors on a Drupal site.",
-      "date_added": "2022-04-13",
-      "due_date": "2022-05-04",
-      "required_action": "Apply updates per vendor instructions.",
-      "ransomware_use": "known",
-      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-7602",
-      "cwes": [],
-      "epss": 0.99205,
-      "epss_percentile": 0.99934,
-      "epss_date": "2026-09-23",
-      "epss_source": "FIRST EPSS",
-      "priority": "CRITICAL",
-      "priority_reasons": [
-        "CISA KEV confirms exploitation in the wild",
-        "CISA KEV reports known ransomware campaign use",
-        "EPSS probability is at or above 0.90"
-      ],
-      "priority_model": "B13-KEV-v1"
-    },
-    {
-      "id": "CVE-2023-22515",
-      "type": "vulnerability",
-      "source": "CISA KEV",
-      "vendor": "Atlassian",
-      "product": "Confluence Data Center and Server",
-      "title": "Atlassian Confluence Data Center and Server Broken Access Control Vulnerability",
-      "description": "Atlassian Confluence Data Center and Server contains a broken access control vulnerability that allows an attacker to create unauthorized Confluence administrator accounts and access Confluence.",
-      "date_added": "2023-10-05",
-      "due_date": "2023-10-13",
-      "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable. Check all affected Confluence instances for evidence of compromise per vendor instructions and report any positive findings to CISA.",
-      "ransomware_use": "known",
-      "notes": "https://confluence.atlassian.com/security/cve-2023-22515-privilege-escalation-vulnerability-in-confluence-data-center-and-server-1295682276.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22515",
-      "cwes": [],
-      "epss": 0.99156,
-      "epss_percentile": 0.99933,
-      "epss_date": "2026-09-23",
+      "epss_date": "2026-09-25",
       "epss_source": "FIRST EPSS",
       "priority": "CRITICAL",
       "priority_reasons": [
