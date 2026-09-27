@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-26T09:55:09.662661Z
+**Generated:** 2026-09-27T10:35:15.459015Z
 
 **CISA KEV Catalog:** 2026.09.25
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 5 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1721 |
+| UNCHANGED | 1726 |
 
 ### Change Priority Breakdown
 
@@ -31,20 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 5 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **5** of **5** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-71362 | Adobe | Commerce and Magento | 0.8962 | unknown |
-| MEDIUM | CVE-2026-87902 | WordPress | Core | 0.0288 | unknown |
-| MEDIUM | CVE-2026-65660 | Microsoft | SharePoint | 0.0122 | unknown |
-| MEDIUM | CVE-2026-67279 | MikroTik | RouterOS | 0.0071 | unknown |
-| MEDIUM | CVE-2026-5430 | WSO2 | Multiple Products | 0.0058 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
