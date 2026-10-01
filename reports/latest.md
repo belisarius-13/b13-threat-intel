@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-09-29T11:23:54.231090Z
+**Generated:** 2026-10-01T11:39:12.071131Z
 
-**CISA KEV Catalog:** 2026.09.27
+**CISA KEV Catalog:** 2026.09.30
 
 **Priority Model:** B13-KEV-v1
 
@@ -10,17 +10,17 @@
 
 | Priority | Count |
 | --- | ---: |
-| CRITICAL | 186 |
-| HIGH | 409 |
-| MEDIUM | 1133 |
+| CRITICAL | 221 |
+| HIGH | 437 |
+| MEDIUM | 1072 |
 | LOW | 0 |
-| **TOTAL** | **1728** |
+| **TOTAL** | **1730** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1728 |
@@ -31,14 +31,17 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-86950 | Apple | Multiple Products | 0.0081 | unknown |
+| MEDIUM | CVE-2026-76504 | Cisco | Catalyst SD-WAN Manager | N/A | unknown |
 
 ### Updated Intelligence
 
@@ -83,7 +86,7 @@ Apply updates per vendor instructions.
 - **Product:** FortiOS
 - **Title:** Fortinet FortiOS SSL VPN Path Traversal Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 0.9999
+- **EPSS Percentile:** 1.0000
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
@@ -369,7 +372,7 @@ Immediately block all internet traffic to and from affected products AND apply t
 - **Product:** Multiple Products
 - **Title:** WSO2 Multiple Products Unrestrictive Upload of File Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 1.0000
+- **EPSS Percentile:** 0.9999
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
