@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T11:39:12.071131Z",
-  "source_catalog_version": "2026.09.30",
+  "generated_at": "2026-10-02T11:08:54.169913Z",
+  "source_catalog_version": "2026.10.01",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
   "changes": {
     "counts": {
-      "new": 2,
+      "new": 1,
       "changed": 0,
       "removed": 0,
-      "unchanged": 1728
+      "unchanged": 1730
     },
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 2,
+      "medium": 1,
       "low": 0
     },
     "changed_priority_counts": {
@@ -25,52 +25,27 @@
       "low": 0
     },
     "displayed": {
-      "new": 2,
+      "new": 1,
       "changed": 0,
       "removed": 0
     },
     "new_records": [
       {
-        "id": "CVE-2026-86950",
+        "id": "CVE-2026-104286",
         "type": "vulnerability",
         "source": "CISA KEV",
-        "vendor": "Apple",
-        "product": "Multiple Products",
-        "title": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-        "description": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
-        "date_added": "2026-09-29",
-        "due_date": "2026-10-02",
+        "vendor": "Fortinet",
+        "product": "FortiMail",
+        "title": "Fortinet FortiMail Path Traversal Vulnerability",
+        "description": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+        "date_added": "2026-10-01",
+        "due_date": "2026-10-04",
         "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "ransomware_use": "unknown",
-        "notes": "https://support.apple.com/en-us/149226 ; https://support.apple.com/en-us/149228 ; https://support.apple.com/en-us/149229 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
+        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
         "cwes": [
-          "CWE-787"
-        ],
-        "epss": 0.00812,
-        "epss_percentile": 0.55295,
-        "epss_date": "2026-09-29",
-        "epss_source": "FIRST EPSS",
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      },
-      {
-        "id": "CVE-2026-76504",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "Cisco",
-        "product": "Catalyst SD-WAN Manager",
-        "title": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-        "description": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
-        "date_added": "2026-09-30",
-        "due_date": "2026-10-03",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
-        "cwes": [
-          "CWE-177"
+          "CWE-22",
+          "CWE-158"
         ],
         "epss": null,
         "epss_percentile": null,

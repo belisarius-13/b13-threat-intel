@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-01T11:39:12.071131Z
+**Generated:** 2026-10-02T11:08:54.169913Z
 
-**CISA KEV Catalog:** 2026.09.30
+**CISA KEV Catalog:** 2026.10.01
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,18 +12,18 @@
 | --- | ---: |
 | CRITICAL | 221 |
 | HIGH | 437 |
-| MEDIUM | 1072 |
+| MEDIUM | 1073 |
 | LOW | 0 |
-| **TOTAL** | **1730** |
+| **TOTAL** | **1731** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 2 |
+| NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1728 |
+| UNCHANGED | 1730 |
 
 ### Change Priority Breakdown
 
@@ -31,17 +31,16 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 2 | 0 |
+| MEDIUM | 1 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **2** of **2** records.
+Showing **1** of **1** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-86950 | Apple | Multiple Products | 0.0081 | unknown |
-| MEDIUM | CVE-2026-76504 | Cisco | Catalyst SD-WAN Manager | N/A | unknown |
+| MEDIUM | CVE-2026-104286 | Fortinet | FortiMail | N/A | unknown |
 
 ### Updated Intelligence
 
