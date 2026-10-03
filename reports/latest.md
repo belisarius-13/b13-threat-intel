@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-02T11:08:54.169913Z
+**Generated:** 2026-10-03T10:26:49.914245Z
 
-**CISA KEV Catalog:** 2026.10.01
+**CISA KEV Catalog:** 2026.10.02
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,18 +12,18 @@
 | --- | ---: |
 | CRITICAL | 221 |
 | HIGH | 437 |
-| MEDIUM | 1073 |
+| MEDIUM | 1075 |
 | LOW | 0 |
-| **TOTAL** | **1731** |
+| **TOTAL** | **1733** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 1 |
+| NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1730 |
+| UNCHANGED | 1731 |
 
 ### Change Priority Breakdown
 
@@ -31,16 +31,17 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 1 | 0 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **1** of **1** records.
+Showing **2** of **2** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-104286 | Fortinet | FortiMail | N/A | unknown |
+| MEDIUM | CVE-2026-102489 | Zammad GmbH | Zammad | 0.0058 | unknown |
+| MEDIUM | CVE-2026-102490 | Zammad GmbH | Zammad | 0.0026 | unknown |
 
 ### Updated Intelligence
 

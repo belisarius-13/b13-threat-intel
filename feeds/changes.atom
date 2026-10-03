@@ -2,15 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-10-02T11:08:54.169913Z</updated>
+  <updated>2026-10-03T10:26:49.914245Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
   <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.01:new:CVE-2026-104286</id>
-    <title>[NEW] [MEDIUM] CVE-2026-104286 — Fortinet FortiMail</title>
-    <updated>2026-10-02T11:08:54.169913Z</updated>
+    <id>urn:belisarius13:threat-intel:2026.10.02:new:CVE-2026-102489</id>
+    <title>[NEW] [MEDIUM] CVE-2026-102489 — Zammad GmbH Zammad</title>
+    <updated>2026-10-03T10:26:49.914245Z</updated>
     <category term="new" label="NEW" />
     <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Fortinet | Product: FortiMail | EPSS: N/A | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
-    <link href="https://fortiguard.fortinet.com/psirt/FG-IR-26-175 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-104286" rel="alternate" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Zammad GmbH | Product: Zammad | EPSS: 0.00582 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102489" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.10.02:new:CVE-2026-102490</id>
+    <title>[NEW] [MEDIUM] CVE-2026-102490 — Zammad GmbH Zammad</title>
+    <updated>2026-10-03T10:26:49.914245Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Zammad GmbH | Product: Zammad | EPSS: 0.00262 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102490" rel="alternate" />
   </entry>
 </feed>
