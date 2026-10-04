@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-03T10:26:49.914245Z
+**Generated:** 2026-10-04T11:08:29.830776Z
 
 **CISA KEV Catalog:** 2026.10.02
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 2 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1731 |
+| UNCHANGED | 1733 |
 
 ### Change Priority Breakdown
 
@@ -31,17 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 2 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **2** of **2** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-102489 | Zammad GmbH | Zammad | 0.0058 | unknown |
-| MEDIUM | CVE-2026-102490 | Zammad GmbH | Zammad | 0.0026 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
