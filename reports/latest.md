@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-05T12:19:33.753081Z
+**Generated:** 2026-10-06T12:03:48.610104Z
 
 **CISA KEV Catalog:** 2026.10.04
 
@@ -11,8 +11,8 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 221 |
-| HIGH | 437 |
-| MEDIUM | 1076 |
+| HIGH | 438 |
+| MEDIUM | 1075 |
 | LOW | 0 |
 | **TOTAL** | **1734** |
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 1 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1733 |
+| UNCHANGED | 1734 |
 
 ### Change Priority Breakdown
 
@@ -31,16 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 1 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **1** of **1** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-88779 | Citrix | NetScaler | 0.0028 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 

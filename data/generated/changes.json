@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T12:19:33.753081Z",
+  "generated_at": "2026-10-06T12:03:48.610104Z",
   "source_catalog_version": "2026.10.04",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
   "changes": {
     "counts": {
-      "new": 1,
+      "new": 0,
       "changed": 0,
       "removed": 0,
-      "unchanged": 1733
+      "unchanged": 1734
     },
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 1,
+      "medium": 0,
       "low": 0
     },
     "changed_priority_counts": {
@@ -25,38 +25,11 @@
       "low": 0
     },
     "displayed": {
-      "new": 1,
+      "new": 0,
       "changed": 0,
       "removed": 0
     },
-    "new_records": [
-      {
-        "id": "CVE-2026-88779",
-        "type": "vulnerability",
-        "source": "CISA KEV",
-        "vendor": "Citrix",
-        "product": "NetScaler",
-        "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-        "description": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
-        "date_added": "2026-10-04",
-        "due_date": "2026-10-07",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "ransomware_use": "unknown",
-        "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174 ; https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
-        "cwes": [
-          "CWE-119"
-        ],
-        "epss": 0.00276,
-        "epss_percentile": 0.18203,
-        "epss_date": "2026-10-04",
-        "epss_source": "FIRST EPSS",
-        "priority": "MEDIUM",
-        "priority_reasons": [
-          "CISA KEV confirms exploitation in the wild"
-        ],
-        "priority_model": "B13-KEV-v1"
-      }
-    ],
+    "new_records": [],
     "changed_records": [],
     "removed_ids": []
   }
