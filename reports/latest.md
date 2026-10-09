@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-08T12:04:27.964558Z
+**Generated:** 2026-10-09T11:56:12.312731Z
 
-**CISA KEV Catalog:** 2026.10.04
+**CISA KEV Catalog:** 2026.10.08
 
 **Priority Model:** B13-KEV-v1
 
@@ -10,41 +10,50 @@
 
 | Priority | Count |
 | --- | ---: |
-| CRITICAL | 221 |
-| HIGH | 438 |
-| MEDIUM | 1075 |
+| CRITICAL | 222 |
+| HIGH | 440 |
+| MEDIUM | 1077 |
 | LOW | 0 |
-| **TOTAL** | **1734** |
+| **TOTAL** | **1739** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
-| CHANGED | 0 |
+| NEW | 5 |
+| CHANGED | 2 |
 | REMOVED | 0 |
-| UNCHANGED | 1734 |
+| UNCHANGED | 1732 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| HIGH | 3 | 0 |
+| MEDIUM | 2 | 2 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **5** of **5** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| HIGH | CVE-2015-3306 | ProFTPD | ProFTPD | 0.9675 | unknown |
+| HIGH | CVE-2016-3081 | Apache | Struts | 0.9335 | unknown |
+| HIGH | CVE-2015-5477 | ISC | BIND | 0.9128 | unknown |
+| MEDIUM | CVE-2021-3199 | ONLYOFFICE | Docs | 0.0822 | unknown |
+| MEDIUM | CVE-2023-22894 | Strapi | Strapi | 0.0166 | unknown |
 
 ### Updated Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2022-0995 | Linux | Kernel | 0.0879 | unknown |
+| MEDIUM | CVE-2026-86950 | Apple | Multiple Products | 0.0124 | unknown |
 
 ### Removed From CISA KEV
 
