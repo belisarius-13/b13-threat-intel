@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-09T11:56:12.312731Z
+**Generated:** 2026-10-10T11:12:46.335824Z
 
 **CISA KEV Catalog:** 2026.10.08
 
@@ -20,40 +20,31 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 5 |
-| CHANGED | 2 |
+| NEW | 0 |
+| CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1732 |
+| UNCHANGED | 1739 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 3 | 0 |
-| MEDIUM | 2 | 2 |
+| HIGH | 0 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **5** of **5** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| HIGH | CVE-2015-3306 | ProFTPD | ProFTPD | 0.9675 | unknown |
-| HIGH | CVE-2016-3081 | Apache | Struts | 0.9335 | unknown |
-| HIGH | CVE-2015-5477 | ISC | BIND | 0.9128 | unknown |
-| MEDIUM | CVE-2021-3199 | ONLYOFFICE | Docs | 0.0822 | unknown |
-| MEDIUM | CVE-2023-22894 | Strapi | Strapi | 0.0166 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
-Showing **2** of **2** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2022-0995 | Linux | Kernel | 0.0879 | unknown |
-| MEDIUM | CVE-2026-86950 | Apple | Multiple Products | 0.0124 | unknown |
+No records in this category.
 
 ### Removed From CISA KEV
 
