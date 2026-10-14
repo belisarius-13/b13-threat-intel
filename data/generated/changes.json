@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T12:44:58.539533Z",
-  "source_catalog_version": "2026.10.08",
+  "generated_at": "2026-10-14T10:16:57.050479Z",
+  "source_catalog_version": "2026.10.13",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
   "changes": {
     "counts": {
-      "new": 0,
+      "new": 2,
       "changed": 0,
       "removed": 0,
       "unchanged": 1739
@@ -15,7 +15,7 @@
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 2,
       "low": 0
     },
     "changed_priority_counts": {
@@ -25,11 +25,64 @@
       "low": 0
     },
     "displayed": {
-      "new": 0,
+      "new": 2,
       "changed": 0,
       "removed": 0
     },
-    "new_records": [],
+    "new_records": [
+      {
+        "id": "CVE-2026-104935",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Ivanti",
+        "product": "Connect Secure",
+        "title": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+        "description": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
+        "date_added": "2026-10-13",
+        "due_date": "2026-10-16",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+        "cwes": [
+          "CWE-290"
+        ],
+        "epss": null,
+        "epss_percentile": null,
+        "epss_date": null,
+        "epss_source": null,
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      },
+      {
+        "id": "CVE-2026-96951",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "Microsoft",
+        "product": "Windows",
+        "title": "Microsoft Windows Command Injection Vulnerability",
+        "description": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
+        "date_added": "2026-10-13",
+        "due_date": "2026-10-16",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-96951 ; BOD 26-04: BOD 26-04: Prioritizing Security Updates Based on Risk | CISA ; Forensics Triage Requirements: BOD 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk | CISA ;  https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+        "cwes": [
+          "CWE-77"
+        ],
+        "epss": null,
+        "epss_percentile": null,
+        "epss_date": null,
+        "epss_source": null,
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      }
+    ],
     "changed_records": [],
     "removed_ids": []
   }

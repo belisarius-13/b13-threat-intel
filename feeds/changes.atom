@@ -2,6 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-10-13T12:44:58.539533Z</updated>
+  <updated>2026-10-14T10:16:57.050479Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.10.13:new:CVE-2026-104935</id>
+    <title>[NEW] [MEDIUM] CVE-2026-104935 — Ivanti Connect Secure</title>
+    <updated>2026-10-14T10:16:57.050479Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Ivanti | Product: Connect Secure | EPSS: N/A | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.10.13:new:CVE-2026-96951</id>
+    <title>[NEW] [MEDIUM] CVE-2026-96951 — Microsoft Windows</title>
+    <updated>2026-10-14T10:16:57.050479Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Microsoft | Product: Windows | EPSS: N/A | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-96951 ; BOD 26-04: BOD 26-04: Prioritizing Security Updates Based on Risk | CISA ; Forensics Triage Requirements: BOD 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk | CISA ;  https://nvd.nist.gov/vuln/detail/CVE-2026-96951" rel="alternate" />
+  </entry>
 </feed>

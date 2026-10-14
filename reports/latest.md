@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-13T12:44:58.539533Z
+**Generated:** 2026-10-14T10:16:57.050479Z
 
-**CISA KEV Catalog:** 2026.10.08
+**CISA KEV Catalog:** 2026.10.13
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 223 |
 | HIGH | 439 |
-| MEDIUM | 1077 |
+| MEDIUM | 1079 |
 | LOW | 0 |
-| **TOTAL** | **1739** |
+| **TOTAL** | **1741** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1739 |
@@ -31,14 +31,17 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-104935 | Ivanti | Connect Secure | N/A | unknown |
+| MEDIUM | CVE-2026-96951 | Microsoft | Windows | N/A | unknown |
 
 ### Updated Intelligence
 
