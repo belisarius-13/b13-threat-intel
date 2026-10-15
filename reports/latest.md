@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-14T10:16:57.050479Z
+**Generated:** 2026-10-15T09:59:48.009041Z
 
-**CISA KEV Catalog:** 2026.10.13
+**CISA KEV Catalog:** 2026.10.14
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,18 +12,18 @@
 | --- | ---: |
 | CRITICAL | 223 |
 | HIGH | 439 |
-| MEDIUM | 1079 |
+| MEDIUM | 1083 |
 | LOW | 0 |
-| **TOTAL** | **1741** |
+| **TOTAL** | **1745** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 2 |
+| NEW | 4 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1739 |
+| UNCHANGED | 1741 |
 
 ### Change Priority Breakdown
 
@@ -31,17 +31,19 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 2 | 0 |
+| MEDIUM | 4 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **2** of **2** records.
+Showing **4** of **4** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-104935 | Ivanti | Connect Secure | N/A | unknown |
-| MEDIUM | CVE-2026-96951 | Microsoft | Windows | N/A | unknown |
+| MEDIUM | CVE-2026-105134 | Ahsay | AhsayCBS | 0.0184 | unknown |
+| MEDIUM | CVE-2026-105133 | Ahsay | AhsayCBS | 0.0038 | unknown |
+| MEDIUM | CVE-2026-0322 | Palo Alto Networks | PAN-OS | N/A | unknown |
+| MEDIUM | CVE-2026-76519 | Cisco | Secure Email Gateway | N/A | unknown |
 
 ### Updated Intelligence
 
@@ -64,7 +66,7 @@ No CISA KEV records were removed.
 - **Product:** Struts
 - **Title:** Apache Struts Remote Code Execution Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 0.9999
+- **EPSS Percentile:** 1.0000
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
