@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-15T09:59:48.009041Z
+**Generated:** 2026-10-16T09:53:36.728719Z
 
-**CISA KEV Catalog:** 2026.10.14
+**CISA KEV Catalog:** 2026.10.15
 
 **Priority Model:** B13-KEV-v1
 
@@ -11,19 +11,19 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 223 |
-| HIGH | 439 |
+| HIGH | 440 |
 | MEDIUM | 1083 |
 | LOW | 0 |
-| **TOTAL** | **1745** |
+| **TOTAL** | **1746** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 4 |
+| NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1741 |
+| UNCHANGED | 1745 |
 
 ### Change Priority Breakdown
 
@@ -31,19 +31,16 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 4 | 0 |
+| MEDIUM | 1 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **4** of **4** records.
+Showing **1** of **1** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-105134 | Ahsay | AhsayCBS | 0.0184 | unknown |
-| MEDIUM | CVE-2026-105133 | Ahsay | AhsayCBS | 0.0038 | unknown |
-| MEDIUM | CVE-2026-0322 | Palo Alto Networks | PAN-OS | N/A | unknown |
-| MEDIUM | CVE-2026-76519 | Cisco | Secure Email Gateway | N/A | unknown |
+| MEDIUM | CVE-2026-21589 | Atlassian | Multiple Products | 0.0278 | unknown |
 
 ### Updated Intelligence
 
