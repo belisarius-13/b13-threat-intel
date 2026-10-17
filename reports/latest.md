@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-16T09:53:36.728719Z
+**Generated:** 2026-10-17T09:26:01.772135Z
 
-**CISA KEV Catalog:** 2026.10.15
+**CISA KEV Catalog:** 2026.10.16
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,18 +12,18 @@
 | --- | ---: |
 | CRITICAL | 223 |
 | HIGH | 440 |
-| MEDIUM | 1083 |
+| MEDIUM | 1085 |
 | LOW | 0 |
-| **TOTAL** | **1746** |
+| **TOTAL** | **1748** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 1 |
+| NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1745 |
+| UNCHANGED | 1746 |
 
 ### Change Priority Breakdown
 
@@ -31,16 +31,17 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 1 | 0 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **1** of **1** records.
+Showing **2** of **2** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-21589 | Atlassian | Multiple Products | 0.0278 | unknown |
+| MEDIUM | CVE-2026-102764 | BeyondTrust | Remote Support | 0.0060 | unknown |
+| MEDIUM | CVE-2025-61624 | Fortinet | Multiple Products | 0.0058 | unknown |
 
 ### Updated Intelligence
 
