@@ -2,24 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-10-17T09:26:01.772135Z</updated>
+  <updated>2026-10-18T09:40:07.586359Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
-  <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.16:new:CVE-2026-102764</id>
-    <title>[NEW] [MEDIUM] CVE-2026-102764 — BeyondTrust Remote Support</title>
-    <updated>2026-10-17T09:26:01.772135Z</updated>
-    <category term="new" label="NEW" />
-    <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: BeyondTrust | Product: Remote Support | EPSS: 0.00601 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
-    <link href="https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764" rel="alternate" />
-  </entry>
-  <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.16:new:CVE-2025-61624</id>
-    <title>[NEW] [MEDIUM] CVE-2025-61624 — Fortinet Multiple Products</title>
-    <updated>2026-10-17T09:26:01.772135Z</updated>
-    <category term="new" label="NEW" />
-    <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Fortinet | Product: Multiple Products | EPSS: 0.0058 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
-    <link href="https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624" rel="alternate" />
-  </entry>
 </feed>

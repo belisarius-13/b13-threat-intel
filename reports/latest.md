@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-17T09:26:01.772135Z
+**Generated:** 2026-10-18T09:40:07.586359Z
 
 **CISA KEV Catalog:** 2026.10.16
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 2 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1746 |
+| UNCHANGED | 1748 |
 
 ### Change Priority Breakdown
 
@@ -31,17 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 2 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **2** of **2** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-102764 | BeyondTrust | Remote Support | 0.0060 | unknown |
-| MEDIUM | CVE-2025-61624 | Fortinet | Multiple Products | 0.0058 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
