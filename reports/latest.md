@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-20T10:07:02.323839Z
+**Generated:** 2026-10-21T10:14:59.261306Z
 
-**CISA KEV Catalog:** 2026.10.16
+**CISA KEV Catalog:** 2026.10.20
 
 **Priority Model:** B13-KEV-v1
 
@@ -11,16 +11,16 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 223 |
-| HIGH | 442 |
-| MEDIUM | 1083 |
+| HIGH | 441 |
+| MEDIUM | 1090 |
 | LOW | 0 |
-| **TOTAL** | **1748** |
+| **TOTAL** | **1754** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 6 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1748 |
@@ -31,14 +31,21 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 6 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **6** of **6** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-106931 | EG Secure Solutions | SiteGuard Server Edition | 0.0066 | unknown |
+| MEDIUM | CVE-2026-96656 | Plex | Media Server | 0.0040 | unknown |
+| MEDIUM | CVE-2026-96654 | Plex | Media Server | 0.0023 | unknown |
+| MEDIUM | CVE-2026-96652 | Plex | Media Server | 0.0022 | unknown |
+| MEDIUM | CVE-2026-96655 | Plex | Media Server | 0.0022 | unknown |
+| MEDIUM | CVE-2026-110936 | Siemens | Software Center | 0.0014 | unknown |
 
 ### Updated Intelligence
 
