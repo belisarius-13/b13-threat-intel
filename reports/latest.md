@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-21T10:14:59.261306Z
+**Generated:** 2026-10-22T10:15:58.785846Z
 
-**CISA KEV Catalog:** 2026.10.20
+**CISA KEV Catalog:** 2026.10.21
 
 **Priority Model:** B13-KEV-v1
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 6 |
-| CHANGED | 0 |
+| NEW | 0 |
+| CHANGED | 1 |
 | REMOVED | 0 |
-| UNCHANGED | 1748 |
+| UNCHANGED | 1753 |
 
 ### Change Priority Breakdown
 
@@ -31,27 +31,22 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 6 | 0 |
+| MEDIUM | 0 | 1 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **6** of **6** records.
-
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-106931 | EG Secure Solutions | SiteGuard Server Edition | 0.0066 | unknown |
-| MEDIUM | CVE-2026-96656 | Plex | Media Server | 0.0040 | unknown |
-| MEDIUM | CVE-2026-96654 | Plex | Media Server | 0.0023 | unknown |
-| MEDIUM | CVE-2026-96652 | Plex | Media Server | 0.0022 | unknown |
-| MEDIUM | CVE-2026-96655 | Plex | Media Server | 0.0022 | unknown |
-| MEDIUM | CVE-2026-110936 | Siemens | Software Center | 0.0014 | unknown |
-
-### Updated Intelligence
-
 Showing **0** of **0** records.
 
 No records in this category.
+
+### Updated Intelligence
+
+Showing **1** of **1** records.
+
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-67279 | MikroTik | RouterOS | 0.0103 | unknown |
 
 ### Removed From CISA KEV
 
