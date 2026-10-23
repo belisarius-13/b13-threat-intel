@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-22T10:15:58.785846Z
+**Generated:** 2026-10-23T10:08:50.811508Z
 
 **CISA KEV Catalog:** 2026.10.21
 
@@ -21,9 +21,9 @@
 | Change | Count |
 | --- | ---: |
 | NEW | 0 |
-| CHANGED | 1 |
+| CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1753 |
+| UNCHANGED | 1754 |
 
 ### Change Priority Breakdown
 
@@ -31,7 +31,7 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 1 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
@@ -42,11 +42,9 @@ No records in this category.
 
 ### Updated Intelligence
 
-Showing **1** of **1** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-67279 | MikroTik | RouterOS | 0.0103 | unknown |
+No records in this category.
 
 ### Removed From CISA KEV
 
