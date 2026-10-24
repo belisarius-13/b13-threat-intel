@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-23T10:08:50.811508Z
+**Generated:** 2026-10-24T09:35:24.240622Z
 
-**CISA KEV Catalog:** 2026.10.21
+**CISA KEV Catalog:** 2026.10.23
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 223 |
 | HIGH | 441 |
-| MEDIUM | 1090 |
+| MEDIUM | 1092 |
 | LOW | 0 |
-| **TOTAL** | **1754** |
+| **TOTAL** | **1756** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1754 |
@@ -31,14 +31,17 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-110447 | Collabora | Collabora Online – Built-in CODE Server | 0.0123 | unknown |
+| MEDIUM | CVE-2026-114625 | Arista | VeloCloud Orchestrator | 0.0056 | unknown |
 
 ### Updated Intelligence
 
