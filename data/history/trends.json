@@ -1162,6 +1162,33 @@
         "removed": 0,
         "unchanged": 1754
       }
+    },
+    {
+      "date": "2026-10-25",
+      "generated_at": "2026-10-25T09:51:10.501549Z",
+      "catalog_version": "2026.10.23",
+      "total": 1756,
+      "priorities": {
+        "critical": 223,
+        "high": 441,
+        "medium": 1092,
+        "low": 0
+      },
+      "signals": {
+        "ransomware_known": 361,
+        "epss_ge_090": 470,
+        "epss_ge_095": 370
+      },
+      "coverage": {
+        "epss_matched": 1756,
+        "epss_missing": 0
+      },
+      "changes": {
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "unchanged": 1756
+      }
     }
   ]
 }

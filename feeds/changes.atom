@@ -2,24 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-10-24T09:35:24.240622Z</updated>
+  <updated>2026-10-25T09:51:10.501549Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
-  <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.23:new:CVE-2026-110447</id>
-    <title>[NEW] [MEDIUM] CVE-2026-110447 — Collabora Collabora Online – Built-in CODE Server</title>
-    <updated>2026-10-24T09:35:24.240622Z</updated>
-    <category term="new" label="NEW" />
-    <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Collabora | Product: Collabora Online – Built-in CODE Server | EPSS: 0.01225 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
-    <link href="https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516 ; https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110447" rel="alternate" />
-  </entry>
-  <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.23:new:CVE-2026-114625</id>
-    <title>[NEW] [MEDIUM] CVE-2026-114625 — Arista VeloCloud Orchestrator</title>
-    <updated>2026-10-24T09:35:24.240622Z</updated>
-    <category term="new" label="NEW" />
-    <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Arista | Product: VeloCloud Orchestrator | EPSS: 0.00555 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
-    <link href="https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114625" rel="alternate" />
-  </entry>
 </feed>
