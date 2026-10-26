@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-25T09:51:10.501549Z
+**Generated:** 2026-10-26T11:10:39.630911Z
 
 **CISA KEV Catalog:** 2026.10.23
 
@@ -10,9 +10,9 @@
 
 | Priority | Count |
 | --- | ---: |
-| CRITICAL | 223 |
-| HIGH | 441 |
-| MEDIUM | 1092 |
+| CRITICAL | 224 |
+| HIGH | 453 |
+| MEDIUM | 1079 |
 | LOW | 0 |
 | **TOTAL** | **1756** |
 
@@ -83,7 +83,7 @@ Apply updates per vendor instructions.
 - **Product:** FortiOS
 - **Title:** Fortinet FortiOS SSL VPN Path Traversal Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 1.0000
+- **EPSS Percentile:** 0.9999
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
@@ -281,7 +281,7 @@ Apply updates per vendor instructions.
 - **Product:** Access Management (AM)
 - **Title:** ForgeRock Access Management (AM) Core Server Remote Code Execution Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 0.9999
+- **EPSS Percentile:** 1.0000
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
