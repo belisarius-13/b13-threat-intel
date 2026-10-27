@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-26T11:10:39.630911Z
+**Generated:** 2026-10-27T10:38:32.745592Z
 
-**CISA KEV Catalog:** 2026.10.23
+**CISA KEV Catalog:** 2026.10.26
 
 **Priority Model:** B13-KEV-v1
 
@@ -11,16 +11,16 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 224 |
-| HIGH | 453 |
+| HIGH | 455 |
 | MEDIUM | 1079 |
 | LOW | 0 |
-| **TOTAL** | **1756** |
+| **TOTAL** | **1758** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1756 |
@@ -30,15 +30,18 @@
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 0 | 0 |
+| HIGH | 2 | 0 |
 | MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| HIGH | CVE-2026-109619 | PHP Group | PHP | 1.0000 | unknown |
+| HIGH | CVE-2026-109618 | PHP Group | PHP | 0.9998 | unknown |
 
 ### Updated Intelligence
 
