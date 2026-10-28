@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-27T10:38:32.745592Z
+**Generated:** 2026-10-28T11:22:58.119913Z
 
-**CISA KEV Catalog:** 2026.10.26
+**CISA KEV Catalog:** 2026.10.27
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 455 |
-| MEDIUM | 1079 |
+| MEDIUM | 1081 |
 | LOW | 0 |
-| **TOTAL** | **1758** |
+| **TOTAL** | **1760** |
 
 ## What Changed
 
@@ -23,15 +23,15 @@
 | NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1756 |
+| UNCHANGED | 1758 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
-| HIGH | 2 | 0 |
-| MEDIUM | 0 | 0 |
+| HIGH | 0 | 0 |
+| MEDIUM | 2 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
@@ -40,8 +40,8 @@ Showing **2** of **2** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| HIGH | CVE-2026-109619 | PHP Group | PHP | 1.0000 | unknown |
-| HIGH | CVE-2026-109618 | PHP Group | PHP | 0.9998 | unknown |
+| MEDIUM | CVE-2026-111497 | Google | Brotli | 0.5548 | unknown |
+| MEDIUM | CVE-2026-48356 | Adobe | Commerce and Magento | 0.3058 | unknown |
 
 ### Updated Intelligence
 
@@ -64,7 +64,7 @@ No CISA KEV records were removed.
 - **Product:** Struts
 - **Title:** Apache Struts Remote Code Execution Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 1.0000
+- **EPSS Percentile:** 0.9999
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
@@ -438,7 +438,7 @@ Apply mitigations per vendor instructions or discontinue use of the product if m
 - **Product:** MF/NG
 - **Title:** PaperCut MF/NG Improper Access Control Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 1.0000
+- **EPSS Percentile:** 0.9999
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**

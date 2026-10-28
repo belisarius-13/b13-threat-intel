@@ -2,22 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-10-27T10:38:32.745592Z</updated>
+  <updated>2026-10-28T11:22:58.119913Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
   <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.26:new:CVE-2026-109619</id>
-    <title>[NEW] [HIGH] CVE-2026-109619 — PHP Group PHP</title>
-    <updated>2026-10-27T10:38:32.745592Z</updated>
+    <id>urn:belisarius13:threat-intel:2026.10.27:new:CVE-2026-111497</id>
+    <title>[NEW] [MEDIUM] CVE-2026-111497 — Google Brotli</title>
+    <updated>2026-10-28T11:22:58.119913Z</updated>
     <category term="new" label="NEW" />
-    <category term="high" label="HIGH" />
-    <summary type="text">Change: NEW | Priority: HIGH | Vendor: PHP Group | Product: PHP | EPSS: 0.99997 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Google | Product: Brotli | EPSS: 0.55483 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
   </entry>
   <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.26:new:CVE-2026-109618</id>
-    <title>[NEW] [HIGH] CVE-2026-109618 — PHP Group PHP</title>
-    <updated>2026-10-27T10:38:32.745592Z</updated>
+    <id>urn:belisarius13:threat-intel:2026.10.27:new:CVE-2026-48356</id>
+    <title>[NEW] [MEDIUM] CVE-2026-48356 — Adobe Commerce and Magento</title>
+    <updated>2026-10-28T11:22:58.119913Z</updated>
     <category term="new" label="NEW" />
-    <category term="high" label="HIGH" />
-    <summary type="text">Change: NEW | Priority: HIGH | Vendor: PHP Group | Product: PHP | EPSS: 0.99981 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Adobe | Product: Commerce and Magento | EPSS: 0.30582 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://www.adobe.com/trust/security/products/commerce/apsb26-73.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48356" rel="alternate" />
   </entry>
 </feed>
