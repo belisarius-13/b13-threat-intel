@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-28T11:22:58.119913Z
+**Generated:** 2026-10-29T11:33:45.345871Z
 
-**CISA KEV Catalog:** 2026.10.27
+**CISA KEV Catalog:** 2026.10.28
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 455 |
-| MEDIUM | 1081 |
+| MEDIUM | 1083 |
 | LOW | 0 |
-| **TOTAL** | **1760** |
+| **TOTAL** | **1762** |
 
 ## What Changed
 
@@ -23,7 +23,7 @@
 | NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1758 |
+| UNCHANGED | 1760 |
 
 ### Change Priority Breakdown
 
@@ -40,8 +40,8 @@ Showing **2** of **2** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-111497 | Google | Brotli | 0.5548 | unknown |
-| MEDIUM | CVE-2026-48356 | Adobe | Commerce and Magento | 0.3058 | unknown |
+| MEDIUM | CVE-2026-46300 | Linux | Kernel | 0.1019 | unknown |
+| MEDIUM | CVE-2026-41709 | Broadcom | VMware ESX | 0.0030 | unknown |
 
 ### Updated Intelligence
 
