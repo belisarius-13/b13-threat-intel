@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-10-29T11:33:45.345871Z</updated>
+  <updated>2026-10-30T11:25:44.005115Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
   <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.28:new:CVE-2026-46300</id>
-    <title>[NEW] [MEDIUM] CVE-2026-46300 — Linux Kernel</title>
-    <updated>2026-10-29T11:33:45.345871Z</updated>
+    <id>urn:belisarius13:threat-intel:2026.10.29:new:CVE-2026-97229</id>
+    <title>[NEW] [MEDIUM] CVE-2026-97229 — GitLab Community Edition and Enterprise Edition</title>
+    <updated>2026-10-30T11:25:44.005115Z</updated>
     <category term="new" label="NEW" />
     <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Linux | Product: Kernel | EPSS: 0.10192 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: GitLab | Product: Community Edition and Enterprise Edition | EPSS: 0.18427 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
   </entry>
   <entry>
-    <id>urn:belisarius13:threat-intel:2026.10.28:new:CVE-2026-41709</id>
-    <title>[NEW] [MEDIUM] CVE-2026-41709 — Broadcom VMware ESX</title>
-    <updated>2026-10-29T11:33:45.345871Z</updated>
+    <id>urn:belisarius13:threat-intel:2026.10.29:new:CVE-2026-76418</id>
+    <title>[NEW] [MEDIUM] CVE-2026-76418 — Cisco Secure Firewall ASA Software and Cisco Secure FTD Software</title>
+    <updated>2026-10-30T11:25:44.005115Z</updated>
     <category term="new" label="NEW" />
     <category term="medium" label="MEDIUM" />
-    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Broadcom | Product: VMware ESX | EPSS: 0.00297 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
-    <link href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-41709" rel="alternate" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Cisco | Product: Secure Firewall ASA Software and Cisco Secure FTD Software | EPSS: 0.00574 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76418" rel="alternate" />
   </entry>
 </feed>
