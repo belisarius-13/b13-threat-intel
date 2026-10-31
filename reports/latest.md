@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-30T11:25:44.005115Z
+**Generated:** 2026-10-31T10:57:15.342822Z
 
-**CISA KEV Catalog:** 2026.10.29
+**CISA KEV Catalog:** 2026.10.30
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 455 |
-| MEDIUM | 1085 |
+| MEDIUM | 1087 |
 | LOW | 0 |
-| **TOTAL** | **1764** |
+| **TOTAL** | **1766** |
 
 ## What Changed
 
@@ -23,7 +23,7 @@
 | NEW | 2 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1762 |
+| UNCHANGED | 1764 |
 
 ### Change Priority Breakdown
 
@@ -40,8 +40,8 @@ Showing **2** of **2** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-97229 | GitLab | Community Edition and Enterprise Edition | 0.1843 | unknown |
-| MEDIUM | CVE-2026-76418 | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 0.0057 | unknown |
+| MEDIUM | CVE-2026-111357 | Ivanti | Connect Secure | 0.0032 | unknown |
+| MEDIUM | CVE-2026-118527 | Ivanti | Connect Secure | N/A | unknown |
 
 ### Updated Intelligence
 

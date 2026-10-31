@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T11:25:44.005115Z",
-  "source_catalog_version": "2026.10.29",
+  "generated_at": "2026-10-31T10:57:15.342822Z",
+  "source_catalog_version": "2026.10.30",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
@@ -10,7 +10,7 @@
       "new": 2,
       "changed": 0,
       "removed": 0,
-      "unchanged": 1762
+      "unchanged": 1764
     },
     "new_priority_counts": {
       "critical": 0,
@@ -31,24 +31,26 @@
     },
     "new_records": [
       {
-        "id": "CVE-2026-97229",
+        "id": "CVE-2026-111357",
         "type": "vulnerability",
         "source": "CISA KEV",
-        "vendor": "GitLab",
-        "product": "Community Edition and Enterprise Edition",
-        "title": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-        "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
-        "date_added": "2026-10-29",
-        "due_date": "2026-11-01",
+        "vendor": "Ivanti",
+        "product": "Connect Secure",
+        "title": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+        "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+        "date_added": "2026-10-30",
+        "due_date": "2026-11-02",
         "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "ransomware_use": "unknown",
-        "notes": "Other products can potentially be affected by the same underlying Ruby/Onigmo Integer Overflow issue in CI/CD Regular Expression Compiler. For more information please see: https://www.ruby-lang.org/en/news/2026/10/23/regexp-fixes-for-gitlab-cves ; https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+        "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
         "cwes": [
-          "CWE-190"
+          "CWE-306",
+          "CWE-862",
+          "CWE-345"
         ],
-        "epss": 0.18427,
-        "epss_percentile": 0.97229,
-        "epss_date": "2026-10-29",
+        "epss": 0.00316,
+        "epss_percentile": 0.24569,
+        "epss_date": "2026-10-30",
         "epss_source": "FIRST EPSS",
         "priority": "MEDIUM",
         "priority_reasons": [
@@ -57,25 +59,25 @@
         "priority_model": "B13-KEV-v1"
       },
       {
-        "id": "CVE-2026-76418",
+        "id": "CVE-2026-118527",
         "type": "vulnerability",
         "source": "CISA KEV",
-        "vendor": "Cisco",
-        "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
-        "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
-        "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
-        "date_added": "2026-10-29",
-        "due_date": "2026-11-01",
+        "vendor": "Ivanti",
+        "product": "Connect Secure",
+        "title": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+        "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+        "date_added": "2026-10-30",
+        "due_date": "2026-11-13",
         "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "ransomware_use": "unknown",
-        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+        "notes": "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
         "cwes": [
-          "CWE-690"
+          "CWE-340"
         ],
-        "epss": 0.00574,
-        "epss_percentile": 0.47308,
-        "epss_date": "2026-10-29",
-        "epss_source": "FIRST EPSS",
+        "epss": null,
+        "epss_percentile": null,
+        "epss_date": null,
+        "epss_source": null,
         "priority": "MEDIUM",
         "priority_reasons": [
           "CISA KEV confirms exploitation in the wild"
