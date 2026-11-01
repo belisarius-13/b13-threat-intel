@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-10-31T10:57:15.342822Z
+**Generated:** 2026-11-01T11:52:40.546797Z
 
 **CISA KEV Catalog:** 2026.10.30
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 2 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1764 |
+| UNCHANGED | 1766 |
 
 ### Change Priority Breakdown
 
@@ -31,17 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 2 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **2** of **2** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-111357 | Ivanti | Connect Secure | 0.0032 | unknown |
-| MEDIUM | CVE-2026-118527 | Ivanti | Connect Secure | N/A | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
