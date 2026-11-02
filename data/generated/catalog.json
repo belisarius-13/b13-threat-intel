@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T11:52:40.546797Z",
+  "generated_at": "2026-11-02T13:34:07.047725Z",
   "source_catalog_version": "2026.10.30",
   "priority_model": "B13-KEV-v1",
   "sources": [
@@ -1390,7 +1390,7 @@
       "product": "Java SE",
       "title": "Oracle Java SE Runtime Environment (JRE) Arbitrary Code Execution Vulnerability",
       "epss": 0.98536,
-      "epss_percentile": 0.99921,
+      "epss_percentile": 0.99922,
       "ransomware_use": "known",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -1414,7 +1414,7 @@
       "product": "FortiClient EMS",
       "title": "Fortinet FortiClient EMS SQL Injection Vulnerability",
       "epss": 0.98446,
-      "epss_percentile": 0.99918,
+      "epss_percentile": 0.99919,
       "ransomware_use": "known",
       "date_added": "2024-03-25",
       "due_date": "2024-04-15"
@@ -1492,6 +1492,18 @@
       "due_date": "2025-01-28"
     },
     {
+      "id": "CVE-2013-0422",
+      "priority": "CRITICAL",
+      "vendor": "Oracle",
+      "product": "Java Runtime Environment (JRE)",
+      "title": "Oracle JRE Remote Code Execution Vulnerability",
+      "epss": 0.9708,
+      "epss_percentile": 0.99892,
+      "ransomware_use": "known",
+      "date_added": "2022-05-25",
+      "due_date": "2022-06-15"
+    },
+    {
       "id": "CVE-2023-38203",
       "priority": "CRITICAL",
       "vendor": "Adobe",
@@ -1502,18 +1514,6 @@
       "ransomware_use": "known",
       "date_added": "2024-01-08",
       "due_date": "2024-01-29"
-    },
-    {
-      "id": "CVE-2013-0422",
-      "priority": "CRITICAL",
-      "vendor": "Oracle",
-      "product": "Java Runtime Environment (JRE)",
-      "title": "Oracle JRE Remote Code Execution Vulnerability",
-      "epss": 0.97024,
-      "epss_percentile": 0.9989,
-      "ransomware_use": "known",
-      "date_added": "2022-05-25",
-      "due_date": "2022-06-15"
     },
     {
       "id": "CVE-2018-1273",
@@ -1690,7 +1690,7 @@
       "product": "PAN-OS",
       "title": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
       "epss": 0.95012,
-      "epss_percentile": 0.99861,
+      "epss_percentile": 0.99862,
       "ransomware_use": "known",
       "date_added": "2026-05-29",
       "due_date": "2026-06-01"
@@ -1786,7 +1786,7 @@
       "product": "Multiple Products",
       "title": "Cleo Multiple Products Unauthenticated File Upload Vulnerability",
       "epss": 0.93968,
-      "epss_percentile": 0.99845,
+      "epss_percentile": 0.99846,
       "ransomware_use": "known",
       "date_added": "2024-12-17",
       "due_date": "2025-01-07"
@@ -1798,10 +1798,22 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "title": "Synacor Zimbra Collaboration Suite (ZCS) Command Injection Vulnerability",
       "epss": 0.93908,
-      "epss_percentile": 0.99844,
+      "epss_percentile": 0.99845,
       "ransomware_use": "known",
       "date_added": "2022-08-04",
       "due_date": "2022-08-25"
+    },
+    {
+      "id": "CVE-2026-1731",
+      "priority": "CRITICAL",
+      "vendor": "BeyondTrust",
+      "product": "Remote Support (RS) and Privileged Remote Access (PRA)",
+      "title": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
+      "epss": 0.93852,
+      "epss_percentile": 0.99844,
+      "ransomware_use": "known",
+      "date_added": "2026-02-13",
+      "due_date": "2026-02-16"
     },
     {
       "id": "CVE-2024-9474",
@@ -1870,22 +1882,10 @@
       "product": "Office",
       "title": "Microsoft Office Memory Corruption Vulnerability",
       "epss": 0.93289,
-      "epss_percentile": 0.99836,
+      "epss_percentile": 0.99835,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
-    },
-    {
-      "id": "CVE-2026-1731",
-      "priority": "CRITICAL",
-      "vendor": "BeyondTrust",
-      "product": "Remote Support (RS) and Privileged Remote Access (PRA)",
-      "title": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
-      "epss": 0.931,
-      "epss_percentile": 0.99834,
-      "ransomware_use": "known",
-      "date_added": "2026-02-13",
-      "due_date": "2026-02-16"
     },
     {
       "id": "CVE-2024-6670",
@@ -1972,6 +1972,18 @@
       "due_date": "2022-06-10"
     },
     {
+      "id": "CVE-2025-26399",
+      "priority": "CRITICAL",
+      "vendor": "SolarWinds",
+      "product": "Web Help Desk",
+      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
+      "epss": 0.90564,
+      "epss_percentile": 0.99801,
+      "ransomware_use": "known",
+      "date_added": "2026-03-09",
+      "due_date": "2026-03-12"
+    },
+    {
       "id": "CVE-2024-40711",
       "priority": "CRITICAL",
       "vendor": "Veeam",
@@ -2002,7 +2014,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Use-After-Free Vulnerability",
       "epss": 0.9028,
-      "epss_percentile": 0.99798,
+      "epss_percentile": 0.99797,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -2018,18 +2030,6 @@
       "ransomware_use": "known",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
-    },
-    {
-      "id": "CVE-2025-26399",
-      "priority": "CRITICAL",
-      "vendor": "SolarWinds",
-      "product": "Web Help Desk",
-      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
-      "epss": 0.9012,
-      "epss_percentile": 0.99796,
-      "ransomware_use": "known",
-      "date_added": "2026-03-09",
-      "due_date": "2026-03-12"
     },
     {
       "id": "CVE-2009-3960",
@@ -2230,7 +2230,7 @@
       "product": "FortiOS and FortiProxy SSL-VPN",
       "title": "Fortinet FortiOS and FortiProxy SSL-VPN Heap-Based Buffer Overflow Vulnerability",
       "epss": 0.85689,
-      "epss_percentile": 0.99726,
+      "epss_percentile": 0.99725,
       "ransomware_use": "known",
       "date_added": "2023-06-13",
       "due_date": "2023-07-04"
@@ -2482,7 +2482,7 @@
       "product": "Silverlight",
       "title": "Microsoft Silverlight Double Dereference Vulnerability",
       "epss": 0.78885,
-      "epss_percentile": 0.99592,
+      "epss_percentile": 0.99593,
       "ransomware_use": "known",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -2566,7 +2566,7 @@
       "product": "Exchange Server",
       "title": "Microsoft Exchange Server Privilege Escalation Vulnerability",
       "epss": 0.77326,
-      "epss_percentile": 0.99557,
+      "epss_percentile": 0.99556,
       "ransomware_use": "known",
       "date_added": "2023-01-10",
       "due_date": "2023-01-31"
@@ -2625,8 +2625,8 @@
       "vendor": "Microsoft",
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "epss": 0.73918,
-      "epss_percentile": 0.99479,
+      "epss": 0.74096,
+      "epss_percentile": 0.99485,
       "ransomware_use": "known",
       "date_added": "2022-03-28",
       "due_date": "2022-04-18"
@@ -4192,13 +4192,25 @@
       "due_date": "2026-02-16"
     },
     {
+      "id": "CVE-2017-3881",
+      "priority": "HIGH",
+      "vendor": "Cisco",
+      "product": "IOS and IOS XE",
+      "title": "Cisco IOS and IOS XE Remote Code Execution Vulnerability",
+      "epss": 0.98975,
+      "epss_percentile": 0.9993,
+      "ransomware_use": "unknown",
+      "date_added": "2022-03-25",
+      "due_date": "2022-04-15"
+    },
+    {
       "id": "CVE-2020-7247",
       "priority": "HIGH",
       "vendor": "OpenBSD",
       "product": "OpenSMTPD",
       "title": "OpenSMTPD Remote Code Execution Vulnerability",
       "epss": 0.98972,
-      "epss_percentile": 0.9993,
+      "epss_percentile": 0.99929,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -4214,18 +4226,6 @@
       "ransomware_use": "unknown",
       "date_added": "2022-04-15",
       "due_date": "2022-05-06"
-    },
-    {
-      "id": "CVE-2017-3881",
-      "priority": "HIGH",
-      "vendor": "Cisco",
-      "product": "IOS and IOS XE",
-      "title": "Cisco IOS and IOS XE Remote Code Execution Vulnerability",
-      "epss": 0.9895,
-      "epss_percentile": 0.99929,
-      "ransomware_use": "unknown",
-      "date_added": "2022-03-25",
-      "due_date": "2022-04-15"
     },
     {
       "id": "CVE-2025-32433",
@@ -4354,7 +4354,7 @@
       "product": "Cloud Services Appliance (CSA)",
       "title": "Ivanti Cloud Services Appliance (CSA) Path Traversal Vulnerability",
       "epss": 0.98607,
-      "epss_percentile": 0.99922,
+      "epss_percentile": 0.99923,
       "ransomware_use": "unknown",
       "date_added": "2024-09-19",
       "due_date": "2024-10-10"
@@ -4414,7 +4414,7 @@
       "product": "ColdFusion",
       "title": "Adobe ColdFusion Improper Access Control Vulnerability",
       "epss": 0.98514,
-      "epss_percentile": 0.9992,
+      "epss_percentile": 0.99921,
       "ransomware_use": "unknown",
       "date_added": "2024-12-16",
       "due_date": "2025-01-06"
@@ -4450,7 +4450,7 @@
       "product": "Adminer",
       "title": "Adminer Server-Side Request Forgery Vulnerability",
       "epss": 0.98464,
-      "epss_percentile": 0.99919,
+      "epss_percentile": 0.9992,
       "ransomware_use": "unknown",
       "date_added": "2025-09-29",
       "due_date": "2025-10-20"
@@ -5086,7 +5086,7 @@
       "product": "Matrix Project Plugin",
       "title": "Jenkins Matrix Project Plugin Remote Code Execution Vulnerability",
       "epss": 0.97058,
-      "epss_percentile": 0.99892,
+      "epss_percentile": 0.99891,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -5560,18 +5560,6 @@
       "due_date": "2022-07-10"
     },
     {
-      "id": "CVE-2022-23134",
-      "priority": "HIGH",
-      "vendor": "Zabbix",
-      "product": "Frontend",
-      "title": "Zabbix Frontend Improper Access Control Vulnerability",
-      "epss": 0.9526,
-      "epss_percentile": 0.99865,
-      "ransomware_use": "unknown",
-      "date_added": "2022-02-22",
-      "due_date": "2022-03-08"
-    },
-    {
       "id": "CVE-2025-57819",
       "priority": "HIGH",
       "vendor": "Sangoma",
@@ -5590,7 +5578,7 @@
       "product": "Office",
       "title": "Microsoft Office Memory Corruption Vulnerability",
       "epss": 0.95121,
-      "epss_percentile": 0.99863,
+      "epss_percentile": 0.99864,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -5614,7 +5602,7 @@
       "product": "Xperience",
       "title": "Kentico Xperience Deserialization of Untrusted Data Vulnerability",
       "epss": 0.95074,
-      "epss_percentile": 0.99862,
+      "epss_percentile": 0.99863,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -5674,7 +5662,7 @@
       "product": "FortiManager",
       "title": "Fortinet FortiManager Missing Authentication Vulnerability",
       "epss": 0.94766,
-      "epss_percentile": 0.99858,
+      "epss_percentile": 0.99859,
       "ransomware_use": "unknown",
       "date_added": "2024-10-23",
       "due_date": "2024-11-13"
@@ -5698,7 +5686,7 @@
       "product": "NetWeaver",
       "title": "SAP NetWeaver Missing Authentication for Critical Function Vulnerability",
       "epss": 0.94719,
-      "epss_percentile": 0.99857,
+      "epss_percentile": 0.99858,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -5710,7 +5698,7 @@
       "product": "Office Outlook",
       "title": "Microsoft Outlook Improper Input Validation Vulnerability",
       "epss": 0.9466,
-      "epss_percentile": 0.99856,
+      "epss_percentile": 0.99857,
       "ransomware_use": "unknown",
       "date_added": "2025-02-06",
       "due_date": "2025-02-27"
@@ -5734,7 +5722,7 @@
       "product": "WebLogic Server",
       "title": "Oracle WebLogic Server Remote Code Execution Vulnerability",
       "epss": 0.94548,
-      "epss_percentile": 0.99854,
+      "epss_percentile": 0.99855,
       "ransomware_use": "unknown",
       "date_added": "2024-09-18",
       "due_date": "2024-10-09"
@@ -5746,7 +5734,7 @@
       "product": "P660HN-T1A Routers",
       "title": "Zyxel P660HN-T1A Routers Command Injection Vulnerability",
       "epss": 0.94508,
-      "epss_percentile": 0.99853,
+      "epss_percentile": 0.99854,
       "ransomware_use": "unknown",
       "date_added": "2023-08-07",
       "due_date": "2023-08-28"
@@ -5758,7 +5746,7 @@
       "product": "GitLab CE/EE",
       "title": "GitLab Community and Enterprise Editions Improper Access Control Vulnerability",
       "epss": 0.94458,
-      "epss_percentile": 0.99852,
+      "epss_percentile": 0.99853,
       "ransomware_use": "unknown",
       "date_added": "2024-05-01",
       "due_date": "2024-05-22"
@@ -5794,7 +5782,7 @@
       "product": "Primefaces Application",
       "title": "Primetek Primefaces Remote Code Execution Vulnerability",
       "epss": 0.94104,
-      "epss_percentile": 0.99847,
+      "epss_percentile": 0.99848,
       "ransomware_use": "unknown",
       "date_added": "2022-01-10",
       "due_date": "2022-07-10"
@@ -5822,6 +5810,18 @@
       "ransomware_use": "unknown",
       "date_added": "2026-02-05",
       "due_date": "2026-02-26"
+    },
+    {
+      "id": "CVE-2022-23134",
+      "priority": "HIGH",
+      "vendor": "Zabbix",
+      "product": "Frontend",
+      "title": "Zabbix Frontend Improper Access Control Vulnerability",
+      "epss": 0.93892,
+      "epss_percentile": 0.99845,
+      "ransomware_use": "unknown",
+      "date_added": "2022-02-22",
+      "due_date": "2022-03-08"
     },
     {
       "id": "CVE-2025-47812",
@@ -6412,18 +6412,6 @@
       "due_date": "2025-03-17"
     },
     {
-      "id": "CVE-2023-41763",
-      "priority": "HIGH",
-      "vendor": "Microsoft",
-      "product": "Skype for Business",
-      "title": "Microsoft Skype for Business Privilege Escalation Vulnerability",
-      "epss": 0.90547,
-      "epss_percentile": 0.99801,
-      "ransomware_use": "unknown",
-      "date_added": "2023-10-10",
-      "due_date": "2023-10-31"
-    },
-    {
       "id": "CVE-2026-71362",
       "priority": "HIGH",
       "vendor": "Adobe",
@@ -6472,6 +6460,18 @@
       "due_date": "2023-06-02"
     },
     {
+      "id": "CVE-2023-41763",
+      "priority": "HIGH",
+      "vendor": "Microsoft",
+      "product": "Skype for Business",
+      "title": "Microsoft Skype for Business Privilege Escalation Vulnerability",
+      "epss": 0.90282,
+      "epss_percentile": 0.99798,
+      "ransomware_use": "unknown",
+      "date_added": "2023-10-10",
+      "due_date": "2023-10-31"
+    },
+    {
       "id": "CVE-2025-37164",
       "priority": "HIGH",
       "vendor": "Hewlett Packard Enterprise (HPE)",
@@ -6490,7 +6490,7 @@
       "product": "Multiple Products",
       "title": "Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
       "epss": 0.90155,
-      "epss_percentile": 0.99797,
+      "epss_percentile": 0.99796,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -6526,7 +6526,7 @@
       "product": "Silverlight",
       "title": "Microsoft Silverlight Runtime Remote Code Execution Vulnerability",
       "epss": 0.69397,
-      "epss_percentile": 0.99359,
+      "epss_percentile": 0.9936,
       "ransomware_use": "known",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -6562,7 +6562,7 @@
       "product": "SimpleHelp",
       "title": "SimpleHelp Missing Authorization Vulnerability",
       "epss": 0.66414,
-      "epss_percentile": 0.99282,
+      "epss_percentile": 0.99283,
       "ransomware_use": "known",
       "date_added": "2026-04-24",
       "due_date": "2026-05-08"
@@ -6610,7 +6610,7 @@
       "product": "Backup Exec Agent",
       "title": "Veritas Backup Exec Agent Improper Authentication Vulnerability",
       "epss": 0.6491,
-      "epss_percentile": 0.99247,
+      "epss_percentile": 0.99248,
       "ransomware_use": "known",
       "date_added": "2023-04-07",
       "due_date": "2023-04-28"
@@ -6622,7 +6622,7 @@
       "product": "SimpleHelp",
       "title": "SimpleHelp Path Traversal Vulnerability",
       "epss": 0.64468,
-      "epss_percentile": 0.99236,
+      "epss_percentile": 0.99237,
       "ransomware_use": "known",
       "date_added": "2026-04-24",
       "due_date": "2026-05-08"
@@ -6646,7 +6646,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Exposed IOCTL with Insufficient Access Control Vulnerability",
       "epss": 0.5981,
-      "epss_percentile": 0.9913,
+      "epss_percentile": 0.99131,
       "ransomware_use": "known",
       "date_added": "2024-03-04",
       "due_date": "2024-03-25"
@@ -6658,7 +6658,7 @@
       "product": "Exchange Server",
       "title": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
       "epss": 0.59294,
-      "epss_percentile": 0.99118,
+      "epss_percentile": 0.99119,
       "ransomware_use": "known",
       "date_added": "2026-04-13",
       "due_date": "2026-04-27"
@@ -6670,7 +6670,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.59205,
-      "epss_percentile": 0.99116,
+      "epss_percentile": 0.99117,
       "ransomware_use": "known",
       "date_added": "2022-02-04",
       "due_date": "2022-02-18"
@@ -6694,7 +6694,7 @@
       "product": "FTA",
       "title": "Accellion FTA OS Command Injection Vulnerability",
       "epss": 0.56686,
-      "epss_percentile": 0.99062,
+      "epss_percentile": 0.99063,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -6730,7 +6730,7 @@
       "product": "ShareFile",
       "title": "Citrix ShareFile Improper Access Control Vulnerability",
       "epss": 0.53585,
-      "epss_percentile": 0.98993,
+      "epss_percentile": 0.98994,
       "ransomware_use": "known",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -6790,7 +6790,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
       "epss": 0.48892,
-      "epss_percentile": 0.98878,
+      "epss_percentile": 0.98879,
       "ransomware_use": "known",
       "date_added": "2023-04-11",
       "due_date": "2023-05-02"
@@ -6802,7 +6802,7 @@
       "product": "Sense",
       "title": "Qlik Sense HTTP Tunneling Vulnerability",
       "epss": 0.47733,
-      "epss_percentile": 0.9885,
+      "epss_percentile": 0.98851,
       "ransomware_use": "known",
       "date_added": "2025-01-13",
       "due_date": "2025-02-03"
@@ -6874,7 +6874,7 @@
       "product": "PAN-OS",
       "title": "Palo Alto Networks PAN-OS Remote Code Execution Vulnerability",
       "epss": 0.44159,
-      "epss_percentile": 0.98755,
+      "epss_percentile": 0.98756,
       "ransomware_use": "known",
       "date_added": "2022-01-10",
       "due_date": "2022-07-10"
@@ -6886,7 +6886,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Background Intelligent Transfer Service (BITS) Improper Privilege Management Vulnerability",
       "epss": 0.42524,
-      "epss_percentile": 0.98707,
+      "epss_percentile": 0.98708,
       "ransomware_use": "known",
       "date_added": "2022-01-28",
       "due_date": "2022-07-28"
@@ -6898,7 +6898,7 @@
       "product": "SFOS",
       "title": "Sophos SFOS SQL Injection Vulnerability",
       "epss": 0.42434,
-      "epss_percentile": 0.98704,
+      "epss_percentile": 0.98705,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -7018,7 +7018,7 @@
       "product": "FortiOS and FortiProxy",
       "title": "Fortinet FortiOS and FortiProxy Out-of-bounds Write",
       "epss": 0.32473,
-      "epss_percentile": 0.98336,
+      "epss_percentile": 0.98335,
       "ransomware_use": "known",
       "date_added": "2022-01-10",
       "due_date": "2022-07-10"
@@ -7030,7 +7030,7 @@
       "product": "Zimbra Collaborate Suite (ZCS)",
       "title": "Synacor Zimbra Collaborate Suite (ZCS) Cross-Site Scripting Vulnerability",
       "epss": 0.30931,
-      "epss_percentile": 0.98259,
+      "epss_percentile": 0.98258,
       "ransomware_use": "known",
       "date_added": "2022-02-25",
       "due_date": "2022-03-11"
@@ -7174,7 +7174,7 @@
       "product": "AnyConnect Secure",
       "title": "Cisco AnyConnect Secure Mobility Client for Windows Uncontrolled Search Path Vulnerability",
       "epss": 0.28515,
-      "epss_percentile": 0.98129,
+      "epss_percentile": 0.9813,
       "ransomware_use": "known",
       "date_added": "2022-10-24",
       "due_date": "2022-11-14"
@@ -7186,7 +7186,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
       "epss": 0.28483,
-      "epss_percentile": 0.98127,
+      "epss_percentile": 0.98128,
       "ransomware_use": "known",
       "date_added": "2022-09-14",
       "due_date": "2022-10-05"
@@ -7210,7 +7210,7 @@
       "product": "Exchange Server",
       "title": "Microsoft Exchange Server Privilege Escalation Vulnerability",
       "epss": 0.27558,
-      "epss_percentile": 0.98077,
+      "epss_percentile": 0.98078,
       "ransomware_use": "known",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -7270,7 +7270,7 @@
       "product": "Internet Explorer and Edge",
       "title": "Microsoft Internet Explorer and Edge Information Disclosure Vulnerability",
       "epss": 0.26483,
-      "epss_percentile": 0.98011,
+      "epss_percentile": 0.98012,
       "ransomware_use": "known",
       "date_added": "2022-05-24",
       "due_date": "2022-06-14"
@@ -7318,7 +7318,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Arbitrary Code Execution Vulnerability",
       "epss": 0.22316,
-      "epss_percentile": 0.97686,
+      "epss_percentile": 0.97687,
       "ransomware_use": "known",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -7342,7 +7342,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
       "epss": 0.20467,
-      "epss_percentile": 0.97507,
+      "epss_percentile": 0.97508,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -7366,7 +7366,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Privilege Escalation Vulnerability",
       "epss": 0.19254,
-      "epss_percentile": 0.97337,
+      "epss_percentile": 0.97336,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -7390,7 +7390,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Privilege Escalation Vulnerability",
       "epss": 0.18843,
-      "epss_percentile": 0.97287,
+      "epss_percentile": 0.97286,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -7426,7 +7426,7 @@
       "product": "SonicOS",
       "title": "SonicWall SonicOS Improper Access Control Vulnerability",
       "epss": 0.18379,
-      "epss_percentile": 0.97229,
+      "epss_percentile": 0.9723,
       "ransomware_use": "known",
       "date_added": "2024-09-09",
       "due_date": "2024-09-30"
@@ -7498,7 +7498,7 @@
       "product": "NetWeaver",
       "title": "SAP NetWeaver Deserialization Vulnerability",
       "epss": 0.12854,
-      "epss_percentile": 0.96297,
+      "epss_percentile": 0.96298,
       "ransomware_use": "known",
       "date_added": "2025-05-15",
       "due_date": "2025-06-05"
@@ -7546,7 +7546,7 @@
       "product": "Windows",
       "title": "Microsoft Windows AppX Installer Spoofing Vulnerability",
       "epss": 0.11294,
-      "epss_percentile": 0.95974,
+      "epss_percentile": 0.95975,
       "ransomware_use": "known",
       "date_added": "2021-12-15",
       "due_date": "2021-12-29"
@@ -7558,7 +7558,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
       "epss": 0.10853,
-      "epss_percentile": 0.95856,
+      "epss_percentile": 0.95857,
       "ransomware_use": "known",
       "date_added": "2023-02-14",
       "due_date": "2023-03-07"
@@ -7570,7 +7570,7 @@
       "product": "Kernel",
       "title": "Linux Kernel PIE Stack Buffer Corruption Vulnerability ",
       "epss": 0.10695,
-      "epss_percentile": 0.95813,
+      "epss_percentile": 0.95814,
       "ransomware_use": "known",
       "date_added": "2024-09-09",
       "due_date": "2024-09-30"
@@ -7594,7 +7594,7 @@
       "product": "MiVoice Connect",
       "title": "Mitel MiVoice Connect Command Injection Vulnerability",
       "epss": 0.10566,
-      "epss_percentile": 0.95779,
+      "epss_percentile": 0.9578,
       "ransomware_use": "known",
       "date_added": "2023-02-21",
       "due_date": "2023-03-14"
@@ -7606,7 +7606,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Memory Corruption Vulnerability",
       "epss": 0.10107,
-      "epss_percentile": 0.95642,
+      "epss_percentile": 0.95643,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -7618,7 +7618,7 @@
       "product": "AnyConnect Secure",
       "title": "Cisco AnyConnect Secure Mobility Client for Windows DLL Hijacking Vulnerability",
       "epss": 0.10049,
-      "epss_percentile": 0.95621,
+      "epss_percentile": 0.95622,
       "ransomware_use": "known",
       "date_added": "2022-10-24",
       "due_date": "2022-11-14"
@@ -7642,7 +7642,7 @@
       "product": "Multiple Products",
       "title": "GIGABYTE Multiple Products Privilege Escalation Vulnerability",
       "epss": 0.08364,
-      "epss_percentile": 0.94966,
+      "epss_percentile": 0.94967,
       "ransomware_use": "known",
       "date_added": "2022-10-24",
       "due_date": "2022-11-14"
@@ -7654,7 +7654,7 @@
       "product": "Workspace Application and Receiver for Windows",
       "title": "Citrix Workspace Application and Receiver for Windows Remote Code Execution Vulnerability",
       "epss": 0.08091,
-      "epss_percentile": 0.94815,
+      "epss_percentile": 0.94816,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -7678,7 +7678,7 @@
       "product": "Fusion Middleware",
       "title": "Oracle Fusion Middleware Unspecified Vulnerability",
       "epss": 0.07826,
-      "epss_percentile": 0.94674,
+      "epss_percentile": 0.94675,
       "ransomware_use": "known",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -7702,7 +7702,7 @@
       "product": "Windows",
       "title": "Microsoft Windows CLFS Driver Privilege Escalation Vulnerability",
       "epss": 0.07134,
-      "epss_percentile": 0.94264,
+      "epss_percentile": 0.94265,
       "ransomware_use": "known",
       "date_added": "2022-04-13",
       "due_date": "2022-05-04"
@@ -7714,7 +7714,7 @@
       "product": "Windows",
       "title": "Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability",
       "epss": 0.06886,
-      "epss_percentile": 0.94071,
+      "epss_percentile": 0.94072,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -7726,7 +7726,7 @@
       "product": "SMA1000 Appliances",
       "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
       "epss": 0.06795,
-      "epss_percentile": 0.94,
+      "epss_percentile": 0.94003,
       "ransomware_use": "known",
       "date_added": "2026-07-14",
       "due_date": "2026-07-17"
@@ -7738,7 +7738,7 @@
       "product": "Defender",
       "title": "Microsoft Defender Insufficient Granularity of Access Control Vulnerability",
       "epss": 0.06749,
-      "epss_percentile": 0.93967,
+      "epss_percentile": 0.93969,
       "ransomware_use": "known",
       "date_added": "2026-04-22",
       "due_date": "2026-05-06"
@@ -7750,7 +7750,7 @@
       "product": "FortiOS",
       "title": "Fortinet FortiOS Use of Hard-Coded Credentials Vulnerability",
       "epss": 0.0664,
-      "epss_percentile": 0.9387,
+      "epss_percentile": 0.93873,
       "ransomware_use": "known",
       "date_added": "2025-06-25",
       "due_date": "2025-07-16"
@@ -7762,7 +7762,7 @@
       "product": "Task Scheduler",
       "title": "Microsoft Task Scheduler Privilege Escalation Vulnerability",
       "epss": 0.06117,
-      "epss_percentile": 0.93435,
+      "epss_percentile": 0.93438,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -7774,7 +7774,7 @@
       "product": "FTA",
       "title": "Accellion FTA SQL Injection Vulnerability",
       "epss": 0.05998,
-      "epss_percentile": 0.93326,
+      "epss_percentile": 0.93328,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -7786,7 +7786,7 @@
       "product": "Backup & Replication",
       "title": "Veeam Backup & Replication Remote Code Execution Vulnerability",
       "epss": 0.05828,
-      "epss_percentile": 0.93157,
+      "epss_percentile": 0.93159,
       "ransomware_use": "known",
       "date_added": "2022-12-13",
       "due_date": "2023-01-03"
@@ -7798,7 +7798,7 @@
       "product": "DWM Core Library",
       "title": " Microsoft DWM Core Library Privilege Escalation Vulnerability",
       "epss": 0.05687,
-      "epss_percentile": 0.92997,
+      "epss_percentile": 0.92998,
       "ransomware_use": "known",
       "date_added": "2024-05-14",
       "due_date": "2024-06-04"
@@ -7810,7 +7810,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.05661,
-      "epss_percentile": 0.92976,
+      "epss_percentile": 0.92977,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -7822,7 +7822,7 @@
       "product": "InfoSphere BigInsights",
       "title": "IBM InfoSphere BigInsights Invalid Input Vulnerability",
       "epss": 0.04766,
-      "epss_percentile": 0.91904,
+      "epss_percentile": 0.91903,
       "ransomware_use": "known",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -7834,7 +7834,7 @@
       "product": "CyberoamOS",
       "title": "CyberoamOS (CROS) SQL Injection Vulnerability",
       "epss": 0.04696,
-      "epss_percentile": 0.91799,
+      "epss_percentile": 0.918,
       "ransomware_use": "known",
       "date_added": "2025-02-06",
       "due_date": "2025-02-27"
@@ -7846,7 +7846,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Privilege Escalation Vulnerability",
       "epss": 0.04679,
-      "epss_percentile": 0.91777,
+      "epss_percentile": 0.91778,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -7858,7 +7858,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Link Following Vulnerability",
       "epss": 0.04614,
-      "epss_percentile": 0.91687,
+      "epss_percentile": 0.91686,
       "ransomware_use": "known",
       "date_added": "2026-04-13",
       "due_date": "2026-04-27"
@@ -7882,7 +7882,7 @@
       "product": "PAN-OS",
       "title": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
       "epss": 0.04362,
-      "epss_percentile": 0.91251,
+      "epss_percentile": 0.9125,
       "ransomware_use": "known",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -7906,7 +7906,7 @@
       "product": "Backup & Replication",
       "title": "Veeam Backup & Replication Remote Code Execution Vulnerability",
       "epss": 0.04104,
-      "epss_percentile": 0.90761,
+      "epss_percentile": 0.9076,
       "ransomware_use": "known",
       "date_added": "2022-12-13",
       "due_date": "2023-01-03"
@@ -7942,7 +7942,7 @@
       "product": "Multiple Products",
       "title": "GIGABYTE Multiple Products Privilege Escalation Vulnerability",
       "epss": 0.03701,
-      "epss_percentile": 0.89737,
+      "epss_percentile": 0.89738,
       "ransomware_use": "known",
       "date_added": "2022-10-24",
       "due_date": "2022-11-14"
@@ -7954,7 +7954,7 @@
       "product": "FTA",
       "title": "Accellion FTA OS Command Injection Vulnerability",
       "epss": 0.03654,
-      "epss_percentile": 0.89613,
+      "epss_percentile": 0.89614,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -7966,7 +7966,7 @@
       "product": "Windows",
       "title": "Microsoft Windows AppX Deployment Extensions Privilege Escalation Vulnerability",
       "epss": 0.03604,
-      "epss_percentile": 0.89469,
+      "epss_percentile": 0.8947,
       "ransomware_use": "known",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -7978,7 +7978,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Error Reporting Manager Privilege Escalation Vulnerability",
       "epss": 0.03478,
-      "epss_percentile": 0.891,
+      "epss_percentile": 0.89101,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -8050,7 +8050,7 @@
       "product": "Edge and Internet Explorer",
       "title": "Microsoft Edge and Internet Explorer Memory Corruption Vulnerability",
       "epss": 0.02696,
-      "epss_percentile": 0.85917,
+      "epss_percentile": 0.85918,
       "ransomware_use": "known",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -8062,7 +8062,7 @@
       "product": "VMware vCenter",
       "title": "Broadcom VMware vCenter Path Traversal Vulnerability",
       "epss": 0.02565,
-      "epss_percentile": 0.85123,
+      "epss_percentile": 0.85124,
       "ransomware_use": "known",
       "date_added": "2026-08-18",
       "due_date": "2026-08-21"
@@ -8074,7 +8074,7 @@
       "product": "Update Notification Manager",
       "title": "Microsoft Update Notification Manager Privilege Escalation Vulnerability",
       "epss": 0.0237,
-      "epss_percentile": 0.83832,
+      "epss_percentile": 0.83833,
       "ransomware_use": "known",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -8086,7 +8086,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability",
       "epss": 0.02362,
-      "epss_percentile": 0.83785,
+      "epss_percentile": 0.83786,
       "ransomware_use": "known",
       "date_added": "2022-11-08",
       "due_date": "2022-12-09"
@@ -8098,7 +8098,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Mark of the Web (MOTW) Security Feature Bypass Vulnerability",
       "epss": 0.0191,
-      "epss_percentile": 0.79788,
+      "epss_percentile": 0.79789,
       "ransomware_use": "known",
       "date_added": "2022-11-08",
       "due_date": "2022-12-09"
@@ -8134,7 +8134,7 @@
       "product": "Windows",
       "title": "Microsoft Windows AppX Deployment Service (AppXSVC) Privilege Escalation Vulnerability",
       "epss": 0.01782,
-      "epss_percentile": 0.78275,
+      "epss_percentile": 0.78274,
       "ransomware_use": "known",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -8158,7 +8158,7 @@
       "product": "ESXi",
       "title": "VMware ESXi Arbitrary Write Vulnerability",
       "epss": 0.01016,
-      "epss_percentile": 0.63324,
+      "epss_percentile": 0.63323,
       "ransomware_use": "known",
       "date_added": "2025-03-04",
       "due_date": "2025-03-25"
@@ -8338,7 +8338,7 @@
       "product": ".NET Framework",
       "title": "Microsoft .NET Framework Remote Code Execution Vulnerability",
       "epss": 0.88698,
-      "epss_percentile": 0.99775,
+      "epss_percentile": 0.99774,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -8362,7 +8362,7 @@
       "product": "Fusion Middleware",
       "title": "Oracle Fusion Middleware Missing Authentication for Critical Function Vulnerability",
       "epss": 0.88647,
-      "epss_percentile": 0.99774,
+      "epss_percentile": 0.99773,
       "ransomware_use": "unknown",
       "date_added": "2025-11-21",
       "due_date": "2025-12-12"
@@ -8398,7 +8398,7 @@
       "product": "Cloud Services Appliance",
       "title": "Ivanti Cloud Services Appliance OS Command Injection Vulnerability",
       "epss": 0.88535,
-      "epss_percentile": 0.99773,
+      "epss_percentile": 0.99772,
       "ransomware_use": "unknown",
       "date_added": "2024-09-13",
       "due_date": "2024-10-04"
@@ -8422,7 +8422,7 @@
       "product": "SP Page Builder",
       "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
       "epss": 0.88512,
-      "epss_percentile": 0.99772,
+      "epss_percentile": 0.99771,
       "ransomware_use": "unknown",
       "date_added": "2026-07-07",
       "due_date": "2026-07-10"
@@ -8481,8 +8481,8 @@
       "vendor": "Microsoft",
       "product": "Windows",
       "title": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
-      "epss": 0.88085,
-      "epss_percentile": 0.99765,
+      "epss": 0.88196,
+      "epss_percentile": 0.99767,
       "ransomware_use": "unknown",
       "date_added": "2023-11-14",
       "due_date": "2023-12-05"
@@ -8650,7 +8650,7 @@
       "product": "MiCollab, MiVoice Business Express",
       "title": "MiCollab, MiVoice Business Express Access Control Vulnerability",
       "epss": 0.87325,
-      "epss_percentile": 0.99754,
+      "epss_percentile": 0.99753,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -8686,7 +8686,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Use-After-Free Vulnerability",
       "epss": 0.87033,
-      "epss_percentile": 0.99748,
+      "epss_percentile": 0.99747,
       "ransomware_use": "unknown",
       "date_added": "2022-04-13",
       "due_date": "2022-05-04"
@@ -8746,7 +8746,7 @@
       "product": "Email Security Gateway (ESG) Appliance",
       "title": "Barracuda Networks ESG Appliance Improper Input Validation Vulnerability",
       "epss": 0.86841,
-      "epss_percentile": 0.99745,
+      "epss_percentile": 0.99744,
       "ransomware_use": "unknown",
       "date_added": "2023-05-26",
       "due_date": "2023-06-16"
@@ -8782,7 +8782,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.86648,
-      "epss_percentile": 0.99741,
+      "epss_percentile": 0.9974,
       "ransomware_use": "unknown",
       "date_added": "2022-05-04",
       "due_date": "2022-05-25"
@@ -8830,7 +8830,7 @@
       "product": "AC11 Router",
       "title": "Tenda AC11 Router Stack Buffer Overflow Vulnerability",
       "epss": 0.86511,
-      "epss_percentile": 0.99738,
+      "epss_percentile": 0.99737,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -8866,7 +8866,7 @@
       "product": "Salt",
       "title": "SaltStack Salt Path Traversal Vulnerability",
       "epss": 0.86178,
-      "epss_percentile": 0.99732,
+      "epss_percentile": 0.99731,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -9010,7 +9010,7 @@
       "product": "Web Help Desk",
       "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
       "epss": 0.84628,
-      "epss_percentile": 0.99705,
+      "epss_percentile": 0.99704,
       "ransomware_use": "unknown",
       "date_added": "2024-08-15",
       "due_date": "2024-09-05"
@@ -9250,7 +9250,7 @@
       "product": "XML Core Services",
       "title": "Microsoft XML Core Services Memory Corruption Vulnerability",
       "epss": 0.83516,
-      "epss_percentile": 0.99684,
+      "epss_percentile": 0.99685,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -9274,7 +9274,7 @@
       "product": "Junos OS",
       "title": "Juniper Junos OS EX Series Missing Authentication for Critical Function Vulnerability",
       "epss": 0.83455,
-      "epss_percentile": 0.99683,
+      "epss_percentile": 0.99684,
       "ransomware_use": "unknown",
       "date_added": "2023-11-13",
       "due_date": "2023-11-17"
@@ -9754,7 +9754,7 @@
       "product": "ProCurve Manager (PCM), PCM+, Identity Driven Manager (IDM), and Application Lifecycle Management",
       "title": "HP Multiple Products Remote Code Execution Vulnerability",
       "epss": 0.79468,
-      "epss_percentile": 0.99602,
+      "epss_percentile": 0.99603,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -9778,7 +9778,7 @@
       "product": "Reader and Acrobat",
       "title": "Adobe Reader and Acrobat Memory Corruption Vulnerability",
       "epss": 0.78913,
-      "epss_percentile": 0.99593,
+      "epss_percentile": 0.99594,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -9790,7 +9790,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
       "epss": 0.78823,
-      "epss_percentile": 0.99591,
+      "epss_percentile": 0.99592,
       "ransomware_use": "unknown",
       "date_added": "2024-07-23",
       "due_date": "2024-08-13"
@@ -9802,7 +9802,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.78808,
-      "epss_percentile": 0.9959,
+      "epss_percentile": 0.99591,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -9850,7 +9850,7 @@
       "product": "Firebox and XTM Appliances",
       "title": "WatchGuard Firebox and XTM Appliances Arbitrary Code Execution",
       "epss": 0.78157,
-      "epss_percentile": 0.99578,
+      "epss_percentile": 0.99577,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -9910,7 +9910,7 @@
       "product": "Word",
       "title": "Microsoft Word Memory Corruption Vulnerability",
       "epss": 0.77734,
-      "epss_percentile": 0.99568,
+      "epss_percentile": 0.99567,
       "ransomware_use": "unknown",
       "date_added": "2022-02-15",
       "due_date": "2022-08-15"
@@ -9970,7 +9970,7 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.77266,
-      "epss_percentile": 0.99556,
+      "epss_percentile": 0.99555,
       "ransomware_use": "unknown",
       "date_added": "2025-02-25",
       "due_date": "2025-03-18"
@@ -10114,7 +10114,7 @@
       "product": "FortiSandbox",
       "title": "Fortinet FortiSandbox OS Command Injection Vulnerability",
       "epss": 0.76112,
-      "epss_percentile": 0.99532,
+      "epss_percentile": 0.99533,
       "ransomware_use": "unknown",
       "date_added": "2026-07-16",
       "due_date": "2026-07-19"
@@ -10126,7 +10126,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Integer Overflow Vulnerability",
       "epss": 0.75994,
-      "epss_percentile": 0.99529,
+      "epss_percentile": 0.9953,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -10162,7 +10162,7 @@
       "product": "Struts 2",
       "title": "Apache Struts 2 Improper Input Validation Vulnerability",
       "epss": 0.75599,
-      "epss_percentile": 0.99519,
+      "epss_percentile": 0.9952,
       "ransomware_use": "unknown",
       "date_added": "2022-01-21",
       "due_date": "2022-07-21"
@@ -10486,7 +10486,7 @@
       "product": "NetScaler SD-WAN Enterprise, CloudBridge Virtual WAN, and XenMobile Server",
       "title": "Citrix Multiple Products Remote Code Execution Vulnerability",
       "epss": 0.7303,
-      "epss_percentile": 0.99454,
+      "epss_percentile": 0.99455,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -10510,7 +10510,7 @@
       "product": "Media Server",
       "title": "Plex Media Server Remote Code Execution Vulnerability",
       "epss": 0.72936,
-      "epss_percentile": 0.99451,
+      "epss_percentile": 0.99452,
       "ransomware_use": "unknown",
       "date_added": "2023-03-10",
       "due_date": "2023-03-31"
@@ -10642,7 +10642,7 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "title": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
       "epss": 0.71663,
-      "epss_percentile": 0.99421,
+      "epss_percentile": 0.9942,
       "ransomware_use": "unknown",
       "date_added": "2026-08-21",
       "due_date": "2026-08-24"
@@ -10702,7 +10702,7 @@
       "product": "Office",
       "title": "Microsoft Office Security Feature Bypass Vulnerability",
       "epss": 0.70795,
-      "epss_percentile": 0.99399,
+      "epss_percentile": 0.99398,
       "ransomware_use": "unknown",
       "date_added": "2026-01-26",
       "due_date": "2026-02-16"
@@ -10726,7 +10726,7 @@
       "product": "Microsoft",
       "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
       "epss": 0.70662,
-      "epss_percentile": 0.99394,
+      "epss_percentile": 0.99393,
       "ransomware_use": "unknown",
       "date_added": "2026-05-15",
       "due_date": "2026-05-29"
@@ -10810,7 +10810,7 @@
       "product": "Roundcube Webmail",
       "title": "Roundcube Webmail SQL Injection Vulnerability",
       "epss": 0.69882,
-      "epss_percentile": 0.99371,
+      "epss_percentile": 0.99372,
       "ransomware_use": "unknown",
       "date_added": "2023-06-22",
       "due_date": "2023-07-13"
@@ -10846,7 +10846,7 @@
       "product": "DCS-930L Devices",
       "title": "D-Link DCS-930L Devices OS Command Injection Vulnerability",
       "epss": 0.69582,
-      "epss_percentile": 0.99364,
+      "epss_percentile": 0.99365,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -10942,7 +10942,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Graphics Device Interface (GDI) Remote Code Execution Vulnerability",
       "epss": 0.68465,
-      "epss_percentile": 0.99336,
+      "epss_percentile": 0.99335,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -11038,22 +11038,10 @@
       "product": "Windows",
       "title": "Microsoft Windows SAM Local Privilege Escalation Vulnerability",
       "epss": 0.67252,
-      "epss_percentile": 0.99301,
+      "epss_percentile": 0.99302,
       "ransomware_use": "unknown",
       "date_added": "2022-02-10",
       "due_date": "2022-02-24"
-    },
-    {
-      "id": "CVE-2025-0411",
-      "priority": "MEDIUM",
-      "vendor": "7-Zip",
-      "product": "7-Zip",
-      "title": "7-Zip Mark of the Web Bypass Vulnerability",
-      "epss": 0.67071,
-      "epss_percentile": 0.99298,
-      "ransomware_use": "unknown",
-      "date_added": "2025-02-06",
-      "due_date": "2025-02-27"
     },
     {
       "id": "CVE-2016-4657",
@@ -11074,7 +11062,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Management Console Remote Code Execution Vulnerability",
       "epss": 0.66695,
-      "epss_percentile": 0.99289,
+      "epss_percentile": 0.9929,
       "ransomware_use": "unknown",
       "date_added": "2024-10-08",
       "due_date": "2024-10-29"
@@ -11158,7 +11146,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Adobe Font Manager Library Remote Code Execution Vulnerability",
       "epss": 0.65037,
-      "epss_percentile": 0.9925,
+      "epss_percentile": 0.99251,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -11170,7 +11158,7 @@
       "product": "HTTP Server",
       "title": "Apache HTTP Server Privilege Escalation Vulnerability",
       "epss": 0.65005,
-      "epss_percentile": 0.99249,
+      "epss_percentile": 0.9925,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -11242,7 +11230,7 @@
       "product": "GNU C Library",
       "title": "GNU C Library Buffer Overflow Vulnerability",
       "epss": 0.63769,
-      "epss_percentile": 0.9922,
+      "epss_percentile": 0.99221,
       "ransomware_use": "unknown",
       "date_added": "2023-11-21",
       "due_date": "2023-12-12"
@@ -11254,7 +11242,7 @@
       "product": "Webmail",
       "title": "Roundcube Webmail Persistent Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.6366,
-      "epss_percentile": 0.99216,
+      "epss_percentile": 0.99217,
       "ransomware_use": "unknown",
       "date_added": "2024-02-12",
       "due_date": "2024-03-04"
@@ -11278,7 +11266,7 @@
       "product": "Multiple Products",
       "title": "Rockwell Multiple Products Insufficient Protected Credentials Vulnerability",
       "epss": 0.6363,
-      "epss_percentile": 0.99215,
+      "epss_percentile": 0.99216,
       "ransomware_use": "unknown",
       "date_added": "2026-03-05",
       "due_date": "2026-03-26"
@@ -11302,7 +11290,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Unspecified Vulnerability",
       "epss": 0.63507,
-      "epss_percentile": 0.99211,
+      "epss_percentile": 0.99212,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -11326,7 +11314,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Out-of-Bounds Write Vulnerability",
       "epss": 0.6319,
-      "epss_percentile": 0.99204,
+      "epss_percentile": 0.99205,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -11374,7 +11362,7 @@
       "product": "Wing FTP Server",
       "title": "Wing FTP Server Information Disclosure Vulnerability",
       "epss": 0.62512,
-      "epss_percentile": 0.99188,
+      "epss_percentile": 0.99189,
       "ransomware_use": "unknown",
       "date_added": "2026-03-16",
       "due_date": "2026-03-30"
@@ -11398,7 +11386,7 @@
       "product": "BIG-IP Traffic Management Microkernel",
       "title": "F5 BIG-IP Traffic Management Microkernel Buffer Overflow",
       "epss": 0.62421,
-      "epss_percentile": 0.99185,
+      "epss_percentile": 0.99186,
       "ransomware_use": "unknown",
       "date_added": "2022-01-18",
       "due_date": "2022-02-01"
@@ -11410,7 +11398,7 @@
       "product": "Windows",
       "title": "Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability",
       "epss": 0.6227,
-      "epss_percentile": 0.99182,
+      "epss_percentile": 0.99183,
       "ransomware_use": "unknown",
       "date_added": "2025-04-17",
       "due_date": "2025-05-08"
@@ -11446,7 +11434,7 @@
       "product": "Internet Explorer Scripting Engine",
       "title": "Microsoft Scripting Engine Memory Corruption Vulnerability",
       "epss": 0.6177,
-      "epss_percentile": 0.99172,
+      "epss_percentile": 0.99173,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -11470,7 +11458,7 @@
       "product": "Data Risk Manager",
       "title": "IBM Data Risk Manager Remote Code Execution Vulnerability",
       "epss": 0.61692,
-      "epss_percentile": 0.9917,
+      "epss_percentile": 0.99171,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -11518,7 +11506,7 @@
       "product": "Chrome Blink",
       "title": "Google Chrome Blink Use-After-Free Vulnerability",
       "epss": 0.61085,
-      "epss_percentile": 0.99158,
+      "epss_percentile": 0.99159,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -11542,7 +11530,7 @@
       "product": "Multiple Products",
       "title": "Sitecore Multiple Products Deserialization of Untrusted Data Vulnerability",
       "epss": 0.60601,
-      "epss_percentile": 0.99145,
+      "epss_percentile": 0.99146,
       "ransomware_use": "unknown",
       "date_added": "2025-09-04",
       "due_date": "2025-09-25"
@@ -11566,7 +11554,7 @@
       "product": "Ray",
       "title": "Ray-Project Ray Code Injection Vulnerability",
       "epss": 0.6015,
-      "epss_percentile": 0.99135,
+      "epss_percentile": 0.99136,
       "ransomware_use": "unknown",
       "date_added": "2026-08-17",
       "due_date": "2026-08-20"
@@ -11578,7 +11566,7 @@
       "product": "EyesOfNetwork",
       "title": "EyesOfNetwork Improper Privilege Management Vulnerability",
       "epss": 0.60075,
-      "epss_percentile": 0.99133,
+      "epss_percentile": 0.99134,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -11602,7 +11590,7 @@
       "product": "Trivy",
       "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
       "epss": 0.59727,
-      "epss_percentile": 0.99128,
+      "epss_percentile": 0.99129,
       "ransomware_use": "unknown",
       "date_added": "2026-03-26",
       "due_date": "2026-04-09"
@@ -11650,7 +11638,7 @@
       "product": "Windows",
       "title": "Microsoft Windows MSHTML Platform Remote Code Execution Vulnerability",
       "epss": 0.59407,
-      "epss_percentile": 0.9912,
+      "epss_percentile": 0.99121,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -11662,7 +11650,7 @@
       "product": "PT30X-SDI/NDI Cameras",
       "title": "PTZOptics PT30X-SDI/NDI Cameras Authentication Bypass Vulnerability",
       "epss": 0.58787,
-      "epss_percentile": 0.99106,
+      "epss_percentile": 0.99107,
       "ransomware_use": "unknown",
       "date_added": "2024-11-04",
       "due_date": "2024-11-25"
@@ -11674,7 +11662,7 @@
       "product": "PowerPoint",
       "title": "Microsoft PowerPoint Buffer Overflow Vulnerability",
       "epss": 0.58646,
-      "epss_percentile": 0.99102,
+      "epss_percentile": 0.99103,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -11698,7 +11686,7 @@
       "product": "Excel",
       "title": "Microsoft Office Security Feature Bypass Vulnerability",
       "epss": 0.57733,
-      "epss_percentile": 0.99084,
+      "epss_percentile": 0.99085,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -11770,7 +11758,7 @@
       "product": "FreePBX",
       "title": " Sangoma FreePBX Improper Authentication Vulnerability",
       "epss": 0.55946,
-      "epss_percentile": 0.99046,
+      "epss_percentile": 0.99047,
       "ransomware_use": "unknown",
       "date_added": "2026-02-03",
       "due_date": "2026-02-24"
@@ -11806,7 +11794,7 @@
       "product": "DIR-825 R1 Devices",
       "title": "D-Link DIR-825 R1 Devices Buffer Overflow Vulnerability",
       "epss": 0.55747,
-      "epss_percentile": 0.99041,
+      "epss_percentile": 0.99042,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -11830,7 +11818,7 @@
       "product": "Routers",
       "title": "D-Link Routers Buffer Overflow Vulnerability",
       "epss": 0.55531,
-      "epss_percentile": 0.99036,
+      "epss_percentile": 0.99037,
       "ransomware_use": "unknown",
       "date_added": "2025-12-08",
       "due_date": "2025-12-29"
@@ -11926,7 +11914,7 @@
       "product": "vCenter Server",
       "title": "VMware vCenter Server Heap-Based Buffer Overflow Vulnerability",
       "epss": 0.54571,
-      "epss_percentile": 0.99017,
+      "epss_percentile": 0.99018,
       "ransomware_use": "unknown",
       "date_added": "2024-11-20",
       "due_date": "2024-12-11"
@@ -11962,7 +11950,7 @@
       "product": "Multiple Products",
       "title": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
       "epss": 0.5414,
-      "epss_percentile": 0.99007,
+      "epss_percentile": 0.99008,
       "ransomware_use": "unknown",
       "date_added": "2026-09-22",
       "due_date": "2026-09-25"
@@ -12022,7 +12010,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Runtime Remote Code Execution Vulnerability",
       "epss": 0.53781,
-      "epss_percentile": 0.98998,
+      "epss_percentile": 0.98999,
       "ransomware_use": "unknown",
       "date_added": "2022-08-18",
       "due_date": "2022-09-08"
@@ -12040,13 +12028,25 @@
       "due_date": "2022-04-15"
     },
     {
+      "id": "CVE-2023-45249",
+      "priority": "MEDIUM",
+      "vendor": "Acronis",
+      "product": "Cyber Infrastructure (ACI)",
+      "title": "Acronis Cyber Infrastructure (ACI) Insecure Default Password Vulnerability",
+      "epss": 0.53535,
+      "epss_percentile": 0.98992,
+      "ransomware_use": "unknown",
+      "date_added": "2024-07-29",
+      "due_date": "2024-08-19"
+    },
+    {
       "id": "CVE-2023-41064",
       "priority": "MEDIUM",
       "vendor": "Apple",
       "product": "iOS, iPadOS, and macOS",
       "title": "Apple iOS, iPadOS, and macOS ImageIO Buffer Overflow Vulnerability",
       "epss": 0.53403,
-      "epss_percentile": 0.98988,
+      "epss_percentile": 0.98989,
       "ransomware_use": "unknown",
       "date_added": "2023-09-11",
       "due_date": "2023-10-02"
@@ -12076,18 +12076,6 @@
       "due_date": "2026-01-05"
     },
     {
-      "id": "CVE-2023-45249",
-      "priority": "MEDIUM",
-      "vendor": "Acronis",
-      "product": "Cyber Infrastructure (ACI)",
-      "title": "Acronis Cyber Infrastructure (ACI) Insecure Default Password Vulnerability",
-      "epss": 0.53255,
-      "epss_percentile": 0.98983,
-      "ransomware_use": "unknown",
-      "date_added": "2024-07-29",
-      "due_date": "2024-08-19"
-    },
-    {
       "id": "CVE-2019-0541",
       "priority": "MEDIUM",
       "vendor": "Microsoft",
@@ -12106,7 +12094,7 @@
       "product": "Office",
       "title": "Microsoft Office Memory Corruption Vulnerability",
       "epss": 0.53087,
-      "epss_percentile": 0.98979,
+      "epss_percentile": 0.9898,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -12178,7 +12166,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Improper Privilege Management Vulnerability",
       "epss": 0.52199,
-      "epss_percentile": 0.98959,
+      "epss_percentile": 0.9896,
       "ransomware_use": "unknown",
       "date_added": "2021-12-10",
       "due_date": "2022-06-10"
@@ -12262,7 +12250,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Information Disclosure Vulnerability",
       "epss": 0.5021,
-      "epss_percentile": 0.98906,
+      "epss_percentile": 0.98907,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -12346,7 +12334,7 @@
       "product": "OS X",
       "title": "Apple OS X Heap-Based Buffer Overflow Vulnerability",
       "epss": 0.48923,
-      "epss_percentile": 0.98879,
+      "epss_percentile": 0.9888,
       "ransomware_use": "unknown",
       "date_added": "2022-02-10",
       "due_date": "2022-08-10"
@@ -12358,7 +12346,7 @@
       "product": " Zimbra Collaboration Suite (ZCS)",
       "title": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
       "epss": 0.48873,
-      "epss_percentile": 0.98877,
+      "epss_percentile": 0.98878,
       "ransomware_use": "unknown",
       "date_added": "2026-01-22",
       "due_date": "2026-02-12"
@@ -12370,7 +12358,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Remote Code Execution Vulnerability",
       "epss": 0.48832,
-      "epss_percentile": 0.98876,
+      "epss_percentile": 0.98877,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -12394,7 +12382,7 @@
       "product": "NVRmini2 Devices",
       "title": "NUUO NVRmini2 Devices Missing Authentication Vulnerability ",
       "epss": 0.48497,
-      "epss_percentile": 0.98868,
+      "epss_percentile": 0.98869,
       "ransomware_use": "unknown",
       "date_added": "2024-12-18",
       "due_date": "2025-01-08"
@@ -12406,7 +12394,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.48293,
-      "epss_percentile": 0.98864,
+      "epss_percentile": 0.98865,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -12430,7 +12418,7 @@
       "product": "Word",
       "title": "Microsoft Word Malformed Object Pointer Vulnerability",
       "epss": 0.48107,
-      "epss_percentile": 0.98858,
+      "epss_percentile": 0.98859,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -12482,6 +12470,18 @@
       "ransomware_use": "unknown",
       "date_added": "2024-12-18",
       "due_date": "2025-01-08"
+    },
+    {
+      "id": "CVE-2025-0411",
+      "priority": "MEDIUM",
+      "vendor": "7-Zip",
+      "product": "7-Zip",
+      "title": "7-Zip Mark of the Web Bypass Vulnerability",
+      "epss": 0.47574,
+      "epss_percentile": 0.98845,
+      "ransomware_use": "unknown",
+      "date_added": "2025-02-06",
+      "due_date": "2025-02-27"
     },
     {
       "id": "CVE-2016-3976",
@@ -12652,6 +12652,18 @@
       "due_date": "2023-04-20"
     },
     {
+      "id": "CVE-2007-0671",
+      "priority": "MEDIUM",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "title": "Microsoft Office Excel Remote Code Execution Vulnerability",
+      "epss": 0.44099,
+      "epss_percentile": 0.98754,
+      "ransomware_use": "unknown",
+      "date_added": "2025-08-12",
+      "due_date": "2025-09-02"
+    },
+    {
       "id": "CVE-2026-28318",
       "priority": "MEDIUM",
       "vendor": "SolarWinds",
@@ -12682,7 +12694,7 @@
       "product": "SharePoint Server",
       "title": "Microsoft SharePoint Server Improper Input Validation Vulnerability",
       "epss": 0.43378,
-      "epss_percentile": 0.98732,
+      "epss_percentile": 0.98731,
       "ransomware_use": "unknown",
       "date_added": "2026-04-14",
       "due_date": "2026-04-28"
@@ -12694,22 +12706,10 @@
       "product": "Office",
       "title": "Microsoft Office OLE DLL Side Loading Vulnerability",
       "epss": 0.43308,
-      "epss_percentile": 0.98729,
+      "epss_percentile": 0.98728,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
-    },
-    {
-      "id": "CVE-2007-0671",
-      "priority": "MEDIUM",
-      "vendor": "Microsoft",
-      "product": "Office",
-      "title": "Microsoft Office Excel Remote Code Execution Vulnerability",
-      "epss": 0.43241,
-      "epss_percentile": 0.98726,
-      "ransomware_use": "unknown",
-      "date_added": "2025-08-12",
-      "due_date": "2025-09-02"
     },
     {
       "id": "CVE-2023-49105",
@@ -12742,7 +12742,7 @@
       "product": "Office",
       "title": "Microsoft Office Remote Code Execution",
       "epss": 0.42941,
-      "epss_percentile": 0.9872,
+      "epss_percentile": 0.98721,
       "ransomware_use": "unknown",
       "date_added": "2026-04-14",
       "due_date": "2026-04-28"
@@ -12766,7 +12766,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Error Reporting Service Privilege Escalation Vulnerability",
       "epss": 0.42564,
-      "epss_percentile": 0.9871,
+      "epss_percentile": 0.98711,
       "ransomware_use": "unknown",
       "date_added": "2023-07-11",
       "due_date": "2023-08-01"
@@ -12778,7 +12778,7 @@
       "product": "ColdFusion",
       "title": "Adobe ColdFusion Path Traversal Vulnerability",
       "epss": 0.42388,
-      "epss_percentile": 0.98703,
+      "epss_percentile": 0.98704,
       "ransomware_use": "unknown",
       "date_added": "2026-07-07",
       "due_date": "2026-07-10"
@@ -12958,7 +12958,7 @@
       "product": "AirOS",
       "title": "Ubiquiti AirOS Command Injection Vulnerability",
       "epss": 0.40232,
-      "epss_percentile": 0.98639,
+      "epss_percentile": 0.98638,
       "ransomware_use": "unknown",
       "date_added": "2022-04-15",
       "due_date": "2022-05-06"
@@ -13354,7 +13354,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Advanced Local Procedure Call (ALPC) Privilege Escalation Vulnerability",
       "epss": 0.34206,
-      "epss_percentile": 0.98403,
+      "epss_percentile": 0.98404,
       "ransomware_use": "unknown",
       "date_added": "2023-01-10",
       "due_date": "2023-01-31"
@@ -13390,7 +13390,7 @@
       "product": "IOS",
       "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
       "epss": 0.33871,
-      "epss_percentile": 0.9839,
+      "epss_percentile": 0.98391,
       "ransomware_use": "unknown",
       "date_added": "2026-07-13",
       "due_date": "2026-07-16"
@@ -13414,22 +13414,10 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer ASLR Bypass Vulnerability",
       "epss": 0.33581,
-      "epss_percentile": 0.98382,
+      "epss_percentile": 0.98383,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
-    },
-    {
-      "id": "CVE-2020-9715",
-      "priority": "MEDIUM",
-      "vendor": "Adobe",
-      "product": "Acrobat",
-      "title": "Adobe Acrobat Use-After-Free Vulnerability",
-      "epss": 0.33491,
-      "epss_percentile": 0.9838,
-      "ransomware_use": "unknown",
-      "date_added": "2026-04-13",
-      "due_date": "2026-04-27"
     },
     {
       "id": "CVE-2016-4655",
@@ -13438,7 +13426,7 @@
       "product": "iOS",
       "title": "Apple iOS Information Disclosure Vulnerability",
       "epss": 0.33353,
-      "epss_percentile": 0.98374,
+      "epss_percentile": 0.98375,
       "ransomware_use": "unknown",
       "date_added": "2022-05-24",
       "due_date": "2022-06-14"
@@ -13450,7 +13438,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Messaging API Information Disclosure Vulnerability",
       "epss": 0.33332,
-      "epss_percentile": 0.98372,
+      "epss_percentile": 0.98373,
       "ransomware_use": "unknown",
       "date_added": "2022-05-24",
       "due_date": "2022-06-14"
@@ -13462,10 +13450,22 @@
       "product": "Email Server",
       "title": "MDaemon Email Server Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.33259,
-      "epss_percentile": 0.98369,
+      "epss_percentile": 0.9837,
       "ransomware_use": "unknown",
       "date_added": "2025-05-19",
       "due_date": "2025-06-09"
+    },
+    {
+      "id": "CVE-2020-9715",
+      "priority": "MEDIUM",
+      "vendor": "Adobe",
+      "product": "Acrobat",
+      "title": "Adobe Acrobat Use-After-Free Vulnerability",
+      "epss": 0.33256,
+      "epss_percentile": 0.9837,
+      "ransomware_use": "unknown",
+      "date_added": "2026-04-13",
+      "due_date": "2026-04-27"
     },
     {
       "id": "CVE-2021-30633",
@@ -13474,7 +13474,7 @@
       "product": "Chromium Indexed DB API",
       "title": "Google Chromium Indexed DB API Use-After-Free Vulnerability",
       "epss": 0.3318,
-      "epss_percentile": 0.98366,
+      "epss_percentile": 0.98367,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -13606,7 +13606,7 @@
       "product": "Ancillary Function Driver (afd.sys)",
       "title": "Microsoft Ancillary Function Driver (afd.sys) Improper Input Validation Vulnerability",
       "epss": 0.31761,
-      "epss_percentile": 0.98299,
+      "epss_percentile": 0.98298,
       "ransomware_use": "unknown",
       "date_added": "2022-03-28",
       "due_date": "2022-04-18"
@@ -13774,7 +13774,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Memory Corruption Vulnerability",
       "epss": 0.29178,
-      "epss_percentile": 0.98169,
+      "epss_percentile": 0.9817,
       "ransomware_use": "unknown",
       "date_added": "2022-05-24",
       "due_date": "2022-06-14"
@@ -13834,7 +13834,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.28839,
-      "epss_percentile": 0.98149,
+      "epss_percentile": 0.9815,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -13846,7 +13846,7 @@
       "product": "NG/MF",
       "title": "PaperCut NG/MF Cross-Site Request Forgery (CSRF) Vulnerability",
       "epss": 0.28831,
-      "epss_percentile": 0.98148,
+      "epss_percentile": 0.98149,
       "ransomware_use": "unknown",
       "date_added": "2025-07-28",
       "due_date": "2025-08-18"
@@ -13858,7 +13858,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Ancillary Function Driver for WinSock Privilege Escalation Vulnerability",
       "epss": 0.28739,
-      "epss_percentile": 0.98141,
+      "epss_percentile": 0.98142,
       "ransomware_use": "unknown",
       "date_added": "2024-08-13",
       "due_date": "2024-09-03"
@@ -13882,7 +13882,7 @@
       "product": "Langflow",
       "title": "IBM Langflow Code Injection Vulnerability",
       "epss": 0.28658,
-      "epss_percentile": 0.98137,
+      "epss_percentile": 0.98138,
       "ransomware_use": "unknown",
       "date_added": "2026-08-04",
       "due_date": "2026-08-07"
@@ -13894,7 +13894,7 @@
       "product": "Multiple Devices",
       "title": "GeoVision Devices OS Command Injection Vulnerability",
       "epss": 0.28386,
-      "epss_percentile": 0.98123,
+      "epss_percentile": 0.98124,
       "ransomware_use": "unknown",
       "date_added": "2025-05-07",
       "due_date": "2025-05-28"
@@ -13906,7 +13906,7 @@
       "product": "Multiple Firewalls",
       "title": "Zyxel Multiple Firewalls Buffer Overflow Vulnerability",
       "epss": 0.28144,
-      "epss_percentile": 0.9811,
+      "epss_percentile": 0.98111,
       "ransomware_use": "unknown",
       "date_added": "2023-06-05",
       "due_date": "2023-06-26"
@@ -13978,7 +13978,7 @@
       "product": "Community Edition and Enterprise Edition",
       "title": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
       "epss": 0.273,
-      "epss_percentile": 0.9806,
+      "epss_percentile": 0.98061,
       "ransomware_use": "unknown",
       "date_added": "2026-10-29",
       "due_date": "2026-11-01"
@@ -13990,7 +13990,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Scripting Engine Type Confusion Vulnerability",
       "epss": 0.27263,
-      "epss_percentile": 0.98059,
+      "epss_percentile": 0.9806,
       "ransomware_use": "unknown",
       "date_added": "2025-05-13",
       "due_date": "2025-06-03"
@@ -14002,7 +14002,7 @@
       "product": "AirLink ALEOS",
       "title": "Sierra Wireless AirLink ALEOS Unrestricted Upload of File with Dangerous Type Vulnerability",
       "epss": 0.2726,
-      "epss_percentile": 0.98058,
+      "epss_percentile": 0.98059,
       "ransomware_use": "unknown",
       "date_added": "2025-12-12",
       "due_date": "2026-01-02"
@@ -14014,7 +14014,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Use-After-Free Vulnerability",
       "epss": 0.27076,
-      "epss_percentile": 0.98048,
+      "epss_percentile": 0.98049,
       "ransomware_use": "unknown",
       "date_added": "2023-04-10",
       "due_date": "2023-05-01"
@@ -14026,7 +14026,7 @@
       "product": "Viewer ",
       "title": "Justice AV Solutions (JAVS) Viewer Installer Embedded Malicious Code Vulnerability",
       "epss": 0.26937,
-      "epss_percentile": 0.98039,
+      "epss_percentile": 0.9804,
       "ransomware_use": "unknown",
       "date_added": "2024-05-29",
       "due_date": "2024-06-19"
@@ -14038,7 +14038,7 @@
       "product": "BIG-IP APM",
       "title": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
       "epss": 0.2655,
-      "epss_percentile": 0.98015,
+      "epss_percentile": 0.98016,
       "ransomware_use": "unknown",
       "date_added": "2026-09-22",
       "due_date": "2026-09-25"
@@ -14122,7 +14122,7 @@
       "product": "Micro Focus Access Manager",
       "title": "Micro Focus Access Manager Information Leakage Vulnerability",
       "epss": 0.25695,
-      "epss_percentile": 0.97966,
+      "epss_percentile": 0.97967,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -14182,7 +14182,7 @@
       "product": "Catalyst SD-WAN Manager",
       "title": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
       "epss": 0.25323,
-      "epss_percentile": 0.97943,
+      "epss_percentile": 0.97942,
       "ransomware_use": "unknown",
       "date_added": "2026-06-09",
       "due_date": "2026-06-23"
@@ -14290,7 +14290,7 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.24606,
-      "epss_percentile": 0.97884,
+      "epss_percentile": 0.97885,
       "ransomware_use": "unknown",
       "date_added": "2025-05-19",
       "due_date": "2025-06-09"
@@ -14314,7 +14314,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Code Execution Vulnerability",
       "epss": 0.24349,
-      "epss_percentile": 0.97866,
+      "epss_percentile": 0.97867,
       "ransomware_use": "unknown",
       "date_added": "2023-09-25",
       "due_date": "2023-10-16"
@@ -14326,7 +14326,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
       "epss": 0.24283,
-      "epss_percentile": 0.97863,
+      "epss_percentile": 0.97864,
       "ransomware_use": "unknown",
       "date_added": "2022-03-28",
       "due_date": "2022-04-18"
@@ -14410,7 +14410,7 @@
       "product": "Polkit",
       "title": "Red Hat Polkit Incorrect Authorization Vulnerability",
       "epss": 0.23708,
-      "epss_percentile": 0.97819,
+      "epss_percentile": 0.9782,
       "ransomware_use": "unknown",
       "date_added": "2023-05-12",
       "due_date": "2023-06-02"
@@ -14434,7 +14434,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.2351,
-      "epss_percentile": 0.97798,
+      "epss_percentile": 0.97799,
       "ransomware_use": "unknown",
       "date_added": "2022-12-05",
       "due_date": "2022-12-26"
@@ -14518,7 +14518,7 @@
       "product": "Adaptive Security Appliance (ASA)",
       "title": "Cisco Adaptive Security Appliance (ASA) CLI Remote Code Execution Vulnerability",
       "epss": 0.22583,
-      "epss_percentile": 0.97716,
+      "epss_percentile": 0.97717,
       "ransomware_use": "unknown",
       "date_added": "2022-05-24",
       "due_date": "2022-06-14"
@@ -14530,7 +14530,7 @@
       "product": "Adaptive Security Appliance (ASA)",
       "title": "Cisco Adaptive Security Appliance (ASA) Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.22558,
-      "epss_percentile": 0.97714,
+      "epss_percentile": 0.97715,
       "ransomware_use": "unknown",
       "date_added": "2024-11-12",
       "due_date": "2024-12-03"
@@ -14626,7 +14626,7 @@
       "product": "TL-WA855RE",
       "title": "TP-link TL-WA855RE Missing Authentication for Critical Function Vulnerability",
       "epss": 0.22187,
-      "epss_percentile": 0.97675,
+      "epss_percentile": 0.97676,
       "ransomware_use": "unknown",
       "date_added": "2025-09-02",
       "due_date": "2025-09-23"
@@ -14638,7 +14638,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.22009,
-      "epss_percentile": 0.97661,
+      "epss_percentile": 0.97662,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -14650,7 +14650,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.21948,
-      "epss_percentile": 0.97654,
+      "epss_percentile": 0.97655,
       "ransomware_use": "unknown",
       "date_added": "2024-11-21",
       "due_date": "2024-12-12"
@@ -14662,7 +14662,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Information Disclosure Vulnerability",
       "epss": 0.21932,
-      "epss_percentile": 0.97653,
+      "epss_percentile": 0.97654,
       "ransomware_use": "unknown",
       "date_added": "2022-05-24",
       "due_date": "2022-06-14"
@@ -14674,7 +14674,7 @@
       "product": "DIR-610 Devices",
       "title": "D-Link DIR-610 Devices Remote Command Execution",
       "epss": 0.21888,
-      "epss_percentile": 0.97648,
+      "epss_percentile": 0.97649,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -14686,7 +14686,7 @@
       "product": "Windows",
       "title": "Microsoft Windows User Profile Service Privilege Escalation Vulnerability",
       "epss": 0.21827,
-      "epss_percentile": 0.97642,
+      "epss_percentile": 0.97643,
       "ransomware_use": "unknown",
       "date_added": "2022-03-31",
       "due_date": "2022-04-21"
@@ -14722,7 +14722,7 @@
       "product": "Craft CMS",
       "title": "Craft CMS Code Injection Vulnerability",
       "epss": 0.21642,
-      "epss_percentile": 0.97629,
+      "epss_percentile": 0.9763,
       "ransomware_use": "unknown",
       "date_added": "2025-02-20",
       "due_date": "2025-03-13"
@@ -14734,7 +14734,7 @@
       "product": "Streaming Service",
       "title": "Microsoft Streaming Service Untrusted Pointer Dereference Vulnerability",
       "epss": 0.2162,
-      "epss_percentile": 0.97627,
+      "epss_percentile": 0.97628,
       "ransomware_use": "unknown",
       "date_added": "2024-02-29",
       "due_date": "2024-03-21"
@@ -14770,7 +14770,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Integer Overflow Vulnerability",
       "epss": 0.21194,
-      "epss_percentile": 0.97587,
+      "epss_percentile": 0.97588,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -14782,7 +14782,7 @@
       "product": "Session Recording",
       "title": "Citrix Session Recording Deserialization of Untrusted Data Vulnerability",
       "epss": 0.21089,
-      "epss_percentile": 0.97578,
+      "epss_percentile": 0.97579,
       "ransomware_use": "unknown",
       "date_added": "2025-08-25",
       "due_date": "2025-09-15"
@@ -14818,7 +14818,7 @@
       "product": "Visual Basic for Applications (VBA)",
       "title": "Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability",
       "epss": 0.20867,
-      "epss_percentile": 0.9755,
+      "epss_percentile": 0.97551,
       "ransomware_use": "unknown",
       "date_added": "2026-04-13",
       "due_date": "2026-04-27"
@@ -14830,7 +14830,7 @@
       "product": "DSL CPE Devices",
       "title": "Zyxel DSL CPE OS Command Injection Vulnerability",
       "epss": 0.20703,
-      "epss_percentile": 0.97532,
+      "epss_percentile": 0.97533,
       "ransomware_use": "unknown",
       "date_added": "2025-02-11",
       "due_date": "2025-03-04"
@@ -14878,7 +14878,7 @@
       "product": "WordPad",
       "title": "Microsoft WordPad Information Disclosure Vulnerability",
       "epss": 0.20318,
-      "epss_percentile": 0.97477,
+      "epss_percentile": 0.97478,
       "ransomware_use": "unknown",
       "date_added": "2023-10-10",
       "due_date": "2023-10-31"
@@ -14890,7 +14890,7 @@
       "product": "EDS5000",
       "title": "Lantronix EDS5000 Code Injection Vulnerability",
       "epss": 0.20286,
-      "epss_percentile": 0.97474,
+      "epss_percentile": 0.97475,
       "ransomware_use": "unknown",
       "date_added": "2026-06-23",
       "due_date": "2026-06-26"
@@ -14902,7 +14902,7 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability",
       "epss": 0.20227,
-      "epss_percentile": 0.97466,
+      "epss_percentile": 0.97467,
       "ransomware_use": "unknown",
       "date_added": "2026-03-18",
       "due_date": "2026-04-01"
@@ -14938,7 +14938,7 @@
       "product": "TL-WR841N",
       "title": "TP-Link TL-WR841N Authentication Bypass by Spoofing Vulnerability",
       "epss": 0.20021,
-      "epss_percentile": 0.9744,
+      "epss_percentile": 0.97441,
       "ransomware_use": "unknown",
       "date_added": "2025-09-03",
       "due_date": "2025-09-24"
@@ -14962,7 +14962,7 @@
       "product": "Chromium",
       "title": "Google Chromium Information Disclosure Vulnerability",
       "epss": 0.19901,
-      "epss_percentile": 0.97425,
+      "epss_percentile": 0.97426,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -14986,7 +14986,7 @@
       "product": "Apex Central",
       "title": "Trend Micro Apex Central Arbitrary File Upload Vulnerability",
       "epss": 0.19481,
-      "epss_percentile": 0.97372,
+      "epss_percentile": 0.97373,
       "ransomware_use": "unknown",
       "date_added": "2022-03-31",
       "due_date": "2022-04-21"
@@ -15154,7 +15154,7 @@
       "product": "IPv6",
       "title": "Treck TCP/IP stack Out-of-Bounds Read Vulnerability",
       "epss": 0.1842,
-      "epss_percentile": 0.97234,
+      "epss_percentile": 0.97235,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -15178,7 +15178,7 @@
       "product": "Secure Access Control System (ACS)",
       "title": "Cisco Secure Access Control System Java Deserialization Vulnerability",
       "epss": 0.18212,
-      "epss_percentile": 0.97211,
+      "epss_percentile": 0.97212,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -15250,7 +15250,7 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.17634,
-      "epss_percentile": 0.9715,
+      "epss_percentile": 0.97151,
       "ransomware_use": "unknown",
       "date_added": "2023-04-03",
       "due_date": "2023-04-24"
@@ -15286,7 +15286,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Use-After-Free Vulnerability",
       "epss": 0.1751,
-      "epss_percentile": 0.97136,
+      "epss_percentile": 0.97137,
       "ransomware_use": "unknown",
       "date_added": "2025-01-29",
       "due_date": "2025-02-19"
@@ -15298,7 +15298,7 @@
       "product": "vCenter Server",
       "title": "VMware vCenter Server Privilege Escalation Vulnerability",
       "epss": 0.17355,
-      "epss_percentile": 0.97115,
+      "epss_percentile": 0.97116,
       "ransomware_use": "unknown",
       "date_added": "2024-11-20",
       "due_date": "2024-12-11"
@@ -15310,7 +15310,7 @@
       "product": "Multiple Products",
       "title": "Multiple VMware Products Command Injection Vulnerability",
       "epss": 0.17302,
-      "epss_percentile": 0.97108,
+      "epss_percentile": 0.97109,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -15322,7 +15322,7 @@
       "product": "ColdFusion",
       "title": "Adobe ColdFusion Deserialization of Untrusted Data Vulnerability",
       "epss": 0.16988,
-      "epss_percentile": 0.9707,
+      "epss_percentile": 0.97071,
       "ransomware_use": "unknown",
       "date_added": "2023-08-21",
       "due_date": "2023-09-11"
@@ -15418,7 +15418,7 @@
       "product": "iOS, iPadOS, and macOS",
       "title": "Apple iOS, iPadOS, and macOS Webkit Use-After-Free Vulnerability",
       "epss": 0.16342,
-      "epss_percentile": 0.96962,
+      "epss_percentile": 0.96963,
       "ransomware_use": "unknown",
       "date_added": "2022-02-11",
       "due_date": "2022-02-25"
@@ -15430,7 +15430,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Type Confusion Vulnerability",
       "epss": 0.16159,
-      "epss_percentile": 0.96932,
+      "epss_percentile": 0.96933,
       "ransomware_use": "unknown",
       "date_added": "2022-05-04",
       "due_date": "2022-05-25"
@@ -15454,7 +15454,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.15939,
-      "epss_percentile": 0.96898,
+      "epss_percentile": 0.96899,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -15478,7 +15478,7 @@
       "product": "SharePoint",
       "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
       "epss": 0.15873,
-      "epss_percentile": 0.96886,
+      "epss_percentile": 0.96887,
       "ransomware_use": "unknown",
       "date_added": "2026-07-16",
       "due_date": "2026-07-19"
@@ -15490,7 +15490,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Improper Input Validation Vulnerability",
       "epss": 0.15861,
-      "epss_percentile": 0.96884,
+      "epss_percentile": 0.96885,
       "ransomware_use": "unknown",
       "date_added": "2023-05-12",
       "due_date": "2023-06-02"
@@ -15502,7 +15502,7 @@
       "product": "Windows",
       "title": "Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability",
       "epss": 0.15852,
-      "epss_percentile": 0.96883,
+      "epss_percentile": 0.96884,
       "ransomware_use": "unknown",
       "date_added": "2026-02-10",
       "due_date": "2026-03-03"
@@ -15514,7 +15514,7 @@
       "product": "Outlook",
       "title": "Microsoft Outlook Security Feature Bypass Vulnerability",
       "epss": 0.15522,
-      "epss_percentile": 0.96813,
+      "epss_percentile": 0.96814,
       "ransomware_use": "unknown",
       "date_added": "2023-07-11",
       "due_date": "2023-08-01"
@@ -15538,7 +15538,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.15236,
-      "epss_percentile": 0.96761,
+      "epss_percentile": 0.96762,
       "ransomware_use": "unknown",
       "date_added": "2024-05-20",
       "due_date": "2024-06-10"
@@ -15550,7 +15550,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player ASLR Bypass Vulnerability",
       "epss": 0.15097,
-      "epss_percentile": 0.96735,
+      "epss_percentile": 0.96736,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -15586,7 +15586,7 @@
       "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
       "title": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
       "epss": 0.14863,
-      "epss_percentile": 0.96696,
+      "epss_percentile": 0.96697,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -15598,7 +15598,7 @@
       "product": "Forms",
       "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
       "epss": 0.14854,
-      "epss_percentile": 0.96695,
+      "epss_percentile": 0.96696,
       "ransomware_use": "unknown",
       "date_added": "2026-07-10",
       "due_date": "2026-07-13"
@@ -15610,7 +15610,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.1484,
-      "epss_percentile": 0.96693,
+      "epss_percentile": 0.96694,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -15622,7 +15622,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.14774,
-      "epss_percentile": 0.96681,
+      "epss_percentile": 0.96682,
       "ransomware_use": "unknown",
       "date_added": "2022-06-27",
       "due_date": "2022-07-18"
@@ -15634,7 +15634,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.14721,
-      "epss_percentile": 0.96674,
+      "epss_percentile": 0.96675,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -15766,7 +15766,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Arbitrary Read and Write Vulnerability",
       "epss": 0.13973,
-      "epss_percentile": 0.96549,
+      "epss_percentile": 0.9655,
       "ransomware_use": "unknown",
       "date_added": "2025-04-17",
       "due_date": "2025-05-08"
@@ -15814,7 +15814,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.1368,
-      "epss_percentile": 0.9649,
+      "epss_percentile": 0.96491,
       "ransomware_use": "unknown",
       "date_added": "2023-06-22",
       "due_date": "2023-07-13"
@@ -15838,7 +15838,7 @@
       "product": "Windows",
       "title": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
       "epss": 0.13626,
-      "epss_percentile": 0.96478,
+      "epss_percentile": 0.96479,
       "ransomware_use": "unknown",
       "date_added": "2024-08-13",
       "due_date": "2024-09-03"
@@ -15880,6 +15880,18 @@
       "due_date": "2025-09-23"
     },
     {
+      "id": "CVE-2019-3010",
+      "priority": "MEDIUM",
+      "vendor": "Oracle",
+      "product": "Solaris",
+      "title": "Oracle Solaris Privilege Escalation Vulnerability",
+      "epss": 0.13506,
+      "epss_percentile": 0.96446,
+      "ransomware_use": "unknown",
+      "date_added": "2022-05-25",
+      "due_date": "2022-06-15"
+    },
+    {
       "id": "CVE-2026-34926",
       "priority": "MEDIUM",
       "vendor": "Trend Micro",
@@ -15892,25 +15904,13 @@
       "due_date": "2026-06-04"
     },
     {
-      "id": "CVE-2019-3010",
-      "priority": "MEDIUM",
-      "vendor": "Oracle",
-      "product": "Solaris",
-      "title": "Oracle Solaris Privilege Escalation Vulnerability",
-      "epss": 0.13399,
-      "epss_percentile": 0.96422,
-      "ransomware_use": "unknown",
-      "date_added": "2022-05-25",
-      "due_date": "2022-06-15"
-    },
-    {
       "id": "CVE-2023-41991",
       "priority": "MEDIUM",
       "vendor": "Apple",
       "product": "Multiple Products",
       "title": "Apple Multiple Products Improper Certificate Validation Vulnerability",
       "epss": 0.1338,
-      "epss_percentile": 0.96419,
+      "epss_percentile": 0.9642,
       "ransomware_use": "unknown",
       "date_added": "2023-09-25",
       "due_date": "2023-10-16"
@@ -15922,7 +15922,7 @@
       "product": "iOS, iPadOS, and macOS",
       "title": "Apple iOS, iPadOS, macOS Use-After-Free Vulnerability",
       "epss": 0.13379,
-      "epss_percentile": 0.96419,
+      "epss_percentile": 0.9642,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -15934,7 +15934,7 @@
       "product": "vCenter Server",
       "title": "VMware vCenter Server Incorrect Default File Permissions Vulnerability ",
       "epss": 0.13282,
-      "epss_percentile": 0.96388,
+      "epss_percentile": 0.96389,
       "ransomware_use": "unknown",
       "date_added": "2024-07-17",
       "due_date": "2024-08-07"
@@ -15946,7 +15946,7 @@
       "product": "Exchange Server",
       "title": "Microsoft Exchange Server Privilege Escalation Vulnerability",
       "epss": 0.12661,
-      "epss_percentile": 0.96253,
+      "epss_percentile": 0.96254,
       "ransomware_use": "unknown",
       "date_added": "2024-02-15",
       "due_date": "2024-03-07"
@@ -15958,7 +15958,7 @@
       "product": "macOS",
       "title": "Apple macOS Out-of-Bounds Write Vulnerability",
       "epss": 0.12492,
-      "epss_percentile": 0.96223,
+      "epss_percentile": 0.96224,
       "ransomware_use": "unknown",
       "date_added": "2022-04-04",
       "due_date": "2022-04-25"
@@ -15970,7 +15970,7 @@
       "product": "SD-WAN",
       "title": "Cisco SD-WAN Path Traversal Vulnerability",
       "epss": 0.12475,
-      "epss_percentile": 0.96218,
+      "epss_percentile": 0.96219,
       "ransomware_use": "unknown",
       "date_added": "2026-02-25",
       "due_date": "2026-02-27"
@@ -15982,7 +15982,7 @@
       "product": "E-Business Suite",
       "title": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
       "epss": 0.12313,
-      "epss_percentile": 0.9619,
+      "epss_percentile": 0.96191,
       "ransomware_use": "unknown",
       "date_added": "2026-07-15",
       "due_date": "2026-07-18"
@@ -15994,7 +15994,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Use-After-Free Vulnerability",
       "epss": 0.12172,
-      "epss_percentile": 0.96159,
+      "epss_percentile": 0.9616,
       "ransomware_use": "unknown",
       "date_added": "2023-05-22",
       "due_date": "2023-06-12"
@@ -16006,7 +16006,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Out-of-Bounds Read Vulnerability",
       "epss": 0.12087,
-      "epss_percentile": 0.96145,
+      "epss_percentile": 0.96146,
       "ransomware_use": "unknown",
       "date_added": "2026-04-13",
       "due_date": "2026-04-27"
@@ -16066,7 +16066,7 @@
       "product": "Chromium Portals",
       "title": "Google Chromium Portals Use-After-Free Vulnerability",
       "epss": 0.11735,
-      "epss_percentile": 0.9607,
+      "epss_percentile": 0.96071,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -16102,7 +16102,7 @@
       "product": "TM SGNL",
       "title": "TeleMessage TM SGNL Initialization of a Resource with an Insecure Default Vulnerability",
       "epss": 0.11567,
-      "epss_percentile": 0.96034,
+      "epss_percentile": 0.96035,
       "ransomware_use": "unknown",
       "date_added": "2025-07-01",
       "due_date": "2025-07-22"
@@ -16114,7 +16114,7 @@
       "product": "IOS XR",
       "title": "Cisco IOS XR Open Port Vulnerability",
       "epss": 0.11471,
-      "epss_percentile": 0.96014,
+      "epss_percentile": 0.96015,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -16138,7 +16138,7 @@
       "product": "NetScaler",
       "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
       "epss": 0.11388,
-      "epss_percentile": 0.95994,
+      "epss_percentile": 0.95995,
       "ransomware_use": "unknown",
       "date_added": "2026-10-04",
       "due_date": "2026-10-07"
@@ -16198,7 +16198,7 @@
       "product": "iOS",
       "title": "Apple iOS WebKit Use-After-Free Vulnerability",
       "epss": 0.10986,
-      "epss_percentile": 0.95898,
+      "epss_percentile": 0.95899,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -16282,7 +16282,7 @@
       "product": "IOS and IOS XE Software",
       "title": "Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability",
       "epss": 0.10855,
-      "epss_percentile": 0.95858,
+      "epss_percentile": 0.95859,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -16294,7 +16294,7 @@
       "product": "Firebox and XTM",
       "title": "WatchGuard Firebox and XTM Privilege Escalation Vulnerability",
       "epss": 0.10805,
-      "epss_percentile": 0.95844,
+      "epss_percentile": 0.95845,
       "ransomware_use": "unknown",
       "date_added": "2022-04-11",
       "due_date": "2022-05-02"
@@ -16330,7 +16330,7 @@
       "product": "Core",
       "title": "WordPress Core Interpretation Conflict Vulnerability",
       "epss": 0.10649,
-      "epss_percentile": 0.95798,
+      "epss_percentile": 0.95799,
       "ransomware_use": "unknown",
       "date_added": "2026-07-21",
       "due_date": "2026-07-24"
@@ -16342,7 +16342,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Type Confusion Vulnerability",
       "epss": 0.10593,
-      "epss_percentile": 0.95784,
+      "epss_percentile": 0.95785,
       "ransomware_use": "unknown",
       "date_added": "2024-01-23",
       "due_date": "2024-02-13"
@@ -16354,7 +16354,7 @@
       "product": "Chrome Media",
       "title": "Google Chrome Media Use-After-Free Vulnerability",
       "epss": 0.10586,
-      "epss_percentile": 0.95783,
+      "epss_percentile": 0.95784,
       "ransomware_use": "unknown",
       "date_added": "2022-01-10",
       "due_date": "2022-07-10"
@@ -16366,7 +16366,7 @@
       "product": "iOS",
       "title": "Apple iOS WebKit Memory Corruption Vulnerability",
       "epss": 0.10545,
-      "epss_percentile": 0.95772,
+      "epss_percentile": 0.95773,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -16378,7 +16378,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Incorrect Default Permissions Vulnerability",
       "epss": 0.10533,
-      "epss_percentile": 0.9577,
+      "epss_percentile": 0.95771,
       "ransomware_use": "unknown",
       "date_added": "2024-09-17",
       "due_date": "2024-10-08"
@@ -16390,7 +16390,7 @@
       "product": "Windows",
       "title": "Microsoft Windows LSA Spoofing Vulnerability",
       "epss": 0.10476,
-      "epss_percentile": 0.95754,
+      "epss_percentile": 0.95755,
       "ransomware_use": "unknown",
       "date_added": "2022-07-01",
       "due_date": "2022-07-22"
@@ -16402,7 +16402,7 @@
       "product": "NetScaler ADC and Gateway",
       "title": "Citrix NetScaler ADC and Gateway Buffer Overflow Vulnerability",
       "epss": 0.10433,
-      "epss_percentile": 0.95738,
+      "epss_percentile": 0.95739,
       "ransomware_use": "unknown",
       "date_added": "2025-06-30",
       "due_date": "2025-07-21"
@@ -16414,7 +16414,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Type Confusion Vulnerability",
       "epss": 0.10337,
-      "epss_percentile": 0.9571,
+      "epss_percentile": 0.95711,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -16426,7 +16426,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Use-After-Free Vulnerability",
       "epss": 0.10202,
-      "epss_percentile": 0.9567,
+      "epss_percentile": 0.95671,
       "ransomware_use": "unknown",
       "date_added": "2024-06-26",
       "due_date": "2024-07-17"
@@ -16450,7 +16450,7 @@
       "product": "Multiple Devices",
       "title": "GeoVision Devices OS Command Injection Vulnerability",
       "epss": 0.10072,
-      "epss_percentile": 0.95631,
+      "epss_percentile": 0.95632,
       "ransomware_use": "unknown",
       "date_added": "2025-05-07",
       "due_date": "2025-05-28"
@@ -16462,7 +16462,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Hyper-V NT Kernel Integration VSP Heap-based Buffer Overflow Vulnerability",
       "epss": 0.10066,
-      "epss_percentile": 0.95627,
+      "epss_percentile": 0.95628,
       "ransomware_use": "unknown",
       "date_added": "2025-01-14",
       "due_date": "2025-02-04"
@@ -16486,7 +16486,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Mark of the Web (MOTW) Protection Mechanism Failure Vulnerability",
       "epss": 0.10026,
-      "epss_percentile": 0.95616,
+      "epss_percentile": 0.95617,
       "ransomware_use": "unknown",
       "date_added": "2024-09-10",
       "due_date": "2024-10-01"
@@ -16498,7 +16498,7 @@
       "product": "MLflow",
       "title": "MLflow Server-Side Request Forgery Vulnerability",
       "epss": 0.10017,
-      "epss_percentile": 0.95614,
+      "epss_percentile": 0.95615,
       "ransomware_use": "unknown",
       "date_added": "2026-08-19",
       "due_date": "2026-09-02"
@@ -16510,7 +16510,7 @@
       "product": "Windows",
       "title": "Microsoft Windows MSHTML Platform Privilege Escalation Vulnerability",
       "epss": 0.09969,
-      "epss_percentile": 0.956,
+      "epss_percentile": 0.95601,
       "ransomware_use": "unknown",
       "date_added": "2023-07-11",
       "due_date": "2023-08-01"
@@ -16522,7 +16522,7 @@
       "product": "Chromium Blink",
       "title": "Google Chromium Blink Use-After-Free Vulnerability",
       "epss": 0.0995,
-      "epss_percentile": 0.95595,
+      "epss_percentile": 0.95596,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -16534,7 +16534,7 @@
       "product": "iOS and macOS",
       "title": "Apple iOS and macOS Out-of-Bounds Write Vulnerability",
       "epss": 0.09931,
-      "epss_percentile": 0.95591,
+      "epss_percentile": 0.95592,
       "ransomware_use": "unknown",
       "date_added": "2022-08-18",
       "due_date": "2022-09-08"
@@ -16546,7 +16546,7 @@
       "product": "SMA1000 Appliances",
       "title": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
       "epss": 0.09889,
-      "epss_percentile": 0.95574,
+      "epss_percentile": 0.95575,
       "ransomware_use": "unknown",
       "date_added": "2026-09-02",
       "due_date": "2026-09-05"
@@ -16558,7 +16558,7 @@
       "product": "OS X",
       "title": "Apple OS X Authentication Bypass Vulnerability",
       "epss": 0.09887,
-      "epss_percentile": 0.95573,
+      "epss_percentile": 0.95574,
       "ransomware_use": "unknown",
       "date_added": "2022-02-10",
       "due_date": "2022-08-10"
@@ -16570,7 +16570,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.09867,
-      "epss_percentile": 0.95567,
+      "epss_percentile": 0.95569,
       "ransomware_use": "unknown",
       "date_added": "2022-03-15",
       "due_date": "2022-04-05"
@@ -16582,7 +16582,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Code Execution Vulnerability",
       "epss": 0.09852,
-      "epss_percentile": 0.95562,
+      "epss_percentile": 0.95564,
       "ransomware_use": "unknown",
       "date_added": "2024-11-21",
       "due_date": "2024-12-12"
@@ -16594,7 +16594,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Command Injection Vulnerability",
       "epss": 0.09813,
-      "epss_percentile": 0.9555,
+      "epss_percentile": 0.95551,
       "ransomware_use": "unknown",
       "date_added": "2026-10-13",
       "due_date": "2026-10-16"
@@ -16606,7 +16606,7 @@
       "product": "Artifactory",
       "title": "JFrog Artifactory Improper Authentication Vulnerability",
       "epss": 0.09805,
-      "epss_percentile": 0.95547,
+      "epss_percentile": 0.95548,
       "ransomware_use": "unknown",
       "date_added": "2026-09-11",
       "due_date": "2026-09-25"
@@ -16618,7 +16618,7 @@
       "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
       "title": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
       "epss": 0.09747,
-      "epss_percentile": 0.95524,
+      "epss_percentile": 0.95525,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -16642,7 +16642,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Type Confusion Vulnerability",
       "epss": 0.09426,
-      "epss_percentile": 0.95417,
+      "epss_percentile": 0.95418,
       "ransomware_use": "unknown",
       "date_added": "2023-02-14",
       "due_date": "2023-03-07"
@@ -16654,7 +16654,7 @@
       "product": "Windows",
       "title": "Microsoft Windows SMB Information Disclosure Vulnerability",
       "epss": 0.09385,
-      "epss_percentile": 0.95402,
+      "epss_percentile": 0.95403,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -16666,7 +16666,7 @@
       "product": "IOS Software and Cisco IOS XE Software",
       "title": "Cisco IOS Software and Cisco IOS XE Software Smart Install Denial-of-Service Vulnerability",
       "epss": 0.0936,
-      "epss_percentile": 0.95391,
+      "epss_percentile": 0.95392,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -16714,7 +16714,7 @@
       "product": "Chromium Mojo",
       "title": "Google Chromium Mojo Sandbox Escape Vulnerability",
       "epss": 0.09238,
-      "epss_percentile": 0.95351,
+      "epss_percentile": 0.95352,
       "ransomware_use": "unknown",
       "date_added": "2025-03-27",
       "due_date": "2025-04-17"
@@ -16750,7 +16750,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.08974,
-      "epss_percentile": 0.95259,
+      "epss_percentile": 0.9526,
       "ransomware_use": "unknown",
       "date_added": "2025-09-23",
       "due_date": "2025-10-14"
@@ -16774,7 +16774,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Stack-Based Buffer Overflow Vulnerability",
       "epss": 0.08661,
-      "epss_percentile": 0.95116,
+      "epss_percentile": 0.95117,
       "ransomware_use": "unknown",
       "date_added": "2022-03-28",
       "due_date": "2022-04-21"
@@ -16786,7 +16786,7 @@
       "product": "Artifactory",
       "title": "JFrog Artifactory Incorrect Authorization Vulnerability",
       "epss": 0.08643,
-      "epss_percentile": 0.9511,
+      "epss_percentile": 0.95111,
       "ransomware_use": "unknown",
       "date_added": "2026-09-11",
       "due_date": "2026-09-25"
@@ -16798,7 +16798,7 @@
       "product": "VMware Aria Operations and VMware Tools",
       "title": "Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability",
       "epss": 0.08629,
-      "epss_percentile": 0.95101,
+      "epss_percentile": 0.95102,
       "ransomware_use": "unknown",
       "date_added": "2025-10-30",
       "due_date": "2025-11-20"
@@ -16834,7 +16834,7 @@
       "product": "AC7, AC9, and AC10 Routers",
       "title": "Tenda AC7, AC9, and AC10 Routers Command Injection Vulnerability",
       "epss": 0.0851,
-      "epss_percentile": 0.95041,
+      "epss_percentile": 0.95042,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -16846,7 +16846,7 @@
       "product": "Libuser",
       "title": "Red Hat Libuser Race Condition Vulnerability",
       "epss": 0.08503,
-      "epss_percentile": 0.95038,
+      "epss_percentile": 0.95039,
       "ransomware_use": "unknown",
       "date_added": "2026-08-26",
       "due_date": "2026-09-09"
@@ -16882,7 +16882,7 @@
       "product": "Dante Discovery",
       "title": "Dante Discovery Process Control Vulnerability",
       "epss": 0.08329,
-      "epss_percentile": 0.94949,
+      "epss_percentile": 0.9495,
       "ransomware_use": "unknown",
       "date_added": "2025-02-06",
       "due_date": "2025-02-27"
@@ -16894,7 +16894,7 @@
       "product": "Defender",
       "title": "Microsoft Defender Link Following Vulnerability",
       "epss": 0.08202,
-      "epss_percentile": 0.94877,
+      "epss_percentile": 0.94878,
       "ransomware_use": "unknown",
       "date_added": "2026-05-20",
       "due_date": "2026-06-03"
@@ -16906,7 +16906,7 @@
       "product": "Project",
       "title": "Microsoft Project Remote Code Execution Vulnerability ",
       "epss": 0.08194,
-      "epss_percentile": 0.94872,
+      "epss_percentile": 0.94873,
       "ransomware_use": "unknown",
       "date_added": "2024-08-13",
       "due_date": "2024-09-03"
@@ -16918,7 +16918,7 @@
       "product": "SharePoint",
       "title": "Microsoft SharePoint Code Injection Vulnerability",
       "epss": 0.08189,
-      "epss_percentile": 0.94869,
+      "epss_percentile": 0.9487,
       "ransomware_use": "unknown",
       "date_added": "2026-09-25",
       "due_date": "2026-09-28"
@@ -16930,7 +16930,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Information Disclosure Vulnerability",
       "epss": 0.0811,
-      "epss_percentile": 0.94827,
+      "epss_percentile": 0.94828,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -16942,7 +16942,7 @@
       "product": "SMA1000 Appliances",
       "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
       "epss": 0.08043,
-      "epss_percentile": 0.94786,
+      "epss_percentile": 0.94787,
       "ransomware_use": "unknown",
       "date_added": "2026-09-02",
       "due_date": "2026-09-05"
@@ -16966,7 +16966,7 @@
       "product": "MinIO",
       "title": "MinIO Security Feature Bypass Vulnerability",
       "epss": 0.07917,
-      "epss_percentile": 0.94724,
+      "epss_percentile": 0.94725,
       "ransomware_use": "unknown",
       "date_added": "2023-09-19",
       "due_date": "2023-10-10"
@@ -16978,7 +16978,7 @@
       "product": "N-central",
       "title": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
       "epss": 0.07882,
-      "epss_percentile": 0.94709,
+      "epss_percentile": 0.9471,
       "ransomware_use": "unknown",
       "date_added": "2026-08-04",
       "due_date": "2026-08-07"
@@ -17002,7 +17002,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Use-After-Free Vulnerability",
       "epss": 0.07836,
-      "epss_percentile": 0.94679,
+      "epss_percentile": 0.9468,
       "ransomware_use": "unknown",
       "date_added": "2021-12-15",
       "due_date": "2021-12-29"
@@ -17014,7 +17014,7 @@
       "product": "IOS and IOS XE Software",
       "title": "Cisco IOS and IOS XE Software Improper Input Validation Vulnerability",
       "epss": 0.0782,
-      "epss_percentile": 0.94671,
+      "epss_percentile": 0.94672,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17026,7 +17026,7 @@
       "product": "Catalyst 4500 Series Switches and Cisco Catalyst 4500-X Series Switches",
       "title": "Cisco Catalyst Bidirectional Forwarding Detection Denial-of-Service Vulnerability",
       "epss": 0.07742,
-      "epss_percentile": 0.94629,
+      "epss_percentile": 0.9463,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17038,7 +17038,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.0773,
-      "epss_percentile": 0.94622,
+      "epss_percentile": 0.94623,
       "ransomware_use": "unknown",
       "date_added": "2024-05-28",
       "due_date": "2024-06-18"
@@ -17050,7 +17050,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Memory Corruption Vulnerability",
       "epss": 0.07713,
-      "epss_percentile": 0.94613,
+      "epss_percentile": 0.94614,
       "ransomware_use": "unknown",
       "date_added": "2022-03-28",
       "due_date": "2022-04-18"
@@ -17062,10 +17062,22 @@
       "product": "iOS, iPadOS, and macOS",
       "title": "Apple iOS, iPadOS, and macOS WebKit Remote Code Execution Vulnerability",
       "epss": 0.0771,
-      "epss_percentile": 0.94611,
+      "epss_percentile": 0.94612,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
+    },
+    {
+      "id": "CVE-2020-0683",
+      "priority": "MEDIUM",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "title": "Microsoft Windows Installer Privilege Escalation Vulnerability",
+      "epss": 0.07667,
+      "epss_percentile": 0.94587,
+      "ransomware_use": "unknown",
+      "date_added": "2021-11-03",
+      "due_date": "2022-05-03"
     },
     {
       "id": "CVE-2018-0173",
@@ -17074,7 +17086,7 @@
       "product": "IOS and IOS XE Software",
       "title": "Cisco IOS and IOS XE Software Improper Input Validation Vulnerability",
       "epss": 0.07608,
-      "epss_percentile": 0.94551,
+      "epss_percentile": 0.94552,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17086,22 +17098,10 @@
       "product": "IOS XE Software",
       "title": "Cisco IOS Software and Cisco IOS XE Software Improper Input Validation Vulnerability",
       "epss": 0.07608,
-      "epss_percentile": 0.94551,
+      "epss_percentile": 0.94552,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
-    },
-    {
-      "id": "CVE-2020-0683",
-      "priority": "MEDIUM",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "title": "Microsoft Windows Installer Privilege Escalation Vulnerability",
-      "epss": 0.07605,
-      "epss_percentile": 0.94549,
-      "ransomware_use": "unknown",
-      "date_added": "2021-11-03",
-      "due_date": "2022-05-03"
     },
     {
       "id": "CVE-2025-5419",
@@ -17110,7 +17110,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
       "epss": 0.07486,
-      "epss_percentile": 0.94478,
+      "epss_percentile": 0.94479,
       "ransomware_use": "unknown",
       "date_added": "2025-06-05",
       "due_date": "2025-06-26"
@@ -17122,7 +17122,7 @@
       "product": "Commerce Cloud",
       "title": "SAP Commerce Cloud Deserialization of Untrusted Data Vulnerability",
       "epss": 0.07469,
-      "epss_percentile": 0.94468,
+      "epss_percentile": 0.94469,
       "ransomware_use": "unknown",
       "date_added": "2024-09-30",
       "due_date": "2024-10-21"
@@ -17134,7 +17134,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Information Disclosure Vulnerability",
       "epss": 0.07463,
-      "epss_percentile": 0.94464,
+      "epss_percentile": 0.94465,
       "ransomware_use": "unknown",
       "date_added": "2026-01-13",
       "due_date": "2026-02-03"
@@ -17146,7 +17146,7 @@
       "product": "Hyper-V RemoteFX",
       "title": "Microsoft Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability",
       "epss": 0.07393,
-      "epss_percentile": 0.94427,
+      "epss_percentile": 0.94428,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -17182,7 +17182,7 @@
       "product": "IOS software",
       "title": "Cisco IOS Software SNMP Remote Code Execution Vulnerability",
       "epss": 0.07292,
-      "epss_percentile": 0.94365,
+      "epss_percentile": 0.94366,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17218,7 +17218,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Privilege Escalation Vulnerability",
       "epss": 0.07214,
-      "epss_percentile": 0.94317,
+      "epss_percentile": 0.94318,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17230,7 +17230,7 @@
       "product": "IOS Software and Cisco IOS XE Software",
       "title": "Cisco IOS and XE Software Internet Key Exchange Memory Leak Vulnerability",
       "epss": 0.0719,
-      "epss_percentile": 0.94303,
+      "epss_percentile": 0.94304,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17254,7 +17254,7 @@
       "product": "IOS software",
       "title": "Cisco IOS Software Network Address Translation Denial-of-Service Vulnerability",
       "epss": 0.0707,
-      "epss_percentile": 0.94215,
+      "epss_percentile": 0.94216,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17266,7 +17266,7 @@
       "product": "IOS software",
       "title": "Cisco IOS Software Common Industrial Protocol Request Denial-of-Service Vulnerability",
       "epss": 0.0707,
-      "epss_percentile": 0.94214,
+      "epss_percentile": 0.94215,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17290,7 +17290,7 @@
       "product": "IOS software",
       "title": "Cisco IOS Software for Cisco Industrial Ethernet Switches PROFINET Denial-of-Service Vulnerability",
       "epss": 0.0707,
-      "epss_percentile": 0.94214,
+      "epss_percentile": 0.94215,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17302,7 +17302,7 @@
       "product": "IOS and IOS XE Software",
       "title": "Cisco IOS and IOS XE Software Internet Key Exchange Denial-of-Service Vulnerability",
       "epss": 0.0707,
-      "epss_percentile": 0.94214,
+      "epss_percentile": 0.94216,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17314,7 +17314,7 @@
       "product": "IOS Software",
       "title": "Cisco IOS Software Integrated Services Module for VPN Denial-of-Service Vulnerability",
       "epss": 0.0707,
-      "epss_percentile": 0.94214,
+      "epss_percentile": 0.94215,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17326,7 +17326,7 @@
       "product": "Firefox and Thunderbird",
       "title": "Mozilla Firefox And Thunderbird Use-After-Free Vulnerability",
       "epss": 0.07063,
-      "epss_percentile": 0.94208,
+      "epss_percentile": 0.94209,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -17338,7 +17338,7 @@
       "product": "Windows ",
       "title": "Microsoft Windows Hyper-V Privilege Escalation Vulnerability",
       "epss": 0.07058,
-      "epss_percentile": 0.94205,
+      "epss_percentile": 0.94206,
       "ransomware_use": "unknown",
       "date_added": "2024-07-09",
       "due_date": "2024-07-30"
@@ -17350,7 +17350,7 @@
       "product": "macOS",
       "title": "Apple macOS Unspecified Vulnerability",
       "epss": 0.07038,
-      "epss_percentile": 0.9419,
+      "epss_percentile": 0.94191,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17362,7 +17362,7 @@
       "product": "iOS, iPadOS, and macOS",
       "title": "Apple iOS, iPadOS, and macOS WebKit Remote Code Execution Vulnerability",
       "epss": 0.07002,
-      "epss_percentile": 0.94165,
+      "epss_percentile": 0.94166,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17374,7 +17374,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Integer Overflow or Wraparound Vulnerability",
       "epss": 0.06964,
-      "epss_percentile": 0.94129,
+      "epss_percentile": 0.9413,
       "ransomware_use": "unknown",
       "date_added": "2026-03-05",
       "due_date": "2026-03-26"
@@ -17386,7 +17386,7 @@
       "product": "VirtualBox",
       "title": "Oracle VirtualBox Insufficient Input Validation Vulnerability",
       "epss": 0.06876,
-      "epss_percentile": 0.94061,
+      "epss_percentile": 0.94062,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17398,7 +17398,7 @@
       "product": "IOS Software and Cisco IOS XE Software",
       "title": "Cisco IOS and XE Software Internet Key Exchange Version 1 Denial-of-Service Vulnerability",
       "epss": 0.0687,
-      "epss_percentile": 0.94056,
+      "epss_percentile": 0.94057,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17410,7 +17410,7 @@
       "product": "Application Delivery Controller (ADC) and Gateway",
       "title": "Citrix Application Delivery Controller (ADC) and Gateway Authentication Bypass Vulnerability",
       "epss": 0.06858,
-      "epss_percentile": 0.94047,
+      "epss_percentile": 0.94048,
       "ransomware_use": "unknown",
       "date_added": "2022-12-13",
       "due_date": "2023-01-03"
@@ -17422,7 +17422,7 @@
       "product": "Acrobat and Reader",
       "title": "Adobe Acrobat and Reader Out-of-Bounds Write Vulnerability",
       "epss": 0.06746,
-      "epss_percentile": 0.93964,
+      "epss_percentile": 0.93966,
       "ransomware_use": "unknown",
       "date_added": "2023-09-14",
       "due_date": "2023-10-05"
@@ -17434,7 +17434,7 @@
       "product": "Firefox",
       "title": "Mozilla Firefox Information Disclosure Vulnerability",
       "epss": 0.06696,
-      "epss_percentile": 0.93911,
+      "epss_percentile": 0.93914,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17446,7 +17446,7 @@
       "product": "Chromium WebRTC",
       "title": "Google Chromium WebRTC Heap Buffer Overflow Vulnerability",
       "epss": 0.06671,
-      "epss_percentile": 0.93892,
+      "epss_percentile": 0.93895,
       "ransomware_use": "unknown",
       "date_added": "2024-01-02",
       "due_date": "2024-01-23"
@@ -17458,7 +17458,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Privilege Escalation Vulnerability",
       "epss": 0.06586,
-      "epss_percentile": 0.93839,
+      "epss_percentile": 0.93841,
       "ransomware_use": "unknown",
       "date_added": "2022-04-11",
       "due_date": "2022-05-02"
@@ -17470,7 +17470,7 @@
       "product": "Windows",
       "title": "Microsoft Desktop Window Manager (DWM) Core Library Privilege Escalation Vulnerability",
       "epss": 0.06555,
-      "epss_percentile": 0.93813,
+      "epss_percentile": 0.93815,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17482,7 +17482,7 @@
       "product": "RouterOS",
       "title": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
       "epss": 0.06392,
-      "epss_percentile": 0.93669,
+      "epss_percentile": 0.93672,
       "ransomware_use": "unknown",
       "date_added": "2026-09-10",
       "due_date": "2026-09-13"
@@ -17494,7 +17494,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Untrusted Pointer Dereference Vulnerability",
       "epss": 0.06369,
-      "epss_percentile": 0.93655,
+      "epss_percentile": 0.93658,
       "ransomware_use": "unknown",
       "date_added": "2025-10-14",
       "due_date": "2025-11-04"
@@ -17506,7 +17506,7 @@
       "product": "Chrome for Android UI",
       "title": "Google Chrome for Android UI Heap Buffer Overflow Vulnerability",
       "epss": 0.06363,
-      "epss_percentile": 0.9365,
+      "epss_percentile": 0.93653,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -17518,7 +17518,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
       "epss": 0.06337,
-      "epss_percentile": 0.93631,
+      "epss_percentile": 0.93634,
       "ransomware_use": "unknown",
       "date_added": "2024-08-13",
       "due_date": "2024-09-03"
@@ -17530,7 +17530,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Installer Improper Privilege Management Vulnerability",
       "epss": 0.06263,
-      "epss_percentile": 0.9357,
+      "epss_percentile": 0.93572,
       "ransomware_use": "unknown",
       "date_added": "2024-09-10",
       "due_date": "2024-10-01"
@@ -17542,7 +17542,7 @@
       "product": "Flash Player",
       "title": "Adobe Flash Player Cross-Site Scripting (XSS) Vulnerability",
       "epss": 0.06187,
-      "epss_percentile": 0.93501,
+      "epss_percentile": 0.93503,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -17554,7 +17554,7 @@
       "product": "Apex One, OfficeScan and Worry-Free Business Security Agents",
       "title": "Trend Micro Multiple Products Content Validation Escape Vulnerability",
       "epss": 0.06165,
-      "epss_percentile": 0.93482,
+      "epss_percentile": 0.93484,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -17566,7 +17566,7 @@
       "product": "IOS and IOS XE Software",
       "title": "Cisco IOS Software and Cisco IOS XE Software UDP Packet Processing Denial-of-Service Vulnerability",
       "epss": 0.06158,
-      "epss_percentile": 0.93478,
+      "epss_percentile": 0.93481,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17578,7 +17578,7 @@
       "product": "Office",
       "title": "Microsoft Office Remote Code Execution Vulnerability",
       "epss": 0.06076,
-      "epss_percentile": 0.934,
+      "epss_percentile": 0.93403,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17590,7 +17590,7 @@
       "product": "Chromium Mojo",
       "title": "Google Chromium Mojo Insufficient Data Validation Vulnerability",
       "epss": 0.05846,
-      "epss_percentile": 0.93177,
+      "epss_percentile": 0.93179,
       "ransomware_use": "unknown",
       "date_added": "2022-09-08",
       "due_date": "2022-09-29"
@@ -17602,7 +17602,7 @@
       "product": "Client",
       "title": "TrueConf Client Download of Code Without Integrity Check Vulnerability",
       "epss": 0.05845,
-      "epss_percentile": 0.93175,
+      "epss_percentile": 0.93177,
       "ransomware_use": "unknown",
       "date_added": "2026-04-02",
       "due_date": "2026-04-16"
@@ -17614,7 +17614,7 @@
       "product": "Chromium Skia",
       "title": "Google Chrome Skia Integer Overflow Vulnerability",
       "epss": 0.05786,
-      "epss_percentile": 0.931,
+      "epss_percentile": 0.93102,
       "ransomware_use": "unknown",
       "date_added": "2023-04-21",
       "due_date": "2023-05-12"
@@ -17626,7 +17626,7 @@
       "product": "IOS XR",
       "title": "Cisco IOS XR Border Gateway Protocol (BGP) Denial-of-Service Vulnerability",
       "epss": 0.05668,
-      "epss_percentile": 0.92982,
+      "epss_percentile": 0.92983,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -17638,7 +17638,7 @@
       "product": "Small Business RV160, RV260, RV340, and RV345 Series Routers",
       "title": "Cisco Small Business RV Series Routers Stack-based Buffer Overflow Vulnerability",
       "epss": 0.05655,
-      "epss_percentile": 0.9297,
+      "epss_percentile": 0.92971,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17650,7 +17650,7 @@
       "product": "iOS, iPadOS, and macOS",
       "title": "Apple iOS, iPadOS, and macOS Remote Code Execution Vulnerability",
       "epss": 0.05603,
-      "epss_percentile": 0.9291,
+      "epss_percentile": 0.92911,
       "ransomware_use": "unknown",
       "date_added": "2022-09-14",
       "due_date": "2022-10-05"
@@ -17662,7 +17662,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Graphic Component Privilege Escalation Vulnerability",
       "epss": 0.05563,
-      "epss_percentile": 0.92859,
+      "epss_percentile": 0.9286,
       "ransomware_use": "unknown",
       "date_added": "2023-02-14",
       "due_date": "2023-03-07"
@@ -17674,7 +17674,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Improper Authentication Vulnerability",
       "epss": 0.05528,
-      "epss_percentile": 0.92813,
+      "epss_percentile": 0.92814,
       "ransomware_use": "unknown",
       "date_added": "2026-06-02",
       "due_date": "2026-06-05"
@@ -17686,7 +17686,7 @@
       "product": "RV Series Routers",
       "title": "Cisco RV Series Routers Deserialization of Untrusted Data Vulnerability",
       "epss": 0.05488,
-      "epss_percentile": 0.92776,
+      "epss_percentile": 0.92777,
       "ransomware_use": "unknown",
       "date_added": "2022-06-08",
       "due_date": "2022-06-22"
@@ -17698,7 +17698,7 @@
       "product": "Internet Explorer",
       "title": "Microsoft Internet Explorer Remote Code Execution Vulnerability",
       "epss": 0.05448,
-      "epss_percentile": 0.92732,
+      "epss_percentile": 0.92733,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17710,7 +17710,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
       "epss": 0.05431,
-      "epss_percentile": 0.92714,
+      "epss_percentile": 0.92715,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -17722,7 +17722,7 @@
       "product": "Mali Graphics Processing Unit (GPU)",
       "title": "Arm Mali Graphics Processing Unit (GPU) Unspecified Vulnerability",
       "epss": 0.05407,
-      "epss_percentile": 0.92689,
+      "epss_percentile": 0.9269,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17758,7 +17758,7 @@
       "product": "FileZen",
       "title": "Soliton Systems K.K FileZen OS Command Injection Vulnerability",
       "epss": 0.05249,
-      "epss_percentile": 0.92538,
+      "epss_percentile": 0.92539,
       "ransomware_use": "unknown",
       "date_added": "2026-02-24",
       "due_date": "2026-03-17"
@@ -17782,7 +17782,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Error Reporting (WER) Privilege Escalation Vulnerability",
       "epss": 0.05207,
-      "epss_percentile": 0.92493,
+      "epss_percentile": 0.92492,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -17800,13 +17800,25 @@
       "due_date": "2023-04-20"
     },
     {
+      "id": "CVE-2025-47827",
+      "priority": "MEDIUM",
+      "vendor": "IGEL",
+      "product": "IGEL OS",
+      "title": "IGEL OS Use of a Key Past its Expiration Date Vulnerability",
+      "epss": 0.05153,
+      "epss_percentile": 0.92428,
+      "ransomware_use": "unknown",
+      "date_added": "2025-10-14",
+      "due_date": "2025-11-04"
+    },
+    {
       "id": "CVE-2025-54313",
       "priority": "MEDIUM",
       "vendor": "Prettier",
       "product": "eslint-config-prettier",
       "title": "Prettier eslint-config-prettier Embedded Malicious Code Vulnerability",
       "epss": 0.05125,
-      "epss_percentile": 0.92393,
+      "epss_percentile": 0.92392,
       "ransomware_use": "unknown",
       "date_added": "2026-01-22",
       "due_date": "2026-02-12"
@@ -17854,7 +17866,7 @@
       "product": "Chromium Intents",
       "title": "Google Chromium Intents Improper Input Validation Vulnerability",
       "epss": 0.04948,
-      "epss_percentile": 0.92161,
+      "epss_percentile": 0.92162,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -17866,7 +17878,7 @@
       "product": "IOS Software",
       "title": "Cisco IOS Software Denial-of-Service Vulnerability",
       "epss": 0.04935,
-      "epss_percentile": 0.92141,
+      "epss_percentile": 0.92142,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -17884,25 +17896,13 @@
       "due_date": "2022-03-17"
     },
     {
-      "id": "CVE-2025-47827",
-      "priority": "MEDIUM",
-      "vendor": "IGEL",
-      "product": "IGEL OS",
-      "title": "IGEL OS Use of a Key Past its Expiration Date Vulnerability",
-      "epss": 0.04927,
-      "epss_percentile": 0.92132,
-      "ransomware_use": "unknown",
-      "date_added": "2025-10-14",
-      "due_date": "2025-11-04"
-    },
-    {
       "id": "CVE-2002-0367",
       "priority": "MEDIUM",
       "vendor": "Microsoft",
       "product": "Windows",
       "title": "Microsoft Windows Privilege Escalation Vulnerability",
       "epss": 0.04919,
-      "epss_percentile": 0.92117,
+      "epss_percentile": 0.92118,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -17914,7 +17914,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.049,
-      "epss_percentile": 0.92093,
+      "epss_percentile": 0.92092,
       "ransomware_use": "unknown",
       "date_added": "2025-11-19",
       "due_date": "2025-12-10"
@@ -17938,7 +17938,7 @@
       "product": "Junos OS",
       "title": "Juniper Junos OS Path Traversal Vulnerability",
       "epss": 0.04865,
-      "epss_percentile": 0.92043,
+      "epss_percentile": 0.92042,
       "ransomware_use": "unknown",
       "date_added": "2022-03-25",
       "due_date": "2022-04-15"
@@ -17962,7 +17962,7 @@
       "product": "IOS",
       "title": "Cisco IOS Denial-of-Service Vulnerability",
       "epss": 0.0484,
-      "epss_percentile": 0.92008,
+      "epss_percentile": 0.92007,
       "ransomware_use": "unknown",
       "date_added": "2023-05-19",
       "due_date": "2023-06-09"
@@ -17986,7 +17986,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
       "epss": 0.04723,
-      "epss_percentile": 0.91838,
+      "epss_percentile": 0.91839,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -17998,7 +17998,7 @@
       "product": "Desktop",
       "title": "TeamViewer Desktop Bypass Remote Login Vulnerability",
       "epss": 0.04707,
-      "epss_percentile": 0.91815,
+      "epss_percentile": 0.91816,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -18010,7 +18010,7 @@
       "product": "Fusion Middleware",
       "title": "Oracle Fusion Middleware Unspecified Vulnerability",
       "epss": 0.04685,
-      "epss_percentile": 0.91785,
+      "epss_percentile": 0.91786,
       "ransomware_use": "unknown",
       "date_added": "2022-03-28",
       "due_date": "2022-04-18"
@@ -18022,7 +18022,7 @@
       "product": "iOS",
       "title": "Apple iOS Memory Corruption Vulnerability",
       "epss": 0.04579,
-      "epss_percentile": 0.91631,
+      "epss_percentile": 0.9163,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -18082,7 +18082,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Storage Use-After-Free Vulnerability",
       "epss": 0.04491,
-      "epss_percentile": 0.91484,
+      "epss_percentile": 0.91485,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -18106,7 +18106,7 @@
       "product": "iOS and iPadOS",
       "title": "Apple iOS and iPadOS Incorrect Authorization Vulnerability",
       "epss": 0.04457,
-      "epss_percentile": 0.9143,
+      "epss_percentile": 0.91431,
       "ransomware_use": "unknown",
       "date_added": "2025-02-12",
       "due_date": "2025-03-05"
@@ -18166,7 +18166,7 @@
       "product": "BIG-IP Configuration Utility",
       "title": "F5 BIG-IP Configuration Utility SQL Injection Vulnerability",
       "epss": 0.04262,
-      "epss_percentile": 0.91073,
+      "epss_percentile": 0.91072,
       "ransomware_use": "unknown",
       "date_added": "2023-10-31",
       "due_date": "2023-11-21"
@@ -18202,7 +18202,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Improper Privilege Management Vulnerability",
       "epss": 0.04182,
-      "epss_percentile": 0.90926,
+      "epss_percentile": 0.90925,
       "ransomware_use": "unknown",
       "date_added": "2026-02-10",
       "due_date": "2026-03-03"
@@ -18250,7 +18250,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Out-of-Bounds Access Vulnerability",
       "epss": 0.04117,
-      "epss_percentile": 0.90786,
+      "epss_percentile": 0.90785,
       "ransomware_use": "unknown",
       "date_added": "2025-04-09",
       "due_date": "2025-04-30"
@@ -18286,7 +18286,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Mount Manager Privilege Escalation Vulnerability",
       "epss": 0.04078,
-      "epss_percentile": 0.90703,
+      "epss_percentile": 0.90702,
       "ransomware_use": "unknown",
       "date_added": "2022-05-25",
       "due_date": "2022-06-15"
@@ -18322,7 +18322,7 @@
       "product": "Kentico Xperience",
       "title": "Kentico Xperience Path Traversal Vulnerability",
       "epss": 0.04021,
-      "epss_percentile": 0.90579,
+      "epss_percentile": 0.9058,
       "ransomware_use": "unknown",
       "date_added": "2026-04-20",
       "due_date": "2026-05-04"
@@ -18358,7 +18358,7 @@
       "product": "Director",
       "title": "Versa Director Dangerous File Type Upload Vulnerability",
       "epss": 0.03987,
-      "epss_percentile": 0.90504,
+      "epss_percentile": 0.90505,
       "ransomware_use": "unknown",
       "date_added": "2024-08-23",
       "due_date": "2024-09-13"
@@ -18382,7 +18382,7 @@
       "product": "Windows",
       "title": "Microsoft Windows MSHTML Platform Security Feature Bypass Vulnerability",
       "epss": 0.03939,
-      "epss_percentile": 0.90391,
+      "epss_percentile": 0.90392,
       "ransomware_use": "unknown",
       "date_added": "2024-05-14",
       "due_date": "2024-06-04"
@@ -18406,7 +18406,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Fast FAT File System Driver Integer Overflow Vulnerability",
       "epss": 0.0389,
-      "epss_percentile": 0.90243,
+      "epss_percentile": 0.90244,
       "ransomware_use": "unknown",
       "date_added": "2025-03-11",
       "due_date": "2025-04-01"
@@ -18418,7 +18418,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Out-of-Bounds Write Vulnerability",
       "epss": 0.03847,
-      "epss_percentile": 0.90135,
+      "epss_percentile": 0.90136,
       "ransomware_use": "unknown",
       "date_added": "2025-03-13",
       "due_date": "2025-04-03"
@@ -18466,7 +18466,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products WebKit Memory Corruption Vulnerability",
       "epss": 0.03706,
-      "epss_percentile": 0.89746,
+      "epss_percentile": 0.89747,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -18478,7 +18478,7 @@
       "product": "IOS XR",
       "title": "Cisco IOS XR Software DVMRP Memory Exhaustion Vulnerability",
       "epss": 0.03702,
-      "epss_percentile": 0.89738,
+      "epss_percentile": 0.89739,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -18490,7 +18490,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Use-After-Free Vulnerability",
       "epss": 0.03702,
-      "epss_percentile": 0.8974,
+      "epss_percentile": 0.89741,
       "ransomware_use": "unknown",
       "date_added": "2023-03-30",
       "due_date": "2023-04-20"
@@ -18502,7 +18502,7 @@
       "product": "Virtualization Manager",
       "title": "SolarWinds Virtualization Manager Privilege Escalation Vulnerability",
       "epss": 0.03674,
-      "epss_percentile": 0.89665,
+      "epss_percentile": 0.89666,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -18514,7 +18514,7 @@
       "product": "iOS, macOS, watchOS",
       "title": "Apple iOS, macOS, watchOS Sandbox Bypass Vulnerability",
       "epss": 0.03673,
-      "epss_percentile": 0.89664,
+      "epss_percentile": 0.89665,
       "ransomware_use": "unknown",
       "date_added": "2022-08-25",
       "due_date": "2022-09-15"
@@ -18526,7 +18526,7 @@
       "product": "Serv-U",
       "title": "SolarWinds Serv-U Improper Input Validation Vulnerability",
       "epss": 0.03672,
-      "epss_percentile": 0.89662,
+      "epss_percentile": 0.89663,
       "ransomware_use": "unknown",
       "date_added": "2022-01-21",
       "due_date": "2022-02-04"
@@ -18538,7 +18538,7 @@
       "product": "SIMATIC CP",
       "title": "Siemens SIMATIC CP 1543-1 Improper Privilege Management Vulnerability",
       "epss": 0.0361,
-      "epss_percentile": 0.89485,
+      "epss_percentile": 0.89486,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -18550,7 +18550,7 @@
       "product": "ScreenConnect",
       "title": "ConnectWise ScreenConnect Improper Authentication Vulnerability",
       "epss": 0.03597,
-      "epss_percentile": 0.89453,
+      "epss_percentile": 0.89454,
       "ransomware_use": "unknown",
       "date_added": "2025-06-02",
       "due_date": "2025-06-23"
@@ -18574,7 +18574,7 @@
       "product": "SmartConsole",
       "title": "Check Point SmartConsole Improper Authentication Vulnerability",
       "epss": 0.03517,
-      "epss_percentile": 0.8922,
+      "epss_percentile": 0.89219,
       "ransomware_use": "unknown",
       "date_added": "2026-07-22",
       "due_date": "2026-07-25"
@@ -18610,7 +18610,7 @@
       "product": "IOS, XR, and XE Software",
       "title": "Cisco IOS, XR, and XE Software Buffer Overflow Vulnerability",
       "epss": 0.03478,
-      "epss_percentile": 0.89101,
+      "epss_percentile": 0.89102,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-17"
@@ -18634,7 +18634,7 @@
       "product": "ArrayOS AG",
       "title": "Array Networks ArrayOS AG OS Command Injection Vulnerability",
       "epss": 0.03415,
-      "epss_percentile": 0.8889,
+      "epss_percentile": 0.88891,
       "ransomware_use": "unknown",
       "date_added": "2025-12-08",
       "due_date": "2025-12-29"
@@ -18646,7 +18646,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Out-of-Bounds Write Vulnerability",
       "epss": 0.03395,
-      "epss_percentile": 0.88824,
+      "epss_percentile": 0.88825,
       "ransomware_use": "unknown",
       "date_added": "2025-02-05",
       "due_date": "2025-02-26"
@@ -18742,7 +18742,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Unspecified Vulnerability",
       "epss": 0.03213,
-      "epss_percentile": 0.88191,
+      "epss_percentile": 0.88192,
       "ransomware_use": "unknown",
       "date_added": "2025-10-20",
       "due_date": "2025-11-10"
@@ -18754,7 +18754,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Integer Overflow Vulnerability",
       "epss": 0.03212,
-      "epss_percentile": 0.88183,
+      "epss_percentile": 0.88184,
       "ransomware_use": "unknown",
       "date_added": "2022-09-15",
       "due_date": "2022-10-06"
@@ -18778,7 +18778,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.03199,
-      "epss_percentile": 0.88126,
+      "epss_percentile": 0.88127,
       "ransomware_use": "unknown",
       "date_added": "2022-06-27",
       "due_date": "2022-07-18"
@@ -18790,7 +18790,7 @@
       "product": "NetScaler ADC and NetScaler Gateway",
       "title": "Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability",
       "epss": 0.03191,
-      "epss_percentile": 0.88099,
+      "epss_percentile": 0.881,
       "ransomware_use": "unknown",
       "date_added": "2024-01-17",
       "due_date": "2024-01-24"
@@ -18886,7 +18886,7 @@
       "product": "Firefox and Thunderbird",
       "title": "Mozilla Firefox And Thunderbird Use-After-Free Vulnerability",
       "epss": 0.03039,
-      "epss_percentile": 0.87515,
+      "epss_percentile": 0.87514,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -18946,7 +18946,7 @@
       "product": "Enhanced Cryptographic Provider",
       "title": "Microsoft Enhanced Cryptographic Provider Privilege Escalation Vulnerability",
       "epss": 0.02954,
-      "epss_percentile": 0.87182,
+      "epss_percentile": 0.87183,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -18958,7 +18958,7 @@
       "product": "iOS and iPadOS",
       "title": "Apple iOS and iPadOS Buffer Overflow Vulnerability",
       "epss": 0.02923,
-      "epss_percentile": 0.87051,
+      "epss_percentile": 0.87052,
       "ransomware_use": "unknown",
       "date_added": "2022-06-27",
       "due_date": "2022-07-18"
@@ -18994,7 +18994,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Improper Access Control Vulnerability",
       "epss": 0.02807,
-      "epss_percentile": 0.86503,
+      "epss_percentile": 0.86504,
       "ransomware_use": "unknown",
       "date_added": "2022-11-08",
       "due_date": "2022-11-29"
@@ -19006,7 +19006,7 @@
       "product": "GS1900 Series Switches",
       "title": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
       "epss": 0.02778,
-      "epss_percentile": 0.86369,
+      "epss_percentile": 0.8637,
       "ransomware_use": "unknown",
       "date_added": "2026-09-21",
       "due_date": "2026-09-24"
@@ -19018,7 +19018,7 @@
       "product": "LANSCOPE Endpoint Manager",
       "title": "Motex LANSCOPE Endpoint Manager Improper Verification of Source of a Communication Channel Vulnerability",
       "epss": 0.02768,
-      "epss_percentile": 0.86311,
+      "epss_percentile": 0.86312,
       "ransomware_use": "unknown",
       "date_added": "2025-10-22",
       "due_date": "2025-11-12"
@@ -19030,7 +19030,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Incorrect Implementation Vulnerabililty",
       "epss": 0.02756,
-      "epss_percentile": 0.86246,
+      "epss_percentile": 0.86247,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -19042,7 +19042,7 @@
       "product": "SMA1000 appliance",
       "title": "SonicWall SMA1000 Missing Authorization Vulnerability",
       "epss": 0.02756,
-      "epss_percentile": 0.86246,
+      "epss_percentile": 0.86248,
       "ransomware_use": "unknown",
       "date_added": "2025-12-17",
       "due_date": "2025-12-24"
@@ -19054,7 +19054,7 @@
       "product": "Chrome",
       "title": "Google Chrome Use-After-Free Vulnerability",
       "epss": 0.0273,
-      "epss_percentile": 0.86085,
+      "epss_percentile": 0.86086,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -19066,7 +19066,7 @@
       "product": "Open Management Infrastructure (OMI)",
       "title": "Microsoft Open Management Infrastructure (OMI) Privilege Escalation Vulnerability",
       "epss": 0.02727,
-      "epss_percentile": 0.86068,
+      "epss_percentile": 0.86069,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -19078,7 +19078,7 @@
       "product": "Cobalt Strike",
       "title": "Fortra Cobalt Strike User Interface Remote Code Execution Vulnerability",
       "epss": 0.02706,
-      "epss_percentile": 0.85964,
+      "epss_percentile": 0.85965,
       "ransomware_use": "unknown",
       "date_added": "2023-03-30",
       "due_date": "2023-04-20"
@@ -19090,7 +19090,7 @@
       "product": "Kernel",
       "title": "Android Kernel Remote Code Execution Vulnerability",
       "epss": 0.02701,
-      "epss_percentile": 0.85936,
+      "epss_percentile": 0.85938,
       "ransomware_use": "unknown",
       "date_added": "2024-08-07",
       "due_date": "2024-08-28"
@@ -19102,7 +19102,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Improper Restriction of Operations Within the Bounds of a Memory Buffer Vulnerability",
       "epss": 0.02693,
-      "epss_percentile": 0.85898,
+      "epss_percentile": 0.85899,
       "ransomware_use": "unknown",
       "date_added": "2026-03-13",
       "due_date": "2026-03-27"
@@ -19114,7 +19114,7 @@
       "product": "PAN-OS",
       "title": "Palo Alto Networks PAN-OS Reflected Amplification Denial-of-Service Vulnerability",
       "epss": 0.0269,
-      "epss_percentile": 0.85877,
+      "epss_percentile": 0.85878,
       "ransomware_use": "unknown",
       "date_added": "2022-08-22",
       "due_date": "2022-09-12"
@@ -19126,7 +19126,7 @@
       "product": "Novi Survey",
       "title": "Novi Survey Insecure Deserialization Vulnerability",
       "epss": 0.0269,
-      "epss_percentile": 0.85877,
+      "epss_percentile": 0.85879,
       "ransomware_use": "unknown",
       "date_added": "2023-04-13",
       "due_date": "2023-05-04"
@@ -19138,7 +19138,7 @@
       "product": "Publisher",
       "title": "Microsoft Publisher Protection Mechanism Failure Vulnerability",
       "epss": 0.02667,
-      "epss_percentile": 0.85737,
+      "epss_percentile": 0.85738,
       "ransomware_use": "unknown",
       "date_added": "2024-09-10",
       "due_date": "2024-10-01"
@@ -19150,7 +19150,7 @@
       "product": "Apex One, OfficeScan, and Worry-Free Business Security",
       "title": "Trend Micro Multiple Products Improper Access Control Vulnerability",
       "epss": 0.02666,
-      "epss_percentile": 0.85731,
+      "epss_percentile": 0.85732,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -19162,7 +19162,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Improper Access Control Vulnerability",
       "epss": 0.02657,
-      "epss_percentile": 0.85677,
+      "epss_percentile": 0.85678,
       "ransomware_use": "unknown",
       "date_added": "2025-10-14",
       "due_date": "2025-11-04"
@@ -19174,7 +19174,7 @@
       "product": "Framework",
       "title": "Android Framework Privilege Escalation Vulnerability",
       "epss": 0.02636,
-      "epss_percentile": 0.8556,
+      "epss_percentile": 0.85561,
       "ransomware_use": "unknown",
       "date_added": "2023-09-13",
       "due_date": "2023-10-04"
@@ -19186,7 +19186,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Mark of the Web (MOTW) Security Feature Bypass Vulnerability",
       "epss": 0.02634,
-      "epss_percentile": 0.85544,
+      "epss_percentile": 0.85545,
       "ransomware_use": "unknown",
       "date_added": "2022-11-14",
       "due_date": "2022-12-09"
@@ -19198,7 +19198,7 @@
       "product": "iOS and macOS",
       "title": "Apple iOS and macOS Group Facetime Vulnerability",
       "epss": 0.02629,
-      "epss_percentile": 0.85509,
+      "epss_percentile": 0.8551,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -19222,7 +19222,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Insertion of Sensitive Information Into Log File Vulnerability",
       "epss": 0.02554,
-      "epss_percentile": 0.85055,
+      "epss_percentile": 0.85056,
       "ransomware_use": "unknown",
       "date_added": "2023-05-19",
       "due_date": "2023-06-09"
@@ -19258,7 +19258,7 @@
       "product": "N-Central",
       "title": "N-able N-Central Insecure Deserialization Vulnerability",
       "epss": 0.02514,
-      "epss_percentile": 0.848,
+      "epss_percentile": 0.84801,
       "ransomware_use": "unknown",
       "date_added": "2025-08-13",
       "due_date": "2025-08-20"
@@ -19270,7 +19270,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Use After Free Vulnerability",
       "epss": 0.02505,
-      "epss_percentile": 0.84731,
+      "epss_percentile": 0.84732,
       "ransomware_use": "unknown",
       "date_added": "2025-12-09",
       "due_date": "2025-12-30"
@@ -19282,7 +19282,7 @@
       "product": "IOS and IOS XE",
       "title": "Cisco IOS and IOS XE Group Encrypted Transport VPN Out-of-Bounds Write Vulnerability",
       "epss": 0.02504,
-      "epss_percentile": 0.84729,
+      "epss_percentile": 0.8473,
       "ransomware_use": "unknown",
       "date_added": "2023-10-10",
       "due_date": "2023-10-31"
@@ -19294,7 +19294,7 @@
       "product": "KACE Systems Management Appliance (SMA)",
       "title": "Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability",
       "epss": 0.02487,
-      "epss_percentile": 0.84625,
+      "epss_percentile": 0.84626,
       "ransomware_use": "unknown",
       "date_added": "2026-04-20",
       "due_date": "2026-05-04"
@@ -19306,7 +19306,7 @@
       "product": "action-setup GitHub Action",
       "title": "reviewdog/action-setup GitHub Action Embedded Malicious Code Vulnerability",
       "epss": 0.02485,
-      "epss_percentile": 0.8461,
+      "epss_percentile": 0.84611,
       "ransomware_use": "unknown",
       "date_added": "2025-03-24",
       "due_date": "2025-04-14"
@@ -19318,7 +19318,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Type Confusion Vulnerability",
       "epss": 0.02477,
-      "epss_percentile": 0.84559,
+      "epss_percentile": 0.8456,
       "ransomware_use": "unknown",
       "date_added": "2026-02-10",
       "due_date": "2026-03-03"
@@ -19330,7 +19330,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
       "epss": 0.0244,
-      "epss_percentile": 0.84306,
+      "epss_percentile": 0.84308,
       "ransomware_use": "unknown",
       "date_added": "2026-06-09",
       "due_date": "2026-06-23"
@@ -19342,7 +19342,7 @@
       "product": "Windows",
       "title": "Microsoft Windows User Profile Service Privilege Escalation Vulnerability",
       "epss": 0.02434,
-      "epss_percentile": 0.84271,
+      "epss_percentile": 0.84273,
       "ransomware_use": "unknown",
       "date_added": "2022-04-25",
       "due_date": "2022-05-16"
@@ -19354,7 +19354,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.02374,
-      "epss_percentile": 0.83855,
+      "epss_percentile": 0.83856,
       "ransomware_use": "unknown",
       "date_added": "2022-06-27",
       "due_date": "2022-07-18"
@@ -19366,7 +19366,7 @@
       "product": "Firefox",
       "title": "Mozilla Firefox Use-After-Free Vulnerability",
       "epss": 0.02362,
-      "epss_percentile": 0.83788,
+      "epss_percentile": 0.83789,
       "ransomware_use": "unknown",
       "date_added": "2022-03-07",
       "due_date": "2022-03-21"
@@ -19378,7 +19378,7 @@
       "product": "iOS, iPadOS, and watchOS",
       "title": "Apple iOS, iPadOS, and watchOS Out-of-Bounds Write Vulnerability",
       "epss": 0.02344,
-      "epss_percentile": 0.83649,
+      "epss_percentile": 0.8365,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -19402,7 +19402,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Common Log File System (CLFS) Driver Heap-Based Buffer Overflow Vulnerability",
       "epss": 0.02333,
-      "epss_percentile": 0.83564,
+      "epss_percentile": 0.83563,
       "ransomware_use": "unknown",
       "date_added": "2025-05-13",
       "due_date": "2025-06-03"
@@ -19438,7 +19438,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Storage Link Following Vulnerability",
       "epss": 0.02284,
-      "epss_percentile": 0.83161,
+      "epss_percentile": 0.83162,
       "ransomware_use": "unknown",
       "date_added": "2025-02-11",
       "due_date": "2025-03-04"
@@ -19450,7 +19450,7 @@
       "product": "RouterOS",
       "title": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
       "epss": 0.02277,
-      "epss_percentile": 0.83114,
+      "epss_percentile": 0.83115,
       "ransomware_use": "unknown",
       "date_added": "2026-09-25",
       "due_date": "2026-09-28"
@@ -19522,7 +19522,7 @@
       "product": "Secure Email Gateway",
       "title": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
       "epss": 0.02152,
-      "epss_percentile": 0.82151,
+      "epss_percentile": 0.8215,
       "ransomware_use": "unknown",
       "date_added": "2026-10-14",
       "due_date": "2026-10-17"
@@ -19534,7 +19534,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Ancillary Function Driver for WinSock Heap-Based Buffer Overflow Vulnerability",
       "epss": 0.02132,
-      "epss_percentile": 0.81979,
+      "epss_percentile": 0.81978,
       "ransomware_use": "unknown",
       "date_added": "2025-02-11",
       "due_date": "2025-03-04"
@@ -19546,7 +19546,7 @@
       "product": "IOS and IOS XE Software",
       "title": "Cisco IOS Software and Cisco IOS XE Software Denial-of-Service Vulnerability",
       "epss": 0.02117,
-      "epss_percentile": 0.81847,
+      "epss_percentile": 0.81846,
       "ransomware_use": "unknown",
       "date_added": "2022-03-03",
       "due_date": "2022-03-24"
@@ -19618,7 +19618,7 @@
       "product": "PAN-OS",
       "title": "Palo Alto Networks PAN-OS File Read Vulnerability",
       "epss": 0.01999,
-      "epss_percentile": 0.80747,
+      "epss_percentile": 0.80748,
       "ransomware_use": "unknown",
       "date_added": "2025-02-20",
       "due_date": "2025-03-13"
@@ -19630,7 +19630,7 @@
       "product": "Windows",
       "title": "Microsoft Windows NTFS Information Disclosure Vulnerability",
       "epss": 0.01994,
-      "epss_percentile": 0.80701,
+      "epss_percentile": 0.80702,
       "ransomware_use": "unknown",
       "date_added": "2025-03-11",
       "due_date": "2025-04-01"
@@ -19642,7 +19642,7 @@
       "product": "Email Security Gateway",
       "title": "Libraesva Email Security Gateway Command Injection Vulnerability",
       "epss": 0.01956,
-      "epss_percentile": 0.80276,
+      "epss_percentile": 0.80278,
       "ransomware_use": "unknown",
       "date_added": "2025-09-29",
       "due_date": "2025-10-20"
@@ -19654,7 +19654,7 @@
       "product": "iOS and iPadOS",
       "title": "Apple iOS and iPadOS Use-After-Free Vulnerability",
       "epss": 0.01955,
-      "epss_percentile": 0.80266,
+      "epss_percentile": 0.80268,
       "ransomware_use": "unknown",
       "date_added": "2026-03-05",
       "due_date": "2026-03-26"
@@ -19666,7 +19666,7 @@
       "product": "Media Server",
       "title": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
       "epss": 0.01949,
-      "epss_percentile": 0.8022,
+      "epss_percentile": 0.80221,
       "ransomware_use": "unknown",
       "date_added": "2026-10-20",
       "due_date": "2026-10-23"
@@ -19678,7 +19678,7 @@
       "product": "Framework",
       "title": "Android Framework Integer Overflow Vulnerability",
       "epss": 0.01947,
-      "epss_percentile": 0.80192,
+      "epss_percentile": 0.80193,
       "ransomware_use": "unknown",
       "date_added": "2026-06-02",
       "due_date": "2026-06-05"
@@ -19690,7 +19690,7 @@
       "product": "Windows",
       "title": "Microsoft Windows DWM Core Library Use-After-Free Vulnerability",
       "epss": 0.01917,
-      "epss_percentile": 0.79867,
+      "epss_percentile": 0.79868,
       "ransomware_use": "unknown",
       "date_added": "2025-05-13",
       "due_date": "2025-06-03"
@@ -19714,7 +19714,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.01874,
-      "epss_percentile": 0.79389,
+      "epss_percentile": 0.7939,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -19726,7 +19726,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Win32k Use-After-Free Vulnerability",
       "epss": 0.0187,
-      "epss_percentile": 0.79343,
+      "epss_percentile": 0.79344,
       "ransomware_use": "unknown",
       "date_added": "2025-03-11",
       "due_date": "2025-04-01"
@@ -19738,7 +19738,7 @@
       "product": "Output Messenger",
       "title": "Srimax Output Messenger Directory Traversal Vulnerability",
       "epss": 0.01865,
-      "epss_percentile": 0.7929,
+      "epss_percentile": 0.79291,
       "ransomware_use": "unknown",
       "date_added": "2025-05-19",
       "due_date": "2025-06-09"
@@ -19750,7 +19750,7 @@
       "product": "Media Server",
       "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
       "epss": 0.01821,
-      "epss_percentile": 0.78758,
+      "epss_percentile": 0.78759,
       "ransomware_use": "unknown",
       "date_added": "2026-10-20",
       "due_date": "2026-11-03"
@@ -19774,7 +19774,7 @@
       "product": "Chromium V8",
       "title": "Google Chromium V8 Type Confusion Vulnerability",
       "epss": 0.01806,
-      "epss_percentile": 0.78569,
+      "epss_percentile": 0.7857,
       "ransomware_use": "unknown",
       "date_added": "2026-09-04",
       "due_date": "2026-09-18"
@@ -19798,7 +19798,7 @@
       "product": "Media Server",
       "title": "Plex Media Server External Control of File Name or Path Vulnerability",
       "epss": 0.01785,
-      "epss_percentile": 0.78305,
+      "epss_percentile": 0.78304,
       "ransomware_use": "unknown",
       "date_added": "2026-10-20",
       "due_date": "2026-10-23"
@@ -19810,7 +19810,7 @@
       "product": "VeloCloud Orchestrator",
       "title": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
       "epss": 0.0176,
-      "epss_percentile": 0.78,
+      "epss_percentile": 0.78001,
       "ransomware_use": "unknown",
       "date_added": "2026-07-27",
       "due_date": "2026-07-30"
@@ -19834,7 +19834,7 @@
       "product": "Notepad++",
       "title": "Notepad++ Download of Code Without Integrity Check Vulnerability",
       "epss": 0.01746,
-      "epss_percentile": 0.77814,
+      "epss_percentile": 0.77813,
       "ransomware_use": "unknown",
       "date_added": "2026-02-12",
       "due_date": "2026-03-05"
@@ -19858,7 +19858,7 @@
       "product": "Agile Product Lifecycle Management (PLM)",
       "title": "Oracle Agile Product Lifecycle Management (PLM) Incorrect Authorization Vulnerability",
       "epss": 0.01723,
-      "epss_percentile": 0.77504,
+      "epss_percentile": 0.77503,
       "ransomware_use": "unknown",
       "date_added": "2024-11-21",
       "due_date": "2024-12-12"
@@ -19870,7 +19870,7 @@
       "product": "macOS",
       "title": "Apple macOS Improper Authentication Vulnerability",
       "epss": 0.01723,
-      "epss_percentile": 0.77517,
+      "epss_percentile": 0.77516,
       "ransomware_use": "unknown",
       "date_added": "2026-08-18",
       "due_date": "2026-08-21"
@@ -19894,7 +19894,7 @@
       "product": "Server",
       "title": "TrueConf Server Code Injection Vulnerability",
       "epss": 0.01686,
-      "epss_percentile": 0.77023,
+      "epss_percentile": 0.77024,
       "ransomware_use": "unknown",
       "date_added": "2026-08-20",
       "due_date": "2026-09-03"
@@ -19918,7 +19918,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Buffer Overflow Vulnerability",
       "epss": 0.01678,
-      "epss_percentile": 0.76909,
+      "epss_percentile": 0.7691,
       "ransomware_use": "unknown",
       "date_added": "2026-03-20",
       "due_date": "2026-04-03"
@@ -19966,7 +19966,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Power Dependency Coordinator Privilege Escalation Vulnerability",
       "epss": 0.01635,
-      "epss_percentile": 0.76298,
+      "epss_percentile": 0.76297,
       "ransomware_use": "unknown",
       "date_added": "2024-08-13",
       "due_date": "2024-09-03"
@@ -20002,7 +20002,7 @@
       "product": "Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables",
       "title": "Qualcomm Multiple Chipsets Improper Input Validation Vulnerability",
       "epss": 0.01604,
-      "epss_percentile": 0.75857,
+      "epss_percentile": 0.75856,
       "ransomware_use": "unknown",
       "date_added": "2021-12-01",
       "due_date": "2022-06-01"
@@ -20014,7 +20014,7 @@
       "product": "Office",
       "title": "Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulnerability",
       "epss": 0.01587,
-      "epss_percentile": 0.75615,
+      "epss_percentile": 0.75613,
       "ransomware_use": "unknown",
       "date_added": "2026-02-10",
       "due_date": "2026-03-03"
@@ -20026,7 +20026,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.01582,
-      "epss_percentile": 0.75543,
+      "epss_percentile": 0.75542,
       "ransomware_use": "unknown",
       "date_added": "2022-04-25",
       "due_date": "2022-05-16"
@@ -20038,7 +20038,7 @@
       "product": "Win32k",
       "title": "Microsoft Win32k Privilege Escalation Vulnerability",
       "epss": 0.01582,
-      "epss_percentile": 0.75543,
+      "epss_percentile": 0.75541,
       "ransomware_use": "unknown",
       "date_added": "2022-04-25",
       "due_date": "2022-05-16"
@@ -20050,7 +20050,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Hyper-V NT Kernel Integration VSP Use-After-Free Vulnerability",
       "epss": 0.01573,
-      "epss_percentile": 0.75425,
+      "epss_percentile": 0.75423,
       "ransomware_use": "unknown",
       "date_added": "2025-01-14",
       "due_date": "2025-02-04"
@@ -20062,7 +20062,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Race Condition Vulnerability",
       "epss": 0.0157,
-      "epss_percentile": 0.75377,
+      "epss_percentile": 0.75375,
       "ransomware_use": "unknown",
       "date_added": "2026-09-18",
       "due_date": "2026-09-21"
@@ -20074,7 +20074,7 @@
       "product": "ESXi and Workstation",
       "title": "VMware ESXi and Workstation TOCTOU Race Condition Vulnerability",
       "epss": 0.01561,
-      "epss_percentile": 0.75244,
+      "epss_percentile": 0.75242,
       "ransomware_use": "unknown",
       "date_added": "2025-03-04",
       "due_date": "2025-03-25"
@@ -20086,7 +20086,7 @@
       "product": "RouterOS",
       "title": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
       "epss": 0.0156,
-      "epss_percentile": 0.75241,
+      "epss_percentile": 0.75239,
       "ransomware_use": "unknown",
       "date_added": "2026-09-10",
       "due_date": "2026-09-13"
@@ -20098,7 +20098,7 @@
       "product": "WebKitGTK",
       "title": "WebKitGTK Memory Corruption Vulnerability",
       "epss": 0.01556,
-      "epss_percentile": 0.75178,
+      "epss_percentile": 0.75177,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -20122,7 +20122,7 @@
       "product": "ACDB Audio Driver",
       "title": "Code Aurora ACDB Audio Driver Stack-based Buffer Overflow Vulnerability",
       "epss": 0.01503,
-      "epss_percentile": 0.74324,
+      "epss_percentile": 0.74323,
       "ransomware_use": "unknown",
       "date_added": "2022-09-15",
       "due_date": "2022-10-06"
@@ -20146,7 +20146,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.01481,
-      "epss_percentile": 0.73942,
+      "epss_percentile": 0.73941,
       "ransomware_use": "unknown",
       "date_added": "2024-03-06",
       "due_date": "2024-03-27"
@@ -20158,7 +20158,7 @@
       "product": "Framework",
       "title": "Android Framework Privilege Escalation Vulnerability",
       "epss": 0.01465,
-      "epss_percentile": 0.73673,
+      "epss_percentile": 0.73674,
       "ransomware_use": "unknown",
       "date_added": "2023-04-13",
       "due_date": "2023-05-04"
@@ -20182,7 +20182,7 @@
       "product": "Daemon Tools Lite",
       "title": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
       "epss": 0.01456,
-      "epss_percentile": 0.73499,
+      "epss_percentile": 0.73498,
       "ransomware_use": "unknown",
       "date_added": "2026-05-27",
       "due_date": "2026-05-30"
@@ -20206,7 +20206,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Privilege Common Log File System (CLFS) Escalation Vulnerability",
       "epss": 0.01419,
-      "epss_percentile": 0.72818,
+      "epss_percentile": 0.72817,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -20218,7 +20218,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Common Log File System (CLFS) Driver Use-After-Free Vulnerability",
       "epss": 0.01416,
-      "epss_percentile": 0.72763,
+      "epss_percentile": 0.72762,
       "ransomware_use": "unknown",
       "date_added": "2025-05-13",
       "due_date": "2025-06-03"
@@ -20230,7 +20230,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.01411,
-      "epss_percentile": 0.72686,
+      "epss_percentile": 0.72684,
       "ransomware_use": "unknown",
       "date_added": "2024-03-06",
       "due_date": "2024-03-27"
@@ -20242,7 +20242,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Hyper-V NT Kernel Integration VSP Use-After-Free Vulnerability",
       "epss": 0.01401,
-      "epss_percentile": 0.72519,
+      "epss_percentile": 0.72518,
       "ransomware_use": "unknown",
       "date_added": "2025-01-14",
       "due_date": "2025-02-04"
@@ -20254,7 +20254,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Code Execution Vulnerability",
       "epss": 0.01388,
-      "epss_percentile": 0.72273,
+      "epss_percentile": 0.72272,
       "ransomware_use": "unknown",
       "date_added": "2024-01-08",
       "due_date": "2024-01-29"
@@ -20266,7 +20266,7 @@
       "product": "VeloCloud Orchestrator",
       "title": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
       "epss": 0.01384,
-      "epss_percentile": 0.72208,
+      "epss_percentile": 0.72206,
       "ransomware_use": "unknown",
       "date_added": "2026-09-22",
       "due_date": "2026-09-25"
@@ -20277,8 +20277,8 @@
       "vendor": "MediaTek",
       "product": "Multiple Chipsets",
       "title": "Mediatek Multiple Chipsets Insufficient Input Validation Vulnerability",
-      "epss": 0.0137,
-      "epss_percentile": 0.71925,
+      "epss": 0.01382,
+      "epss_percentile": 0.72159,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -20290,7 +20290,7 @@
       "product": "KNX Protocol Connection Authorization Option 1",
       "title": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
       "epss": 0.01363,
-      "epss_percentile": 0.71792,
+      "epss_percentile": 0.71789,
       "ransomware_use": "unknown",
       "date_added": "2026-07-15",
       "due_date": "2026-07-29"
@@ -20302,7 +20302,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Time-of-Check Time-of-Use (TOCTOU) Race Condition Vulnerability",
       "epss": 0.01357,
-      "epss_percentile": 0.71671,
+      "epss_percentile": 0.7167,
       "ransomware_use": "unknown",
       "date_added": "2025-09-04",
       "due_date": "2025-09-25"
@@ -20326,7 +20326,7 @@
       "product": "Craft CMS",
       "title": "Craft CMS External Control of Assumed-Immutable Web Parameter Vulnerability",
       "epss": 0.01349,
-      "epss_percentile": 0.71494,
+      "epss_percentile": 0.71495,
       "ransomware_use": "unknown",
       "date_added": "2025-06-02",
       "due_date": "2025-06-23"
@@ -20362,7 +20362,7 @@
       "product": "Partner Center",
       "title": "Microsoft Partner Center Improper Access Control Vulnerability",
       "epss": 0.013,
-      "epss_percentile": 0.70454,
+      "epss_percentile": 0.70451,
       "ransomware_use": "unknown",
       "date_added": "2025-02-25",
       "due_date": "2025-03-18"
@@ -20386,7 +20386,7 @@
       "product": "Live Update",
       "title": "ASUS Live Update Embedded Malicious Code Vulnerability",
       "epss": 0.01197,
-      "epss_percentile": 0.68113,
+      "epss_percentile": 0.68114,
       "ransomware_use": "unknown",
       "date_added": "2025-12-17",
       "due_date": "2026-01-07"
@@ -20422,22 +20422,10 @@
       "product": "Extensible Operating System",
       "title": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
       "epss": 0.01108,
-      "epss_percentile": 0.65872,
+      "epss_percentile": 0.65873,
       "ransomware_use": "unknown",
       "date_added": "2026-06-09",
       "due_date": "2026-06-23"
-    },
-    {
-      "id": "CVE-2023-4211",
-      "priority": "MEDIUM",
-      "vendor": "Arm",
-      "product": "Mali GPU Kernel Driver",
-      "title": "Arm Mali GPU Kernel Driver Use-After-Free Vulnerability",
-      "epss": 0.01098,
-      "epss_percentile": 0.65648,
-      "ransomware_use": "unknown",
-      "date_added": "2023-10-03",
-      "due_date": "2023-10-24"
     },
     {
       "id": "CVE-2022-22674",
@@ -20446,7 +20434,7 @@
       "product": "macOS",
       "title": "Apple macOS Out-of-Bounds Read Vulnerability",
       "epss": 0.01086,
-      "epss_percentile": 0.65292,
+      "epss_percentile": 0.65294,
       "ransomware_use": "unknown",
       "date_added": "2022-04-04",
       "due_date": "2022-04-25"
@@ -20458,7 +20446,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Improper Access Control Vulnerability",
       "epss": 0.01079,
-      "epss_percentile": 0.65074,
+      "epss_percentile": 0.65076,
       "ransomware_use": "unknown",
       "date_added": "2022-11-08",
       "due_date": "2022-11-29"
@@ -20470,7 +20458,7 @@
       "product": "Mali Graphics Processing Unit (GPU)",
       "title": "Arm Mali GPU Kernel Driver Unspecified Vulnerability",
       "epss": 0.01062,
-      "epss_percentile": 0.64618,
+      "epss_percentile": 0.64617,
       "ransomware_use": "unknown",
       "date_added": "2023-03-30",
       "due_date": "2023-04-20"
@@ -20482,7 +20470,7 @@
       "product": "iOS and iPadOS",
       "title": "Apple iOS and iPadOS Out-of-Bounds Write Vulnerability",
       "epss": 0.01062,
-      "epss_percentile": 0.64618,
+      "epss_percentile": 0.64617,
       "ransomware_use": "unknown",
       "date_added": "2022-10-25",
       "due_date": "2022-11-15"
@@ -20494,7 +20482,7 @@
       "product": "Kernel",
       "title": "Android Kernel Use-After-Free Vulnerability",
       "epss": 0.01058,
-      "epss_percentile": 0.64486,
+      "epss_percentile": 0.64484,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -20506,7 +20494,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
       "epss": 0.01044,
-      "epss_percentile": 0.64125,
+      "epss_percentile": 0.64123,
       "ransomware_use": "unknown",
       "date_added": "2025-06-03",
       "due_date": "2025-06-24"
@@ -20518,7 +20506,7 @@
       "product": "McAfee Total Protection (MTP)",
       "title": "McAfee Total Protection (MTP) Improper Privilege Management Vulnerability",
       "epss": 0.01026,
-      "epss_percentile": 0.6362,
+      "epss_percentile": 0.63617,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -20530,10 +20518,22 @@
       "product": "VeloCloud Orchestrator",
       "title": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
       "epss": 0.01025,
-      "epss_percentile": 0.63583,
+      "epss_percentile": 0.63579,
       "ransomware_use": "unknown",
       "date_added": "2026-10-23",
       "due_date": "2026-10-26"
+    },
+    {
+      "id": "CVE-2023-4211",
+      "priority": "MEDIUM",
+      "vendor": "Arm",
+      "product": "Mali GPU Kernel Driver",
+      "title": "Arm Mali GPU Kernel Driver Use-After-Free Vulnerability",
+      "epss": 0.01022,
+      "epss_percentile": 0.63493,
+      "ransomware_use": "unknown",
+      "date_added": "2023-10-03",
+      "due_date": "2023-10-24"
     },
     {
       "id": "CVE-2026-56164",
@@ -20566,7 +20566,7 @@
       "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
       "title": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
       "epss": 0.0101,
-      "epss_percentile": 0.63155,
+      "epss_percentile": 0.63154,
       "ransomware_use": "unknown",
       "date_added": "2026-08-11",
       "due_date": "2026-08-14"
@@ -20578,7 +20578,7 @@
       "product": "iOS and iPadOS",
       "title": "Apple iOS and iPadOS Kernel Privilege Escalation Vulnerability",
       "epss": 0.00971,
-      "epss_percentile": 0.61923,
+      "epss_percentile": 0.61925,
       "ransomware_use": "unknown",
       "date_added": "2023-10-05",
       "due_date": "2023-10-26"
@@ -20602,7 +20602,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Out-of-Bounds Write Vulnerability",
       "epss": 0.00934,
-      "epss_percentile": 0.60771,
+      "epss_percentile": 0.60773,
       "ransomware_use": "unknown",
       "date_added": "2026-09-18",
       "due_date": "2026-09-21"
@@ -20614,7 +20614,7 @@
       "product": "ScreenConnect",
       "title": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
       "epss": 0.00924,
-      "epss_percentile": 0.60436,
+      "epss_percentile": 0.60438,
       "ransomware_use": "unknown",
       "date_added": "2026-09-11",
       "due_date": "2026-09-14"
@@ -20626,7 +20626,7 @@
       "product": "FortiOS",
       "title": "Fortinet FortiOS Arbitrary File Download",
       "epss": 0.00906,
-      "epss_percentile": 0.59858,
+      "epss_percentile": 0.59861,
       "ransomware_use": "unknown",
       "date_added": "2021-12-10",
       "due_date": "2021-12-24"
@@ -20638,7 +20638,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Memory Corruption Vulnerability",
       "epss": 0.0089,
-      "epss_percentile": 0.5937,
+      "epss_percentile": 0.59372,
       "ransomware_use": "unknown",
       "date_added": "2022-11-08",
       "due_date": "2022-11-29"
@@ -20650,7 +20650,7 @@
       "product": "Langflow",
       "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
       "epss": 0.00887,
-      "epss_percentile": 0.5929,
+      "epss_percentile": 0.59295,
       "ransomware_use": "unknown",
       "date_added": "2026-07-07",
       "due_date": "2026-07-10"
@@ -20662,7 +20662,7 @@
       "product": "Kernel",
       "title": "Android Kernel Race Condition Vulnerability",
       "epss": 0.00867,
-      "epss_percentile": 0.58745,
+      "epss_percentile": 0.58746,
       "ransomware_use": "unknown",
       "date_added": "2022-05-23",
       "due_date": "2022-06-13"
@@ -20674,7 +20674,7 @@
       "product": "LiteLLM",
       "title": "BerriAI LiteLLM Improper Authentication Vulnerability",
       "epss": 0.00836,
-      "epss_percentile": 0.57731,
+      "epss_percentile": 0.57733,
       "ransomware_use": "unknown",
       "date_added": "2026-09-02",
       "due_date": "2026-09-16"
@@ -20686,7 +20686,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Code Execution Vulnerability",
       "epss": 0.00829,
-      "epss_percentile": 0.57543,
+      "epss_percentile": 0.57544,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2022-05-03"
@@ -20698,7 +20698,7 @@
       "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
       "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
       "epss": 0.00821,
-      "epss_percentile": 0.57306,
+      "epss_percentile": 0.57307,
       "ransomware_use": "unknown",
       "date_added": "2026-10-29",
       "due_date": "2026-11-01"
@@ -20710,7 +20710,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Use of Uninitialized Resource Vulnerability",
       "epss": 0.00811,
-      "epss_percentile": 0.56946,
+      "epss_percentile": 0.56948,
       "ransomware_use": "unknown",
       "date_added": "2025-03-04",
       "due_date": "2025-03-25"
@@ -20722,7 +20722,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Improper Boundary Check Vulnerability",
       "epss": 0.00804,
-      "epss_percentile": 0.56753,
+      "epss_percentile": 0.56754,
       "ransomware_use": "unknown",
       "date_added": "2023-06-29",
       "due_date": "2023-07-20"
@@ -20734,7 +20734,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Unspecified Vulnerability",
       "epss": 0.00802,
-      "epss_percentile": 0.56652,
+      "epss_percentile": 0.56653,
       "ransomware_use": "unknown",
       "date_added": "2023-06-29",
       "due_date": "2023-07-20"
@@ -20746,7 +20746,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Use of Out-of-Range Pointer Offset Vulnerability",
       "epss": 0.00788,
-      "epss_percentile": 0.56213,
+      "epss_percentile": 0.56214,
       "ransomware_use": "unknown",
       "date_added": "2023-12-05",
       "due_date": "2023-12-26"
@@ -20758,7 +20758,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Incorrect Authorization Vulnerability",
       "epss": 0.00783,
-      "epss_percentile": 0.56039,
+      "epss_percentile": 0.56038,
       "ransomware_use": "unknown",
       "date_added": "2025-06-03",
       "due_date": "2025-06-24"
@@ -20770,7 +20770,7 @@
       "product": "Mali GPU Kernel Driver",
       "title": "Arm Mali GPU Kernel Driver Use-After-Free Vulnerability",
       "epss": 0.00764,
-      "epss_percentile": 0.55431,
+      "epss_percentile": 0.5543,
       "ransomware_use": "unknown",
       "date_added": "2024-06-12",
       "due_date": "2024-07-03"
@@ -20782,7 +20782,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Integer Overflow Vulnerability",
       "epss": 0.00739,
-      "epss_percentile": 0.54581,
+      "epss_percentile": 0.54579,
       "ransomware_use": "unknown",
       "date_added": "2023-12-05",
       "due_date": "2023-12-26"
@@ -20794,7 +20794,7 @@
       "product": "Framework",
       "title": "Android Framework Privilege Escalation Vulnerability",
       "epss": 0.00709,
-      "epss_percentile": 0.53521,
+      "epss_percentile": 0.53519,
       "ransomware_use": "unknown",
       "date_added": "2024-11-07",
       "due_date": "2024-11-28"
@@ -20806,7 +20806,7 @@
       "product": "Kernel",
       "title": "Linux Kernel Unspecified Vulnerability",
       "epss": 0.00709,
-      "epss_percentile": 0.53528,
+      "epss_percentile": 0.53527,
       "ransomware_use": "unknown",
       "date_added": "2026-08-27",
       "due_date": "2026-08-30"
@@ -20818,7 +20818,7 @@
       "product": "macOS",
       "title": "Apple macOS Use-After-Free Vulnerability",
       "epss": 0.00701,
-      "epss_percentile": 0.53243,
+      "epss_percentile": 0.53241,
       "ransomware_use": "unknown",
       "date_added": "2023-04-17",
       "due_date": "2023-05-08"
@@ -20830,7 +20830,7 @@
       "product": "Brocade Fabric OS",
       "title": "Broadcom Brocade Fabric OS Code Injection Vulnerability",
       "epss": 0.0069,
-      "epss_percentile": 0.52817,
+      "epss_percentile": 0.52813,
       "ransomware_use": "unknown",
       "date_added": "2025-04-28",
       "due_date": "2025-05-19"
@@ -20842,7 +20842,7 @@
       "product": "VMware ESX",
       "title": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
       "epss": 0.00689,
-      "epss_percentile": 0.52756,
+      "epss_percentile": 0.5275,
       "ransomware_use": "unknown",
       "date_added": "2026-10-28",
       "due_date": "2026-11-11"
@@ -20854,7 +20854,7 @@
       "product": "Pixel",
       "title": "Google Pixel Out-of-Bounds Write Vulnerability",
       "epss": 0.00685,
-      "epss_percentile": 0.52629,
+      "epss_percentile": 0.52623,
       "ransomware_use": "unknown",
       "date_added": "2022-04-11",
       "due_date": "2022-05-02"
@@ -20866,7 +20866,7 @@
       "product": "Pixel",
       "title": "Android Pixel Privilege Escalation Vulnerability",
       "epss": 0.00676,
-      "epss_percentile": 0.52246,
+      "epss_percentile": 0.52238,
       "ransomware_use": "unknown",
       "date_added": "2024-04-04",
       "due_date": "2024-04-25"
@@ -20878,7 +20878,7 @@
       "product": "Multiple Chipsets ",
       "title": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
       "epss": 0.00674,
-      "epss_percentile": 0.52164,
+      "epss_percentile": 0.52157,
       "ransomware_use": "unknown",
       "date_added": "2024-10-08",
       "due_date": "2024-10-29"
@@ -20890,7 +20890,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
       "epss": 0.00672,
-      "epss_percentile": 0.52096,
+      "epss_percentile": 0.52089,
       "ransomware_use": "unknown",
       "date_added": "2023-12-05",
       "due_date": "2023-12-26"
@@ -20902,7 +20902,7 @@
       "product": "Artifactory",
       "title": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
       "epss": 0.00665,
-      "epss_percentile": 0.518,
+      "epss_percentile": 0.51794,
       "ransomware_use": "unknown",
       "date_added": "2026-08-27",
       "due_date": "2026-09-10"
@@ -20914,7 +20914,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Out-of-Bounds Read Vulnerability",
       "epss": 0.00635,
-      "epss_percentile": 0.50448,
+      "epss_percentile": 0.50445,
       "ransomware_use": "unknown",
       "date_added": "2023-06-29",
       "due_date": "2023-07-20"
@@ -20926,7 +20926,7 @@
       "product": "Runtime",
       "title": "Android Runtime Use-After-Free Vulnerability",
       "epss": 0.00634,
-      "epss_percentile": 0.50413,
+      "epss_percentile": 0.5041,
       "ransomware_use": "unknown",
       "date_added": "2025-09-04",
       "due_date": "2025-09-25"
@@ -20938,7 +20938,7 @@
       "product": "Pixel",
       "title": "Google Pixel Improper Authorization Vulnerability",
       "epss": 0.00625,
-      "epss_percentile": 0.49978,
+      "epss_percentile": 0.49975,
       "ransomware_use": "unknown",
       "date_added": "2026-09-16",
       "due_date": "2026-09-19"
@@ -20950,7 +20950,7 @@
       "product": "TM SGNL",
       "title": "TeleMessage TM SGNL Exposure of Core Dump File to an Unauthorized Control Sphere Vulnerability",
       "epss": 0.00577,
-      "epss_percentile": 0.47562,
+      "epss_percentile": 0.47555,
       "ransomware_use": "unknown",
       "date_added": "2025-07-01",
       "due_date": "2025-07-22"
@@ -20962,7 +20962,7 @@
       "product": "Connect Secure",
       "title": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
       "epss": 0.00533,
-      "epss_percentile": 0.45029,
+      "epss_percentile": 0.45024,
       "ransomware_use": "unknown",
       "date_added": "2026-10-30",
       "due_date": "2026-11-02"
@@ -20974,7 +20974,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Improper Input Validation Vulnerability",
       "epss": 0.00531,
-      "epss_percentile": 0.4488,
+      "epss_percentile": 0.44875,
       "ransomware_use": "unknown",
       "date_added": "2023-06-29",
       "due_date": "2023-07-20"
@@ -20986,7 +20986,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Detection of Error Condition Without Action Vulnerability",
       "epss": 0.0052,
-      "epss_percentile": 0.44182,
+      "epss_percentile": 0.44177,
       "ransomware_use": "unknown",
       "date_added": "2021-11-03",
       "due_date": "2021-11-17"
@@ -20998,7 +20998,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Memory Corruption Vulnerability",
       "epss": 0.00487,
-      "epss_percentile": 0.41945,
+      "epss_percentile": 0.41938,
       "ransomware_use": "unknown",
       "date_added": "2024-01-31",
       "due_date": "2024-02-21"
@@ -21010,7 +21010,7 @@
       "product": "Pixel",
       "title": "Android Pixel Information Disclosure Vulnerability",
       "epss": 0.00486,
-      "epss_percentile": 0.41907,
+      "epss_percentile": 0.419,
       "ransomware_use": "unknown",
       "date_added": "2024-04-04",
       "due_date": "2024-04-25"
@@ -21022,7 +21022,7 @@
       "product": "TM SGNL",
       "title": "TeleMessage TM SGNL Hidden Functionality Vulnerability",
       "epss": 0.00447,
-      "epss_percentile": 0.38858,
+      "epss_percentile": 0.38853,
       "ransomware_use": "unknown",
       "date_added": "2025-05-12",
       "due_date": "2025-06-02"
@@ -21034,7 +21034,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Incorrect Authorization Vulnerability",
       "epss": 0.00428,
-      "epss_percentile": 0.37126,
+      "epss_percentile": 0.37116,
       "ransomware_use": "unknown",
       "date_added": "2025-06-03",
       "due_date": "2025-06-24"
@@ -21046,7 +21046,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Classic Buffer Overflow Vulnerability",
       "epss": 0.00425,
-      "epss_percentile": 0.36824,
+      "epss_percentile": 0.36815,
       "ransomware_use": "unknown",
       "date_added": "2026-03-20",
       "due_date": "2026-04-03"
@@ -21058,7 +21058,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Use-After-Free Vulnerability",
       "epss": 0.00418,
-      "epss_percentile": 0.36157,
+      "epss_percentile": 0.36149,
       "ransomware_use": "unknown",
       "date_added": "2023-09-18",
       "due_date": "2023-10-09"
@@ -21070,7 +21070,7 @@
       "product": "Multiple Chipsets",
       "title": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
       "epss": 0.00411,
-      "epss_percentile": 0.35331,
+      "epss_percentile": 0.3532,
       "ransomware_use": "unknown",
       "date_added": "2023-12-05",
       "due_date": "2023-12-26"
@@ -21082,7 +21082,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Race Condition Vulnerability",
       "epss": 0.00401,
-      "epss_percentile": 0.34407,
+      "epss_percentile": 0.344,
       "ransomware_use": "unknown",
       "date_added": "2023-06-29",
       "due_date": "2023-07-20"
@@ -21094,7 +21094,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Link Following Vulnerability",
       "epss": 0.00393,
-      "epss_percentile": 0.33546,
+      "epss_percentile": 0.33541,
       "ransomware_use": "unknown",
       "date_added": "2026-09-08",
       "due_date": "2026-09-22"
@@ -21106,7 +21106,7 @@
       "product": "Windows",
       "title": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
       "epss": 0.00387,
-      "epss_percentile": 0.32835,
+      "epss_percentile": 0.3283,
       "ransomware_use": "unknown",
       "date_added": "2026-09-08",
       "due_date": "2026-09-22"
@@ -21118,7 +21118,7 @@
       "product": "Mobile Devices",
       "title": "Samsung Mobile Devices Race Condition Vulnerability",
       "epss": 0.00366,
-      "epss_percentile": 0.30519,
+      "epss_percentile": 0.30513,
       "ransomware_use": "unknown",
       "date_added": "2023-06-29",
       "due_date": "2023-07-20"
@@ -21130,7 +21130,7 @@
       "product": "Multiple Products",
       "title": "Apple Multiple Products Improper Locking Vulnerability",
       "epss": 0.00355,
-      "epss_percentile": 0.29286,
+      "epss_percentile": 0.29282,
       "ransomware_use": "unknown",
       "date_added": "2026-03-20",
       "due_date": "2026-04-03"
@@ -21142,7 +21142,7 @@
       "product": "Active Directory Federation Services",
       "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
       "epss": 0.00346,
-      "epss_percentile": 0.2823,
+      "epss_percentile": 0.28227,
       "ransomware_use": "unknown",
       "date_added": "2026-07-14",
       "due_date": "2026-07-28"
@@ -21154,7 +21154,7 @@
       "product": "Pixel",
       "title": "Android Pixel Information Disclosure Vulnerability ",
       "epss": 0.00266,
-      "epss_percentile": 0.18535,
+      "epss_percentile": 0.18533,
       "ransomware_use": "unknown",
       "date_added": "2024-03-05",
       "due_date": "2024-03-26"
@@ -21166,7 +21166,7 @@
       "product": "Framework",
       "title": "Android Framework Information Disclosure Vulnerability",
       "epss": 0.00262,
-      "epss_percentile": 0.18046,
+      "epss_percentile": 0.1804,
       "ransomware_use": "unknown",
       "date_added": "2025-12-02",
       "due_date": "2025-12-23"
@@ -21178,7 +21178,7 @@
       "product": "Framework",
       "title": "Android Framework Privilege Escalation Vulnerability",
       "epss": 0.00259,
-      "epss_percentile": 0.17639,
+      "epss_percentile": 0.17632,
       "ransomware_use": "unknown",
       "date_added": "2025-12-02",
       "due_date": "2025-12-23"
@@ -21190,7 +21190,7 @@
       "product": "Backup",
       "title": "Acronis Backup Incorrect Default Permissions Vulnerability",
       "epss": 0.00233,
-      "epss_percentile": 0.14246,
+      "epss_percentile": 0.14242,
       "ransomware_use": "unknown",
       "date_added": "2026-09-16",
       "due_date": "2026-09-19"
