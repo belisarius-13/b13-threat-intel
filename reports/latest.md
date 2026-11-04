@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-03T12:50:42.493675Z
+**Generated:** 2026-11-04T13:01:44.456923Z
 
-**CISA KEV Catalog:** 2026.10.30
+**CISA KEV Catalog:** 2026.11.03
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 455 |
-| MEDIUM | 1087 |
+| MEDIUM | 1088 |
 | LOW | 0 |
-| **TOTAL** | **1766** |
+| **TOTAL** | **1767** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1766 |
@@ -31,14 +31,16 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 1 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **1** of **1** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-119977 | WordPress | WordPress Core | 0.0060 | unknown |
 
 ### Updated Intelligence
 

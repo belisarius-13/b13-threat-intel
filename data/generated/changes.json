@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T12:50:42.493675Z",
-  "source_catalog_version": "2026.10.30",
+  "generated_at": "2026-11-04T13:01:44.456923Z",
+  "source_catalog_version": "2026.11.03",
   "priority_model": "B13-KEV-v1",
   "source": "CISA KEV",
   "enrichment": "FIRST EPSS",
   "changes": {
     "counts": {
-      "new": 0,
+      "new": 1,
       "changed": 0,
       "removed": 0,
       "unchanged": 1766
@@ -15,7 +15,7 @@
     "new_priority_counts": {
       "critical": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low": 0
     },
     "changed_priority_counts": {
@@ -25,11 +25,38 @@
       "low": 0
     },
     "displayed": {
-      "new": 0,
+      "new": 1,
       "changed": 0,
       "removed": 0
     },
-    "new_records": [],
+    "new_records": [
+      {
+        "id": "CVE-2026-119977",
+        "type": "vulnerability",
+        "source": "CISA KEV",
+        "vendor": "WordPress",
+        "product": "WordPress Core",
+        "title": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+        "description": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+        "date_added": "2026-11-03",
+        "due_date": "2026-11-06",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "ransomware_use": "unknown",
+        "notes": "https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+        "cwes": [
+          "CWE-367"
+        ],
+        "epss": 0.006,
+        "epss_percentile": 0.48751,
+        "epss_date": "2026-11-03",
+        "epss_source": "FIRST EPSS",
+        "priority": "MEDIUM",
+        "priority_reasons": [
+          "CISA KEV confirms exploitation in the wild"
+        ],
+        "priority_model": "B13-KEV-v1"
+      }
+    ],
     "changed_records": [],
     "removed_ids": []
   }
