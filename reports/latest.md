@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-04T13:01:44.456923Z
+**Generated:** 2026-11-05T13:15:05.609786Z
 
-**CISA KEV Catalog:** 2026.11.03
+**CISA KEV Catalog:** 2026.11.04
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,9 +12,9 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 455 |
-| MEDIUM | 1088 |
+| MEDIUM | 1089 |
 | LOW | 0 |
-| **TOTAL** | **1767** |
+| **TOTAL** | **1768** |
 
 ## What Changed
 
@@ -23,7 +23,7 @@
 | NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1766 |
+| UNCHANGED | 1767 |
 
 ### Change Priority Breakdown
 
@@ -40,7 +40,7 @@ Showing **1** of **1** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-119977 | WordPress | WordPress Core | 0.0060 | unknown |
+| MEDIUM | CVE-2024-27834 | Apple | Multiple Products | 0.0060 | unknown |
 
 ### Updated Intelligence
 
@@ -63,7 +63,7 @@ No CISA KEV records were removed.
 - **Product:** Struts
 - **Title:** Apache Struts Remote Code Execution Vulnerability
 - **EPSS:** 1.0000
-- **EPSS Percentile:** 0.9999
+- **EPSS Percentile:** 1.0000
 - **Known ransomware use:** known
 
 **Why B13 prioritized this:**
