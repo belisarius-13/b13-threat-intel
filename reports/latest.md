@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-05T13:15:05.609786Z
+**Generated:** 2026-11-06T12:59:14.281120Z
 
 **CISA KEV Catalog:** 2026.11.04
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 1 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1767 |
+| UNCHANGED | 1768 |
 
 ### Change Priority Breakdown
 
@@ -31,16 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 1 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **1** of **1** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2024-27834 | Apple | Multiple Products | 0.0060 | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
