@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-06T12:59:14.281120Z
+**Generated:** 2026-11-07T11:46:14.117155Z
 
-**CISA KEV Catalog:** 2026.11.04
+**CISA KEV Catalog:** 2026.11.06
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 455 |
-| MEDIUM | 1089 |
+| MEDIUM | 1090 |
 | LOW | 0 |
-| **TOTAL** | **1768** |
+| **TOTAL** | **1769** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 1 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1768 |
@@ -31,14 +31,16 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 1 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **1** of **1** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-19868 | SonicWall | SonicOS SSLVPN | N/A | unknown |
 
 ### Updated Intelligence
 
