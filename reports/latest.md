@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-08T11:57:52.215520Z
+**Generated:** 2026-11-09T13:57:29.550872Z
 
 **CISA KEV Catalog:** 2026.11.06
 
@@ -11,8 +11,8 @@
 | Priority | Count |
 | --- | ---: |
 | CRITICAL | 224 |
-| HIGH | 456 |
-| MEDIUM | 1089 |
+| HIGH | 457 |
+| MEDIUM | 1088 |
 | LOW | 0 |
 | **TOTAL** | **1769** |
 
