@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-09T13:57:29.550872Z
+**Generated:** 2026-11-10T13:31:01.148112Z
 
-**CISA KEV Catalog:** 2026.11.06
+**CISA KEV Catalog:** 2026.11.09
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,15 +12,15 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 457 |
-| MEDIUM | 1088 |
+| MEDIUM | 1092 |
 | LOW | 0 |
-| **TOTAL** | **1769** |
+| **TOTAL** | **1773** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
+| NEW | 4 |
 | CHANGED | 0 |
 | REMOVED | 0 |
 | UNCHANGED | 1769 |
@@ -31,14 +31,19 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| MEDIUM | 4 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **4** of **4** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-116779 | SignalWire | FreeSwitch | 0.0130 | unknown |
+| MEDIUM | CVE-2026-123158 | OpenBSD | OpenSSH | 0.0101 | unknown |
+| MEDIUM | CVE-2026-123218 | IBM | Aspera Faspex | 0.0040 | unknown |
+| MEDIUM | CVE-2026-102895 | GPUStack | GPUStack | 0.0033 | unknown |
 
 ### Updated Intelligence
 
