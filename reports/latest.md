@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-10T13:31:01.148112Z
+**Generated:** 2026-11-11T12:45:36.719744Z
 
-**CISA KEV Catalog:** 2026.11.09
+**CISA KEV Catalog:** 2026.11.10
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,18 +12,18 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 457 |
-| MEDIUM | 1092 |
+| MEDIUM | 1098 |
 | LOW | 0 |
-| **TOTAL** | **1773** |
+| **TOTAL** | **1779** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 4 |
+| NEW | 6 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1769 |
+| UNCHANGED | 1773 |
 
 ### Change Priority Breakdown
 
@@ -31,19 +31,21 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 4 | 0 |
+| MEDIUM | 6 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **4** of **4** records.
+Showing **6** of **6** records.
 
 | Priority | CVE | Vendor | Product | EPSS | Ransomware |
 | --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-116779 | SignalWire | FreeSwitch | 0.0130 | unknown |
-| MEDIUM | CVE-2026-123158 | OpenBSD | OpenSSH | 0.0101 | unknown |
-| MEDIUM | CVE-2026-123218 | IBM | Aspera Faspex | 0.0040 | unknown |
-| MEDIUM | CVE-2026-102895 | GPUStack | GPUStack | 0.0033 | unknown |
+| MEDIUM | CVE-2026-116606 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 0.0160 | unknown |
+| MEDIUM | CVE-2026-111560 | Barracuda Networks | Multiple Products | 0.0106 | unknown |
+| MEDIUM | CVE-2026-20320 | Cisco | BroadWorks | 0.0039 | unknown |
+| MEDIUM | CVE-2026-111793 | Openwave Messaging Limited | Webtop Media Transcoder | 0.0027 | unknown |
+| MEDIUM | CVE-2026-124194 | Microsoft | Office | N/A | unknown |
+| MEDIUM | CVE-2026-125350 | Google | Chromium | N/A | unknown |
 
 ### Updated Intelligence
 
