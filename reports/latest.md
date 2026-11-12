@@ -1,6 +1,6 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-11T12:45:36.719744Z
+**Generated:** 2026-11-12T13:48:37.912116Z
 
 **CISA KEV Catalog:** 2026.11.10
 
@@ -20,10 +20,10 @@
 
 | Change | Count |
 | --- | ---: |
-| NEW | 6 |
+| NEW | 0 |
 | CHANGED | 0 |
 | REMOVED | 0 |
-| UNCHANGED | 1773 |
+| UNCHANGED | 1779 |
 
 ### Change Priority Breakdown
 
@@ -31,21 +31,14 @@
 | --- | ---: | ---: |
 | CRITICAL | 0 | 0 |
 | HIGH | 0 | 0 |
-| MEDIUM | 6 | 0 |
+| MEDIUM | 0 | 0 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **6** of **6** records.
+Showing **0** of **0** records.
 
-| Priority | CVE | Vendor | Product | EPSS | Ransomware |
-| --- | --- | --- | --- | ---: | --- |
-| MEDIUM | CVE-2026-116606 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 0.0160 | unknown |
-| MEDIUM | CVE-2026-111560 | Barracuda Networks | Multiple Products | 0.0106 | unknown |
-| MEDIUM | CVE-2026-20320 | Cisco | BroadWorks | 0.0039 | unknown |
-| MEDIUM | CVE-2026-111793 | Openwave Messaging Limited | Webtop Media Transcoder | 0.0027 | unknown |
-| MEDIUM | CVE-2026-124194 | Microsoft | Office | N/A | unknown |
-| MEDIUM | CVE-2026-125350 | Google | Chromium | N/A | unknown |
+No records in this category.
 
 ### Updated Intelligence
 
