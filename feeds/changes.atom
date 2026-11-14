@@ -2,6 +2,200 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:belisarius13:threat-intel:changes</id>
   <title>BELISARIUS13 Threat Intelligence Changes</title>
-  <updated>2026-11-13T13:10:03.313103Z</updated>
+  <updated>2026-11-14T12:14:17.880851Z</updated>
   <subtitle>Change-aware defensive vulnerability intelligence from BELISARIUS13.</subtitle>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:new:CVE-2026-123039</id>
+    <title>[NEW] [MEDIUM] CVE-2026-123039 — Check Point Multiple Products</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: Check Point | Product: Multiple Products | EPSS: 0.01274 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:new:CVE-2026-114713</id>
+    <title>[NEW] [MEDIUM] CVE-2026-114713 — UnrealIRCd UnrealIRCd</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="new" label="NEW" />
+    <category term="medium" label="MEDIUM" />
+    <summary type="text">Change: NEW | Priority: MEDIUM | Vendor: UnrealIRCd | Product: UnrealIRCd | EPSS: 0.00302 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild</summary>
+    <link href="https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2025-22457</id>
+    <title>[CHANGED] [CRITICAL] CVE-2025-22457 — Ivanti Connect Secure, Policy Secure, and ZTA Gateways</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="critical" label="CRITICAL" />
+    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: Ivanti | Product: Connect Secure, Policy Secure, and ZTA Gateways | EPSS: 0.99981 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.90</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2025-31161</id>
+    <title>[CHANGED] [CRITICAL] CVE-2025-31161 — CrushFTP CrushFTP</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="critical" label="CRITICAL" />
+    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: CrushFTP | Product: CrushFTP | EPSS: 0.99969 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.crushftp.com/crush11wiki/Wiki.jsp?page=Update ; https://nvd.nist.gov/vuln/detail/CVE-2025-31161" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2021-44529</id>
+    <title>[CHANGED] [CRITICAL] CVE-2021-44529 — Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA)</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="critical" label="CRITICAL" />
+    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: Ivanti | Product: Endpoint Manager Cloud Service Appliance (EPM CSA) | EPSS: 0.99105 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.90</summary>
+    <link href="https://forums.ivanti.com/s/article/SA-2021-12-02?language=en_US; https://nvd.nist.gov/vuln/detail/CVE-2021-44529" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2024-41713</id>
+    <title>[CHANGED] [CRITICAL] CVE-2024-41713 — Mitel MiCollab</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="critical" label="CRITICAL" />
+    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: Mitel | Product: MiCollab | EPSS: 0.97209 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029 ; https://nvd.nist.gov/vuln/detail/CVE-2024-41713" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2026-35273</id>
+    <title>[CHANGED] [CRITICAL] CVE-2026-35273 — Oracle PeopleSoft Enterprise PeopleTools</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="critical" label="CRITICAL" />
+    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: Oracle | Product: PeopleSoft Enterprise PeopleTools | EPSS: 0.96678 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.oracle.com/security-alerts/alert-cve-2026-35273.html ; https://support.oracle.com/signin/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-35273" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2026-24423</id>
+    <title>[CHANGED] [CRITICAL] CVE-2026-24423 — SmarterTools SmarterMail</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="critical" label="CRITICAL" />
+    <summary type="text">Change: CHANGED | Priority: CRITICAL | Vendor: SmarterTools | Product: SmarterMail | EPSS: 0.88177 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use; EPSS probability is at or above 0.70</summary>
+    <link href="https://www.smartertools.com/smartermail/release-notes/current ; https://www.cve.org/CVERecord?id=CVE-2026-24423 ; https://nvd.nist.gov/vuln/detail/CVE-2026-24423" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2024-4879</id>
+    <title>[CHANGED] [HIGH] CVE-2024-4879 — ServiceNow Utah, Vancouver, and Washington DC Now Platform</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: ServiceNow | Product: Utah, Vancouver, and Washington DC Now Platform | EPSS: 0.99976 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://support.servicenow.com/kb?id=kb_article_view&amp;sysparm_article=KB1645154; https://nvd.nist.gov/vuln/detail/CVE-2024-4879" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2024-29824</id>
+    <title>[CHANGED] [HIGH] CVE-2024-29824 — Ivanti Endpoint Manager (EPM)</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Ivanti | Product: Endpoint Manager (EPM) | EPSS: 0.99938 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://forums.ivanti.com/s/article/Security-Advisory-May-2024 ; https://nvd.nist.gov/vuln/detail/CVE-2024-29824" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2014-6278</id>
+    <title>[CHANGED] [HIGH] CVE-2014-6278 — GNU GNU Bash</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: GNU | Product: GNU Bash | EPSS: 0.99742 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2024-28995</id>
+    <title>[CHANGED] [HIGH] CVE-2024-28995 — SolarWinds Serv-U</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: SolarWinds | Product: Serv-U | EPSS: 0.99614 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995; https://nvd.nist.gov/vuln/detail/CVE-2024-28995" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2015-5477</id>
+    <title>[CHANGED] [HIGH] CVE-2015-5477 — ISC BIND</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: ISC | Product: BIND | EPSS: 0.99584 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2021-20124</id>
+    <title>[CHANGED] [HIGH] CVE-2021-20124 — DrayTek VigorConnect</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: DrayTek | Product: VigorConnect | EPSS: 0.95917 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.draytek.com/about/security-advisory/vigorconnect-software-security-vulnerability-(cve-2021-20123-cve-2021-20129); https://nvd.nist.gov/vuln/detail/CVE-2021-20124" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2018-14933</id>
+    <title>[CHANGED] [HIGH] CVE-2018-14933 — NUUO NVRmini Devices</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: NUUO | Product: NVRmini Devices | EPSS: 0.94761 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://nuuo.com/wp-content/uploads/2023/03/NUUO-EOL-letter%EF%BC%BFNVRmini-2-and-NVRsolo-series.pdf ; https://nvd.nist.gov/vuln/detail/CVE-2018-14933" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2025-54309</id>
+    <title>[CHANGED] [HIGH] CVE-2025-54309 — CrushFTP CrushFTP</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: CrushFTP | Product: CrushFTP | EPSS: 0.93473 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.crushftp.com/crush11wiki/Wiki.jsp?page=CompromiseJuly2025 ; https://nvd.nist.gov/vuln/detail/CVE-2025-54309" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2026-71362</id>
+    <title>[CHANGED] [HIGH] CVE-2026-71362 — Adobe Commerce and Magento</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Adobe | Product: Commerce and Magento | EPSS: 0.91677 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://helpx.adobe.com/security/products/magento/apsb26-92.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-71362" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2021-20123</id>
+    <title>[CHANGED] [HIGH] CVE-2021-20123 — DrayTek VigorConnect</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: DrayTek | Product: VigorConnect | EPSS: 0.90332 | Known ransomware use: unknown | Reasons: CISA KEV confirms exploitation in the wild; EPSS probability is at or above 0.90</summary>
+    <link href="https://www.draytek.com/about/security-advisory/vigorconnect-software-security-vulnerability-(cve-2021-20123-cve-2021-20129); https://nvd.nist.gov/vuln/detail/CVE-2021-20123" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2024-30088</id>
+    <title>[CHANGED] [HIGH] CVE-2024-30088 — Microsoft Windows</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Microsoft | Product: Windows | EPSS: 0.68202 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use</summary>
+    <link href="https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-30088 ; https://nvd.nist.gov/vuln/detail/CVE-2024-30088" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2017-1000253</id>
+    <title>[CHANGED] [HIGH] CVE-2017-1000253 — Linux Kernel</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Linux | Product: Kernel | EPSS: 0.10695 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use</summary>
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2025-24472</id>
+    <title>[CHANGED] [HIGH] CVE-2025-24472 — Fortinet FortiOS and FortiProxy</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Fortinet | Product: FortiOS and FortiProxy | EPSS: 0.07235 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use</summary>
+    <link href="https://fortiguard.fortinet.com/psirt/FG-IR-24-535 ; https://nvd.nist.gov/vuln/detail/CVE-2025-24472" rel="alternate" />
+  </entry>
+  <entry>
+    <id>urn:belisarius13:threat-intel:2026.11.13:changed:CVE-2019-6693</id>
+    <title>[CHANGED] [HIGH] CVE-2019-6693 — Fortinet FortiOS</title>
+    <updated>2026-11-14T12:14:17.880851Z</updated>
+    <category term="changed" label="CHANGED" />
+    <category term="high" label="HIGH" />
+    <summary type="text">Change: CHANGED | Priority: HIGH | Vendor: Fortinet | Product: FortiOS | EPSS: 0.0664 | Known ransomware use: known | Reasons: CISA KEV confirms exploitation in the wild; CISA KEV reports known ransomware campaign use</summary>
+    <link href="https://fortiguard.com/advisory/FG-IR-19-007 ; https://nvd.nist.gov/vuln/detail/CVE-2019-6693" rel="alternate" />
+  </entry>
 </feed>

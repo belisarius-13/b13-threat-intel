@@ -1,8 +1,8 @@
 # B13 Threat Intelligence Brief
 
-**Generated:** 2026-11-13T13:10:03.313103Z
+**Generated:** 2026-11-14T12:14:17.880851Z
 
-**CISA KEV Catalog:** 2026.11.10
+**CISA KEV Catalog:** 2026.11.13
 
 **Priority Model:** B13-KEV-v1
 
@@ -12,39 +12,63 @@
 | --- | ---: |
 | CRITICAL | 224 |
 | HIGH | 457 |
-| MEDIUM | 1098 |
+| MEDIUM | 1100 |
 | LOW | 0 |
-| **TOTAL** | **1779** |
+| **TOTAL** | **1781** |
 
 ## What Changed
 
 | Change | Count |
 | --- | ---: |
-| NEW | 0 |
-| CHANGED | 0 |
+| NEW | 2 |
+| CHANGED | 70 |
 | REMOVED | 0 |
-| UNCHANGED | 1779 |
+| UNCHANGED | 1709 |
 
 ### Change Priority Breakdown
 
 | Priority | New | Changed |
 | --- | ---: | ---: |
-| CRITICAL | 0 | 0 |
-| HIGH | 0 | 0 |
-| MEDIUM | 0 | 0 |
+| CRITICAL | 0 | 6 |
+| HIGH | 0 | 15 |
+| MEDIUM | 2 | 49 |
 | LOW | 0 | 0 |
 
 ### New Intelligence
 
-Showing **0** of **0** records.
+Showing **2** of **2** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| MEDIUM | CVE-2026-123039 | Check Point | Multiple Products | 0.0127 | unknown |
+| MEDIUM | CVE-2026-114713 | UnrealIRCd | UnrealIRCd | 0.0030 | unknown |
 
 ### Updated Intelligence
 
-Showing **0** of **0** records.
+Showing **20** of **70** records.
 
-No records in this category.
+| Priority | CVE | Vendor | Product | EPSS | Ransomware |
+| --- | --- | --- | --- | ---: | --- |
+| CRITICAL | CVE-2025-22457 | Ivanti | Connect Secure, Policy Secure, and ZTA Gateways | 0.9998 | known |
+| CRITICAL | CVE-2025-31161 | CrushFTP | CrushFTP | 0.9997 | known |
+| CRITICAL | CVE-2021-44529 | Ivanti | Endpoint Manager Cloud Service Appliance (EPM CSA) | 0.9910 | known |
+| CRITICAL | CVE-2024-41713 | Mitel | MiCollab | 0.9721 | known |
+| CRITICAL | CVE-2026-35273 | Oracle | PeopleSoft Enterprise PeopleTools | 0.9668 | known |
+| CRITICAL | CVE-2026-24423 | SmarterTools | SmarterMail | 0.8818 | known |
+| HIGH | CVE-2024-4879 | ServiceNow | Utah, Vancouver, and Washington DC Now Platform | 0.9998 | unknown |
+| HIGH | CVE-2024-29824 | Ivanti | Endpoint Manager (EPM) | 0.9994 | unknown |
+| HIGH | CVE-2014-6278 | GNU | GNU Bash | 0.9974 | unknown |
+| HIGH | CVE-2024-28995 | SolarWinds | Serv-U | 0.9961 | unknown |
+| HIGH | CVE-2015-5477 | ISC | BIND | 0.9958 | unknown |
+| HIGH | CVE-2021-20124 | DrayTek | VigorConnect | 0.9592 | unknown |
+| HIGH | CVE-2018-14933 | NUUO | NVRmini Devices | 0.9476 | unknown |
+| HIGH | CVE-2025-54309 | CrushFTP | CrushFTP | 0.9347 | unknown |
+| HIGH | CVE-2026-71362 | Adobe | Commerce and Magento | 0.9168 | unknown |
+| HIGH | CVE-2021-20123 | DrayTek | VigorConnect | 0.9033 | unknown |
+| HIGH | CVE-2024-30088 | Microsoft | Windows | 0.6820 | known |
+| HIGH | CVE-2017-1000253 | Linux | Kernel | 0.1070 | known |
+| HIGH | CVE-2025-24472 | Fortinet | FortiOS and FortiProxy | 0.0723 | known |
+| HIGH | CVE-2019-6693 | Fortinet | FortiOS | 0.0664 | known |
 
 ### Removed From CISA KEV
 
